@@ -11,7 +11,7 @@ global rheinData
 			events: {
 				load: function (e) {
 					var fn = this.options.customFunctions;
-					fn.addLegendRectangle(this, 10, 60, 215, 65, '#fbfbfb');
+					fn.addLegendRectangle(this, 10, 60, 215, 65, '#ffffff');
 				}
 			}
 		},
@@ -38,7 +38,7 @@ global rheinData
 				"name": "Bevölkerungsdichte", 
 				"animation": true,
 				"mapData": geojson_gemeinden,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"keys": ['Gemeinde', 'value'],
 				"joinBy": ['GMDNR', 'Gemeinde'],
 				"states": {

@@ -50,6 +50,7 @@
           181287.324
         ]
       ],
+      "pointStart": 2014,
       "name": "Landwirtschaftl. Erzeugnisse"
     },
     {
@@ -102,6 +103,7 @@
           321471.884
         ]
       ],
+      "pointStart": 2014,
       "name": "Nahrungs- und Futtermittel"
     },
     {
@@ -154,6 +156,7 @@
           11664.147
         ]
       ],
+      "pointStart": 2014,
       "name": "Feste mineralische Brennstoffe"
     },
     {
@@ -206,6 +209,7 @@
           2589504.838
         ]
       ],
+      "pointStart": 2014,
       "name": "Erdöl, Mineralölerzeugnisse"
     },
     {
@@ -258,6 +262,7 @@
           137677.716
         ]
       ],
+      "pointStart": 2014,
       "name": "Erze und Metallabfälle"
     },
     {
@@ -310,6 +315,7 @@
           231047.773
         ]
       ],
+      "pointStart": 2014,
       "name": "Eisen, Stahl, Nichteisen-Metalle"
     },
     {
@@ -362,6 +368,7 @@
           469304.721
         ]
       ],
+      "pointStart": 2014,
       "name": "Steine, Erden, Baustoffe"
     },
     {
@@ -414,6 +421,7 @@
           117723.499
         ]
       ],
+      "pointStart": 2014,
       "name": "Düngemittel"
     },
     {
@@ -466,6 +474,7 @@
           143760.873
         ]
       ],
+      "pointStart": 2014,
       "name": "Chemische Erzeugnisse"
     },
     {
@@ -518,11 +527,30 @@
           226009.367
         ]
       ],
+      "pointStart": 2014,
       "name": "Fahrzeuge, Maschinen, Übrige"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1,
+    "reversed": false
+  },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -530,29 +558,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "inverted": true,
     "type": "column",
@@ -587,24 +637,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickInterval": 1,
-    "reversed": false
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -641,7 +673,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },

@@ -1,442 +1,36 @@
 /* *
  *
- *  (c) 2010-2021 Torstein Honsi
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Torstein Honsi
  *
  *  Extension for 3D charts
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
 import Color from '../Color/Color.js';
-var color = Color.parse;
-import Math3D from '../../Extensions/Math3D.js';
-var perspective = Math3D.perspective, shapeArea3D = Math3D.shapeArea3D;
-import D from '../DefaultOptions.js';
-var genericDefaultOptions = D.defaultOptions;
+const { parse: color } = Color;
+import D from '../Defaults.js';
+const { defaultOptions: genericDefaultOptions } = D;
+import Math3D from '../Math3D.js';
+const { perspective, shapeArea3D } = Math3D;
 import U from '../Utilities.js';
-var addEvent = U.addEvent, isArray = U.isArray, merge = U.merge, pick = U.pick, wrap = U.wrap;
+const { addEvent, isArray, merge, pick, wrap } = U;
+/* *
+ *
+ *  Composition
+ *
+ * */
 var Chart3D;
 (function (Chart3D) {
     /* *
      *
-     *  Interfaces
+     *  Declarations
      *
      * */
-    /* *
-     *
-     *  Classes
-     *
-     * */
-    var Composition = /** @class */ (function () {
-        /* *
-         *
-         *  Constructors
-         *
-         * */
-        function Composition(chart) {
-            this.frame3d = void 0;
-            this.chart = chart;
-        }
-        /* *
-         *
-         *  Functions
-         *
-         * */
-        Composition.prototype.get3dFrame = function () {
-            var chart = this.chart, options3d = chart.options.chart.options3d, frameOptions = options3d.frame, xm = chart.plotLeft, xp = chart.plotLeft + chart.plotWidth, ym = chart.plotTop, yp = chart.plotTop + chart.plotHeight, zm = 0, zp = options3d.depth, faceOrientation = function (vertexes) {
-                var area = shapeArea3D(vertexes, chart);
-                // Give it 0.5 squared-pixel as a margin for rounding errors
-                if (area > 0.5) {
-                    return 1;
-                }
-                if (area < -0.5) {
-                    return -1;
-                }
-                return 0;
-            }, bottomOrientation = faceOrientation([
-                { x: xm, y: yp, z: zp },
-                { x: xp, y: yp, z: zp },
-                { x: xp, y: yp, z: zm },
-                { x: xm, y: yp, z: zm }
-            ]), topOrientation = faceOrientation([
-                { x: xm, y: ym, z: zm },
-                { x: xp, y: ym, z: zm },
-                { x: xp, y: ym, z: zp },
-                { x: xm, y: ym, z: zp }
-            ]), leftOrientation = faceOrientation([
-                { x: xm, y: ym, z: zm },
-                { x: xm, y: ym, z: zp },
-                { x: xm, y: yp, z: zp },
-                { x: xm, y: yp, z: zm }
-            ]), rightOrientation = faceOrientation([
-                { x: xp, y: ym, z: zp },
-                { x: xp, y: ym, z: zm },
-                { x: xp, y: yp, z: zm },
-                { x: xp, y: yp, z: zp }
-            ]), frontOrientation = faceOrientation([
-                { x: xm, y: yp, z: zm },
-                { x: xp, y: yp, z: zm },
-                { x: xp, y: ym, z: zm },
-                { x: xm, y: ym, z: zm }
-            ]), backOrientation = faceOrientation([
-                { x: xm, y: ym, z: zp },
-                { x: xp, y: ym, z: zp },
-                { x: xp, y: yp, z: zp },
-                { x: xm, y: yp, z: zp }
-            ]), defaultShowFront = false, defaultShowBack = true;
-            var defaultShowBottom = false, defaultShowTop = false, defaultShowLeft = false, defaultShowRight = false;
-            // The 'default' criteria to visible faces of the frame is looking
-            // up every axis to decide whenever the left/right//top/bottom sides
-            // of the frame will be shown
-            []
-                .concat(chart.xAxis, chart.yAxis, chart.zAxis)
-                .forEach(function (axis) {
-                if (axis) {
-                    if (axis.horiz) {
-                        if (axis.opposite) {
-                            defaultShowTop = true;
-                        }
-                        else {
-                            defaultShowBottom = true;
-                        }
-                    }
-                    else {
-                        if (axis.opposite) {
-                            defaultShowRight = true;
-                        }
-                        else {
-                            defaultShowLeft = true;
-                        }
-                    }
-                }
-            });
-            var getFaceOptions = function (sources, faceOrientation, defaultVisible) {
-                var faceAttrs = ['size', 'color', 'visible'], options = {};
-                for (var i = 0; i < faceAttrs.length; i++) {
-                    var attr = faceAttrs[i];
-                    for (var j = 0; j < sources.length; j++) {
-                        if (typeof sources[j] === 'object') {
-                            var val = sources[j][attr];
-                            if (typeof val !== 'undefined' && val !== null) {
-                                options[attr] = val;
-                                break;
-                            }
-                        }
-                    }
-                }
-                var isVisible = defaultVisible;
-                if (options.visible === true || options.visible === false) {
-                    isVisible = options.visible;
-                }
-                else if (options.visible === 'auto') {
-                    isVisible = faceOrientation > 0;
-                }
-                return {
-                    size: pick(options.size, 1),
-                    color: pick(options.color, 'none'),
-                    frontFacing: faceOrientation > 0,
-                    visible: isVisible
-                };
-            };
-            // docs @TODO: Add all frame options (left, right, top, bottom,
-            // front, back) to apioptions JSDoc once the new system is up.
-            var ret = {
-                axes: {},
-                // FIXME: Previously, left/right, top/bottom and front/back
-                // pairs shared size and color.
-                // For compatibility and consistency sake, when one face have
-                // size/color/visibility set, the opposite face will default to
-                // the same values. Also, left/right used to be called 'side',
-                // so that's also added as a fallback.
-                bottom: getFaceOptions([frameOptions.bottom, frameOptions.top, frameOptions], bottomOrientation, defaultShowBottom),
-                top: getFaceOptions([frameOptions.top, frameOptions.bottom, frameOptions], topOrientation, defaultShowTop),
-                left: getFaceOptions([
-                    frameOptions.left,
-                    frameOptions.right,
-                    frameOptions.side,
-                    frameOptions
-                ], leftOrientation, defaultShowLeft),
-                right: getFaceOptions([
-                    frameOptions.right,
-                    frameOptions.left,
-                    frameOptions.side,
-                    frameOptions
-                ], rightOrientation, defaultShowRight),
-                back: getFaceOptions([frameOptions.back, frameOptions.front, frameOptions], backOrientation, defaultShowBack),
-                front: getFaceOptions([frameOptions.front, frameOptions.back, frameOptions], frontOrientation, defaultShowFront)
-            };
-            // Decide the bast place to put axis title/labels based on the
-            // visible faces. Ideally, The labels can only be on the edge
-            // between a visible face and an invisble one. Also, the Y label
-            // should be one the left-most edge (right-most if opposite).
-            if (options3d.axisLabelPosition === 'auto') {
-                var isValidEdge = function (face1, face2) {
-                    return ((face1.visible !== face2.visible) ||
-                        (face1.visible &&
-                            face2.visible &&
-                            (face1.frontFacing !== face2.frontFacing)));
-                };
-                var yEdges = [];
-                if (isValidEdge(ret.left, ret.front)) {
-                    yEdges.push({
-                        y: (ym + yp) / 2,
-                        x: xm,
-                        z: zm,
-                        xDir: { x: 1, y: 0, z: 0 }
-                    });
-                }
-                if (isValidEdge(ret.left, ret.back)) {
-                    yEdges.push({
-                        y: (ym + yp) / 2,
-                        x: xm,
-                        z: zp,
-                        xDir: { x: 0, y: 0, z: -1 }
-                    });
-                }
-                if (isValidEdge(ret.right, ret.front)) {
-                    yEdges.push({
-                        y: (ym + yp) / 2,
-                        x: xp,
-                        z: zm,
-                        xDir: { x: 0, y: 0, z: 1 }
-                    });
-                }
-                if (isValidEdge(ret.right, ret.back)) {
-                    yEdges.push({
-                        y: (ym + yp) / 2,
-                        x: xp,
-                        z: zp,
-                        xDir: { x: -1, y: 0, z: 0 }
-                    });
-                }
-                var xBottomEdges = [];
-                if (isValidEdge(ret.bottom, ret.front)) {
-                    xBottomEdges.push({
-                        x: (xm + xp) / 2,
-                        y: yp,
-                        z: zm,
-                        xDir: { x: 1, y: 0, z: 0 }
-                    });
-                }
-                if (isValidEdge(ret.bottom, ret.back)) {
-                    xBottomEdges.push({
-                        x: (xm + xp) / 2,
-                        y: yp,
-                        z: zp,
-                        xDir: { x: -1, y: 0, z: 0 }
-                    });
-                }
-                var xTopEdges = [];
-                if (isValidEdge(ret.top, ret.front)) {
-                    xTopEdges.push({
-                        x: (xm + xp) / 2,
-                        y: ym,
-                        z: zm,
-                        xDir: { x: 1, y: 0, z: 0 }
-                    });
-                }
-                if (isValidEdge(ret.top, ret.back)) {
-                    xTopEdges.push({
-                        x: (xm + xp) / 2,
-                        y: ym,
-                        z: zp,
-                        xDir: { x: -1, y: 0, z: 0 }
-                    });
-                }
-                var zBottomEdges = [];
-                if (isValidEdge(ret.bottom, ret.left)) {
-                    zBottomEdges.push({
-                        z: (zm + zp) / 2,
-                        y: yp,
-                        x: xm,
-                        xDir: { x: 0, y: 0, z: -1 }
-                    });
-                }
-                if (isValidEdge(ret.bottom, ret.right)) {
-                    zBottomEdges.push({
-                        z: (zm + zp) / 2,
-                        y: yp,
-                        x: xp,
-                        xDir: { x: 0, y: 0, z: 1 }
-                    });
-                }
-                var zTopEdges = [];
-                if (isValidEdge(ret.top, ret.left)) {
-                    zTopEdges.push({
-                        z: (zm + zp) / 2,
-                        y: ym,
-                        x: xm,
-                        xDir: { x: 0, y: 0, z: -1 }
-                    });
-                }
-                if (isValidEdge(ret.top, ret.right)) {
-                    zTopEdges.push({
-                        z: (zm + zp) / 2,
-                        y: ym,
-                        x: xp,
-                        xDir: { x: 0, y: 0, z: 1 }
-                    });
-                }
-                var pickEdge = function (edges, axis, mult) {
-                    if (edges.length === 0) {
-                        return null;
-                    }
-                    if (edges.length === 1) {
-                        return edges[0];
-                    }
-                    var projections = perspective(edges, chart, false);
-                    var best = 0;
-                    for (var i = 1; i < projections.length; i++) {
-                        if (mult * projections[i][axis] >
-                            mult * projections[best][axis]) {
-                            best = i;
-                        }
-                        else if ((mult * projections[i][axis] ===
-                            mult * projections[best][axis]) &&
-                            (projections[i].z < projections[best].z)) {
-                            best = i;
-                        }
-                    }
-                    return edges[best];
-                };
-                ret.axes = {
-                    y: {
-                        'left': pickEdge(yEdges, 'x', -1),
-                        'right': pickEdge(yEdges, 'x', +1)
-                    },
-                    x: {
-                        'top': pickEdge(xTopEdges, 'y', -1),
-                        'bottom': pickEdge(xBottomEdges, 'y', +1)
-                    },
-                    z: {
-                        'top': pickEdge(zTopEdges, 'y', -1),
-                        'bottom': pickEdge(zBottomEdges, 'y', +1)
-                    }
-                };
-            }
-            else {
-                ret.axes = {
-                    y: {
-                        'left': { x: xm, z: zm, xDir: { x: 1, y: 0, z: 0 } },
-                        'right': { x: xp, z: zm, xDir: { x: 0, y: 0, z: 1 } }
-                    },
-                    x: {
-                        'top': { y: ym, z: zm, xDir: { x: 1, y: 0, z: 0 } },
-                        'bottom': { y: yp, z: zm, xDir: { x: 1, y: 0, z: 0 } }
-                    },
-                    z: {
-                        'top': {
-                            x: defaultShowLeft ? xp : xm,
-                            y: ym,
-                            xDir: defaultShowLeft ?
-                                { x: 0, y: 0, z: 1 } :
-                                { x: 0, y: 0, z: -1 }
-                        },
-                        'bottom': {
-                            x: defaultShowLeft ? xp : xm,
-                            y: yp,
-                            xDir: defaultShowLeft ?
-                                { x: 0, y: 0, z: 1 } :
-                                { x: 0, y: 0, z: -1 }
-                        }
-                    }
-                };
-            }
-            return ret;
-        };
-        /**
-         * Calculate scale of the 3D view. That is required to fit chart's 3D
-         * projection into the actual plotting area. Reported as #4933.
-         *
-         * @notice
-         * This function should ideally take the plot values instead of a chart
-         * object, but since the chart object is needed for perspective it is
-         * not practical. Possible to make both getScale and perspective more
-         * logical and also immutable.
-         *
-         * @private
-         * @function getScale
-         *
-         * @param {number} depth
-         * The depth of the chart
-         *
-         * @return {number}
-         * The scale to fit the 3D chart into the plotting area.
-         *
-         * @requires highcharts-3d
-         */
-        Composition.prototype.getScale = function (depth) {
-            var chart = this.chart, plotLeft = chart.plotLeft, plotRight = chart.plotWidth + plotLeft, plotTop = chart.plotTop, plotBottom = chart.plotHeight + plotTop, originX = plotLeft + chart.plotWidth / 2, originY = plotTop + chart.plotHeight / 2, bbox3d = {
-                minX: Number.MAX_VALUE,
-                maxX: -Number.MAX_VALUE,
-                minY: Number.MAX_VALUE,
-                maxY: -Number.MAX_VALUE
-            };
-            var corners, scale = 1;
-            // Top left corners:
-            corners = [{
-                    x: plotLeft,
-                    y: plotTop,
-                    z: 0
-                }, {
-                    x: plotLeft,
-                    y: plotTop,
-                    z: depth
-                }];
-            // Top right corners:
-            [0, 1].forEach(function (i) {
-                corners.push({
-                    x: plotRight,
-                    y: corners[i].y,
-                    z: corners[i].z
-                });
-            });
-            // All bottom corners:
-            [0, 1, 2, 3].forEach(function (i) {
-                corners.push({
-                    x: corners[i].x,
-                    y: plotBottom,
-                    z: corners[i].z
-                });
-            });
-            // Calculate 3D corners:
-            corners = perspective(corners, chart, false);
-            // Get bounding box of 3D element:
-            corners.forEach(function (corner) {
-                bbox3d.minX = Math.min(bbox3d.minX, corner.x);
-                bbox3d.maxX = Math.max(bbox3d.maxX, corner.x);
-                bbox3d.minY = Math.min(bbox3d.minY, corner.y);
-                bbox3d.maxY = Math.max(bbox3d.maxY, corner.y);
-            });
-            // Left edge:
-            if (plotLeft > bbox3d.minX) {
-                scale = Math.min(scale, 1 - Math.abs((plotLeft + originX) / (bbox3d.minX + originX)) % 1);
-            }
-            // Right edge:
-            if (plotRight < bbox3d.maxX) {
-                scale = Math.min(scale, (plotRight - originX) / (bbox3d.maxX - originX));
-            }
-            // Top edge:
-            if (plotTop > bbox3d.minY) {
-                if (bbox3d.minY < 0) {
-                    scale = Math.min(scale, (plotTop + originY) / (-bbox3d.minY + plotTop + originY));
-                }
-                else {
-                    scale = Math.min(scale, 1 - (plotTop + originY) / (bbox3d.minY + originY) % 1);
-                }
-            }
-            // Bottom edge:
-            if (plotBottom < bbox3d.maxY) {
-                scale = Math.min(scale, Math.abs((plotBottom - originY) / (bbox3d.maxY - originY)));
-            }
-            return scale;
-        };
-        return Composition;
-    }());
-    Chart3D.Composition = Composition;
     /* *
      *
      *  Constants
@@ -444,7 +38,7 @@ var Chart3D;
      * */
     /**
      * @optionparent
-     * @private
+     * @internal
      */
     Chart3D.defaultOptions = {
         chart: {
@@ -459,7 +53,7 @@ var Chart3D;
              */
             options3d: {
                 /**
-                 * Wether to render the chart using the 3D functionality.
+                 * Whether to render the chart using the 3D functionality.
                  *
                  * @since   4.0
                  * @product highcharts
@@ -613,36 +207,33 @@ var Chart3D;
      *  Functions
      *
      * */
-    /* eslint-disable no-invalid-this, valid-jsdoc */
-    /**
-     * @private
-     */
+    /** @internal */
     function compose(ChartClass, FxClass) {
-        var chartProto = ChartClass.prototype;
-        var fxProto = FxClass.prototype;
+        const chartProto = ChartClass.prototype;
+        const fxProto = FxClass.prototype;
         /**
          * Shorthand to check the is3d flag.
-         * @private
+         * @internal
          * @return {boolean}
          * Whether it is a 3D chart.
          */
         chartProto.is3d = function () {
-            return Boolean(this.options.chart.options3d &&
-                this.options.chart.options3d.enabled); // #4280
+            return !!this.options.chart.options3d?.enabled;
         };
         chartProto.propsRequireDirtyBox.push('chart.options3d');
         chartProto.propsRequireUpdateSeries.push('chart.options3d');
         /**
          * Animation setter for matrix property.
-         * @private
+         * @internal
          */
         fxProto.matrixSetter = function () {
-            var interpolated;
+            let interpolated;
             if (this.pos < 1 &&
                 (isArray(this.start) || isArray(this.end))) {
-                var start = this.start || [1, 0, 0, 1, 0, 0], end = this.end || [1, 0, 0, 1, 0, 0];
+                const start = (this.start ||
+                    [1, 0, 0, 1, 0, 0]), end = this.end || [1, 0, 0, 1, 0, 0];
                 interpolated = [];
-                for (var i = 0; i < 6; i++) {
+                for (let i = 0; i < 6; i++) {
                     interpolated.push(this.pos * end[i] + (1 - this.pos) * start[i]);
                 }
             }
@@ -661,14 +252,14 @@ var Chart3D;
         addEvent(ChartClass, 'beforeRedraw', onBeforeRedraw);
         addEvent(ChartClass, 'beforeRender', onBeforeRender);
         wrap(chartProto, 'isInsidePlot', wrapIsInsidePlot);
-        wrap(ChartClass, 'renderSeries', wrapRenderSeries);
-        wrap(ChartClass, 'setClassName', wrapSetClassName);
+        wrap(chartProto, 'renderSeries', wrapRenderSeries);
+        wrap(chartProto, 'setClassName', wrapSetClassName);
     }
     Chart3D.compose = compose;
     /**
      * Legacy support for HC < 6 to make 'scatter' series in a 3D chart route to
      * the real 'scatter3d' series type. (#8407)
-     * @private
+     * @internal
      */
     function onAddSeries(e) {
         if (this.is3d()) {
@@ -677,13 +268,11 @@ var Chart3D;
             }
         }
     }
-    /**
-     * @private
-     */
+    /** @internal */
     function onAfterDrawChartBox() {
         if (this.chart3d &&
             this.is3d()) {
-            var chart = this, renderer = chart.renderer, options3d = chart.options.chart.options3d, frame = chart.chart3d.get3dFrame(), xm = chart.plotLeft, xp = chart.plotLeft + chart.plotWidth, ym = chart.plotTop, yp = chart.plotTop + chart.plotHeight, zm = 0, zp = options3d.depth, xmm = xm - (frame.left.visible ? frame.left.size : 0), xpp = xp + (frame.right.visible ? frame.right.size : 0), ymm = ym - (frame.top.visible ? frame.top.size : 0), ypp = yp + (frame.bottom.visible ? frame.bottom.size : 0), zmm = zm - (frame.front.visible ? frame.front.size : 0), zpp = zp + (frame.back.visible ? frame.back.size : 0), verb = chart.hasRendered ? 'animate' : 'attr';
+            const chart = this, renderer = chart.renderer, options3d = chart.options.chart.options3d, frame = chart.chart3d.get3dFrame(), xm = chart.plotLeft, xp = chart.plotLeft + chart.plotWidth, ym = chart.plotTop, yp = chart.plotTop + chart.plotHeight, zm = 0, zp = options3d.depth, xmm = xm - (frame.left.visible ? frame.left.size : 0), xpp = xp + (frame.right.visible ? frame.right.size : 0), ymm = ym - (frame.top.visible ? frame.top.size : 0), ypp = yp + (frame.bottom.visible ? frame.bottom.size : 0), zmm = zm - (frame.front.visible ? frame.front.size : 0), zpp = zp + (frame.back.visible ? frame.back.size : 0), verb = chart.hasRendered ? 'animate' : 'attr';
             chart.chart3d.frame3d = frame;
             if (!chart.frameShapes) {
                 chart.frameShapes = {
@@ -1479,21 +1068,11 @@ var Chart3D;
     }
     /**
      * Add the required CSS classes for column sides (#6018)
-     * @private
+     * @internal
      */
     function onAfterGetContainer() {
         if (this.styledMode) {
-            this.renderer.definition({
-                tagName: 'style',
-                textContent: '.highcharts-3d-top{' +
-                    'filter: url(#highcharts-brighter)' +
-                    '}\n' +
-                    '.highcharts-3d-side{' +
-                    'filter: url(#highcharts-darker)' +
-                    '}\n'
-            });
-            // Add add definitions used by brighter and darker faces of the
-            // cuboids.
+            // Add definitions used by brighter and darker faces of the cuboids.
             [{
                     name: 'darker',
                     slope: 0.6
@@ -1535,13 +1114,13 @@ var Chart3D;
     /**
      * Legacy support for HC < 6 to make 'scatter' series in a 3D chart route to
      * the real 'scatter3d' series type. (#8407)
-     * @private
+     * @internal
      */
     function onAfterInit() {
-        var options = this.options;
+        const options = this.options;
         if (this.is3d()) {
             (options.series || []).forEach(function (s) {
-                var type = (s.type ||
+                const type = (s.type ||
                     options.chart.type ||
                     options.chart.defaultSeriesType);
                 if (type === 'scatter') {
@@ -1550,23 +1129,23 @@ var Chart3D;
             });
         }
     }
-    /**
-     * @private
-     */
+    /** @internal */
     function onAfterSetChartSize() {
-        var chart = this, options3d = chart.options.chart.options3d;
+        const chart = this, options3d = chart.options.chart.options3d;
         if (chart.chart3d &&
             chart.is3d()) {
             // Add a 0-360 normalisation for alfa and beta angles in 3d graph
             if (options3d) {
-                options3d.alpha = options3d.alpha % 360 + (options3d.alpha >= 0 ? 0 : 360);
-                options3d.beta = options3d.beta % 360 + (options3d.beta >= 0 ? 0 : 360);
+                options3d.alpha = options3d.alpha % 360 +
+                    (options3d.alpha >= 0 ? 0 : 360);
+                options3d.beta = options3d.beta % 360 +
+                    (options3d.beta >= 0 ? 0 : 360);
             }
-            var inverted = chart.inverted, clipBox = chart.clipBox, margin = chart.margin, x = inverted ? 'y' : 'x', y = inverted ? 'x' : 'y', w = inverted ? 'height' : 'width', h = inverted ? 'width' : 'height';
+            const inverted = chart.inverted, clipBox = chart.clipBox, margin = chart.margin, x = inverted ? 'y' : 'x', y = inverted ? 'x' : 'y', w = inverted ? 'height' : 'width', h = inverted ? 'width' : 'height';
             clipBox[x] = -(margin[3] || 0);
             clipBox[y] = -(margin[0] || 0);
-            clipBox[w] = chart.chartWidth + (margin[3] || 0) + (margin[1] || 0);
-            clipBox[h] = chart.chartHeight + (margin[0] || 0) + (margin[2] || 0);
+            clipBox[w] = (chart.chartWidth + (margin[3] || 0) + (margin[1] || 0));
+            clipBox[h] = (chart.chartHeight + (margin[0] || 0) + (margin[2] || 0));
             // Set scale, used later in perspective method():
             // getScale uses perspective, so scale3d has to be reset.
             chart.scale3d = 1;
@@ -1579,43 +1158,35 @@ var Chart3D;
             chart.chart3d.frame3d = chart.chart3d.get3dFrame(); // #7942
         }
     }
-    /**
-     * @private
-     */
+    /** @internal */
     function onBeforeRedraw() {
         if (this.is3d()) {
             // Set to force a redraw of all elements
             this.isDirtyBox = true;
         }
     }
-    /**
-     * @private
-     */
+    /** @internal */
     function onBeforeRender() {
         if (this.chart3d && this.is3d()) {
             this.chart3d.frame3d = this.chart3d.get3dFrame();
         }
     }
-    /**
-     * @private
-     */
+    /** @internal */
     function onInit() {
         if (!this.chart3d) {
-            this.chart3d = new Composition(this);
+            this.chart3d = new Additions(this);
         }
     }
-    /**
-     * @private
-     */
+    /** @internal */
     function wrapIsInsidePlot(proceed) {
         return this.is3d() || proceed.apply(this, [].slice.call(arguments, 1));
     }
     /**
      * Draw the series in the reverse order (#3803, #3917)
-     * @private
+     * @internal
      */
     function wrapRenderSeries(proceed) {
-        var series, i = this.series.length;
+        let series, i = this.series.length;
         if (this.is3d()) {
             while (i--) {
                 series = this.series[i];
@@ -1627,15 +1198,435 @@ var Chart3D;
             proceed.call(this);
         }
     }
-    /**
-     * @private
-     */
+    /** @internal */
     function wrapSetClassName(proceed) {
         proceed.apply(this, [].slice.call(arguments, 1));
         if (this.is3d()) {
             this.container.className += ' highcharts-3d-chart';
         }
     }
+    /* *
+     *
+     *  Class
+     *
+     * */
+    class Additions {
+        /* *
+         *
+         *  Constructors
+         *
+         * */
+        /** @internal */
+        constructor(chart) {
+            this.chart = chart;
+        }
+        /* *
+         *
+         *  Functions
+         *
+         * */
+        /** @internal */
+        get3dFrame() {
+            const chart = this.chart, options3d = chart.options.chart.options3d, frameOptions = options3d.frame, xm = chart.plotLeft, xp = chart.plotLeft + chart.plotWidth, ym = chart.plotTop, yp = chart.plotTop + chart.plotHeight, zm = 0, zp = options3d.depth, faceOrientation = function (vertexes) {
+                const area = shapeArea3D(vertexes, chart);
+                // Give it 0.5 squared-pixel as a margin for rounding errors
+                if (area > 0.5) {
+                    return 1;
+                }
+                if (area < -0.5) {
+                    return -1;
+                }
+                return 0;
+            }, bottomOrientation = faceOrientation([
+                { x: xm, y: yp, z: zp },
+                { x: xp, y: yp, z: zp },
+                { x: xp, y: yp, z: zm },
+                { x: xm, y: yp, z: zm }
+            ]), topOrientation = faceOrientation([
+                { x: xm, y: ym, z: zm },
+                { x: xp, y: ym, z: zm },
+                { x: xp, y: ym, z: zp },
+                { x: xm, y: ym, z: zp }
+            ]), leftOrientation = faceOrientation([
+                { x: xm, y: ym, z: zm },
+                { x: xm, y: ym, z: zp },
+                { x: xm, y: yp, z: zp },
+                { x: xm, y: yp, z: zm }
+            ]), rightOrientation = faceOrientation([
+                { x: xp, y: ym, z: zp },
+                { x: xp, y: ym, z: zm },
+                { x: xp, y: yp, z: zm },
+                { x: xp, y: yp, z: zp }
+            ]), frontOrientation = faceOrientation([
+                { x: xm, y: yp, z: zm },
+                { x: xp, y: yp, z: zm },
+                { x: xp, y: ym, z: zm },
+                { x: xm, y: ym, z: zm }
+            ]), backOrientation = faceOrientation([
+                { x: xm, y: ym, z: zp },
+                { x: xp, y: ym, z: zp },
+                { x: xp, y: yp, z: zp },
+                { x: xm, y: yp, z: zp }
+            ]), defaultShowFront = false, defaultShowBack = true;
+            let defaultShowBottom = false, defaultShowTop = false, defaultShowLeft = false, defaultShowRight = false;
+            // The 'default' criteria to visible faces of the frame is looking
+            // up every axis to decide whenever the left/right//top/bottom sides
+            // of the frame will be shown
+            []
+                .concat(chart.xAxis, chart.yAxis, chart.zAxis)
+                .forEach(function (axis) {
+                if (axis) {
+                    if (axis.horiz) {
+                        if (axis.opposite) {
+                            defaultShowTop = true;
+                        }
+                        else {
+                            defaultShowBottom = true;
+                        }
+                    }
+                    else {
+                        if (axis.opposite) {
+                            defaultShowRight = true;
+                        }
+                        else {
+                            defaultShowLeft = true;
+                        }
+                    }
+                }
+            });
+            const getFaceOptions = function (sources, faceOrientation, defaultVisible) {
+                const faceAttrs = ['size', 'color', 'visible'], options = {};
+                for (let i = 0; i < faceAttrs.length; i++) {
+                    const attr = faceAttrs[i];
+                    for (let j = 0; j < sources.length; j++) {
+                        if (typeof sources[j] === 'object') {
+                            const val = sources[j][attr];
+                            if (typeof val !== 'undefined' && val !== null) {
+                                options[attr] = val;
+                                break;
+                            }
+                        }
+                    }
+                }
+                let isVisible = defaultVisible;
+                if (options.visible === true || options.visible === false) {
+                    isVisible = options.visible;
+                }
+                else if (options.visible === 'auto') {
+                    isVisible = faceOrientation > 0;
+                }
+                return {
+                    size: pick(options.size, 1),
+                    color: pick(options.color, 'none'),
+                    frontFacing: faceOrientation > 0,
+                    visible: isVisible
+                };
+            };
+            // Docs @TODO: Add all frame options (left, right, top, bottom,
+            // front, back) to apioptions JSDoc once the new system is up.
+            const ret = {
+                axes: {},
+                // FIXME: Previously, left/right, top/bottom and front/back
+                // pairs shared size and color.
+                // For compatibility and consistency sake, when one face have
+                // size/color/visibility set, the opposite face will default to
+                // the same values. Also, left/right used to be called 'side',
+                // so that's also added as a fallback.
+                bottom: getFaceOptions([frameOptions.bottom, frameOptions.top, frameOptions], bottomOrientation, defaultShowBottom),
+                top: getFaceOptions([frameOptions.top, frameOptions.bottom, frameOptions], topOrientation, defaultShowTop),
+                left: getFaceOptions([
+                    frameOptions.left,
+                    frameOptions.right,
+                    frameOptions.side,
+                    frameOptions
+                ], leftOrientation, defaultShowLeft),
+                right: getFaceOptions([
+                    frameOptions.right,
+                    frameOptions.left,
+                    frameOptions.side,
+                    frameOptions
+                ], rightOrientation, defaultShowRight),
+                back: getFaceOptions([frameOptions.back, frameOptions.front, frameOptions], backOrientation, defaultShowBack),
+                front: getFaceOptions([frameOptions.front, frameOptions.back, frameOptions], frontOrientation, defaultShowFront)
+            };
+            // Decide the bast place to put axis title/labels based on the
+            // visible faces. Ideally, The labels can only be on the edge
+            // between a visible face and an invisible one. Also, the Y label
+            // should be one the left-most edge (right-most if opposite).
+            if (options3d.axisLabelPosition === 'auto') {
+                const isValidEdge = function (face1, face2) {
+                    return ((face1.visible !== face2.visible) ||
+                        (face1.visible &&
+                            face2.visible &&
+                            (face1.frontFacing !== face2.frontFacing)));
+                };
+                const yEdges = [];
+                if (isValidEdge(ret.left, ret.front)) {
+                    yEdges.push({
+                        y: (ym + yp) / 2,
+                        x: xm,
+                        z: zm,
+                        xDir: { x: 1, y: 0, z: 0 }
+                    });
+                }
+                if (isValidEdge(ret.left, ret.back)) {
+                    yEdges.push({
+                        y: (ym + yp) / 2,
+                        x: xm,
+                        z: zp,
+                        xDir: { x: 0, y: 0, z: -1 }
+                    });
+                }
+                if (isValidEdge(ret.right, ret.front)) {
+                    yEdges.push({
+                        y: (ym + yp) / 2,
+                        x: xp,
+                        z: zm,
+                        xDir: { x: 0, y: 0, z: 1 }
+                    });
+                }
+                if (isValidEdge(ret.right, ret.back)) {
+                    yEdges.push({
+                        y: (ym + yp) / 2,
+                        x: xp,
+                        z: zp,
+                        xDir: { x: -1, y: 0, z: 0 }
+                    });
+                }
+                const xBottomEdges = [];
+                if (isValidEdge(ret.bottom, ret.front)) {
+                    xBottomEdges.push({
+                        x: (xm + xp) / 2,
+                        y: yp,
+                        z: zm,
+                        xDir: { x: 1, y: 0, z: 0 }
+                    });
+                }
+                if (isValidEdge(ret.bottom, ret.back)) {
+                    xBottomEdges.push({
+                        x: (xm + xp) / 2,
+                        y: yp,
+                        z: zp,
+                        xDir: { x: -1, y: 0, z: 0 }
+                    });
+                }
+                const xTopEdges = [];
+                if (isValidEdge(ret.top, ret.front)) {
+                    xTopEdges.push({
+                        x: (xm + xp) / 2,
+                        y: ym,
+                        z: zm,
+                        xDir: { x: 1, y: 0, z: 0 }
+                    });
+                }
+                if (isValidEdge(ret.top, ret.back)) {
+                    xTopEdges.push({
+                        x: (xm + xp) / 2,
+                        y: ym,
+                        z: zp,
+                        xDir: { x: -1, y: 0, z: 0 }
+                    });
+                }
+                const zBottomEdges = [];
+                if (isValidEdge(ret.bottom, ret.left)) {
+                    zBottomEdges.push({
+                        z: (zm + zp) / 2,
+                        y: yp,
+                        x: xm,
+                        xDir: { x: 0, y: 0, z: -1 }
+                    });
+                }
+                if (isValidEdge(ret.bottom, ret.right)) {
+                    zBottomEdges.push({
+                        z: (zm + zp) / 2,
+                        y: yp,
+                        x: xp,
+                        xDir: { x: 0, y: 0, z: 1 }
+                    });
+                }
+                const zTopEdges = [];
+                if (isValidEdge(ret.top, ret.left)) {
+                    zTopEdges.push({
+                        z: (zm + zp) / 2,
+                        y: ym,
+                        x: xm,
+                        xDir: { x: 0, y: 0, z: -1 }
+                    });
+                }
+                if (isValidEdge(ret.top, ret.right)) {
+                    zTopEdges.push({
+                        z: (zm + zp) / 2,
+                        y: ym,
+                        x: xp,
+                        xDir: { x: 0, y: 0, z: 1 }
+                    });
+                }
+                const pickEdge = function (edges, axis, mult) {
+                    if (edges.length === 0) {
+                        return null;
+                    }
+                    if (edges.length === 1) {
+                        return edges[0];
+                    }
+                    const projections = perspective(edges, chart, false);
+                    let best = 0;
+                    for (let i = 1; i < projections.length; i++) {
+                        if (mult * projections[i][axis] >
+                            mult * projections[best][axis]) {
+                            best = i;
+                        }
+                        else if ((mult * projections[i][axis] ===
+                            mult * projections[best][axis]) &&
+                            (projections[i].z < projections[best].z)) {
+                            best = i;
+                        }
+                    }
+                    return edges[best];
+                };
+                ret.axes = {
+                    y: {
+                        'left': pickEdge(yEdges, 'x', -1),
+                        'right': pickEdge(yEdges, 'x', +1)
+                    },
+                    x: {
+                        'top': pickEdge(xTopEdges, 'y', -1),
+                        'bottom': pickEdge(xBottomEdges, 'y', +1)
+                    },
+                    z: {
+                        'top': pickEdge(zTopEdges, 'y', -1),
+                        'bottom': pickEdge(zBottomEdges, 'y', +1)
+                    }
+                };
+            }
+            else {
+                ret.axes = {
+                    y: {
+                        'left': {
+                            x: xm, z: zm, xDir: { x: 1, y: 0, z: 0 }
+                        },
+                        'right': {
+                            x: xp, z: zm, xDir: { x: 0, y: 0, z: 1 }
+                        }
+                    },
+                    x: {
+                        'top': {
+                            y: ym, z: zm, xDir: { x: 1, y: 0, z: 0 }
+                        },
+                        'bottom': {
+                            y: yp,
+                            z: zm,
+                            xDir: { x: 1, y: 0, z: 0 }
+                        }
+                    },
+                    z: {
+                        'top': {
+                            x: defaultShowLeft ? xp : xm,
+                            y: ym,
+                            xDir: defaultShowLeft ?
+                                { x: 0, y: 0, z: 1 } :
+                                { x: 0, y: 0, z: -1 }
+                        },
+                        'bottom': {
+                            x: defaultShowLeft ? xp : xm,
+                            y: yp,
+                            xDir: defaultShowLeft ?
+                                { x: 0, y: 0, z: 1 } :
+                                { x: 0, y: 0, z: -1 }
+                        }
+                    }
+                };
+            }
+            return ret;
+        }
+        /**
+         * Calculate scale of the 3D view. That is required to fit chart's 3D
+         * projection into the actual plotting area. Reported as #4933.
+         *
+         * **Note:**
+         * This function should ideally take the plot values instead of a chart
+         * object, but since the chart object is needed for perspective it is
+         * not practical. Possible to make both getScale and perspective more
+         * logical and also immutable.
+         *
+         * @internal
+         * @function getScale
+         *
+         * @param {number} depth
+         * The depth of the chart
+         *
+         * @return {number}
+         * The scale to fit the 3D chart into the plotting area.
+         *
+         * @requires highcharts-3d
+         */
+        getScale(depth) {
+            const chart = this.chart, plotLeft = chart.plotLeft, plotRight = chart.plotWidth + plotLeft, plotTop = chart.plotTop, plotBottom = chart.plotHeight + plotTop, originX = plotLeft + chart.plotWidth / 2, originY = plotTop + chart.plotHeight / 2, bbox3d = {
+                minX: Number.MAX_VALUE,
+                maxX: -Number.MAX_VALUE,
+                minY: Number.MAX_VALUE,
+                maxY: -Number.MAX_VALUE
+            };
+            let corners, scale = 1;
+            // Top left corners:
+            corners = [{
+                    x: plotLeft,
+                    y: plotTop,
+                    z: 0
+                }, {
+                    x: plotLeft,
+                    y: plotTop,
+                    z: depth
+                }];
+            // Top right corners:
+            [0, 1].forEach(function (i) {
+                corners.push({
+                    x: plotRight,
+                    y: corners[i].y,
+                    z: corners[i].z
+                });
+            });
+            // All bottom corners:
+            [0, 1, 2, 3].forEach(function (i) {
+                corners.push({
+                    x: corners[i].x,
+                    y: plotBottom,
+                    z: corners[i].z
+                });
+            });
+            // Calculate 3D corners:
+            corners = perspective(corners, chart, false);
+            // Get bounding box of 3D element:
+            corners.forEach(function (corner) {
+                bbox3d.minX = Math.min(bbox3d.minX, corner.x);
+                bbox3d.maxX = Math.max(bbox3d.maxX, corner.x);
+                bbox3d.minY = Math.min(bbox3d.minY, corner.y);
+                bbox3d.maxY = Math.max(bbox3d.maxY, corner.y);
+            });
+            // Left edge:
+            if (plotLeft > bbox3d.minX) {
+                scale = Math.min(scale, 1 - Math.abs((plotLeft + originX) / (bbox3d.minX + originX)) % 1);
+            }
+            // Right edge:
+            if (plotRight < bbox3d.maxX) {
+                scale = Math.min(scale, (plotRight - originX) / (bbox3d.maxX - originX));
+            }
+            // Top edge:
+            if (plotTop > bbox3d.minY) {
+                if (bbox3d.minY < 0) {
+                    scale = Math.min(scale, (plotTop + originY) / (-bbox3d.minY + plotTop + originY));
+                }
+                else {
+                    scale = Math.min(scale, 1 - (plotTop + originY) / (bbox3d.minY + originY) % 1);
+                }
+            }
+            // Bottom edge:
+            if (plotBottom < bbox3d.maxY) {
+                scale = Math.min(scale, Math.abs((plotBottom - originY) / (bbox3d.maxY - originY)));
+            }
+            return scale;
+        }
+    }
+    Chart3D.Additions = Additions;
 })(Chart3D || (Chart3D = {}));
 /* *
  *
@@ -1679,4 +1670,4 @@ export default Chart3D;
  * @product   highcharts
  * @apioption chart.options3d.frame.side.size
  */
-''; // keeps doclets above in JS file
+''; // Keeps doclets above in JS file

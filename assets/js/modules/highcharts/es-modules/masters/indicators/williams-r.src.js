@@ -1,14 +1,19 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highstock JS v9.1.2 (2021-06-16)
+ * @license Highstock JS v12.5.0 (2026-01-12)
  * @module highcharts/indicators/williams-r
  * @requires highcharts
  * @requires highcharts/modules/stock
  *
  * Indicator series type for Highcharts Stock
  *
- * (c) 2010-2021 Wojciech Chmiel
+ * (c) 2010-2026 Highsoft AS
+ * Author: Wojciech Chmiel
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
+import Highcharts from '../../Core/Globals.js';
 import '../../Stock/Indicators/WilliamsR/WilliamsRIndicator.js';
+export default Highcharts;

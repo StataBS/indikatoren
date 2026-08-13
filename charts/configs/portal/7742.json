@@ -271,6 +271,7 @@
           null
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Effektiv"
     },
     {
@@ -544,6 +545,7 @@
           2462
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Hohes Szenario"
     },
     {
@@ -817,6 +819,7 @@
           2157
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Mittleres Szenario"
     },
     {
@@ -1090,33 +1093,77 @@
           1696
         ]
       ],
+      "pointStart": 473385600000,
       "name": "Tiefes Szenario"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true
+  },
   "isStock": true,
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 40,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
-                }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-7742"
@@ -1147,31 +1194,11 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "text": "Bevölkerungsszenarien Basel-Stadt, 2026",
     "align": "left"
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "ordinal": false,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "tickLength": 0,
-    "endOnTick": true,
-    "startOnTick": true,
-    "showFirstLabel": true,
-    "showLastLabel": true
   },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
@@ -1197,7 +1224,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },

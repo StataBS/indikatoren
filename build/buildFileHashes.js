@@ -16,7 +16,11 @@ var getChartsHashes = function(globString){
     */
     //var files = glob.sync("metadata/single/*.json");
     var files = glob.sync(globString);
+    var total = files.length;
+    var done = 0;
     files.forEach(function(filepath){
+        done++;
+        process.stdout.write('[' + done + '/' + total + '] Hashing ' + filepath.split('/').pop() + '...\r');
         var fileContents = fs.readFileSync(filepath);
         //strip whitespace from start of file and save file
         var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).toString();
@@ -33,7 +37,8 @@ var getChartsHashes = function(globString){
         else {
             //console.log(filepath + ' NOT visible, ignoring');
         }
-    });  
+    });
+    process.stdout.write('\n');
     return hashes;
 };
 

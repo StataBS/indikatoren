@@ -63,7 +63,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -171,9 +171,9 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 243, 210, 230, 100, '#fbfbfb', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 320, 230, 60, '#fbfbfb');
-	                fn.addLegendTitle(chart,"Ausländeranteil in %", 250, 320);
+                	fn.addLegendRectangle(chart, 243, 210, 230, 100, '#ffffff', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 320, 230, 60, '#ffffff', 'pieLegend');
+	                fn.addLegendLabelbold(chart, 'Ausländeranteil in %', 250, 320);
 	                
 	                //fn.addLegendCircle(chart, 410, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                //fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),3,","," "), 430, 265);

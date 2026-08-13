@@ -61,7 +61,7 @@
 				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -147,8 +147,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
-					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
+					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#ffffff');
+					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#ffffff');
 					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
 					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m<sup>3</sup>", 365, 220, undefined, true);
 

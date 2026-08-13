@@ -1,12 +1,12 @@
 /* *
  *
- *  (c) 2014-2021 Highsoft AS
+ *  (c) 2014-2026 Highsoft AS
  *
  *  Authors: Jon Arild Nygard / Oystein Moseng
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
@@ -15,13 +15,13 @@
  *  Class
  *
  * */
-var TreemapAlgorithmGroup = /** @class */ (function () {
+class TreemapAlgorithmGroup {
     /* *
      *
      *  Constructor
      *
      * */
-    function TreemapAlgorithmGroup(h, w, d, p) {
+    constructor(h, w, d, p) {
         this.height = h;
         this.width = w;
         this.plot = p;
@@ -51,8 +51,7 @@ var TreemapAlgorithmGroup = /** @class */ (function () {
      *  Functions
      *
      * */
-    /* eslint-disable valid-jsdoc */
-    TreemapAlgorithmGroup.prototype.addElement = function (el) {
+    addElement(el) {
         this.lP.total = this.elArr[this.elArr.length - 1];
         this.total = this.total + el;
         if (this.direction === 0) {
@@ -76,15 +75,14 @@ var TreemapAlgorithmGroup = /** @class */ (function () {
             this.lP.nR = this.lP.aspectRatio(this.lP.nW, this.nH);
         }
         this.elArr.push(el);
-    };
-    TreemapAlgorithmGroup.prototype.reset = function () {
+    }
+    reset() {
         this.nW = 0;
         this.lW = 0;
         this.elArr = [];
         this.total = 0;
-    };
-    return TreemapAlgorithmGroup;
-}());
+    }
+}
 /* *
  *
  *  Default Export

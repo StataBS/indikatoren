@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
 
     <title>Indikator-Dev</title>
 
@@ -18,23 +18,55 @@
       }
     </style>
 
-    <link href="assets/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">   
-    <link href="assets/css/indikatoren-filter.css" media="screen" rel="stylesheet" type="text/css">    
-    <script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
-    <!--script src="assets/js/filter-2.1.0.js" type="text/javascript"></script-->    
-    <script src="assets/js/url-min.js" type="text/javascript"></script>  
-    <script src="assets/js/modules/proj4/dist/proj4.js"></script>    
-    <script src="assets/js/modules/proj4/dist/proj4.js"></script>   
-    <script src="assets/js/modules/highcharts/highcharts.js" type="text/javascript"></script>
-    <script src="assets/js/modules/highcharts/highcharts-more.js" type="text/javascript"></script>    
-    <script src="assets/js/modules/highcharts/modules/stock.js" type="text/javascript"></script>
-    <script src="assets/js/modules/highcharts/modules/data.js" type="text/javascript"></script>
-    <script src="assets/js/modules/highcharts/modules/map.js" type="text/javascript"></script>
-	  <script src="assets/js/modules/highcharts/modules/exporting.js" type="text/javascript"></script>
-	  
-	  <script src="charts/templates/options001.js" type="text/javascript"></script>
-    <script src="assets/js/modules/proj4/dist/proj4.js"></script>  
-    <script src="assets/js/indikatoren-highcharts.js" type="text/javascript"></script>
+    <link href="assets/css/tailwind.css" rel="stylesheet" />
+    <link
+      href="assets/css/indikatoren-filter.css"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="assets/js/modules/jquery/dist/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <!--script src="assets/js/filter-2.1.0.js" type="text/javascript"></script-->
+    <script src="assets/js/url-min.js" type="text/javascript"></script>
+    <script src="assets/js/modules/proj4/dist/proj4.js"></script>
+    <script src="assets/js/modules/proj4/dist/proj4.js"></script>
+    <script
+      src="assets/js/modules/highcharts/highcharts.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/highcharts-more.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/stock.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/data.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/map.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/modules/highcharts/modules/exporting.js"
+      type="text/javascript"
+    ></script>
+
+    <script
+      src="charts/templates/options001.js"
+      type="text/javascript"
+    ></script>
+    <script src="assets/js/modules/proj4/dist/proj4.js"></script>
+    <script
+      src="assets/js/indikatoren-highcharts.js"
+      type="text/javascript"
+    ></script>
     <script src="assets/js/customFunctions.js" type="text/javascript"></script>
     <script src="geojson/wohnviertel_EPSG_2056.js"></script>
     <script src="geojson/wohnviertel_EPSG_2056_StadtBasel.js"></script>
@@ -42,65 +74,79 @@
     <script src="geojson/UA_Gemeinden_100.js"></script>
     <script src="geojson/GemeindenBSBL_EPSG_2056.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child" type="text/javascript" async></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child"
+      type="text/javascript"
+      async
+    ></script>
   </head>
 
-  <body style="margin: 0;">    
-    <script type="text/javascript">   
-        /* 
+  <body style="margin: 0">
+    <script type="text/javascript">
+      /* 
           global $  
           global drawChartFromData
         */
-    
-        //------------------------//
-        var id = '6549';
-        var template = 'bubble001';
-        var options = 'options001';        
-        //------------------------//
-        
-        
-        //create div for chart
-        $('<div/>', {
-          id: 'container-' + id,
-        }).appendTo('body');
-              
-        
-        var optionsUrl = 'charts/templates/' + options +'.js';
-        var templateUrl = 'charts/templates/' + template + '.js';
-        var chartUrl = 'charts/templates/' + id + '.js';
-        var metadataUrl = 'metadata/single/' + id + '.json';
-        var csvUrl = 'data/' + id + '.tsv';
-        
-        //load scripts one after the other, then load csv and draw the chart
-        $.when(    
-            $.getScript(optionsUrl),
-            $.getScript(templateUrl),
-            $.getScript(chartUrl),
-            $.Deferred(function( deferred ){
-              $(deferred.resolve);
-            })
-        ).done(function(optionsReturnData, templateReturnData, chartReturnData){
-            //get returned script, evaluate it, save returned object to variable. 
-            var globalOptions = eval(optionsReturnData[0]);
-            var chartOptions = eval(chartReturnData[0]);
-            var template = eval(templateReturnData[0]);
-            
-            $.getJSON(metadataUrl, function(chartMetaData){ 
-              //load csv and draw chart            
-              $.get(csvUrl, function(data){
-                console.log('data loaded, drawing chart...');
-                drawChartFromData(data, chartOptions, template, chartMetaData, false, false, null);
-              });
+
+      //------------------------//
+      var id = "6549";
+      var template = "bubble001";
+      var options = "options001";
+      //------------------------//
+
+      //create div for chart
+      $("<div/>", {
+        id: "container-" + id,
+      }).appendTo("body");
+
+      var optionsUrl = "charts/templates/" + options + ".js";
+      var templateUrl = "charts/templates/" + template + ".js";
+      var chartUrl = "charts/templates/" + id + ".js";
+      var metadataUrl = "metadata/single/" + id + ".json";
+      var csvUrl = "data/" + id + ".tsv";
+
+      //load scripts one after the other, then load csv and draw the chart
+      $.when(
+        $.getScript(optionsUrl),
+        $.getScript(templateUrl),
+        $.getScript(chartUrl),
+        $.Deferred(function (deferred) {
+          $(deferred.resolve);
+        })
+      )
+        .done(function (
+          optionsReturnData,
+          templateReturnData,
+          chartReturnData
+        ) {
+          //get returned script, evaluate it, save returned object to variable.
+          var globalOptions = eval(optionsReturnData[0]);
+          var chartOptions = eval(chartReturnData[0]);
+          var template = eval(templateReturnData[0]);
+
+          $.getJSON(metadataUrl, function (chartMetaData) {
+            //load csv and draw chart
+            $.get(csvUrl, function (data) {
+              console.log("data loaded, drawing chart...");
+              drawChartFromData(
+                data,
+                chartOptions,
+                template,
+                chartMetaData,
+                false,
+                false,
+                null
+              );
             });
-          }
-        ).fail(function(jqXHR, textStatus, errorThrown){
-          console.log('$.getScript() failed! ');
+          });
+        })
+        .fail(function (jqXHR, textStatus, errorThrown) {
+          console.log("$.getScript() failed! ");
           console.log(textStatus);
           console.log(errorThrown);
-        });  
+        });
 
-        
-        /*
+      /*
         $.when(
           //load metadata to indikatoren[0]
           $.getScript(metadataUrl)

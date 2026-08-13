@@ -1,37 +1,43 @@
 /* *
  *
- *  (c) 2009-2021 Øystein Moseng
+ *  (c) 2009-2026 Highsoft AS
+ *  Author: Øystein Moseng
  *
  *  Accessibility component for chart info region and table.
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-import AST from '../../Core/Renderer/HTML/AST.js';
-import Chart from '../../Core/Chart/Chart.js';
-import F from '../../Core/FormatUtilities.js';
-var format = F.format;
-import H from '../../Core/Globals.js';
-var doc = H.doc;
-import U from '../../Core/Utilities.js';
-var extend = U.extend, pick = U.pick;
+import A11yI18n from '../A11yI18n.js';
 import AccessibilityComponent from '../AccessibilityComponent.js';
 import Announcer from '../Utils/Announcer.js';
 import AnnotationsA11y from './AnnotationsA11y.js';
-var getAnnotationsInfoHTML = AnnotationsA11y.getAnnotationsInfoHTML;
-import ChartUtilities from '../Utils/ChartUtilities.js';
-var getAxisDescription = ChartUtilities.getAxisDescription, getAxisRangeDescription = ChartUtilities.getAxisRangeDescription, getChartTitle = ChartUtilities.getChartTitle, unhideChartElementFromAT = ChartUtilities.unhideChartElementFromAT;
-import HTMLUtilities from '../Utils/HTMLUtilities.js';
-var addClass = HTMLUtilities.addClass, escapeStringForHTML = HTMLUtilities.escapeStringForHTML, getElement = HTMLUtilities.getElement, getHeadingTagNameForElement = HTMLUtilities.getHeadingTagNameForElement, setElAttrs = HTMLUtilities.setElAttrs, stripHTMLTagsFromString = HTMLUtilities.stripHTMLTagsFromString, visuallyHideElement = HTMLUtilities.visuallyHideElement;
-/* eslint-disable no-invalid-this, valid-jsdoc */
+const { getAnnotationsInfoHTML } = AnnotationsA11y;
+import AST from '../../Core/Renderer/HTML/AST.js';
+import CU from '../Utils/ChartUtilities.js';
+const { getAxisDescription, getAxisRangeDescription, getChartTitle, unhideChartElementFromAT } = CU;
+import F from '../../Core/Templating.js';
+const { format } = F;
+import H from '../../Core/Globals.js';
+const { doc } = H;
+import HU from '../Utils/HTMLUtilities.js';
+const { addClass, getElement, getHeadingTagNameForElement, stripHTMLTagsFromString, visuallyHideElement } = HU;
+import U from '../../Core/Utilities.js';
+const { attr, pick, replaceNested } = U;
+/* *
+ *
+ *  Functions
+ *
+ * */
+/* eslint-disable valid-jsdoc */
 /**
  * @private
  */
-function stripEmptyHTMLTags(str) {
-    return str.replace(/<(\w+)[^>]*?>\s*<\/\1>/g, '');
+function getTableSummary(chart) {
+    return chart.langFormat('accessibility.table.tableSummary', { chart: chart });
 }
 /**
  * @private
@@ -57,43 +63,51 @@ function getTypeDescForEmptyChart(chart, formatContext) {
  * @private
  */
 function buildTypeDescriptionFromSeries(chart, types, context) {
-    var firstType = types[0], typeExplaination = chart.langFormat('accessibility.seriesTypeDescriptions.' + firstType, context), multi = chart.series && chart.series.length < 2 ? 'Single' : 'Multiple';
+    const firstType = types[0], typeExplanation = chart.langFormat('accessibility.seriesTypeDescriptions.' + firstType, context), multi = chart.series && chart.series.length < 2 ? 'Single' : 'Multiple';
     return (chart.langFormat('accessibility.chartTypes.' + firstType + multi, context) ||
-        chart.langFormat('accessibility.chartTypes.default' + multi, context)) + (typeExplaination ? ' ' + typeExplaination : '');
+        chart.langFormat('accessibility.chartTypes.default' + multi, context)) + (typeExplanation ? ' ' + typeExplanation : '');
 }
 /**
- * @private
- */
-function getTableSummary(chart) {
-    return chart.langFormat('accessibility.table.tableSummary', { chart: chart });
-}
-/**
- * Return simplified explaination of chart type. Some types will not be familiar
- * to most users, but in those cases we try to add an explaination of the type.
+ * Return simplified explanation of chart type. Some types will not be
+ * familiar to most users, but in those cases we try to add an explanation
+ * of the type.
  *
  * @private
  * @function Highcharts.Chart#getTypeDescription
  * @param {Array<string>} types The series types in this chart.
  * @return {string} The text description of the chart type.
  */
-Chart.prototype.getTypeDescription = function (types) {
-    var firstType = types[0], firstSeries = this.series && this.series[0] || {}, formatContext = {
-        numSeries: this.series.length,
+function getTypeDescription(chart, types) {
+    const firstType = types[0], firstSeries = chart.series && chart.series[0] || {}, mapTitle = chart.mapView && chart.mapView.geoMap &&
+        chart.mapView.geoMap.title, formatContext = {
+        numSeries: chart.series.length,
         numPoints: firstSeries.points && firstSeries.points.length,
-        chart: this,
-        mapTitle: firstSeries.mapTitle
+        chart,
+        mapTitle
     };
     if (!firstType) {
-        return getTypeDescForEmptyChart(this, formatContext);
+        return getTypeDescForEmptyChart(chart, formatContext);
     }
-    if (firstType === 'map') {
-        return getTypeDescForMapChart(this, formatContext);
+    if (firstType === 'map' || firstType === 'tiledwebmap') {
+        return getTypeDescForMapChart(chart, formatContext);
     }
-    if (this.types.length > 1) {
-        return getTypeDescForCombinationChart(this, formatContext);
+    if (chart.types.length > 1) {
+        return getTypeDescForCombinationChart(chart, formatContext);
     }
-    return buildTypeDescriptionFromSeries(this, types, formatContext);
-};
+    return buildTypeDescriptionFromSeries(chart, types, formatContext);
+}
+/**
+ * @private
+ */
+function stripEmptyHTMLTags(str) {
+    // Scan alert #[71]: Loop for nested patterns
+    return replaceNested(str, [/<([\w\-.:!]+)\b[^<>]*>\s*<\/\1>/g, '']);
+}
+/* *
+ *
+ *  Class
+ *
+ * */
 /**
  * The InfoRegionsComponent class
  *
@@ -101,40 +115,70 @@ Chart.prototype.getTypeDescription = function (types) {
  * @class
  * @name Highcharts.InfoRegionsComponent
  */
-var InfoRegionsComponent = function () { };
-InfoRegionsComponent.prototype = new AccessibilityComponent();
-extend(InfoRegionsComponent.prototype, /** @lends Highcharts.InfoRegionsComponent */ {
+class InfoRegionsComponent extends AccessibilityComponent {
+    constructor() {
+        /* *
+         *
+         *  Properties
+         *
+         * */
+        super(...arguments);
+        this.screenReaderSections = {};
+    }
+    /* *
+     *
+     *  Functions
+     *
+     * */
+    /* eslint-disable valid-jsdoc */
     /**
      * Init the component
      * @private
      */
-    init: function () {
-        var chart = this.chart;
-        var component = this;
+    init() {
+        const chart = this.chart;
+        const component = this;
         this.initRegionsDefinitions();
-        this.addEvent(chart, 'aftergetTableAST', function (e) {
+        this.addEvent(chart, 'afterGetTableAST', function (e) {
             component.onDataTableCreated(e);
         });
-        this.addEvent(chart, 'afterViewData', function (tableDiv) {
-            component.dataTableDiv = tableDiv;
-            // Use small delay to give browsers & AT time to register new table
-            setTimeout(function () {
-                component.focusDataTable();
-            }, 300);
+        this.addEvent(chart, 'afterViewData', function (e) {
+            if (e.wasHidden) {
+                component.dataTableDiv = e.element;
+                // Use a small delay to give browsers & AT time to
+                // register the new table.
+                setTimeout(function () {
+                    component.focusDataTable();
+                }, 300);
+            }
         });
+        this.addEvent(chart, 'afterHideData', function () {
+            if (component.viewDataTableButton) {
+                component.viewDataTableButton
+                    .setAttribute('aria-expanded', 'false');
+            }
+        });
+        if (chart.exporting) {
+            // Needed when print logic in exporting does not trigger
+            // rerendering thus repositioning of screen reader DOM elements
+            // (#21554)
+            this.addEvent(chart, 'afterPrint', function () {
+                component.updateAllScreenReaderSections();
+            });
+        }
         this.announcer = new Announcer(chart, 'assertive');
-    },
+    }
     /**
      * @private
      */
-    initRegionsDefinitions: function () {
-        var component = this;
+    initRegionsDefinitions() {
+        const component = this, accessibilityOptions = this.chart.options.accessibility;
         this.screenReaderSections = {
             before: {
                 element: null,
                 buildContent: function (chart) {
-                    var formatter = chart.options.accessibility
-                        .screenReaderSection.beforeChartFormatter;
+                    const formatter = accessibilityOptions.screenReaderSection
+                        .beforeChartFormatter;
                     return formatter ? formatter(chart) :
                         component.defaultBeforeChartFormatter(chart);
                 },
@@ -153,98 +197,130 @@ extend(InfoRegionsComponent.prototype, /** @lends Highcharts.InfoRegionsComponen
             after: {
                 element: null,
                 buildContent: function (chart) {
-                    var formatter = chart.options.accessibility.screenReaderSection
+                    const formatter = accessibilityOptions.screenReaderSection
                         .afterChartFormatter;
                     return formatter ? formatter(chart) :
                         component.defaultAfterChartFormatter();
                 },
                 insertIntoDOM: function (el, chart) {
                     chart.renderTo.insertBefore(el, chart.container.nextSibling);
+                },
+                afterInserted: function () {
+                    if (component.chart.accessibility &&
+                        accessibilityOptions.keyboardNavigation.enabled) {
+                        component.chart.accessibility
+                            .keyboardNavigation.updateExitAnchor(); // #15986
+                    }
                 }
             }
         };
-    },
+    }
     /**
      * Called on chart render. Have to update the sections on render, in order
      * to get a11y info from series.
      */
-    onChartRender: function () {
-        var component = this;
+    onChartRender() {
         this.linkedDescriptionElement = this.getLinkedDescriptionElement();
         this.setLinkedDescriptionAttrs();
+        this.updateAllScreenReaderSections();
+    }
+    updateAllScreenReaderSections() {
+        const component = this;
         Object.keys(this.screenReaderSections).forEach(function (regionKey) {
             component.updateScreenReaderSection(regionKey);
         });
-    },
+    }
     /**
      * @private
      */
-    getLinkedDescriptionElement: function () {
-        var chartOptions = this.chart.options, linkedDescOption = chartOptions.accessibility.linkedDescription;
+    getLinkedDescriptionElement() {
+        const chartOptions = this.chart.options, linkedDescOption = chartOptions.accessibility.linkedDescription;
         if (!linkedDescOption) {
             return;
         }
         if (typeof linkedDescOption !== 'string') {
             return linkedDescOption;
         }
-        var query = format(linkedDescOption, this.chart), queryMatch = doc.querySelectorAll(query);
+        const query = format(linkedDescOption, this.chart), queryMatch = doc.querySelectorAll(query);
         if (queryMatch.length === 1) {
             return queryMatch[0];
         }
-    },
+    }
     /**
      * @private
      */
-    setLinkedDescriptionAttrs: function () {
-        var el = this.linkedDescriptionElement;
+    setLinkedDescriptionAttrs() {
+        const el = this.linkedDescriptionElement;
         if (el) {
             el.setAttribute('aria-hidden', 'true');
             addClass(el, 'highcharts-linked-description');
         }
-    },
+    }
     /**
      * @private
-     * @param {string} regionKey The name/key of the region to update
+     * @param {string} regionKey
+     * The name/key of the region to update
      */
-    updateScreenReaderSection: function (regionKey) {
-        var chart = this.chart, region = this.screenReaderSections[regionKey], content = region.buildContent(chart), sectionDiv = region.element = (region.element || this.createElement('div')), hiddenDiv = (sectionDiv.firstChild || this.createElement('div'));
-        this.setScreenReaderSectionAttribs(sectionDiv, regionKey);
-        AST.setElementHTML(hiddenDiv, content);
-        sectionDiv.appendChild(hiddenDiv);
-        region.insertIntoDOM(sectionDiv, chart);
-        visuallyHideElement(hiddenDiv);
-        unhideChartElementFromAT(chart, hiddenDiv);
-        if (region.afterInserted) {
-            region.afterInserted();
+    updateScreenReaderSection(regionKey) {
+        const chart = this.chart;
+        const region = this.screenReaderSections[regionKey];
+        const content = region.buildContent(chart);
+        const sectionDiv = region.element = (region.element || this.createElement('div'));
+        const hiddenDiv = (sectionDiv.firstChild || this.createElement('div'));
+        if (content) {
+            this.setScreenReaderSectionAttribs(sectionDiv, regionKey);
+            AST.setElementHTML(hiddenDiv, content);
+            sectionDiv.appendChild(hiddenDiv);
+            region.insertIntoDOM(sectionDiv, chart);
+            if (chart.styledMode) {
+                addClass(hiddenDiv, 'highcharts-visually-hidden');
+            }
+            else {
+                visuallyHideElement(hiddenDiv);
+            }
+            unhideChartElementFromAT(chart, hiddenDiv);
+            if (region.afterInserted) {
+                region.afterInserted();
+            }
         }
-    },
+        else {
+            if (sectionDiv.parentNode) {
+                sectionDiv.parentNode.removeChild(sectionDiv);
+            }
+            region.element = null;
+        }
+    }
     /**
+     * Apply a11y attributes to a screen reader info section
      * @private
      * @param {Highcharts.HTMLDOMElement} sectionDiv The section element
      * @param {string} regionKey Name/key of the region we are setting attrs for
      */
-    setScreenReaderSectionAttribs: function (sectionDiv, regionKey) {
-        var labelLangKey = ('accessibility.screenReaderSection.' + regionKey + 'RegionLabel'), chart = this.chart, labelText = chart.langFormat(labelLangKey, { chart: chart }), sectionId = 'highcharts-screen-reader-region-' + regionKey + '-' +
-            chart.index;
-        setElAttrs(sectionDiv, {
+    setScreenReaderSectionAttribs(sectionDiv, regionKey) {
+        const chart = this.chart, labelText = chart.langFormat('accessibility.screenReaderSection.' + regionKey +
+            'RegionLabel', { chart: chart, chartTitle: getChartTitle(chart) }), sectionId = `highcharts-screen-reader-region-${regionKey}-${chart.index}`;
+        attr(sectionDiv, {
             id: sectionId,
-            'aria-label': labelText
+            'aria-label': labelText || void 0
         });
         // Sections are wrapped to be positioned relatively to chart in case
         // elements inside are tabbed to.
         sectionDiv.style.position = 'relative';
-        if (chart.options.accessibility.landmarkVerbosity === 'all' &&
-            labelText) {
-            sectionDiv.setAttribute('role', 'region');
+        if (labelText) {
+            sectionDiv.setAttribute('role', chart.options.accessibility.landmarkVerbosity === 'all' ?
+                'region' : 'group');
         }
-    },
+    }
     /**
      * @private
-     * @return {string}
      */
-    defaultBeforeChartFormatter: function () {
-        var chart = this.chart, format = chart.options.accessibility
-            .screenReaderSection.beforeChartFormat, axesDesc = this.getAxesDescription(), shouldHaveSonifyBtn = (chart.sonify &&
+    defaultBeforeChartFormatter() {
+        const chart = this.chart, format = chart.options.accessibility.screenReaderSection
+            .beforeChartFormat;
+        if (!format) {
+            return '';
+        }
+        const axesDesc = this.getAxesDescription(), shouldHaveSonifyBtn = (chart.sonify &&
             chart.options.sonification &&
             chart.options.sonification.enabled), sonifyButtonId = 'highcharts-a11y-sonify-data-btn-' +
             chart.index, dataTableButtonId = 'hc-linkto-highcharts-data-table-' +
@@ -258,137 +334,134 @@ extend(InfoRegionsComponent.prototype, /** @lends Highcharts.InfoRegionsComponen
             yAxisDescription: axesDesc.yAxis,
             playAsSoundButton: shouldHaveSonifyBtn ?
                 this.getSonifyButtonText(sonifyButtonId) : '',
-            viewTableButton: chart.getCSV ?
+            viewTableButton: chart.exporting?.getCSV ?
                 this.getDataTableButtonText(dataTableButtonId) : '',
             annotationsTitle: annotationsList ? annotationsTitleStr : '',
             annotationsList: annotationsList
-        }, formattedString = H.i18nFormat(format, context, chart);
+        }, formattedString = A11yI18n.i18nFormat(format, context, chart);
         this.dataTableButtonId = dataTableButtonId;
         this.sonifyButtonId = sonifyButtonId;
         return stripEmptyHTMLTags(formattedString);
-    },
+    }
     /**
      * @private
-     * @return {string}
      */
-    defaultAfterChartFormatter: function () {
-        var chart = this.chart, format = chart.options.accessibility
-            .screenReaderSection.afterChartFormat, context = {
-            endOfChartMarker: this.getEndOfChartMarkerText()
-        }, formattedString = H.i18nFormat(format, context, chart);
+    defaultAfterChartFormatter() {
+        const chart = this.chart;
+        const format = chart.options.accessibility.screenReaderSection
+            .afterChartFormat;
+        if (!format) {
+            return '';
+        }
+        const context = { endOfChartMarker: this.getEndOfChartMarkerText() };
+        const formattedString = A11yI18n.i18nFormat(format, context, chart);
         return stripEmptyHTMLTags(formattedString);
-    },
+    }
     /**
      * @private
-     * @return {string}
      */
-    getLinkedDescription: function () {
-        var el = this.linkedDescriptionElement, content = el && el.innerHTML || '';
-        return stripHTMLTagsFromString(content);
-    },
+    getLinkedDescription() {
+        const el = this.linkedDescriptionElement, content = el && el.innerHTML || '';
+        return stripHTMLTagsFromString(content, this.chart.renderer.forExport);
+    }
     /**
      * @private
-     * @return {string}
      */
-    getLongdescText: function () {
-        var chartOptions = this.chart.options, captionOptions = chartOptions.caption, captionText = captionOptions && captionOptions.text, linkedDescription = this.getLinkedDescription();
+    getLongdescText() {
+        const chartOptions = this.chart.options, captionOptions = chartOptions.caption, captionText = captionOptions && captionOptions.text, linkedDescription = this.getLinkedDescription();
         return (chartOptions.accessibility.description ||
             linkedDescription ||
             captionText ||
             '');
-    },
+    }
     /**
      * @private
-     * @return {string}
      */
-    getTypeDescriptionText: function () {
-        var chart = this.chart;
+    getTypeDescriptionText() {
+        const chart = this.chart;
         return chart.types ?
             chart.options.accessibility.typeDescription ||
-                chart.getTypeDescription(chart.types) : '';
-    },
+                getTypeDescription(chart, chart.types) : '';
+    }
     /**
      * @private
-     * @param {string} buttonId
-     * @return {string}
      */
-    getDataTableButtonText: function (buttonId) {
-        var chart = this.chart, buttonText = chart.langFormat('accessibility.table.viewAsDataTableButtonText', { chart: chart, chartTitle: getChartTitle(chart) });
+    getDataTableButtonText(buttonId) {
+        const chart = this.chart, buttonText = chart.langFormat('accessibility.table.viewAsDataTableButtonText', { chart: chart, chartTitle: getChartTitle(chart) });
         return '<button id="' + buttonId + '">' + buttonText + '</button>';
-    },
+    }
     /**
      * @private
-     * @param {string} buttonId
-     * @return {string}
      */
-    getSonifyButtonText: function (buttonId) {
-        var chart = this.chart;
+    getSonifyButtonText(buttonId) {
+        const chart = this.chart;
         if (chart.options.sonification &&
             chart.options.sonification.enabled === false) {
             return '';
         }
-        var buttonText = chart.langFormat('accessibility.sonification.playAsSoundButtonText', { chart: chart, chartTitle: getChartTitle(chart) });
+        const buttonText = chart.langFormat('accessibility.sonification.playAsSoundButtonText', { chart: chart, chartTitle: getChartTitle(chart) });
         return '<button id="' + buttonId + '">' + buttonText + '</button>';
-    },
+    }
     /**
      * @private
-     * @return {string}
      */
-    getSubtitleText: function () {
-        var subtitle = (this.chart.options.subtitle);
-        return stripHTMLTagsFromString(subtitle && subtitle.text || '');
-    },
+    getSubtitleText() {
+        const subtitle = (this.chart.options.subtitle);
+        return stripHTMLTagsFromString(subtitle && subtitle.text || '', this.chart.renderer.forExport);
+    }
     /**
      * @private
-     * @return {string}
      */
-    getEndOfChartMarkerText: function () {
-        var chart = this.chart, markerText = chart.langFormat('accessibility.screenReaderSection.endOfChartMarker', { chart: chart }), id = 'highcharts-end-of-chart-marker-' + chart.index;
+    getEndOfChartMarkerText() {
+        const endMarkerId = `highcharts-end-of-chart-marker-${this.chart.index}`, endMarker = getElement(endMarkerId);
+        if (endMarker) {
+            return endMarker.outerHTML;
+        }
+        const chart = this.chart, markerText = chart.langFormat('accessibility.screenReaderSection.endOfChartMarker', { chart: chart }), id = 'highcharts-end-of-chart-marker-' + chart.index;
         return '<div id="' + id + '">' + markerText + '</div>';
-    },
+    }
     /**
      * @private
      * @param {Highcharts.Dictionary<string>} e
      */
-    onDataTableCreated: function (e) {
-        var chart = this.chart;
+    onDataTableCreated(e) {
+        const chart = this.chart;
         if (chart.options.accessibility.enabled) {
             if (this.viewDataTableButton) {
                 this.viewDataTableButton.setAttribute('aria-expanded', 'true');
             }
-            var attributes = e.tree.attributes || {};
+            const attributes = e.tree.attributes || {};
             attributes.tabindex = -1;
             attributes.summary = getTableSummary(chart);
             e.tree.attributes = attributes;
         }
-    },
+    }
     /**
      * @private
      */
-    focusDataTable: function () {
-        var tableDiv = this.dataTableDiv, table = tableDiv && tableDiv.getElementsByTagName('table')[0];
+    focusDataTable() {
+        const tableDiv = this.dataTableDiv, table = tableDiv && tableDiv.getElementsByTagName('table')[0];
         if (table && table.focus) {
             table.focus();
         }
-    },
+    }
     /**
      * @private
      * @param {string} sonifyButtonId
      */
-    initSonifyButton: function (sonifyButtonId) {
-        var _this = this;
-        var el = this.sonifyButton = getElement(sonifyButtonId);
-        var chart = this.chart;
-        var defaultHandler = function (e) {
+    initSonifyButton(sonifyButtonId) {
+        const el = this.sonifyButton = getElement(sonifyButtonId);
+        const chart = this.chart;
+        const defaultHandler = (e) => {
             if (el) {
                 el.setAttribute('aria-hidden', 'true');
                 el.setAttribute('aria-label', '');
             }
             e.preventDefault();
             e.stopPropagation();
-            var announceMsg = chart.langFormat('accessibility.sonification.playAsSoundClickAnnouncement', { chart: chart });
-            _this.announcer.announce(announceMsg);
-            setTimeout(function () {
+            const announceMsg = chart.langFormat('accessibility.sonification.playAsSoundClickAnnouncement', { chart: chart });
+            this.announcer.announce(announceMsg);
+            setTimeout(() => {
                 if (el) {
                     el.removeAttribute('aria-hidden');
                     el.removeAttribute('aria-label');
@@ -399,47 +472,48 @@ extend(InfoRegionsComponent.prototype, /** @lends Highcharts.InfoRegionsComponen
             }, 1000); // Delay to let screen reader speak the button press
         };
         if (el && chart) {
-            setElAttrs(el, {
-                tabindex: -1
-            });
+            el.setAttribute('tabindex', -1);
             el.onclick = function (e) {
-                var onPlayAsSoundClick = (chart.options.accessibility &&
-                    chart.options.accessibility.screenReaderSection.onPlayAsSoundClick);
+                const onPlayAsSoundClick = (chart.options.accessibility &&
+                    chart.options.accessibility.screenReaderSection
+                        .onPlayAsSoundClick);
                 (onPlayAsSoundClick || defaultHandler).call(this, e, chart);
             };
         }
-    },
+    }
     /**
      * Set attribs and handlers for default viewAsDataTable button if exists.
      * @private
      * @param {string} tableButtonId
      */
-    initDataTableButton: function (tableButtonId) {
-        var el = this.viewDataTableButton = getElement(tableButtonId), chart = this.chart, tableId = tableButtonId.replace('hc-linkto-', '');
+    initDataTableButton(tableButtonId) {
+        const el = this.viewDataTableButton = getElement(tableButtonId), chart = this.chart, tableId = tableButtonId.replace('hc-linkto-', '');
         if (el) {
-            setElAttrs(el, {
+            attr(el, {
                 tabindex: -1,
                 'aria-expanded': !!getElement(tableId)
             });
             el.onclick = chart.options.accessibility
                 .screenReaderSection.onViewDataTableClick ||
                 function () {
-                    chart.viewData();
+                    chart.exporting?.viewData();
                 };
         }
-    },
+    }
     /**
      * Return object with text description of each of the chart's axes.
      * @private
-     * @return {Highcharts.Dictionary<string>}
      */
-    getAxesDescription: function () {
-        var chart = this.chart, shouldDescribeColl = function (collectionKey, defaultCondition) {
-            var axes = chart[collectionKey];
+    getAxesDescription() {
+        const chart = this.chart, shouldDescribeColl = function (collectionKey, defaultCondition) {
+            const axes = chart[collectionKey];
             return axes.length > 1 || axes[0] &&
                 pick(axes[0].options.accessibility &&
                     axes[0].options.accessibility.enabled, defaultCondition);
-        }, hasNoMap = !!chart.types && chart.types.indexOf('map') < 0, hasCartesian = !!chart.hasCartesianSeries, showXAxes = shouldDescribeColl('xAxis', !chart.angular && hasCartesian && hasNoMap), showYAxes = shouldDescribeColl('yAxis', hasCartesian && hasNoMap), desc = {};
+        }, hasNoMap = !!chart.types &&
+            chart.types.indexOf('map') < 0 &&
+            chart.types.indexOf('treemap') < 0 &&
+            chart.types.indexOf('tilemap') < 0, hasCartesian = !!chart.hasCartesianSeries, showXAxes = shouldDescribeColl('xAxis', !chart.angular && hasCartesian && hasNoMap), showYAxes = shouldDescribeColl('yAxis', hasCartesian && hasNoMap), desc = {};
         if (showXAxes) {
             desc.xAxis = this.getAxisDescriptionText('xAxis');
         }
@@ -447,15 +521,13 @@ extend(InfoRegionsComponent.prototype, /** @lends Highcharts.InfoRegionsComponen
             desc.yAxis = this.getAxisDescriptionText('yAxis');
         }
         return desc;
-    },
+    }
     /**
      * @private
-     * @param {string} collectionKey
-     * @return {string}
      */
-    getAxisDescriptionText: function (collectionKey) {
-        var chart = this.chart;
-        var axes = chart[collectionKey];
+    getAxisDescriptionText(collectionKey) {
+        const chart = this.chart;
+        const axes = chart[collectionKey];
         return chart.langFormat('accessibility.axis.' + collectionKey + 'Description' + (axes.length > 1 ? 'Plural' : 'Singular'), {
             chart: chart,
             names: axes.map(function (axis) {
@@ -466,14 +538,19 @@ extend(InfoRegionsComponent.prototype, /** @lends Highcharts.InfoRegionsComponen
             }),
             numAxes: axes.length
         });
-    },
+    }
     /**
      * Remove component traces
      */
-    destroy: function () {
+    destroy() {
         if (this.announcer) {
             this.announcer.destroy();
         }
     }
-});
+}
+/* *
+ *
+ *  Default Export
+ *
+ * */
 export default InfoRegionsComponent;

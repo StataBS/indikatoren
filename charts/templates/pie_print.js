@@ -1,13 +1,13 @@
 (function(){
     return {
     	 "chart": {
-        "borderColor": "#fbfbfb",
-        "backgroundColor": "#fbfbfb",
+        "borderColor": "#ffffff",
+        "backgroundColor": "#ffffff",
  		"width": 320,
     	"height": 208,  
         "spacingBottom": 30,
         "style": {
-            "fontFamily": "Arial"
+            "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
         },
         "zoomType": "xy",
         "events":{

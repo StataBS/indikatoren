@@ -25,6 +25,7 @@
           2
         ]
       ],
+      "pointStart": 0,
       "name": "2015",
       "turboThreshold": 0
     },
@@ -54,6 +55,7 @@
           4.44853224764792
         ]
       ],
+      "pointStart": 0,
       "name": "2016",
       "turboThreshold": 0
     }
@@ -69,81 +71,51 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-        
-                // Remove all pie slices with same color when clicking onto legend item
-                // see https://www.bountysource.com/issues/1055141-linkedto-on-pie-chart-s-data-points-for-e-g-setvisible
-                // or http://jsfiddle.net/highcharts/u7FQS/278/
-                  
-                var chart = this;
-                $(chart.series[0].data).each(function(i, e) {
-                    e.legendItem.on('click', function(event) {
-                        var legendItem=e.name;
-                        
-                        event.stopPropagation();
-                        
-                        $(chart.series).each(function(j,f){
-                               $(this.data).each(function(k,z){
-                                   if(z.name==legendItem)
-                                   {
-                                       if(z.visible)
-                                       {
-                                           z.setVisible(false);
-                                       }
-                                       else
-                                       {
-                                           z.setVisible(true);
-                                       }
-                                   }
-                               });
-                        });
-                    });
-                    e.legendItem.on('mouseover', function(event) {
-                        var legendItem=e.name;
-                        
-                        event.stopPropagation();
-                        
-                        $(chart.series).each(function(j,f){
-                               $(this.data).each(function(k,z){
-                                   if(z.name==legendItem)
-                                   {
-                                       z.setState('hover');
-                                   }
-                               });
-                        });
-                    });
-                    e.legendItem.on('mouseout', function(event) {
-                        var legendItem=e.name;
-                        
-                        event.stopPropagation();
-                        
-                        $(chart.series).each(function(j,f){    
-                               $(this.data).each(function(k,z){
-                                   if(z.name==legendItem)
-                                   {
-                                       z.setState('');
-                                   }
-                               });
-                        });
-                    });
-                    
-                });
-        
-                
-
-                  
-                  
-              }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "zoomType": "xy",
-    "width": 485,
+    "width": null,
     "height": 415,
     "spacingBottom": 35,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "type": "pie",
     "renderTo": "container-9998"
@@ -182,7 +154,7 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "text": "",

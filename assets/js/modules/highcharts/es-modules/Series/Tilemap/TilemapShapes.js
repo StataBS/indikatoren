@@ -2,34 +2,32 @@
  *
  *  Tilemaps module
  *
- *  (c) 2010-2021 Highsoft AS
+ *  (c) 2010-2026 Highsoft AS
  *  Author: Øystein Moseng
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
 import H from '../../Core/Globals.js';
-var noop = H.noop;
+const { noop } = H;
 import SeriesRegistry from '../../Core/Series/SeriesRegistry.js';
-var _a = SeriesRegistry.seriesTypes, HeatmapSeries = _a.heatmap, ScatterSeries = _a.scatter;
+const { heatmap: HeatmapSeries, scatter: ScatterSeries } = SeriesRegistry.seriesTypes;
 import U from '../../Core/Utilities.js';
-var clamp = U.clamp, pick = U.pick;
+const { clamp, pick } = U;
+/* *
+ *
+ *  Functions
+ *
+ * */
 /**
  * Utility func to get padding definition from tile size division
  * @private
- * @param {Highcharts.TilemapSeries} series
- * series
- * @param {Highcharts.number} xDiv
- * xDiv
- * @param {Highcharts.number} yDiv
- * yDiv
- * @return {Highcharts.TilemapPaddingObject}
  */
 function tilePaddingFromTileSize(series, xDiv, yDiv) {
-    var options = series.options;
+    const options = series.options;
     return {
         xPad: (options.colsize || 1) / -xDiv,
         yPad: (options.rowsize || 1) / -yDiv
@@ -44,7 +42,7 @@ function tilePaddingFromTileSize(series, xDiv, yDiv) {
  * Map of shape types.
  * @private
  */
-var TilemapShapes = {
+const TilemapShapes = {
     // Hexagon shape type.
     hexagon: {
         alignDataLabel: ScatterSeries.prototype.alignDataLabel,
@@ -55,7 +53,7 @@ var TilemapShapes = {
             if (!size) {
                 return [];
             }
-            var hexagon = this.tileEdges;
+            const hexagon = this.tileEdges;
             return [
                 ['M', hexagon.x2 - size, hexagon.y1 + size],
                 ['L', hexagon.x3 + size, hexagon.y1 + size],
@@ -67,14 +65,16 @@ var TilemapShapes = {
             ];
         },
         translate: function () {
-            var series = this, options = series.options, xAxis = series.xAxis, yAxis = series.yAxis, seriesPointPadding = options.pointPadding || 0, xPad = (options.colsize || 1) / 3, yPad = (options.rowsize || 1) / 2, yShift;
+            const series = this, options = series.options, xAxis = series.xAxis, yAxis = series.yAxis, seriesPointPadding = options.pointPadding || 0, xPad = (options.colsize || 1) / 3, yPad = (options.rowsize || 1) / 2;
+            let yShift;
             series.generatePoints();
-            series.points.forEach(function (point) {
-                var x1 = clamp(Math.floor(xAxis.len -
+            for (const point of series.points) {
+                let x1 = clamp(Math.floor(xAxis.len -
                     xAxis.translate(point.x - xPad * 2, 0, 1, 0, 1)), -xAxis.len, 2 * xAxis.len), x2 = clamp(Math.floor(xAxis.len -
                     xAxis.translate(point.x - xPad, 0, 1, 0, 1)), -xAxis.len, 2 * xAxis.len), x3 = clamp(Math.floor(xAxis.len -
                     xAxis.translate(point.x + xPad, 0, 1, 0, 1)), -xAxis.len, 2 * xAxis.len), x4 = clamp(Math.floor(xAxis.len -
-                    xAxis.translate(point.x + xPad * 2, 0, 1, 0, 1)), -xAxis.len, 2 * xAxis.len), y1 = clamp(Math.floor(yAxis.translate(point.y - yPad, 0, 1, 0, 1)), -yAxis.len, 2 * yAxis.len), y2 = clamp(Math.floor(yAxis.translate(point.y, 0, 1, 0, 1)), -yAxis.len, 2 * yAxis.len), y3 = clamp(Math.floor(yAxis.translate(point.y + yPad, 0, 1, 0, 1)), -yAxis.len, 2 * yAxis.len), pointPadding = pick(point.pointPadding, seriesPointPadding), 
+                    xAxis.translate(point.x + xPad * 2, 0, 1, 0, 1)), -xAxis.len, 2 * xAxis.len), y1 = clamp(Math.floor(yAxis.translate(point.y - yPad, 0, 1, 0, 1)), -yAxis.len, 2 * yAxis.len), y2 = clamp(Math.floor(yAxis.translate(point.y, 0, 1, 0, 1)), -yAxis.len, 2 * yAxis.len), y3 = clamp(Math.floor(yAxis.translate(point.y + yPad, 0, 1, 0, 1)), -yAxis.len, 2 * yAxis.len);
+                const pointPadding = point.pointPadding ?? seriesPointPadding, 
                 // We calculate the point padding of the midpoints to
                 // preserve the angles of the shape.
                 midPointPadding = pointPadding *
@@ -118,7 +118,7 @@ var TilemapShapes = {
                         ['Z']
                     ]
                 };
-            });
+            }
             series.translateColors();
         }
     },
@@ -132,7 +132,7 @@ var TilemapShapes = {
             if (!size) {
                 return [];
             }
-            var diamond = this.tileEdges;
+            const diamond = this.tileEdges;
             return [
                 ['M', diamond.x2, diamond.y1 + size],
                 ['L', diamond.x3 + size, diamond.y2],
@@ -142,13 +142,15 @@ var TilemapShapes = {
             ];
         },
         translate: function () {
-            var series = this, options = series.options, xAxis = series.xAxis, yAxis = series.yAxis, seriesPointPadding = options.pointPadding || 0, xPad = (options.colsize || 1), yPad = (options.rowsize || 1) / 2, yShift;
+            const series = this, options = series.options, xAxis = series.xAxis, yAxis = series.yAxis, seriesPointPadding = options.pointPadding || 0, xPad = (options.colsize || 1), yPad = (options.rowsize || 1) / 2;
+            let yShift;
             series.generatePoints();
-            series.points.forEach(function (point) {
-                var x1 = clamp(Math.round(xAxis.len -
-                    xAxis.translate(point.x - xPad, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len), x2 = clamp(Math.round(xAxis.len -
-                    xAxis.translate(point.x, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len), x3 = clamp(Math.round(xAxis.len -
-                    xAxis.translate(point.x + xPad, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len), y1 = clamp(Math.round(yAxis.translate(point.y - yPad, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len), y2 = clamp(Math.round(yAxis.translate(point.y, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len), y3 = clamp(Math.round(yAxis.translate(point.y + yPad, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len), pointPadding = pick(point.pointPadding, seriesPointPadding), 
+            for (const point of series.points) {
+                let x1 = clamp(Math.round(xAxis.len -
+                    xAxis.translate(point.x - xPad, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len), x3 = clamp(Math.round(xAxis.len -
+                    xAxis.translate(point.x + xPad, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len), y1 = clamp(Math.round(yAxis.translate(point.y - yPad, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len), y2 = clamp(Math.round(yAxis.translate(point.y, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len), y3 = clamp(Math.round(yAxis.translate(point.y + yPad, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len);
+                const x2 = clamp(Math.round(xAxis.len -
+                    xAxis.translate(point.x, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len), pointPadding = pick(point.pointPadding, seriesPointPadding), 
                 // We calculate the point padding of the midpoints to
                 // preserve the angles of the shape.
                 midPointPadding = pointPadding *
@@ -186,7 +188,7 @@ var TilemapShapes = {
                         ['Z']
                     ]
                 };
-            });
+            }
             series.translateColors();
         }
     },
@@ -201,11 +203,13 @@ var TilemapShapes = {
                 .call(this, size + (size && this.radius));
         },
         translate: function () {
-            var series = this, options = series.options, xAxis = series.xAxis, yAxis = series.yAxis, seriesPointPadding = options.pointPadding || 0, yRadius = (options.rowsize || 1) / 2, colsize = (options.colsize || 1), colsizePx, yRadiusPx, xRadiusPx, radius, forceNextRadiusCompute = false;
+            const series = this, options = series.options, xAxis = series.xAxis, yAxis = series.yAxis, seriesPointPadding = options.pointPadding || 0, yRadius = (options.rowsize || 1) / 2, colsize = (options.colsize || 1);
+            let colsizePx, yRadiusPx, xRadiusPx, radius, forceNextRadiusCompute = false;
             series.generatePoints();
-            series.points.forEach(function (point) {
-                var x = clamp(Math.round(xAxis.len -
-                    xAxis.translate(point.x, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len), y = clamp(Math.round(yAxis.translate(point.y, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len), pointPadding = seriesPointPadding, hasPerPointPadding = false;
+            for (const point of series.points) {
+                const x = clamp(Math.round(xAxis.len -
+                    xAxis.translate(point.x, 0, 1, 0, 0)), -xAxis.len, 2 * xAxis.len);
+                let pointPadding = seriesPointPadding, hasPerPointPadding = false, y = clamp(Math.round(yAxis.translate(point.y, 0, 1, 0, 0)), -yAxis.len, 2 * yAxis.len);
                 // If there is point padding defined on a single point, add it
                 if (typeof point.pointPadding !== 'undefined') {
                     pointPadding = point.pointPadding;
@@ -262,7 +266,7 @@ var TilemapShapes = {
                     y: y,
                     r: radius
                 };
-            });
+            }
             series.translateColors();
         }
     },

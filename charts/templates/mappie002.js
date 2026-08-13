@@ -10,13 +10,13 @@
 (function(){
     return {
         "chart": {		
-            "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
+            "borderColor": "#ffffff",
+            "backgroundColor": "#ffffff",
             "width": 485,
             "height": 415,
             "spacingBottom": 45,
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             "type": "map",
     		"inverted": false
@@ -25,7 +25,7 @@
             "style": {
                 "fontSize": "14px",
                 "fontWeight": "bold",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },        
             "align": "left"
@@ -34,7 +34,7 @@
             "style": {
                 "fontSize": "12px",
                 "fontWeight": "normal",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },
             "text": "",
@@ -55,7 +55,7 @@
         },
         "colorAxis": {
     		"min": 0,
-    		"gridLineColor": "#fbfbfb",	
+    		"gridLineColor": "#ffffff",	
             "gridLineWidth": 1,
             "labels": {	
     		    "style": {"color": "black", "cursor": "default", "fontSize": "11px", "textOverflow": "none"}
@@ -108,7 +108,7 @@
               	enableMouseTracking: false,
                 color: '#ededed',
                 borderWidth: 1,
-                borderColor: '#fbfbfb',
+                borderColor: '#ffffff',
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
 				"joinBy": ['TXT', 'Wohnviertel Id'],
@@ -153,7 +153,7 @@
 				"animation": true,
 				"data": rheinDataEPSG2056, 
 				"color": "#008AC3",    
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				tooltip: {
 					pointFormatter: function(){
 						return '<br/>';
@@ -335,10 +335,11 @@
 					        // Handle lat/lon support
 					        if (options.center.lat !== undefined) {
 					            var point = chart.fromLatLonToPoint(options.center);
-					            options.center = [
-					                chart.xAxis[0].toPixels(point.x, true),
-					                chart.yAxis[0].toPixels(point.y, true)
-					            ];
+					            // HC12: map charts position via chart.mapView, not xAxis/yAxis.toPixels()
+					            var pixelPoint = chart.mapView
+					            	? chart.mapView.projectedUnitsToPixels(point)
+					            	: { x: chart.xAxis[0].toPixels(point.x, true), y: chart.yAxis[0].toPixels(point.y, true) };
+					            options.center = [pixelPoint.x, pixelPoint.y];
 					        }
 					        // Handle dynamic size
 					        if (options.sizeFormatter) {
@@ -528,7 +529,7 @@
                 	var label = 
     				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
-					 fontSize: "12px", fontFamily: "Arial", fontWeight: 'normal', fontStyle: "normal"
+					 fontSize: "12px", fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif", fontWeight: 'normal', fontStyle: "normal"
                 	})    				
     				.attr({
     					zIndex: 6,

@@ -72,6 +72,7 @@
           232211
         ]
       ],
+      "pointStart": 2005,
       "name": "Mittelwert Friedmattviertel"
     },
     {
@@ -147,6 +148,7 @@
           17213.5
         ]
       ],
+      "pointStart": 2005,
       "name": "Median Friedmattviertel"
     },
     {
@@ -221,6 +223,7 @@
           356919
         ]
       ],
+      "pointStart": 2005,
       "name": "Mittelwert Kannenfeld"
     },
     {
@@ -296,6 +299,7 @@
           27595
         ]
       ],
+      "pointStart": 2005,
       "name": "Median Kannenfeld"
     },
     {
@@ -370,6 +374,7 @@
           94373
         ]
       ],
+      "pointStart": 2005,
       "name": "Mittelwert Landskron"
     },
     {
@@ -445,6 +450,7 @@
           6352
         ]
       ],
+      "pointStart": 2005,
       "name": "Median Landskron"
     },
     {
@@ -519,6 +525,7 @@
           127829
         ]
       ],
+      "pointStart": 2005,
       "name": "Mittelwert Lysbüchel"
     },
     {
@@ -594,6 +601,7 @@
           10000
         ]
       ],
+      "pointStart": 2005,
       "name": "Median Lysbüchel"
     },
     {
@@ -668,6 +676,7 @@
           190077
         ]
       ],
+      "pointStart": 2005,
       "name": "Mittelwert Pestalozzi"
     },
     {
@@ -743,53 +752,78 @@
           21299
         ]
       ],
+      "pointStart": 2005,
       "name": "Median Pestalozzi"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          var chart = this;
-          // Extract common words from series names
-          var leftTitle = chart.series[0].name.split(" ").slice(0, 1).toString();
-          var rightTitle = chart.series[1].name.split(" ").slice(0, 1).toString();
-
-          // Add and move legend titles
-          chart.renderer.text(leftTitle + ':', chart.legend.group.translateX + 7, chart.legend.group.translateY + 5)
-            // .css({ fontWeight: 'bold' })
-            .add();
-          chart.renderer.text(rightTitle + ':', chart.legend.group.translateX + 186, chart.legend.group.translateY + 5)
-            //.css({ fontWeight: 'bold' })
-            .add();
-          //}
-
-
-          /*load: function () {
-            //add and move legend title (get it from series names)
-            this.legend.title
-              .attr({
-                text:
-                  this.series[0].name.split(" ").slice(0, 1).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
-                  + ':'
-                  + this.series[1].name.split(" ").slice(0, 1).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
-                  + ':'
-              })
-              /*.translate(-140, 8); //move -140 to the left and 8 down*/
-          //}
-
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "renderTo": "container-12622"
   },
@@ -823,24 +857,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -904,37 +920,45 @@
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormatter": function () {

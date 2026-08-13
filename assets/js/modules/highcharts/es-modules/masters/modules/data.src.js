@@ -1,13 +1,28 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highcharts JS v9.1.2 (2021-06-16)
+ * @license Highcharts JS v12.5.0 (2026-01-12)
  * @module highcharts/modules/data
  * @requires highcharts
  *
  * Data module
  *
- * (c) 2012-2021 Torstein Honsi
+ * (c) 2012-2026 Highsoft AS
+ * Author: Torstein Honsi
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
-import '../../Extensions/Data.js';
+import Highcharts from '../../Core/Globals.js';
+import HttpUtilities from '../../Core/HttpUtilities.js';
+import Data from '../../Extensions/Data.js';
+const G = Highcharts;
+// Classes
+G.Data = G.Data || Data;
+G.HttpUtilities = G.HttpUtilities || HttpUtilities;
+// Functions
+G.ajax = G.HttpUtilities.ajax;
+G.data = G.Data.data;
+G.getJSON = G.HttpUtilities.getJSON;
+G.post = G.HttpUtilities.post;
+export default Highcharts;

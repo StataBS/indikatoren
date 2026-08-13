@@ -1,68 +1,64 @@
 /* *
  *
- *  (c) 2010-2021 Torstein Honsi
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Torstein Honsi
  *
  *  Extension to the Series object in 3D charts.
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-import Math3D from '../../Extensions/Math3D.js';
-var perspective = Math3D.perspective;
+import H from '../Globals.js';
+const { composed } = H;
+import Math3D from '../Math3D.js';
+const { perspective } = Math3D;
 import Series from '../Series/Series.js';
 import U from '../Utilities.js';
-var addEvent = U.addEvent, extend = U.extend, merge = U.merge, pick = U.pick, isNumber = U.isNumber;
+const { addEvent, extend, isNumber, merge, pick, pushUnique } = U;
 /* *
  *
  *  Class
  *
  * */
-var Series3D = /** @class */ (function (_super) {
-    __extends(Series3D, _super);
-    function Series3D() {
-        return _super !== null && _super.apply(this, arguments) || this;
+class Series3D extends Series {
+    /* *
+     *
+     *  Static Functions
+     *
+     * */
+    static compose(SeriesClass) {
+        if (pushUnique(composed, 'Core.Series3D')) {
+            addEvent(SeriesClass, 'afterTranslate', function () {
+                if (this.chart.is3d()) {
+                    this.translate3dPoints();
+                }
+            });
+            extend(SeriesClass.prototype, {
+                translate3dPoints: Series3D.prototype.translate3dPoints
+            });
+        }
     }
     /* *
      *
      *  Functions
      *
      * */
-    /* eslint-disable valid-jsdoc */
-    Series3D.prototype.translate = function () {
-        _super.prototype.translate.apply(this, arguments);
-        if (this.chart.is3d()) {
-            this.translate3dPoints();
-        }
-    };
     /**
      * Translate the plotX, plotY properties and add plotZ.
-     * @private
+     * @internal
      */
-    Series3D.prototype.translate3dPoints = function () {
-        var series = this, seriesOptions = series.options, chart = series.chart, zAxis = pick(series.zAxis, chart.options.zAxis[0]), rawPoints = [], rawPoint, projectedPoints, projectedPoint, zValue, i, rawPointsX = [], stack = seriesOptions.stacking ?
+    translate3dPoints() {
+        const series = this, seriesOptions = series.options, chart = series.chart, zAxis = pick(series.zAxis, chart.options.zAxis[0]), rawPoints = [], rawPointsX = [], stack = seriesOptions.stacking ?
             (isNumber(seriesOptions.stack) ? seriesOptions.stack : 0) :
             series.index || 0;
+        let projectedPoint, zValue;
         series.zPadding = stack *
             (seriesOptions.depth || 0 + (seriesOptions.groupZPadding || 1));
-        for (i = 0; i < series.data.length; i++) {
-            rawPoint = series.data[i];
-            if (zAxis && zAxis.translate) {
+        series.data.forEach((rawPoint) => {
+            if (zAxis?.translate) {
                 zValue = zAxis.logarithmic && zAxis.val2lin ?
                     zAxis.val2lin(rawPoint.z) :
                     rawPoint.z; // #4562
@@ -84,40 +80,23 @@ var Series3D = /** @class */ (function (_super) {
                 z: rawPoint.plotZ
             });
             rawPointsX.push(rawPoint.plotX || 0);
-        }
+        });
         series.rawPointsX = rawPointsX;
-        projectedPoints = perspective(rawPoints, chart, true);
-        for (i = 0; i < series.data.length; i++) {
-            rawPoint = series.data[i];
+        const projectedPoints = perspective(rawPoints, chart, true);
+        series.data.forEach((rawPoint, i) => {
             projectedPoint = projectedPoints[i];
             rawPoint.plotX = projectedPoint.x;
             rawPoint.plotY = projectedPoint.y;
             rawPoint.plotZ = projectedPoint.z;
-        }
-    };
-    /* *
-     *
-     *  Static Properties
-     *
-     * */
-    Series3D.defaultOptions = merge(Series.defaultOptions);
-    return Series3D;
-}(Series));
+        });
+    }
+}
 /* *
  *
- *  Compatibility
+ *  Static Properties
  *
  * */
-/* eslint-disable no-invalid-this */
-addEvent(Series, 'afterTranslate', function () {
-    if (this.chart.is3d()) {
-        this.translate3dPoints();
-    }
-});
-/* eslint-enable no-invalid-this */
-extend(Series.prototype, {
-    translate3dPoints: Series3D.prototype.translate3dPoints
-});
+Series3D.defaultOptions = merge(Series.defaultOptions);
 /* *
  *
  *  Default Export

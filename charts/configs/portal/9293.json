@@ -243,44 +243,134 @@
           "color": "rgb(255, 128, 40)"
         }
       ],
+      "pointStart": 1,
       "name": "Verkehrsmittel"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0,
+    "title": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "black",
+        "fontSize": "11px"
+      }
+    },
+    "tickLength": 0,
+    "opposite": true,
+    "categories": [
+      "",
+      "Auto",
+      "Motorrad",
+      "Velo",
+      "Tram",
+      "Fuhrwerk",
+      "Passant",
+      ""
+    ],
+    "gridLineWidth": 0,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 1
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 2
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 3
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 4
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 5
+      },
+      {
+        "color": "#B9CFD7",
+        "dashStyle": "line",
+        "width": 1,
+        "value": 6
+      }
+    ]
+  },
   "chart": {
     "events": {
       "load": function () {
-            var chart = this;
-            chart.series.forEach(function (series) {
-              series.points.forEach(function (point) {
-                var x = 0, y = 0;
-                switch (point.name) {
-                  
-  
-                }
-                point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
-              });
-            });
-          }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "bubble",
     "marginLeft": 10,
-    "marginTop": 85,
     "renderTo": "container-9293"
   },
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "align": "left",
@@ -290,7 +380,7 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "text": "Basel-Stadt, Mittel der Jahre 1930 bis 1940",
@@ -356,73 +446,6 @@
         "dashStyle": "line",
         "width": 1,
         "value": 5
-      }
-    ]
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0,
-    "title": {
-      "style": {
-        "color": "black",
-        "fontSize": "11px"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "black",
-        "fontSize": "11px"
-      }
-    },
-    "tickLength": 0,
-    "opposite": true,
-    "categories": [
-      "",
-      "Auto",
-      "Motorrad",
-      "Velo",
-      "Tram",
-      "Fuhrwerk",
-      "Passant",
-      ""
-    ],
-    "gridLineWidth": 0,
-    "plotLines": [
-      {
-        "color": "#B9CFD7",
-        "dashStyle": "line",
-        "width": 1,
-        "value": 1
-      },
-      {
-        "color": "#B9CFD7",
-        "dashStyle": "line",
-        "width": 1,
-        "value": 2
-      },
-      {
-        "color": "#B9CFD7",
-        "dashStyle": "line",
-        "width": 1,
-        "value": 3
-      },
-      {
-        "color": "#B9CFD7",
-        "dashStyle": "line",
-        "width": 1,
-        "value": 4
-      },
-      {
-        "color": "#B9CFD7",
-        "dashStyle": "line",
-        "width": 1,
-        "value": 5
-      },
-      {
-        "color": "#B9CFD7",
-        "dashStyle": "line",
-        "width": 1,
-        "value": 6
       }
     ]
   },

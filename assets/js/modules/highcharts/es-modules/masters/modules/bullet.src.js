@@ -1,13 +1,18 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highcharts JS v9.1.2 (2021-06-16)
+ * @license Highcharts JS v12.5.0 (2026-01-12)
  * @module highcharts/modules/bullet
  * @requires highcharts
  *
  * Bullet graph series type for Highcharts
  *
- * (c) 2010-2021 Kacper Madej
+ * (c) 2010-2026 Highsoft AS
+ * Author: Kacper Madej
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
+import Highcharts from '../../Core/Globals.js';
 import '../../Series/Bullet/BulletSeries.js';
+export default Highcharts;

@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-07-16T09:55:34",
+		"aktualisierungsdatum": "2026-07-17T11:52:55",
 		"id": 7516
 	},
 	{
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-07-16T09:55:35",
+		"aktualisierungsdatum": "2026-07-17T11:52:56",
 		"id": 7517
 	},
 	{

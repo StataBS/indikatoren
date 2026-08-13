@@ -21406,7 +21406,7 @@
           }
         ]
       },
-      "borderColor": "#fbfbfb",
+      "borderColor": "#ffffff",
       "keys": [
         "Gemeinde",
         "value"
@@ -22251,7 +22251,8 @@
           "FR_68382",
           76.152304609
         ]
-      ]
+      ],
+      "pointStart": 2471
     },
     {
       "visible": false,
@@ -23087,6 +23088,7 @@
           "Zaessingue"
         ]
       ],
+      "pointStart": 2471,
       "name": "GemeindeDescr"
     },
     {
@@ -23095,38 +23097,37 @@
       "type": "mapline",
       "data": [
         {
-          "path": [
-            [
-              "M",
-              2587000,
-              -1249000
+          "geometry": {
+            "coordinates": [
+              [
+                2587000,
+                1249000
+              ],
+              [
+                2587000,
+                1248600
+              ],
+              [
+                2587000,
+                1248800
+              ],
+              [
+                2592000,
+                1248800
+              ],
+              [
+                2592000,
+                1249000
+              ],
+              [
+                2592000,
+                1248600
+              ]
             ],
-            [
-              "L",
-              2587000,
-              -1248600
-            ],
-            [
-              "L",
-              2587000,
-              -1248800
-            ],
-            [
-              "L",
-              2592000,
-              -1248800
-            ],
-            [
-              "L",
-              2592000,
-              -1249000
-            ],
-            [
-              "L",
-              2592000,
-              -1248600
-            ]
-          ],
+            "type": "LineString"
+          },
+          "lat": undefined,
+          "lon": undefined,
           "name": undefined,
           "properties": {}
         }
@@ -23156,38 +23157,37 @@
       "type": "mapline",
       "data": [
         {
-          "path": [
-            [
-              "M",
-              2587000,
-              -1249000
+          "geometry": {
+            "coordinates": [
+              [
+                2587000,
+                1249000
+              ],
+              [
+                2587000,
+                1248600
+              ],
+              [
+                2587000,
+                1248800
+              ],
+              [
+                2592000,
+                1248800
+              ],
+              [
+                2592000,
+                1249000
+              ],
+              [
+                2592000,
+                1248600
+              ]
             ],
-            [
-              "L",
-              2587000,
-              -1248600
-            ],
-            [
-              "L",
-              2587000,
-              -1248800
-            ],
-            [
-              "L",
-              2592000,
-              -1248800
-            ],
-            [
-              "L",
-              2592000,
-              -1249000
-            ],
-            [
-              "L",
-              2592000,
-              -1248600
-            ]
-          ],
+            "type": "LineString"
+          },
+          "lat": undefined,
+          "lon": undefined,
           "name": undefined,
           "properties": {}
         }
@@ -23200,31 +23200,107 @@
       }
     }
   ],
+  "xAxis": {},
   "chart": {
     "events": {
-      "load": function (e) {
-					var fn = this.options.customFunctions;
-					fn.addLegendRectangle(this, 10, 60, 215, 65, '#fbfbfb');
-				}
+      "load": function () {
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+      "loadBase": function (e) {
+					var fn = this.options.customFunctions;
+					fn.addLegendRectangle(this, 10, 60, 215, 65, '#ffffff');
+				},
+      "render": function () {
+      var originalRender =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.renderBase
+          : null;
+      if (originalRender) originalRender.call(this);
+      var chart = this;
+      var items = Array.from(
+        chart.container.querySelectorAll(".highcharts-legend-item"),
+      );
+      if (items.length < 2) return;
+      var lineHeight = 15;
+      var itemMargin = 8;
+      var baseY = parseFloat(
+        (items[0].getAttribute("transform") || "").match(
+          /translate\([^,]+,([^)]+)\)/,
+        )?.[1] || 3,
+      );
+      var currentY = baseY;
+      items.forEach(function (el) {
+        var t = el.getAttribute("transform") || "";
+        el.setAttribute(
+          "transform",
+          t.replace(
+            /translate\([^,]+,[^)]+\)/,
+            "translate(8," + currentY + ")",
+          ),
+        );
+        // Zeilenanzahl aus tspan[dy]-Elementen ableiten → echte Itemhöhe
+        var textEl = el.querySelector("text");
+        var lines = textEl
+          ? 1 + textEl.querySelectorAll("tspan[dy]").length
+          : 1;
+        currentY += Math.max(lines * lineHeight, 20) + itemMargin;
+      });
+    }
+    },
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 50,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "type": "map",
     "inverted": false,
-    "marginTop": 80,
     "renderTo": "container-7954"
   },
   "title": {
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "align": "left",
@@ -23234,7 +23310,7 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "text": "trinationale Agglomeration Basel, 2022",
@@ -23257,7 +23333,7 @@
   },
   "colorAxis": {
     "min": 0,
-    "gridLineColor": "#fbfbfb",
+    "gridLineColor": "#ffffff",
     "gridLineWidth": 1,
     "labels": {
       "style": {

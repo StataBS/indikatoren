@@ -10,9 +10,10 @@
                     var endPurple = top + 2*Math.PI/18*8;
                     var endGreen = endPurple + 2*Math.PI/18*5;
                     var endBlue = top;
-                    var centerX = 160.25; //242.5;
-                    var centerY = 98; //104.0; //212.5;
-                    var radius = 82; //88; //136;
+                    var paneCenter = this.pane[0].center;
+                    var centerX = this.plotLeft + paneCenter[0];
+                    var centerY = this.plotTop + paneCenter[1];
+                    var radius = paneCenter[2] / 2;
                     this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
                         fill: '#923F8D',
                         stroke: '#923F8D',
@@ -33,13 +34,13 @@
                     }).add();
                 }
             },
-            "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
+            "borderColor": "#ffffff",
+            "backgroundColor": "#ffffff",
             "width": 320,
             "height": 208,
             spacing: [2, 2, 15, 2], /*top, right, bottom and left */
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             "zoomType": "xy",
             type: "area",

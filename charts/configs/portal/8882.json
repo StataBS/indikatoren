@@ -1803,7 +1803,7 @@
     "marginRight": 15,
     "type": "bar",
     "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "backgroundColor": "#ffffff",
     "width": 320,
     "height": 221,
     "spacing": [

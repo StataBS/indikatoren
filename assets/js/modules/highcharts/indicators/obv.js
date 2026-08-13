@@ -1,14 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Karol Kolodziej
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/obv",["highcharts","highcharts/modules/stock"],function(d){a(d);a.Highcharts=d;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function d(a,b,d,f){a.hasOwnProperty(b)||(a[b]=f.apply(null,d))}a=a?a._modules:{};d(a,"Stock/Indicators/OBV/OBVIndicator.js",[a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],
-function(a,b){var d=this&&this.__extends||function(){var a=function(b,c){a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,c){a.__proto__=c}||function(a,c){for(var b in c)c.hasOwnProperty(b)&&(a[b]=c[b])};return a(b,c)};return function(b,c){function d(){this.constructor=b}a(b,c);b.prototype=null===c?Object.create(c):(d.prototype=c.prototype,new d)}}(),f=a.seriesTypes.sma,p=b.isNumber,q=b.error,r=b.extend,t=b.merge;b=function(a){function b(){var c=null!==a&&a.apply(this,arguments)||
-this;c.data=void 0;c.points=void 0;c.options=void 0;return c}d(b,a);b.prototype.getValues=function(a,b){var c=a.chart.get(b.volumeSeriesID),d=a.xData,g=a.yData,f=[],k=[],l=[],n=!p(g[0]),e=1,h=0;if(c){c=c.yData;a=[d[0],h];var m=n?g[0][3]:g[0];f.push(a);k.push(d[0]);l.push(a[1]);for(e;e<g.length;e++)b=n?g[e][3]:g[e],h=b>m?h+c[e]:b===m?h:h-c[e],a=[d[e],h],m=b,f.push(a),k.push(d[e]),l.push(a[1]);return{values:f,xData:k,yData:l}}q("Series "+b.volumeSeriesID+" not found! Check `volumeSeriesID`.",!0,a.chart)};
-b.defaultOptions=t(f.defaultOptions,{marker:{enabled:!1},params:{index:void 0,period:void 0,volumeSeriesID:"volume"},tooltip:{valueDecimals:0}});return b}(f);r(b.prototype,{nameComponents:void 0});a.registerSeriesType("obv",b);"";return b});d(a,"masters/indicators/obv.src.js",[],function(){})});
-//# sourceMappingURL=obv.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/obv
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Karol Kolodziej
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/obv",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/obv"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},o={};function s(e){var t=o[e];if(void 0!==t)return t.exports;var i=o[e]={exports:{}};return r[e](i,i.exports,s),i.exports}s.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return s.d(t,{a:t}),t},s.d=(e,t)=>{for(var r in t)s.o(t,r)&&!s.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},s.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var i={};s.d(i,{default:()=>g});var a=s(944),n=s.n(a),h=s(512),u=s.n(h);let{sma:p}=u().seriesTypes,{isNumber:d,error:c,extend:l,merge:f}=n();class v extends p{getValues(e,t){let r=e.chart.get(t.volumeSeriesID),o=e.xData,s=e.yData,i=[],a=[],n=[],h=!d(s[0]),u=[],p=1,l=0,f=0,v=0,g=0,y;if(!r)return void c("Series "+t.volumeSeriesID+" not found! Check `volumeSeriesID`.",!0,e.chart);for(y=r.getColumn("y"),u=[o[0],l],v=h?s[0][3]:s[0],i.push(u),a.push(o[0]),n.push(u[1]);p<s.length;p++)f=(g=h?s[p][3]:s[p])>v?l+y[p]:g===v?l:l-y[p],u=[o[p],f],l=f,v=g,i.push(u),a.push(o[p]),n.push(u[1]);return{values:i,xData:a,yData:n}}}v.defaultOptions=f(p.defaultOptions,{marker:{enabled:!1},params:{index:void 0,period:void 0,volumeSeriesID:"volume"},tooltip:{valueDecimals:0}}),l(v.prototype,{nameComponents:void 0}),u().registerSeriesType("obv",v);let g=n();return i.default})());

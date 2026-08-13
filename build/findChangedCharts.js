@@ -23,8 +23,7 @@ var delta = jsondiffpatch.diff(hashesBeforeBuild, hashesAfterBuild);
 //only get the chart id from the diff file. Any changes in any of the hashes means the chart needs to be rebuilt
 //todo: handle deleted charts
 var chartsToBuild = Object.keys(delta || {});
-console.log('Charts to build: ');
-console.log(JSON.stringify(chartsToBuild));
+console.log('Charts to build: ' + chartsToBuild.length);
 
 console.log('Saving tmp/chartsToBuild.json...');
 buildFileHashes.saveToJsonFile('chartsToBuild', 'tmp/', chartsToBuild, console);

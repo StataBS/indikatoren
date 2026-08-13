@@ -1,14 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Wojciech Chmiel
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/dpo",["highcharts","highcharts/modules/stock"],function(e){a(e);a.Highcharts=e;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function e(a,d,e,l){a.hasOwnProperty(d)||(a[d]=l.apply(null,e))}a=a?a._modules:{};e(a,"Stock/Indicators/DPO/DPOIndicator.js",[a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],
-function(a,d){function e(a,b,c,g,t){b=q(b[c][g],b[c]);return t?m(a-b):m(a+b)}var l=this&&this.__extends||function(){var a=function(b,c){a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,c){a.__proto__=c}||function(a,c){for(var b in c)c.hasOwnProperty(b)&&(a[b]=c[b])};return a(b,c)};return function(b,c){function g(){this.constructor=b}a(b,c);b.prototype=null===c?Object.create(c):(g.prototype=c.prototype,new g)}}(),n=a.seriesTypes.sma,u=d.extend,v=d.merge,m=d.correctFloat,q=d.pick;
-d=function(a){function b(){var c=null!==a&&a.apply(this,arguments)||this;c.options=void 0;c.data=void 0;c.points=void 0;return c}l(b,a);b.prototype.getValues=function(a,b){var c=b.period;b=b.index;var d=c+Math.floor(c/2+1),g=a.xData||[];a=a.yData||[];var l=a.length,m=[],n=[],r=[],h=0,f,k;if(!(g.length<=d)){for(f=0;f<c-1;f++)h=e(h,a,f,b);for(k=0;k<=l-d;k++){var p=k+c-1;f=k+d-1;h=e(h,a,p,b);p=q(a[f][b],a[f]);p-=h/c;h=e(h,a,k,b,!0);m.push([g[f],p]);n.push(g[f]);r.push(p)}return{values:m,xData:n,yData:r}}};
-b.defaultOptions=v(n.defaultOptions,{params:{index:0,period:21}});return b}(n);u(d.prototype,{nameBase:"DPO"});a.registerSeriesType("dpo",d);"";return d});e(a,"masters/indicators/dpo.src.js",[],function(){})});
-//# sourceMappingURL=dpo.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/dpo
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Wojciech Chmiel
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/dpo",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/dpo"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},s={};function o(e){var t=s[e];if(void 0!==t)return t.exports;var i=s[e]={exports:{}};return r[e](i,i.exports,o),i.exports}o.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return o.d(t,{a:t}),t},o.d=(e,t)=>{for(var r in t)o.o(t,r)&&!o.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},o.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var i={};o.d(i,{default:()=>x});var a=o(944),n=o.n(a),h=o(512),p=o.n(h);let{sma:d}=p().seriesTypes,{extend:u,merge:c,correctFloat:f,pick:l}=n();function g(e,t,r,s,o){let i=l(t[r][s],t[r]);return o?f(e-i):f(e+i)}class y extends d{getValues(e,t){let r=t.period,s=t.index,o=Math.floor(r/2+1),i=r+o,a=e.xData||[],n=e.yData||[],h=n.length,p=[],d=[],u=[],c,f,y,x,v,m=0;if(!(a.length<=i)){for(x=0;x<r-1;x++)m=g(m,n,x,s);for(v=0;v<=h-i;v++)f=v+r-1,y=v+i-1,m=g(m,n,f,s),c=l(n[y][s],n[y])-m/r,m=g(m,n,v,s,!0),p.push([a[y],c]),d.push(a[y]),u.push(c);return{values:p,xData:d,yData:u}}}}y.defaultOptions=c(d.defaultOptions,{params:{index:0,period:21}}),u(y.prototype,{nameBase:"DPO"}),p().registerSeriesType("dpo",y);let x=n();return i.default})());

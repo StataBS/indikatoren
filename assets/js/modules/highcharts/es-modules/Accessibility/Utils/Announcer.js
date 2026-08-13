@@ -1,67 +1,91 @@
 /* *
  *
- *  (c) 2009-2021 Øystein Moseng
+ *  (c) 2009-2026 Highsoft AS
+ *  Author: Øystein Moseng
  *
  *  Create announcer to speak messages to screen readers and other AT.
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-import H from '../../Core/Globals.js';
 import AST from '../../Core/Renderer/HTML/AST.js';
-var doc = H.doc;
 import DOMElementProvider from './DOMElementProvider.js';
-import HTMLUtilities from './HTMLUtilities.js';
-var setElAttrs = HTMLUtilities.setElAttrs, visuallyHideElement = HTMLUtilities.visuallyHideElement;
-var Announcer = /** @class */ (function () {
-    function Announcer(chart, type) {
+import H from '../../Core/Globals.js';
+const { doc } = H;
+import HU from './HTMLUtilities.js';
+const { addClass, visuallyHideElement } = HU;
+import U from '../../Core/Utilities.js';
+const { attr } = U;
+/* *
+ *
+ *  Class
+ *
+ * */
+class Announcer {
+    /* *
+     *
+     *  Constructor
+     *
+     * */
+    constructor(chart, type) {
         this.chart = chart;
         this.domElementProvider = new DOMElementProvider();
         this.announceRegion = this.addAnnounceRegion(type);
     }
-    Announcer.prototype.destroy = function () {
+    /* *
+     *
+     *  Functions
+     *
+     * */
+    destroy() {
         this.domElementProvider.destroyCreatedElements();
-    };
-    Announcer.prototype.announce = function (message) {
-        var _this = this;
+    }
+    announce(message) {
         AST.setElementHTML(this.announceRegion, message);
         // Delete contents after a little while to avoid user finding the live
         // region in the DOM.
         if (this.clearAnnouncementRegionTimer) {
             clearTimeout(this.clearAnnouncementRegionTimer);
         }
-        this.clearAnnouncementRegionTimer = setTimeout(function () {
-            _this.announceRegion.innerHTML = '';
-            delete _this.clearAnnouncementRegionTimer;
-        }, 1000);
-    };
-    Announcer.prototype.addAnnounceRegion = function (type) {
-        var chartContainer = this.chart.announcerContainer || this.createAnnouncerContainer();
-        var div = this.domElementProvider.createElement('div');
-        setElAttrs(div, {
+        this.clearAnnouncementRegionTimer = setTimeout(() => {
+            this.announceRegion.innerHTML = AST.emptyHTML;
+            delete this.clearAnnouncementRegionTimer;
+        }, 3000);
+    }
+    addAnnounceRegion(type) {
+        const chartContainer = (this.chart.announcerContainer || this.createAnnouncerContainer()), div = this.domElementProvider.createElement('div');
+        attr(div, {
             'aria-hidden': false,
-            'aria-live': type
+            'aria-live': type,
+            'aria-atomic': true
         });
-        visuallyHideElement(div);
+        if (this.chart.styledMode) {
+            addClass(div, 'highcharts-visually-hidden');
+        }
+        else {
+            visuallyHideElement(div);
+        }
         chartContainer.appendChild(div);
         return div;
-    };
-    Announcer.prototype.createAnnouncerContainer = function () {
-        var chart = this.chart;
-        var container = doc.createElement('div');
-        setElAttrs(container, {
+    }
+    createAnnouncerContainer() {
+        const chart = this.chart, container = doc.createElement('div');
+        attr(container, {
             'aria-hidden': false,
-            style: 'position:relative',
             'class': 'highcharts-announcer-container'
         });
+        container.style.position = 'relative';
         chart.renderTo.insertBefore(container, chart.renderTo.firstChild);
         chart.announcerContainer = container;
         return container;
-    };
-    return Announcer;
-}());
-H.Announcer = Announcer;
+    }
+}
+/* *
+ *
+ *  Default Export
+ *
+ * */
 export default Announcer;

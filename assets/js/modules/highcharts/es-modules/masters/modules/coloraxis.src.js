@@ -1,13 +1,21 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highcharts JS v9.1.2 (2021-06-16)
+ * @license Highcharts JS v12.5.0 (2026-01-12)
  * @module highcharts/modules/color-axis
  * @requires highcharts
  *
  * ColorAxis module
  *
- * (c) 2012-2021 Pawel Potaczek
+ * (c) 2012-2026 Highsoft AS
+ * Author: Pawel Potaczek
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
-import '../../Core/Axis/ColorAxis.js';
+import Highcharts from '../../Core/Globals.js';
+import ColorAxis from '../../Core/Axis/Color/ColorAxis.js';
+const G = Highcharts;
+G.ColorAxis = G.ColorAxis || ColorAxis;
+G.ColorAxis.compose(G.Chart, G.Fx, G.Legend, G.Series);
+export default Highcharts;

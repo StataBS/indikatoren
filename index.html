@@ -1,32 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=951" />
-
-    <!-- Google Tag Manager 
-		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-KGK459');</script>
-		 End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
-      href="assets/bootstrap/css/bootstrap.min.css"
+      href="assets/css/tailwind.css"
       media="screen"
       rel="stylesheet"
       type="text/css"
     />
-    <link
-      href="assets/css/bootstrap-multiselect.css"
-      media="screen"
-      rel="stylesheet"
-      type="text/css"
-    />
+
     <link
       href="assets/css/indikatoren-filter.css"
       media="screen"
@@ -45,10 +30,7 @@
       src="assets/js/modules/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"
       type="text/javascript"
     ></script>
-    <script
-      src="assets/js/modules/@statabs/statabs-filter/dist/filter.js"
-      type="text/javascript"
-    ></script>
+    <script src="assets/js/filter.js" type="text/javascript"></script>
     <script src="assets/js/url-min.js" type="text/javascript"></script>
     <script
       src="metadata/sets/indikatorensetNames.js"
@@ -80,8 +62,6 @@
       src="assets/js/modules/highcharts/modules/exporting.js"
       type="text/javascript"
     ></script>
-    <!-- if highcharts-offline-exporting is used, exporting will be done locally: http://www.highcharts.com/docs/export-module/client-side-export -->
-    <!--script src="assets/js/modules/highcharts/modules/offline-exporting.js" type="text/javascript"></script-->
     <script
       src="charts/templates/options001.js"
       type="text/javascript"
@@ -104,7 +84,9 @@
     <script src="geojson/rhein_EPSG_2056.js"></script>
     <script src="geojson/UA_Gemeinden_100.js"></script>
     <script src="geojson/GemeindenBSBL_EPSG_2056.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js"></script>
 
+    <script src="assets/js/lightbox.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child"
       type="text/javascript"
@@ -113,388 +95,553 @@
   </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-KGK459"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    <div id="header" class="hidden">
-      <div id="bs-logo">
-        <a
-          class="bs-logo-link"
-          style="
-            display: block;
-            font-family: Arial, sans-serif;
-            color: black;
-            text-decoration: none;
-            padding: 10px 0px 10px 0px;
-          "
-          href="http://www.statistik.bs.ch"
-          title="Startseite"
-        >
-          <img
-            class="bs-logo-img"
-            style="float: left; padding: 0px 20px"
-            src="assets/img/logo-print.png"
-            alt="Logo Kanton Basel-Stadt"
-          />
-          <div class="bs-logo-title" style="padding-top: 17px; font-size: 11px">
-            Präsidialdepartement des Kantons Basel-Stadt
-          </div>
+    <section class="bg-primary-100 pt-30 pb-[20px] mb-15">
+      <div class="container">
+        <div class="relative h-[50px] z-10 max-w-10/12">
           <div
-            class="bs-logo-text"
-            style="padding-top: 3px; font-weight: 700; font-size: 15px"
+            id="search"
+            class="flex justify-between ngrid grid-cols-4 w-full gap-x-20 overflow-hidden bg-white text-gray-600 border rounded-[30px] focus-within:border-purple-500 focus-within:shadow-purple-600 transition-all ease-in-out duration-250"
+            role="search"
           >
-            Statistisches Amt
+            <label for="searchterm" class="sr-only">Suchbegriff</label>
+
+            <input
+              id="searchbox"
+              ref="input"
+              v-model="searchTermInternal"
+              type="search"
+              autocomplete="off"
+              name="searchterm"
+              class="bg-white text-gray-600 focus:outline-none h-[60px] col-span-4 pl-20 w-full"
+              spellcheck="false"
+              role="searchbox"
+              aria-label="Search input"
+              placeholder="Suchbegriff eingeben"
+            />
+            <button
+              type="submit"
+              class="button m-[4px] is-icon-only md:has-icon is-strong h-[40px] mt-10 w-[132px]"
+            >
+              <img
+                class="h-[20px] mr-[7px] mt-[-1px] filter invert"
+                src="assets/symbols/search.svg"
+                alt="Vorherige Seite"
+              />
+              <span class="mb-2 mr-[10px] mt-[-2px]">Suchen</span>
+            </button>
           </div>
-        </a>
-      </div>
-
-      <div style="clear: both"></div>
-
-      <div
-        id="bs-nav"
-        style="
-          background-color: rgb(29, 78, 44);
-          height: 45px;
-          padding: 15px 0px 10px 50px;
-          margin-bottom: 30px;
-        "
-      >
-        <a
-          style="
-            color: white;
-            font-size: 13px;
-            font-weight: 700;
-            text-shadow: rgb(23, 62, 35) 0px -1px 0px;
-            text-decoration: none;
-          "
-          href="http://www.statistik.bs.ch/zahlen/indikatoren/portal.html"
+        </div>
+        <div
+          class="mt-30 max-w-[83.333333%] grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr_1fr] gap-10 items-end"
         >
-          Indikatorenportal
-        </a>
+          <label class="font-bold" id="thema_filter_label">
+            <span class="font-bold block mb-5">Thema</span>
+            <div class="relative" id="thema_criteria">
+              <select class="input select peer is-placeholder" id="thema">
+                <option class="font-bold" value="all">Alle</option>
+              </select>
+            </div>
+          </label>
+
+          <label id="unterthema_filter_container" class="font-bold hidden">
+            <span class="font-bold block mb-5">Unterthema</span>
+            <div class="relative" id="unterthema_criteria">
+              <select
+                class="input select peer is-placeholder w-[350px]"
+                id="unterthema_filter"
+              >
+                <option class="font-bold" value="all">Alle</option>
+              </select>
+            </div>
+          </label>
+
+          <label class="font-bold hidden" id="stufe1_filter_label">
+            <span class="font-bold block mb-5">Kapitel</span>
+            <div class="relative" id="stufe1_criteria">
+              <select
+                class="input select peer is-placeholder"
+                id="stufe1_filter"
+              >
+                <option value="all">Alle</option>
+              </select>
+            </div>
+          </label>
+
+          <label class="font-bold hidden" id="stufe2_filter_label">
+            <span class="font-bold block mb-5">Unterkapitel</span>
+            <div class="relative" id="stufe2_criteria">
+              <select
+                class="input select peer is-placeholder"
+                id="stufe2_filter"
+              >
+                <option value="all">Alle</option>
+              </select>
+            </div>
+          </label>
+
+          <label class="font-bold hidden" id="stufe3_filter_label">
+            <span class="font-bold block mb-5">Abschnitt</span>
+            <div class="relative" id="stufe3_criteria">
+              <select
+                class="input select peer is-placeholder"
+                id="stufe3_filter"
+              >
+                <option value="all">Alle</option>
+              </select>
+            </div>
+          </label>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div class="container">
-      <div
-        class="modal fade carousel slide"
-        id="lightbox"
-        data-interval="false"
-        data-backdrop="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!--
-            <div class="modal-header">
+      <div class="w-full flex justify-between items-center mb-20">
+        <div id="result-count" class="text-sm text-gray-600 m-[4px]"></div>
+        <div class="flex items-center ml-auto">
+          <div id="pagination" class="indikatoren-pagination"></div>
+          <div id="portal-view-toggle" class="flex items-center gap-10 m-[4px]">
+            <div class="underline cursor-pointer" data-view-mode="grid">
+              Kachelansicht
             </div>
-            -->
-            <div class="modal-body">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span class="glyphicon glyphicon-remove"></span>
-              </button>
-              <div class="carousel-inner" id="carousel-inner">
-                <!-- charts are dynamically added here -->
+            <!-- Listenansicht wird vorerst nicht mehr benötigt; Funktionalität bleibt erhalten -->
+            <!-- <div class="underline cursor-pointer" data-view-mode="list">Listenansicht</div> -->
+            <div class="underline cursor-pointer" data-view-mode="table">
+              Tabellenansicht
+            </div>
+          </div>
+          <div
+            id="portal-reset-button"
+            class="underline m-[4px] cursor-pointer"
+          >
+            <div>Alle Filter löschen</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hide everything until DOM creation has been finished -->
+      <script>
+        document.body.style.display = "none";
+      </script>
+
+      <div class="">
+        <div class="w-full" id="main-element">
+          <!-- Controls for Portal view -->
+          <div class="" id="main-control-element-portal">
+            <div class="content">
+              <div class="">
+                <div class="hidden">
+                  <select
+                    class="form-control"
+                    id="sortBy"
+                    aria-label="Sortierung"
+                  >
+                    <option value="kuerzel_asc">
+                      Sortierung: Thema &uarr;
+                    </option>
+                    <option value="kuerzel_desc">
+                      Sortierung: Thema &darr;
+                    </option>
+                  </select>
+                </div>
+                <div class="hidden per-page">
+                  Per Page: <span id="per_page" class="content"></span>
+                </div>
+                <div id="pagination" class="indikatoren-pagination"></div>
               </div>
-              <a
-                class="left carousel-control"
-                href="#lightbox"
-                role="button"
-                data-slide="prev"
-              >
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a
-                class="right carousel-control"
-                href="#lightbox"
-                role="button"
-                data-slide="next"
-              >
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
             </div>
-
-            <ol
-              class="carousel-indicators carousel-indicators-numbers"
-              id="carousel-indicators"
-            >
-              <!-- dots that link to charts in search results are dynamically added here -->
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Hide everything until DOM creation has been finished -->
-    <script>
-      document.body.style.display = "none";
-    </script>
-
-    <div class="container-fluid">
-      <!-- sidebar element for portal view -->
-      <div id="sidebar-element">
-        <div class="sidebar col-xs-3">
-          <!--
-          <div>
-            <h4>Charts: <span id="total_indikatoren">0</span></h4>
-          </div>
-          -->
-
-          <div id="search">
-            <label class="sr-only" for="searchbox">Search</label>
-            <input
-              type="search"
-              class="form-control"
-              id="searchbox"
-              placeholder="Suche&hellip;"
-            />
           </div>
 
-          <button class="btn btn-block well" id="portal-reset-button">
-            Zurücksetzen
-          </button>
-
-          <div class="well" id="thema">
-            <form role="form" id="thema_criteria">
-              <legend>Thema</legend>
-              <!-- Radio Buttons are dynamically added here -->
-            </form>
-          </div>
-
-          <div class="well" id="raeumlicheGliederung">
-            <fieldset id="raeumlicheGliederung_criteria">
-              <legend>Räumliche Gliederung</legend>
-              <select
-                class="form-control"
-                id="raeumlicheGliederung_filter"
-                multiple="multiple"
-              ></select>
-            </fieldset>
-          </div>
-
-          <div class="well" id="darstellungsart">
-            <fieldset id="darstellungsart_criteria">
-              <legend>Darstellungsform</legend>
-              <select
-                class="form-control"
-                id="darstellungsart_filter"
-                multiple="multiple"
-              ></select>
-            </fieldset>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-9" id="main-element">
-        <!-- Controls for Portal view -->
-        <div class="row" id="main-control-element-portal">
-          <div class="content col-xs-12">
+          <!-- Controls for Indikatorenset view -->
+          <div id="main-control-element-indikatorenset">
             <div class="row">
-              <div class="hidden">
-                <select class="form-control" id="sortBy">
-                  <option value="kuerzel_asc">Sortierung: Thema &uarr;</option>
-                  <option value="kuerzel_desc">Sortierung: Thema &darr;</option>
-                </select>
+              <div class="content col-xs-12">
+                <div class="well">
+                  <div class="row">
+                    <form class="form-inline" role="form">
+                      <!-- Invisible, only used for filtering if in Indikatorenset View -->
+                      <div class="hidden" id="kennzahlenset-filter-control">
+                        <fieldset id="kennzahlenset_criteria">
+                          <select
+                            class="form-control"
+                            id="kennzahlenset_filter"
+                            aria-label="Kennzahlenset"
+                          >
+                            <!--option value="all">Kennzahlenset</option -->
+                          </select>
+                        </fieldset>
+                      </div>
+
+                      <!-- Invisible, only used for filtering if in Indikatorenset View -->
+                      <div class="hidden" id="darstellungsart">
+                        <fieldset id="darstellungsart_criteria">
+                          <legend>Darstellungsform</legend>
+                          <select
+                            class="form-control"
+                            id="darstellungsart_filter"
+                            multiple="multiple"
+                            aria-label="Darstellungsform"
+                          ></select>
+                        </fieldset>
+                      </div>
+
+                      <div class="per-page">
+                        Per Page: <span id="per_page" class="content"></span>
+                      </div>
+
+                      <div
+                        id="pagination"
+                        class="indikatoren-pagination col-xs-12 pull-right"
+                      ></div>
+                    </form>
+                  </div>
+                </div>
               </div>
-              <div class="col-xs-6" id="unterthema_criteria">
-                <select class="form-control" id="unterthema_filter">
-                  <option value="all">Unterthema: Alle</option>
-                </select>
-              </div>
-              <div class="hidden per-page">
-                Per Page: <span id="per_page" class="content"></span>
+            </div>
+          </div>
+          <!-- End of controls for Indikatorenset view -->
+
+          <div
+            id="table-view-header"
+            class="hidden w-full flex flex-col gap-8 border-b pb-10 mb-6"
+          >
+            <div class="w-full flex gap-10 text-[15px] font-bold text-gray-600">
+              <div
+                class="w-1/2 md:w-4/12 min-w-0 flex items-center gap-4 cursor-pointer select-none"
+                data-sort-field="title"
+              >
+                <span class="truncate">Titel</span>
+                <span class="table-sort-icon text-gray-400">⇅</span>
               </div>
               <div
-                id="pagination"
-                class="indikatoren-pagination col-xs-6 pull-right"
-              ></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Controls for Indikatorenset view -->
-        <div id="main-control-element-indikatorenset">
-          <div class="row">
-            <div class="content col-xs-12">
-              <div class="well">
-                <div class="row">
-                  <form class="form-inline" role="form">
-                    <div class="hidden">
-                      <label for="sortBy" class="sr-only">Sortierung:</label>
-                      <select class="form-control" id="sortBy">
-                        <option value="orderKey_asc">
-                          Sortierung: Kapitel &uarr;
-                        </option>
-                        <option value="orderKey_desc">
-                          Sortierung: Kapitel &darr;
-                        </option>
-                      </select>
-                    </div>
-
-                    <!-- Invisible, only used for filtering if in Indikatorenset View -->
-                    <div class="hidden" id="kennzahlenset-filter-control">
-                      <fieldset id="kennzahlenset_criteria">
-                        <select class="form-control" id="kennzahlenset_filter">
-                          <!--option value="all">Kennzahlenset</option -->
-                        </select>
-                      </fieldset>
-                    </div>
-
-                    <!-- Invisible, only used for filtering if in Indikatorenset View -->
-                    <div class="hidden" id="darstellungsart">
-                      <fieldset id="darstellungsart_criteria">
-                        <legend>Darstellungsform</legend>
-                        <select
-                          class="form-control"
-                          id="darstellungsart_filter"
-                          multiple="multiple"
-                        ></select>
-                      </fieldset>
-                    </div>
-
-                    <div class="per-page">
-                      Per Page: <span id="per_page" class="content"></span>
-                    </div>
-
-                    <div
-                      id="pagination"
-                      class="indikatoren-pagination col-xs-12 pull-right"
-                    ></div>
-                  </form>
-                </div>
-                <div class="row" id="indikatorensetFilterControls">
-                  <div class="col-xs-3">
-                    <label class="sr-only" for="searchbox">Search</label>
-                    <input
-                      type="search"
-                      class="form-control"
-                      id="searchbox-indikatorenset"
-                      placeholder="Suche&hellip;"
-                    />
-                  </div>
-
-                  <div class="col-xs-3" id="stufe1_criteria">
-                    <select class="form-control" id="stufe1_filter">
-                      <option value="all">Kapitel: Alle</option>
-                    </select>
-                  </div>
-
-                  <div class="col-xs-3" id="stufe2_criteria">
-                    <select class="form-control" id="stufe2_filter">
-                      <option value="all">Unterkapitel: Alle</option>
-                    </select>
-                  </div>
-
-                  <div class="col-xs-3" id="stufe3_criteria">
-                    <select class="form-control" id="stufe3_filter">
-                      <option value="all">Unterkapitel: Alle</option>
-                    </select>
-                  </div>
-                </div>
+                class="w-1/2 md:w-4/12 min-w-0 flex items-center gap-4 cursor-pointer select-none"
+                data-sort-field="subtitle"
+              >
+                <span class="truncate">Untertitel</span>
+                <span class="table-sort-icon text-gray-400">⇅</span>
+              </div>
+              <div
+                class="hidden md:flex md:w-1/12 min-w-0 items-center gap-4 cursor-pointer select-none"
+                data-sort-field="thema"
+              >
+                <span class="truncate">Thema</span>
+                <span class="table-sort-icon text-gray-400">⇅</span>
+              </div>
+              <div
+                class="hidden md:flex md:w-2/12 min-w-0 items-center gap-4 cursor-pointer select-none"
+                data-sort-field="unterthema"
+              >
+                <span class="truncate">Unterthema</span>
+                <span class="table-sort-icon text-gray-400">⇅</span>
+              </div>
+              <div
+                class="hidden md:flex md:w-1/12 min-w-0 items-center gap-4 cursor-pointer select-none"
+                data-sort-field="aktualisierungsdatum"
+              >
+                <span class="truncate">Publikation</span>
+                <span class="table-sort-icon text-gray-400">⇅</span>
               </div>
             </div>
+            <!-- Spalten-Filter (Titel/Untertitel-Freitext, Thema-/Unterthema-Dropdown)
+                 vorerst auskommentiert: redundant zu den bestehenden Filtern in der
+                 Suchleiste. JS-Logik (applyTableColumnFilters, Thema/Unterthema-Sync)
+                 bleibt unverändert bestehen und wird einfach nicht mehr angesteuert,
+                 da diese Elemente nicht mehr im DOM sind.
+            <div class="w-full flex gap-10">
+              <div class="w-1/2 md:w-4/12 min-w-0">
+                <input
+                  type="text"
+                  id="table-filter-title"
+                  class="w-full text-[15px] border rounded px-8 py-4"
+                  placeholder="Titel filtern…"
+                />
+              </div>
+              <div class="w-1/2 md:w-4/12 min-w-0">
+                <input
+                  type="text"
+                  id="table-filter-subtitle"
+                  class="w-full text-[15px] border rounded px-8 py-4"
+                  placeholder="Untertitel filtern…"
+                />
+              </div>
+              <div class="hidden md:block md:w-1/12 min-w-0">
+                <select
+                  id="table-filter-thema"
+                  class="w-full text-[15px] border rounded px-4 py-4"
+                >
+                  <option value="all">Alle</option>
+                </select>
+              </div>
+              <div class="hidden md:block md:w-2/12 min-w-0">
+                <select
+                  id="table-filter-unterthema"
+                  class="w-full text-[15px] border rounded px-4 py-4"
+                >
+                  <option value="all">Alle</option>
+                </select>
+              </div>
+              <div class="hidden md:block md:w-1/12 min-w-0"></div>
+            </div>
+            -->
+          </div>
+
+          <div class="indikatoren flex flex-wrap" id="indikatoren"></div>
+
+          <div id="load-more-container" class="mt-10 mb-20 hidden">
+            <button id="load-more" class="mt-4 p-2 text-primary-500">
+              <div class="flex gap-5 items-center mb-10">
+                <svg
+                  class="w-20 h-20 self-start font-thin inline-block ml-2 h-4 w-4"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.99996 5V15M9.99996 15L15.5 10.5M9.99996 15L4.5 10.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <div class="font-bold line-clamp-2">
+                  Alle Resultate anzeigen
+                </div>
+              </div>
+            </button>
           </div>
         </div>
-        <!-- End of controls for Indikatorenset view -->
+      </div>
 
-        <div class="indikatoren content row" id="indikatoren"></div>
+      <div
+        class="container pull-left"
+        id="lastUpdatedSets"
+        style="display: none"
+      >
+        <div>
+          <br /><br />
+          <h2 class="dataTableStyle1">Zuletzt aktualisierte Datensätze</h2>
+          <br /><br />
+        </div>
+        <div>
+          <table id="datenliste" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="dataTableStyle4">Datum</th>
+                <th class="dataTableStyle4">Thema</th>
+                <th class="dataTableStyle4">Bereich</th>
+                <th class="dataTableStyle4 text-right">Datenstand</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
       </div>
     </div>
 
-    <div class="container pull-left" id="lastUpdatedSets" style="display: none">
-      <div>
-        <br /><br />
-        <h2 class="dataTableStyle1">Zuletzt aktualisierte Datensätze</h2>
-        <br /><br />
-      </div>
-      <div>
-        <table id="datenliste" class="table table-striped">
-          <thead>
-            <tr>
-              <th class="dataTableStyle4">Datum</th>
-              <th class="dataTableStyle4">Thema</th>
-              <th class="dataTableStyle4">Bereich</th>
-              <th class="dataTableStyle4 text-right">Datenstand</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+    <div
+      id="lightbox"
+      class="fixed inset-0 z-50 flex justify-center bg-white hidden overflow-y-auto"
+    >
+      <div
+        id="lightbox-wrapper"
+        class="w-full max-w-[760px] p-[10px] md:p-[20px] my-10 mt-[111px] md:mt-[67px] rounded-xl flex flex-col relative"
+      >
+        <!-- Close Button -->
+        <div class="container flex w-full">
+          <!-- Top Navigation: Prev / Counter / Next -->
+          <div class="w-full flex items-center justify-center gap-10 mt-6 mb-6">
+            <button
+              id="prev-slide"
+              class="text-gray-600 hover:text-black"
+              aria-label="Zurück"
+            >
+              <img
+                class="h-[40px]"
+                src="assets/symbols/arrow-west-simple.svg"
+                alt="Vorherige Seite"
+              />
+            </button>
+
+            <div id="carousel-indicators" class="text-sm text-gray-700"></div>
+
+            <button
+              id="next-slide"
+              class="text-gray-600 hover:text-black mr-10"
+              aria-label="Weiter"
+            >
+              <img
+                class="h-[40px]"
+                src="assets/symbols/arrow-east-simple.svg"
+                alt="Nächste Seite"
+              />
+            </button>
+          </div>
+
+          <button
+            id="close-lightbox"
+            class="text-black text-4xl justify-end mb-20"
+            aria-label="Schliessen"
+          >
+            &times;
+          </button>
+        </div>
+
+        <!-- Content Area (wide) -->
+        <div id="lightbox-content" class="container w-full pb-[50px]"></div>
       </div>
     </div>
 
-    <!-- html templates -->
-    <!-- chart thumbnail template for portal view -->
     <script id="indikator-template-carousel-portal" type="text/html">
       <div
-        class="col-xs-3 indikator"
+        class="w-1/2 lg:w-1/4 pb-25 pr-25 indikator"
         indikator-fid-data="<%= _fid %>"
         indikator-id-data="<%= id %>"
         indikator-kuerzel-data="<%= kuerzel %>"
       >
         <div class="thumbnail">
           <a
-            id="thumbnail-lightbox-link-<%= _fid %>"
-            href="#lightbox"
-            data-toggle="modal"
-            data-slide-to="<%= getIndexByFid(_fid) %>"
-            indikator-id-data="<%= id %>"
-            indikator-kuerzel-data="<%= kuerzel %>"
-            indikator-fid-data="<%= _fid %>"
+            href="javascript:void(0);"
+            class="lightbox-trigger"
+            data-id="<%= id %>"
+            data-kuerzel="<%= kuerzel %>"
+            data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
-              <h5 title="<%= kuerzel %>: <%= description %>"><%= title %></h5>
+              <h5 class="text-sm" title="<%= kuerzel %>: <%= description %>">
+                <%= title %>
+              </h5>
             </div>
-            <img
-              src="<%= 'images/portal/' + id + '.svg' %>"
-              alt="<%= kuerzel %>: <%= description %>"
-              title="<%= kuerzel %>: <%= description %>"
-              class="img-responsive"
-            />
+            <div>
+              <img
+                src="images/portal/<%= id %>.svg"
+                alt="<%= kuerzel %>: <%= description %>"
+                class="w-full"
+              />
+            </div>
           </a>
         </div>
       </div>
     </script>
 
-    <!-- chart thumbnail template for indikatorenset view -->
+    <script id="indikator-template-list-portal" type="text/html">
+      <a
+        href="javascript:void(0);"
+        class="lightbox-trigger"
+        data-id="<%= id %>"
+        data-kuerzel="<%= kuerzel %>"
+        data-index="<%= getIndexByFid(_fid) %>"
+      >
+        <div
+          class="w-full py-16 cursor-pointer rounded-lg indikator mb-50 group"
+          indikator-fid-data="<%= _fid %>"
+          indikator-id-data="<%= id %>"
+          indikator-kuerzel-data="<%= kuerzel %>"
+          data-id="<%= id %>"
+          data-kuerzel="<%= kuerzel %>"
+          data-index="<%= getIndexByFid(_fid) %>"
+        >
+          <!-- SVG Thumbnail left -->
+          <h5
+            class="font-bold text-xl text-blue-900 group-hover:text-blue-500 mb-10"
+          >
+            <%= title %>
+          </h5>
+
+          <div class="flex items-start gap-20 h-full">
+            <div class="w-1/5 min-h-[180px] min-w-[200px]">
+              <img
+                src="images/portal/<%= id %>.svg"
+                alt="<%= kuerzel %>"
+                class="mr-10 shadow-md group-hover:shadow-xl transition-shadow hidden md:block w-full"
+              />
+            </div>
+
+            <!-- Text right -->
+            <div class="flex flex-col justify-between w-4/5 min-h-[180px]">
+              <!-- Lesehilfe ALWAYS at top -->
+              <div
+                class="text-base leading-relaxed pr-5 group-hover:text-blue-500"
+              >
+                <%= lesehilfe %>
+              </div>
+
+              <!-- META BLOCK ALWAYS AT BOTTOM -->
+              <div class="flex flex-wrap text-gray-500 text-xs gap-y-2 mt-10">
+                <div class="w-full md:w-1/3"><%= thema %></div>
+                <div class="w-full md:w-1/3"><%= unterthema %></div>
+                <!-- prettier-ignore -->
+                <div class="w-full md:w-1/3">
+                Publikationsdatum:
+                <%= (function(d){var x=new Date(d);return ('0'+x.getDate()).slice(-2)+'.'+('0'+(x.getMonth()+1)).slice(-2)+'.'+x.getFullYear();})(aktualisierungsdatum) %>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </script>
+
+    <script id="indikator-template-table-portal" type="text/html">
+      <a
+        href="javascript:void(0);"
+        class="lightbox-trigger block w-full"
+        data-id="<%= id %>"
+        data-kuerzel="<%= kuerzel %>"
+        data-index="<%= getSlideIndexById(id) %>"
+      >
+        <div
+          class="w-full flex items-start gap-10 min-h-40 py-10 border-b cursor-pointer hover:bg-gray-50 indikator"
+          indikator-fid-data="<%= _fid %>"
+          indikator-id-data="<%= id %>"
+          indikator-kuerzel-data="<%= kuerzel %>"
+        >
+          <div
+            class="w-1/2 md:w-4/12 min-w-0 break-words font-bold text-blue-900"
+            title="<%= title %>"
+          >
+            <%= title %>
+          </div>
+          <div class="w-1/2 md:w-4/12 min-w-0 break-words text-sm"><%= subtitle %></div>
+          <div class="hidden md:block md:w-1/12 min-w-0 text-sm truncate"><%= thema %></div>
+          <div class="hidden md:block md:w-2/12 min-w-0 text-sm truncate"><%= unterthema %></div>
+          <!-- prettier-ignore -->
+          <div class="hidden md:block md:w-1/12 min-w-0 text-sm truncate">
+            <%= (function(d){if(!d) return '';var x=new Date(d);return ('0'+x.getDate()).slice(-2)+'.'+('0'+(x.getMonth()+1)).slice(-2)+'.'+x.getFullYear();})(aktualisierungsdatum) %>
+          </div>
+        </div>
+      </a>
+    </script>
+
     <script id="indikator-template-carousel-indikatorenset" type="text/html">
       <div
-        class="col-xs-3 indikator"
+        class="w-1/2 lg:w-1/4 p-10 indikator"
         indikator-fid-data="<%= _fid %>"
         indikator-id-data="<%= id %>"
         indikator-kuerzel-data="<%= kuerzel %>"
       >
         <div class="thumbnail">
           <a
-            id="thumbnail-lightbox-link-<%= _fid %>"
-            href="#lightbox"
-            data-toggle="modal"
-            data-slide-to="<%= getIndexByFid(_fid) %>"
-            indikator-id-data="<%= id %>"
-            indikator-kuerzel-data="<%= kuerzel %>"
-            indikator-fid-data="<%= _fid %>"
+            href="javascript:void(0);"
+            class="lightbox-trigger"
+            data-id="<%= id %>"
+            data-kuerzel="<%= kuerzel %>"
+            data-index="<%= getIndexByFid(_fid) %>"
           >
             <div class="caption">
-              <h5 title="<%= kuerzelKunde %>: <%= description %>">
+              <h5
+                class="text-sm"
+                title="<%= kuerzelKunde %>: <%= description %>"
+              >
                 <%= kuerzelKunde + ' ' + title %>
               </h5>
             </div>
-            <img
-              src="<%= 'images/portal/' + id + '.svg' %>"
-              alt="<%= kuerzelKunde %>: <%= description %>"
-              title="<%= kuerzelKunde %>: <%= description %>"
-              class="img-responsive"
-            />
+            <div>
+              <img
+                src="images/portal/<%= id %>.svg"
+                alt="<%= kuerzelKunde %>: <%= description %>"
+                class="w-full"
+              />
+            </div>
           </a>
         </div>
       </div>
@@ -502,19 +649,19 @@
 
     <!-- full modal chart template for portal view -->
     <script id="indikator-template-modal-portal" type="text/html">
-      <div class="item">
-        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
-        <h1><%= 'Indikator ' + kuerzel %></h1>
+      <div class="indikator text-sm leading-relaxed">
+        <div class="mb-20 min-h-[428px]" id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>"></div>
+
         <!-- hide lesehilfe if empty -->
-        <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>
-          <h1>Lesehilfe</h1>
-          <div class='lesehilfe'><%= lesehilfe %>
+        <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden mb-20'": "'mb-20'" ) %>>
+          <h2 class="text-base font-bold">Lesehilfe</h2>
+          <div class='text-sm'><%= lesehilfe %>
           </div>
         </div>
         <!-- hide erlaeuterungen info if empty -->
-        <div id='erlaeuterungen' class=<%= (erlaeuterungen==="" ? "'hidden'": "''" ) %>>
-          <h1>Erläuterungen  und methodische Hinweise</h1>
-          <div class='lesehilfe'><%= erlaeuterungen %>
+        <div id='erlaeuterungen' class=<%= (erlaeuterungen==="" ? "'hidden mb-20'": "'mb-20'" ) %>>
+          <h2 class="text-base font-bold">Erläuterungen  und methodische Hinweise</h2>
+          <div class='text-sm'><%= erlaeuterungen %>
           </div>
         </div>
         <!-- hide Links if empty -->
@@ -525,7 +672,7 @@
     <!-- full modal chart template for indikatorenset view -->
     <script id="indikator-template-modal-indikatorenset" type="text/html">
       <div class="item">
-        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="w-full"></div>
         <h1><%= 'Indikator ' + kuerzelKunde %></h1>
         <!-- hide lesehilfe if empty -->
         <div id='lesehilfe' class=<%= (lesehilfe==="" ? "'hidden'": "''" ) %>>

@@ -4,7 +4,7 @@
 /**
  * Sample of serverside generation of Highcharts using an extension to jsdom in node.js.
  *
- * Usage: 
+ * Usage:
  * npm install jsdom
  * npm install highcharts@4.2.6
  * node createThumbnails
@@ -17,134 +17,244 @@ var vm = require("vm");
 var fs = require("fs");
 var eol = require("eol");
 
-var execute = function(path, context) {
+var execute = function (path, context) {
   context = context || {};
   var data = fs.readFileSync(path);
   var result = vm.runInNewContext(data, context, path);
-  return {context: context, result: result};
+  return { context: context, result: result };
 };
 
-
-var serialize = require('serialize-javascript');
+var serialize = require("serialize-javascript");
 var glob = require("glob");
-console.log('Loading wohnviertel shapes...');
-var geojson_wohnviertelEPSG2056 = JSON.parse(fs.readFileSync('geojson/wohnviertel_EPSG_2056.json'));
-console.log('Loading wohnviertel Stadt Basel shapes ...');
-var geojson_wohnviertelEPSG2056_StadtBasel = JSON.parse(fs.readFileSync('geojson/wohnviertel_EPSG_2056_StadtBasel.json'));
-console.log('Loading rhein shape...');
-var geojson_rheinEPSG2056 = JSON.parse(fs.readFileSync('geojson/rhein_EPSG_2056.json'));
-console.log('Loading scalebar shape...');
-var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG_2056.json'));
-console.log('Loading scalebar Trinat shape...');
-var geojson_scalebarTrinat = JSON.parse(fs.readFileSync('geojson/scalebar_Trinat.json'));
-console.log('Loading borderTrinat shape...');
-var geojson_borderTrinat = JSON.parse(fs.readFileSync('geojson/border_Trinat.json'));
-console.log('Loading gemeinde shape...');
-var geojson_gemeinden = JSON.parse(fs.readFileSync('geojson/UA_Gemeinden_100.json'));
+console.log("Loading wohnviertel shapes...");
+var geojson_wohnviertelEPSG2056 = JSON.parse(
+  fs.readFileSync("geojson/wohnviertel_EPSG_2056.json")
+);
+console.log("Loading wohnviertel Stadt Basel shapes ...");
+var geojson_wohnviertelEPSG2056_StadtBasel = JSON.parse(
+  fs.readFileSync("geojson/wohnviertel_EPSG_2056_StadtBasel.json")
+);
+console.log("Loading rhein shape...");
+var geojson_rheinEPSG2056 = JSON.parse(
+  fs.readFileSync("geojson/rhein_EPSG_2056.json")
+);
+console.log("Loading scalebar shape...");
+var geojson_scalebarEPSG2056 = JSON.parse(
+  fs.readFileSync("geojson/scalebar_EPSG_2056.json")
+);
+console.log("Loading scalebar Trinat shape...");
+var geojson_scalebarTrinat = JSON.parse(
+  fs.readFileSync("geojson/scalebar_Trinat.json")
+);
+console.log("Loading borderTrinat shape...");
+var geojson_borderTrinat = JSON.parse(
+  fs.readFileSync("geojson/border_Trinat.json")
+);
+console.log("Loading gemeinde shape...");
+var geojson_gemeinden = JSON.parse(
+  fs.readFileSync("geojson/UA_Gemeinden_100.json")
+);
 
 //console.log('deleting previous chart configs...');
 //var rimraf = require("rimraf");
 //rimraf('charts/configs/indikatorenset/*', function(error) {
-    //if (error) { throw error; }
-    //rimraf('charts/configs/portal/*', function(error) {
-        //if (error) { throw error; }
+//if (error) { throw error; }
+//rimraf('charts/configs/portal/*', function(error) {
+//if (error) { throw error; }
 
-        //var views = [true, false];
-        var views = ['portal'/*, 'print'*/];
-        views.forEach(function(view){
-            console.log('Starting creation of chart config for indikatorensetView=' + view);
+//var views = [true, false];
+var views = ["portal" /*, 'print'*/];
+views.forEach(function (view) {
+  console.log(
+    "Starting creation of chart config for indikatorensetView=" + view
+  );
 
-            var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
-            files.forEach(function(id){
-                var indikator = JSON.parse(fs.readFileSync('metadata/single/' + id + '.json'));
-                //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
-                if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt" && !indikator.kennzahlenset.toLowerCase().includes('print')){
-                    console.log('Creating config for chart ' + indikator.id + ', view=' + view +'...');
-                    saveChartConfig(indikator, view, console);
-                }
-                else {
-                    console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt" or print, ignoring.');
-                }
-            });
-        });
+  var singleId = process.argv[2];
+  var files = singleId
+    ? [singleId]
+    : JSON.parse(fs.readFileSync("tmp/chartsToBuild.json"));
+  var total = files.length;
+  var done = 0;
+  var skipped = 0;
+  files.forEach(function (id) {
+    var indikator = JSON.parse(
+      fs.readFileSync("metadata/single/" + id + ".json")
+    );
+    //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
+    if (
+      (indikator.visible == undefined || indikator.visible) &&
+      indikator.kennzahlenset != "Umwelt" &&
+      !indikator.kennzahlenset.toLowerCase().includes("print")
+    ) {
+      done++;
+      process.stdout.write(
+        "[" + done + "/" + total + "] Chart " + indikator.id + " (skipped: " + skipped + ")...\r"
+      );
+      saveChartConfig(indikator, view, console);
+    } else {
+      skipped++;
+    }
+  });
+  console.log("\nDone: " + done + " charts created, " + skipped + " skipped.");
+});
 //    });
 //});
 
-
-function isIndikatorensetView(view){
-  return ((view == true || view == "indikatorenset") ? true :  false);
+function isIndikatorensetView(view) {
+  return view == true || view == "indikatorenset" ? true : false;
 }
 
-//todo: get rid of all the jsdom code if not needed 
-function saveChartConfig(indikator, view, console){
-    var fs = require('fs');
-    //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
-    var jsdom = require('jsdom');
+//todo: get rid of all the jsdom code if not needed
+function saveChartConfig(indikator, view, console) {
+  var fs = require("fs");
+  //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js
+  var jsdom = require("jsdom");
 
-    var virtualConsole = jsdom.createVirtualConsole().sendTo(console);
-    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + indikator.id + '"></div></body></html>', { virtualConsole });
-    var win = global.document.defaultView;
-    global.window = global;
-    for( var i in win ){
-        if( i !== 'window' && win.hasOwnProperty(i)){
-            global.window[i] = win[i];
-        }
+  var virtualConsole = jsdom.createVirtualConsole().sendTo(console);
+  global.document = jsdom.jsdom(
+    '<!doctype html><html><body><div id="container-' +
+      indikator.id +
+      '"></div></body></html>',
+    { virtualConsole }
+  );
+  var win = global.document.defaultView;
+  global.window = global;
+  for (var i in win) {
+    if (i !== "window" && win.hasOwnProperty(i)) {
+      global.window[i] = win[i];
     }
+  }
 
-    var Highcharts = require('highcharts/highstock');
-    //Error bars need highcharts-more. How to import: http://stackoverflow.com/q/34505816
-    require('highcharts/highcharts-more')(Highcharts);
-    var Highcharts_data = require('highcharts/modules/data')(Highcharts);
-    var Highcharts_map = require('highcharts/modules/map')(Highcharts);
-    
-    //convert rhein shape to geojson, see http://api.highcharts.com/highmaps/Highcharts.geojson
-    var rheinDataEPSG2056 = Highcharts.geojson(geojson_rheinEPSG2056, 'map');
-    var scalebarDataEPSG2056 = Highcharts.geojson(geojson_scalebarEPSG2056, 'mapline');
-    var scalebarDataTrinat = Highcharts.geojson(geojson_scalebarTrinat, 'mapline');
-    var borderDataTrinat = Highcharts.geojson(geojson_borderTrinat, 'mapline');
+  // Polyfill for jsdom 9 compatibility with Highcharts 12+ (uses element.closest)
+  if (win.Element && !win.Element.prototype.matches) {
+    win.Element.prototype.matches =
+      win.Element.prototype.msMatchesSelector ||
+      win.Element.prototype.webkitMatchesSelector ||
+      function () { return false; };
+  }
+  if (win.Element && !win.Element.prototype.closest) {
+    win.Element.prototype.closest = function (selector) {
+      var el = this;
+      while (el && el.nodeType === 1) {
+        if (el.matches(selector)) return el;
+        el = el.parentElement || el.parentNode;
+      }
+      return null;
+    };
+  }
 
-    // Disable all animation
-    Highcharts.setOptions({
-        plotOptions: {
-            series: {
-                animation: false,
-                dataLabels: {
-                    defer: false
-                }
-            }
+  var Highcharts = require("highcharts/highstock");
+  Highcharts = Highcharts.default || Highcharts;
+  //Error bars need highcharts-more. In Highcharts 12, modules auto-register on load
+  require("highcharts/highcharts-more");
+  require("highcharts/modules/data");
+  require("highcharts/modules/map");
+
+  //convert rhein shape to geojson, see http://api.highcharts.com/highmaps/Highcharts.geojson
+  var rheinDataEPSG2056 = Highcharts.geojson(geojson_rheinEPSG2056, "map");
+  var scalebarDataEPSG2056 = Highcharts.geojson(
+    geojson_scalebarEPSG2056,
+    "mapline"
+  );
+  var scalebarDataTrinat = Highcharts.geojson(
+    geojson_scalebarTrinat,
+    "mapline"
+  );
+  var borderDataTrinat = Highcharts.geojson(geojson_borderTrinat, "mapline");
+
+  // Disable all animation
+  Highcharts.setOptions({
+    plotOptions: {
+      series: {
+        animation: false,
+        dataLabels: {
+          defer: false,
         },
-        lang: {
-            decimalPoint: ",",
-            thousandsSep: " "
-        }  
-    });
+      },
+    },
+    lang: {
+      decimalPoint: ",",
+      thousandsSep: " ",
+    },
+  });
 
-    try{
-        var csv = (fs.readFileSync('data/' + (indikator["data-id"] || indikator.id) + '.tsv', 'utf8'));
-        //remove quotes from data
-        var dataWithoutQuotes = csv.replace(/"/g, "");
-        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, console: console});
-        var options = (result.result || {} );
-    
-        //disable animations and prevent exceptions
-        options.chart = (options.chart || {});
-        //forExport = true  -- crashes highcharts export server for chart 4741
-        //options.chart.forExport = true;
-        
-        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, console: console});
-        var template = result.result;
-    
-        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, geojson_wohnviertelEPSG2056_StadtBasel: geojson_wohnviertelEPSG2056_StadtBasel, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, borderDataTrinat: borderDataTrinat, geojson_gemeinden: geojson_gemeinden, console: console}).context;
-        
-        ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, function(options){
-            var stringifiedOptions = serialize(options, {space: 2});
-            var filePath = 'charts/configs/' + view + '/';
-            //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-            fs.writeFileSync(filePath + indikator.id + '.json', eol.auto(stringifiedOptions));
-        });
-        
-    }
-    catch(error){
-        console.log('Exception when creating config for ' + indikator.id + ': ' + error);
-    }
+  try {
+    var csv = fs.readFileSync(
+      "data/" + (indikator["data-id"] || indikator.id) + ".tsv",
+      "utf8"
+    );
+    //remove quotes from data
+    var dataWithoutQuotes = csv.replace(/"/g, "");
+    var result = execute(
+      "charts/templates/" + (indikator["chart-id"] || indikator.id) + ".js",
+      {
+        Highcharts: Highcharts,
+        geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056,
+        geojson_wohnviertelEPSG2056_StadtBasel:
+          geojson_wohnviertelEPSG2056_StadtBasel,
+        rheinDataEPSG2056: rheinDataEPSG2056,
+        scalebarDataEPSG2056: scalebarDataEPSG2056,
+        scalebarDataTrinat: scalebarDataTrinat,
+        borderDataTrinat: borderDataTrinat,
+        geojson_gemeinden: geojson_gemeinden,
+        console: console,
+      }
+    );
+    var options = result.result || {};
+
+    //disable animations and prevent exceptions
+    options.chart = options.chart || {};
+    //forExport = true  -- crashes highcharts export server for chart 4741
+    //options.chart.forExport = true;
+
+    result = execute("charts/templates/" + indikator.template + ".js", {
+      Highcharts: Highcharts,
+      geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056,
+      geojson_wohnviertelEPSG2056_StadtBasel:
+        geojson_wohnviertelEPSG2056_StadtBasel,
+      rheinDataEPSG2056: rheinDataEPSG2056,
+      scalebarDataEPSG2056: scalebarDataEPSG2056,
+      scalebarDataTrinat: scalebarDataTrinat,
+      borderDataTrinat: borderDataTrinat,
+      geojson_gemeinden: geojson_gemeinden,
+      console: console,
+    });
+    var template = result.result;
+
+    var ctx = execute("assets/js/indikatoren-highcharts.js", {
+      Highcharts: Highcharts,
+      chartOptions: {},
+      geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056,
+      geojson_wohnviertelEPSG2056_StadtBasel:
+        geojson_wohnviertelEPSG2056_StadtBasel,
+      rheinDataEPSG2056: rheinDataEPSG2056,
+      scalebarDataEPSG2056: scalebarDataEPSG2056,
+      scalebarDataTrinat: scalebarDataTrinat,
+      borderDataTrinat: borderDataTrinat,
+      geojson_gemeinden: geojson_gemeinden,
+      console: console,
+    }).context;
+
+    ctx.createChartConfig(
+      dataWithoutQuotes,
+      options,
+      template,
+      indikator,
+      view,
+      true,
+      function (options) {
+        var stringifiedOptions = serialize(options, { space: 2 });
+        var filePath = "charts/configs/" + view + "/";
+        //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
+        fs.writeFileSync(
+          filePath + indikator.id + ".json",
+          eol.auto(stringifiedOptions)
+        );
+      }
+    );
+  } catch (error) {
+    console.log(
+      "Exception when creating config for " + indikator.id + ": " + error
+    );
+  }
 }

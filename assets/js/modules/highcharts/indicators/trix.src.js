@@ -1,206 +1,223 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highstock JS v9.1.2 (2021-06-16)
+ * @license Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/trix
+ * @requires highcharts
+ * @requires highcharts/modules/stock
  *
  * Indicator series type for Highcharts Stock
  *
- * (c) 2010-2021 Rafal Sebestjanski
+ * (c) 2010-2026 Highsoft AS
+ * Author: Rafal Sebestjanski
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
-'use strict';
-(function (factory) {
-    if (typeof module === 'object' && module.exports) {
-        factory['default'] = factory;
-        module.exports = factory;
-    } else if (typeof define === 'function' && define.amd) {
-        define('highcharts/indicators/trix', ['highcharts', 'highcharts/modules/stock'], function (Highcharts) {
-            factory(Highcharts);
-            factory.Highcharts = Highcharts;
-            return factory;
-        });
-    } else {
-        factory(typeof Highcharts !== 'undefined' ? Highcharts : undefined);
-    }
-}(function (Highcharts) {
-    var _modules = Highcharts ? Highcharts._modules : {};
-    function _registerModule(obj, path, args, fn) {
-        if (!obj.hasOwnProperty(path)) {
-            obj[path] = fn.apply(null, args);
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(root["_Highcharts"], root["_Highcharts"]["SeriesRegistry"]);
+	else if(typeof define === 'function' && define.amd)
+		define("highcharts/indicators/trix", ["highcharts/highcharts"], function (amd1) {return factory(amd1,amd1["SeriesRegistry"]);});
+	else if(typeof exports === 'object')
+		exports["highcharts/indicators/trix"] = factory(root["_Highcharts"], root["_Highcharts"]["SeriesRegistry"]);
+	else
+		root["Highcharts"] = factory(root["Highcharts"], root["Highcharts"]["SeriesRegistry"]);
+})(typeof window === 'undefined' ? this : window, (__WEBPACK_EXTERNAL_MODULE__944__, __WEBPACK_EXTERNAL_MODULE__512__) => {
+return /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ 512:
+/***/ ((module) => {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE__512__;
+
+/***/ }),
+
+/***/ 944:
+/***/ ((module) => {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE__944__;
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ trix_src)
+});
+
+// EXTERNAL MODULE: external {"amd":["highcharts/highcharts"],"commonjs":["highcharts"],"commonjs2":["highcharts"],"root":["Highcharts"]}
+var highcharts_commonjs_highcharts_commonjs2_highcharts_root_Highcharts_ = __webpack_require__(944);
+var highcharts_commonjs_highcharts_commonjs2_highcharts_root_Highcharts_default = /*#__PURE__*/__webpack_require__.n(highcharts_commonjs_highcharts_commonjs2_highcharts_root_Highcharts_);
+// EXTERNAL MODULE: external {"amd":["highcharts/highcharts","SeriesRegistry"],"commonjs":["highcharts","SeriesRegistry"],"commonjs2":["highcharts","SeriesRegistry"],"root":["Highcharts","SeriesRegistry"]}
+var highcharts_SeriesRegistry_commonjs_highcharts_SeriesRegistry_commonjs2_highcharts_SeriesRegistry_root_Highcharts_SeriesRegistry_ = __webpack_require__(512);
+var highcharts_SeriesRegistry_commonjs_highcharts_SeriesRegistry_commonjs2_highcharts_SeriesRegistry_root_Highcharts_SeriesRegistry_default = /*#__PURE__*/__webpack_require__.n(highcharts_SeriesRegistry_commonjs_highcharts_SeriesRegistry_commonjs2_highcharts_SeriesRegistry_root_Highcharts_SeriesRegistry_);
+;// ./code/es-modules/Stock/Indicators/TRIX/TRIXIndicator.js
+/* *
+ *
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
+ *
+ *
+ * */
+
+
+const { tema: TEMAIndicator } = (highcharts_SeriesRegistry_commonjs_highcharts_SeriesRegistry_commonjs2_highcharts_SeriesRegistry_root_Highcharts_SeriesRegistry_default()).seriesTypes;
+
+const { correctFloat, merge } = (highcharts_commonjs_highcharts_commonjs2_highcharts_root_Highcharts_default());
+/* *
+ *
+ *  Class
+ *
+ * */
+/**
+ * The TRIX series type.
+ *
+ * @private
+ * @class
+ * @name Highcharts.seriesTypes.trix
+ *
+ * @augments Highcharts.Series
+ */
+class TRIXIndicator extends TEMAIndicator {
+    /* *
+     *
+     *  Functions
+     *
+     * */
+    // TRIX is calculated using TEMA so we just extend getTemaPoint method.
+    getTemaPoint(xVal, tripledPeriod, EMAlevels, i) {
+        if (i > tripledPeriod) {
+            return [
+                xVal[i - 3],
+                EMAlevels.prevLevel3 !== 0 ?
+                    correctFloat(EMAlevels.level3 - EMAlevels.prevLevel3) /
+                        EMAlevels.prevLevel3 * 100 : null
+            ];
         }
     }
-    _registerModule(_modules, 'Mixins/IndicatorRequired.js', [_modules['Core/Utilities.js']], function (U) {
-        /**
-         *
-         *  (c) 2010-2021 Daniel Studencki
-         *
-         *  License: www.highcharts.com/license
-         *
-         *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
-         *
-         * */
-        var error = U.error;
-        /* eslint-disable no-invalid-this, valid-jsdoc */
-        var requiredIndicatorMixin = {
-                /**
-                 * Check whether given indicator is loaded,
-            else throw error.
-                 * @private
-                 * @param {Highcharts.Indicator} indicator
-                 *        Indicator constructor function.
-                 * @param {string} requiredIndicator
-                 *        Required indicator type.
-                 * @param {string} type
-                 *        Type of indicator where function was called (parent).
-                 * @param {Highcharts.IndicatorCallbackFunction} callback
-                 *        Callback which is triggered if the given indicator is loaded.
-                 *        Takes indicator as an argument.
-                 * @param {string} errMessage
-                 *        Error message that will be logged in console.
-                 * @return {boolean}
-                 *         Returns false when there is no required indicator loaded.
-                 */
-                isParentLoaded: function (indicator,
-            requiredIndicator,
-            type,
-            callback,
-            errMessage) {
-                    if (indicator) {
-                        return callback ? callback(indicator) : true;
-                }
-                error(errMessage || this.generateMessage(type, requiredIndicator));
-                return false;
-            },
-            /**
-             * @private
-             * @param {string} indicatorType
-             *        Indicator type
-             * @param {string} required
-             *        Required indicator
-             * @return {string}
-             *         Error message
-             */
-            generateMessage: function (indicatorType, required) {
-                return 'Error: "' + indicatorType +
-                    '" indicator type requires "' + required +
-                    '" indicator loaded before. Please read docs: ' +
-                    'https://api.highcharts.com/highstock/plotOptions.' +
-                    indicatorType;
-            }
-        };
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+/**
+ * Triple exponential average (TRIX) oscillator. This series requires
+ * `linkedTo` option to be set.
+ *
+ * @sample {highstock} stock/indicators/trix
+ * TRIX indicator
+ *
+ * @extends      plotOptions.tema
+ * @since        7.0.0
+ * @product      highstock
+ * @excluding    allAreas, colorAxis, compare, compareBase, joinBy, keys,
+ *               navigatorOptions, pointInterval, pointIntervalUnit,
+ *               pointPlacement, pointRange, pointStart, showInNavigator,
+ *               stacking
+ * @requires     stock/indicators/indicators
+ * @requires     stock/indicators/tema
+ * @requires     stock/indicators/trix
+ * @optionparent plotOptions.trix
+ */
+TRIXIndicator.defaultOptions = merge(TEMAIndicator.defaultOptions);
+highcharts_SeriesRegistry_commonjs_highcharts_SeriesRegistry_commonjs2_highcharts_SeriesRegistry_root_Highcharts_SeriesRegistry_default().registerSeriesType('trix', TRIXIndicator);
+/* *
+ *
+ *  Default Export
+ *
+ * */
+/* harmony default export */ const TRIX_TRIXIndicator = ((/* unused pure expression or super */ null && (TRIXIndicator)));
+/* *
+ *
+ *  API Options
+ *
+ * */
+/**
+ * A `TRIX` series. If the [type](#series.trix.type) option is not specified, it
+ * is inherited from [chart.type](#chart.type).
+ *
+ * @extends   series,plotOptions.trix
+ * @since     7.0.0
+ * @product   highstock
+ * @excluding allAreas, colorAxis, compare, compareBase, dataParser, dataURL,
+ *            joinBy, keys, navigatorOptions, pointInterval, pointIntervalUnit,
+ *            pointPlacement, pointRange, pointStart, showInNavigator, stacking
+ * @requires  stock/indicators/indicators
+ * @requires  stock/indicators/tema
+ * @apioption series.trix
+ */
+''; // To include the above in the js output
 
-        return requiredIndicatorMixin;
-    });
-    _registerModule(_modules, 'Stock/Indicators/TRIX/TRIXIndicator.js', [_modules['Mixins/IndicatorRequired.js'], _modules['Core/Series/SeriesRegistry.js'], _modules['Core/Utilities.js']], function (RequiredIndicatorMixin, SeriesRegistry, U) {
-        /* *
-         *
-         *  License: www.highcharts.com/license
-         *
-         *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
-         *
-         * */
-        var __extends = (this && this.__extends) || (function () {
-                var extendStatics = function (d,
-            b) {
-                    extendStatics = Object.setPrototypeOf ||
-                        ({ __proto__: [] } instanceof Array && function (d,
-            b) { d.__proto__ = b; }) ||
-                        function (d,
-            b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-                return extendStatics(d, b);
-            };
-            return function (d, b) {
-                extendStatics(d, b);
-                function __() { this.constructor = d; }
-                d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-            };
-        })();
-        var TEMAIndicator = SeriesRegistry.seriesTypes.tema;
-        var correctFloat = U.correctFloat,
-            merge = U.merge;
-        /**
-         * The TRIX series type.
-         *
-         * @private
-         * @class
-         * @name Highcharts.seriesTypes.trix
-         *
-         * @augments Highcharts.Series
-         */
-        var TRIXIndicator = /** @class */ (function (_super) {
-                __extends(TRIXIndicator, _super);
-            function TRIXIndicator() {
-                var _this = _super !== null && _super.apply(this,
-                    arguments) || this;
-                _this.data = void 0;
-                _this.options = void 0;
-                _this.points = void 0;
-                return _this;
-            }
-            TRIXIndicator.prototype.init = function () {
-                var args = arguments,
-                    ctx = this;
-                RequiredIndicatorMixin.isParentLoaded(SeriesRegistry.seriesTypes.tema, 'tema', ctx.type, function (indicator) {
-                    indicator.prototype.init.apply(ctx, args);
-                    return;
-                });
-            };
-            // TRIX is calculated using TEMA so we just extend getTemaPoint method.
-            TRIXIndicator.prototype.getTemaPoint = function (xVal, tripledPeriod, EMAlevels, i) {
-                if (i > tripledPeriod) {
-                    return [
-                        xVal[i - 3],
-                        EMAlevels.prevLevel3 !== 0 ?
-                            correctFloat(EMAlevels.level3 - EMAlevels.prevLevel3) /
-                                EMAlevels.prevLevel3 * 100 : null
-                    ];
-                }
-            };
-            /**
-             * Triple exponential average (TRIX) oscillator. This series requires
-             * `linkedTo` option to be set.
-             *
-             * Requires https://code.highcharts.com/stock/indicators/ema.js
-             * and https://code.highcharts.com/stock/indicators/tema.js.
-             *
-             * @sample {highstock} stock/indicators/trix
-             *         TRIX indicator
-             *
-             * @extends      plotOptions.tema
-             * @since        7.0.0
-             * @product      highstock
-             * @excluding    allAreas, colorAxis, compare, compareBase, joinBy, keys,
-             *               navigatorOptions, pointInterval, pointIntervalUnit,
-             *               pointPlacement, pointRange, pointStart, showInNavigator,
-             *               stacking
-             * @optionparent plotOptions.trix
-             */
-            TRIXIndicator.defaultOptions = merge(TEMAIndicator.defaultOptions);
-            return TRIXIndicator;
-        }(TEMAIndicator));
-        SeriesRegistry.registerSeriesType('trix', TRIXIndicator);
-        /* *
-         *
-         *  Default Export
-         *
-         * */
-        /**
-         * A `TRIX` series. If the [type](#series.trix.type) option is not specified, it
-         * is inherited from [chart.type](#chart.type).
-         *
-         * @extends   series,plotOptions.trix
-         * @since     7.0.0
-         * @product   highstock
-         * @excluding allAreas, colorAxis, compare, compareBase, dataParser, dataURL,
-         *            joinBy, keys, navigatorOptions, pointInterval, pointIntervalUnit,
-         *            pointPlacement, pointRange, pointStart, showInNavigator, stacking
-         * @apioption series.trix
-         */
-        ''; // to include the above in the js output
-
-        return TRIXIndicator;
-    });
-    _registerModule(_modules, 'masters/indicators/trix.src.js', [], function () {
+;// ./code/es-modules/masters/indicators/trix.src.js
 
 
-    });
-}));
+
+
+/* harmony default export */ const trix_src = ((highcharts_commonjs_highcharts_commonjs2_highcharts_root_Highcharts_default()));
+
+__webpack_exports__ = __webpack_exports__["default"];
+/******/ 	return __webpack_exports__;
+/******/ })()
+;
+});

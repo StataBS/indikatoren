@@ -1,14 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Kacper Madej
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/wma",["highcharts","highcharts/modules/stock"],function(d){a(d);a.Highcharts=d;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function d(a,f,d,l){a.hasOwnProperty(f)||(a[f]=l.apply(null,d))}a=a?a._modules:{};d(a,"Stock/Indicators/WMA/WMAIndicator.js",[a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],
-function(a,f){function d(a,b){b*=(b+1)/2;return a.reduce(function(c,a,b){return[null,c[1]+a[1]*(b+1)]})[1]/b}function l(a,b,c,g){c=d(a,a.length);b=b[g-1];a.shift();return[b,c]}var q=this&&this.__extends||function(){var a=function(b,c){a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,c){a.__proto__=c}||function(a,c){for(var b in c)c.hasOwnProperty(b)&&(a[b]=c[b])};return a(b,c)};return function(b,c){function g(){this.constructor=b}a(b,c);b.prototype=null===c?Object.create(c):(g.prototype=
-c.prototype,new g)}}(),k=a.seriesTypes.sma,r=f.isArray,t=f.merge;f=function(a){function b(){var c=null!==a&&a.apply(this,arguments)||this;c.data=void 0;c.options=void 0;c.points=void 0;return c}q(b,a);b.prototype.getValues=function(a,b){var c=b.period,d=a.xData,f=(a=a.yData)?a.length:0,e=1,g=d[0],k=a[0],m=[],n=[],p=[],h=-1;if(!(d.length<c)){r(a[0])&&(h=b.index,k=a[0][h]);for(b=[[g,k]];e!==c;)b.push([d[e],0>h?a[e]:a[e][h]]),e++;for(c=e;c<f;c++)e=l(b,d,a,c),m.push(e),n.push(e[0]),p.push(e[1]),b.push([d[c],
-0>h?a[c]:a[c][h]]);e=l(b,d,a,c);m.push(e);n.push(e[0]);p.push(e[1]);return{values:m,xData:n,yData:p}}};b.defaultOptions=t(k.defaultOptions,{params:{index:3,period:9}});return b}(k);a.registerSeriesType("wma",f);"";return f});d(a,"masters/indicators/wma.src.js",[],function(){})});
-//# sourceMappingURL=wma.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/wma
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Kacper Madej
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/wma",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/wma"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},s={};function i(e){var t=s[e];if(void 0!==t)return t.exports;var a=s[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var a={};i.d(a,{default:()=>y});var o=i(944),n=i.n(o),h=i(512),u=i.n(h);let{sma:p}=u().seriesTypes,{isArray:c,merge:d}=n();function f(e,t,r,s,i){let a=t[s],o=i<0?r[s]:r[s][i];e.push([a,o])}function l(e,t,r,s){let i=e.length,a=e.reduce(function(e,t,r){return[null,e[1]+t[1]*(r+1)]})[1]/((i+1)/2*i),o=t[s-1];return e.shift(),[o,a]}class g extends p{getValues(e,t){let r=t.period,s=e.xData,i=e.yData,a=i?i.length:0,o=s[0],n=[],h=[],u=[],p=1,d=-1,g,y,x=i[0];if(s.length<r)return;c(i[0])&&(d=t.index,x=i[0][d]);let m=[[o,x]];for(;p!==r;)f(m,s,i,p,d),p++;for(g=p;g<a;g++)n.push(y=l(m,s,i,g)),h.push(y[0]),u.push(y[1]),f(m,s,i,g,d);return n.push(y=l(m,s,i,g)),h.push(y[0]),u.push(y[1]),{values:n,xData:h,yData:u}}}g.defaultOptions=d(p.defaultOptions,{params:{index:3,period:9}}),u().registerSeriesType("wma",g);let y=n();return a.default})());

@@ -1,19 +1,25 @@
 /* *
  *
- *  Copyright (c) 2019-2021 Highsoft AS
+ *  (c) 2019-2026 Highsoft AS
  *
  *  Boost module: stripped-down renderer for higher performance
  *
  *  License: highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-import Color from '../../Core/Color/Color.js';
-// Register color names since GL can't render those directly.
-// TODO: When supporting modern syntax, make this a const and a named export
-var defaultHTMLColorMap = {
+/* *
+ *
+ *  Constants
+ *
+ * */
+/**
+ * Register color names since GL can't render those directly.
+ * @todo When supporting modern syntax, make this a named export
+ * @internal
+ */
+const defaultHTMLColorMap = {
     aliceblue: '#f0f8ff',
     antiquewhite: '#faebd7',
     aqua: '#00ffff',
@@ -21,7 +27,6 @@ var defaultHTMLColorMap = {
     azure: '#f0ffff',
     beige: '#f5f5dc',
     bisque: '#ffe4c4',
-    black: '#000000',
     blanchedalmond: '#ffebcd',
     blue: '#0000ff',
     blueviolet: '#8a2be2',
@@ -66,6 +71,7 @@ var defaultHTMLColorMap = {
     gold: '#ffd700',
     goldenrod: '#daa520',
     gray: '#808080',
+    grey: '#808080',
     green: '#008000',
     greenyellow: '#adff2f',
     honeydew: '#f0fff0',
@@ -153,10 +159,18 @@ var defaultHTMLColorMap = {
     violet: '#ee82ee',
     violetred: '#d02090',
     wheat: '#f5deb3',
-    white: '#ffffff',
     whitesmoke: '#f5f5f5',
     yellow: '#ffff00',
     yellowgreen: '#9acd32'
 };
-Color.names = defaultHTMLColorMap;
-export default defaultHTMLColorMap;
+/* *
+ *
+ *  Default Export
+ *
+ * */
+/** @internal */
+const namedColors = {
+    defaultHTMLColorMap
+};
+/** @internal */
+export default namedColors;

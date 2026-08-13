@@ -1,15 +1,13 @@
-/*
- Highcharts JS v9.1.2 (2021-06-16)
-
- Plugin for displaying a message when there is no data visible in chart.
-
- (c) 2010-2021 Highsoft AS
- Author: Oystein Moseng
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/modules/no-data-to-display",["highcharts"],function(b){a(b);a.Highcharts=b;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function b(a,b,e,g){a.hasOwnProperty(b)||(a[b]=g.apply(null,e))}a=a?a._modules:{};b(a,"Extensions/NoDataToDisplay.js",[a["Core/Renderer/HTML/AST.js"],a["Core/Chart/Chart.js"],a["Core/DefaultOptions.js"],
-a["Core/Color/Palette.js"],a["Core/Utilities.js"]],function(a,b,e,g,d){var f=e.getOptions;e=d.addEvent;var h=d.extend;d=b.prototype;f=f();h(f.lang,{noData:"No data to display"});f.noData={attr:{zIndex:1},position:{x:0,y:0,align:"center",verticalAlign:"middle"},style:{fontWeight:"bold",fontSize:"12px",color:g.neutralColor60}};d.showNoData=function(b){var c=this.options;b=b||c&&c.lang.noData;c=c&&(c.noData||{});this.renderer&&(this.noDataLabel||(this.noDataLabel=this.renderer.label(b,0,0,void 0,void 0,
-void 0,c.useHTML,void 0,"no-data").add()),this.styledMode||this.noDataLabel.attr(a.filterUserAttributes(c.attr||{})).css(c.style||{}),this.noDataLabel.align(h(this.noDataLabel.getBBox(),c.position||{}),!1,"plotBox"))};d.hideNoData=function(){this.noDataLabel&&(this.noDataLabel=this.noDataLabel.destroy())};d.hasData=function(){for(var a=this.series||[],b=a.length;b--;)if(a[b].hasData()&&!a[b].options.isInternal)return!0;return this.loadingShown};e(b,"render",function(){this.hasData()?this.hideNoData():
-this.showNoData()})});b(a,"masters/modules/no-data-to-display.src.js",[],function(){})});
-//# sourceMappingURL=no-data-to-display.js.map
+!/**
+ * Highcharts JS v12.5.0 (2026-01-12)
+ * @module highcharts/modules/no-data-to-display
+ * @requires highcharts
+ *
+ * Plugin for displaying a message when there is no data visible in chart.
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Oystein Moseng
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e(t._Highcharts,t._Highcharts.AST):"function"==typeof define&&define.amd?define("highcharts/modules/no-data-to-display",["highcharts/highcharts"],function(t){return e(t,t.AST)}):"object"==typeof exports?exports["highcharts/modules/no-data-to-display"]=e(t._Highcharts,t._Highcharts.AST):t.Highcharts=e(t.Highcharts,t.Highcharts.AST)}("u"<typeof window?this:window,(t,e)=>(()=>{"use strict";var a={660:t=>{t.exports=e},944:e=>{e.exports=t}},o={};function i(t){var e=o[t];if(void 0!==e)return e.exports;var n=o[t]={exports:{}};return a[t](n,n.exports,i),n.exports}i.n=t=>{var e=t&&t.__esModule?()=>t.default:()=>t;return i.d(e,{a:e}),e},i.d=(t,e)=>{for(var a in e)i.o(e,a)&&!i.o(t,a)&&Object.defineProperty(t,a,{enumerable:!0,get:e[a]})},i.o=(t,e)=>Object.prototype.hasOwnProperty.call(t,e);var n={};i.d(n,{default:()=>x});var r=i(944),s=i.n(r),h=i(660),l=i.n(h);let d={lang:{noData:"No data to display"},noData:{attr:{zIndex:1},position:{x:0,y:0,align:"center",verticalAlign:"middle"},style:{fontWeight:"bold",fontSize:"0.8em",color:"#666666"}}},{addEvent:c,extend:p,merge:u}=s();function f(){let t=this.series||[],e=t.length;for(;e--;)if(t[e].hasData()&&!t[e].options.isInternal)return!0;return this.loadingShown}function g(){this.noDataLabel&&(this.noDataLabel=this.noDataLabel.destroy())}function D(t){let e=this.options,a=t||e&&e.lang.noData||"",o=e&&(e.noData||{});this.renderer&&(this.noDataLabel||(this.noDataLabel=this.renderer.label(a,0,0,void 0,void 0,void 0,o.useHTML,void 0,"no-data").add()),this.styledMode||this.noDataLabel.attr(l().filterUserAttributes(o.attr||{})).css(o.style||{}),this.noDataLabel.align(p(this.noDataLabel.getBBox(),o.position||{}),!1,"plotBox"))}function b(){this.hasData()?this.hideNoData():this.showNoData()}let y=s();({compose:function(t,e){let a=t.prototype;a.showNoData||(a.hasData=f,a.hideNoData=g,a.showNoData=D,c(t,"render",b),u(!0,e,d))}}).compose(y.Chart,y.defaultOptions);let x=s();return n.default})());

@@ -91,7 +91,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -200,8 +200,8 @@
 	                var maxValueInLegend = 0.1; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendRectangle(chart, 250, 210, 100, 160, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 355, 210, 125, 160, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 250, 210, 100, 160, '#ffffff');
+	                fn.addLegendRectangle(chart, 355, 210, 125, 160, '#ffffff');
 	                fn.addLegendTitle(chart,"Ausländeranteil <br/> in %", 253, 215);
 	                fn.addLegendTitle(chart, 'Staatsangehörigkeit', 355, 215);
 

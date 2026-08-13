@@ -67,7 +67,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -153,8 +153,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 245, 210, 105, 130, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 355, 210, 105, 130, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 245, 210, 105, 130, '#ffffff');
+	                fn.addLegendRectangle(chart, 355, 210, 105, 130, '#ffffff');
 	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" u",  "<br/>u").replace("in", "<br/>in")/*"Anteil unter <br/>  20-Jähriger in %"*/, 245, 210);
 	                fn.addLegendTitle(chart, pieSizeSeries.name.replace(" u",  "<br/>u")/*"Anzahl unter <br/>  20-Jähriger"*/, 355, 210);
 	                

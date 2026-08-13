@@ -1,0 +1,49 @@
+@layer components {
+  .admin-toolbar-container ~ .page > .page-content {
+    @apply md:min-h-[calc(100vh-117px)];
+  }
+
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .va-btn > svg {
+    @apply mx-auto -mt-2;
+  }
+
+  .page {
+    @apply flex flex-col;
+    min-height: calc(100vh - var(--page-header-height));
+  }
+
+  .page-enter-active,
+  .page-leave-active {
+    @apply transition duration-150;
+    @media (prefers-reduced-motion) {
+      @apply !transition-none;
+    }
+  }
+  .page-enter-from,
+  .page-leave-to {
+    @apply opacity-0;
+  }
+  .admin-toolbar > ul > li > a[data-route-name="bs_backend.help"]:before {
+    -webkit-mask-image: url("/themes/contrib/gin/dist/media/sprite.svg#help-view") !important;
+    mask-image: url("/themes/contrib/gin/dist/media/sprite.svg#help-view") !important;
+  }
+
+  .pb-grid-overlay {
+    @apply fixed top-0 left-0 w-full z-[99999999] h-full pointer-events-none;
+    .container {
+      @apply grid grid-cols-12 gap-15 h-full;
+      > div {
+        @apply h-full  border-l-[0.75px] border-l-gray-800/40 border-r-[0.75px] border-r-gray-800/40;
+      }
+    }
+  }
+
+  .pb-main-canvas {
+    @apply bg-white;
+  }
+}

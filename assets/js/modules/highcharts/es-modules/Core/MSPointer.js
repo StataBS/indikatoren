@@ -1,48 +1,36 @@
 /* *
  *
- *  (c) 2010-2021 Torstein Honsi
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Torstein Honsi
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
 import H from './Globals.js';
-var charts = H.charts, doc = H.doc, noop = H.noop, win = H.win;
+const { charts, composed, doc, noop, win } = H;
 import Pointer from './Pointer.js';
 import U from './Utilities.js';
-var addEvent = U.addEvent, css = U.css, objectEach = U.objectEach, removeEvent = U.removeEvent;
+const { addEvent, attr, css, defined, objectEach, pick, pushUnique, removeEvent } = U;
 /* *
  *
  *  Constants
  *
  * */
 // The touches object keeps track of the points being touched at all times
-var touches = {};
-var hasPointerEvent = !!win.PointerEvent;
+const touches = {};
+const hasPointerEvent = !!win.PointerEvent;
 /* *
  *
  *  Functions
  *
  * */
 /* eslint-disable valid-jsdoc */
-/** @private */
+/** @internal */
 function getWebkitTouches() {
-    var fake = [];
+    const fake = [];
     fake.item = function (i) {
         return this[i];
     };
@@ -55,14 +43,14 @@ function getWebkitTouches() {
     });
     return fake;
 }
-/** @private */
+/** @internal */
 function translateMSPointer(e, method, wktype, func) {
-    var chart = charts[Pointer.hoverChartIndex || NaN];
-    if ((e.pointerType === 'touch' ||
-        e.pointerType === e.MSPOINTER_TYPE_TOUCH) && chart) {
-        var p = chart.pointer;
+    const pointer = charts[Pointer.hoverChartIndex ?? -1]?.pointer;
+    if (pointer &&
+        (e.pointerType === 'touch' ||
+            e.pointerType === e.MSPOINTER_TYPE_TOUCH)) {
         func(e);
-        p[method]({
+        pointer[method]({
             type: wktype,
             target: e.currentTarget,
             preventDefault: noop,
@@ -75,20 +63,25 @@ function translateMSPointer(e, method, wktype, func) {
  *  Class
  *
  * */
-/** @private */
-var MSPointer = /** @class */ (function (_super) {
-    __extends(MSPointer, _super);
-    function MSPointer() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
+/** @internal */
+class MSPointer extends Pointer {
     /* *
      *
      *  Static Functions
      *
      * */
-    MSPointer.isRequired = function () {
-        return !!(!H.hasTouch && (win.PointerEvent || win.MSPointerEvent));
-    };
+    /**
+     * The isRequired method is required for Highcharts to decide whether to use
+     * this module.
+     *
+     * @internal
+     *
+     * @return {boolean}
+     * Returns true if the module is required.
+     */
+    static isRequired() {
+        return !!(!win.TouchEvent && (win.PointerEvent || win.MSPointerEvent));
+    }
     /* *
      *
      *  Functions
@@ -96,34 +89,75 @@ var MSPointer = /** @class */ (function (_super) {
      * */
     /**
      * Add or remove the MS Pointer specific events
-     * @private
+     * @internal
      * @function Highcharts.Pointer#batchMSEvents
      */
-    MSPointer.prototype.batchMSEvents = function (fn) {
+    batchMSEvents(fn) {
         fn(this.chart.container, hasPointerEvent ? 'pointerdown' : 'MSPointerDown', this.onContainerPointerDown);
         fn(this.chart.container, hasPointerEvent ? 'pointermove' : 'MSPointerMove', this.onContainerPointerMove);
         fn(doc, hasPointerEvent ? 'pointerup' : 'MSPointerUp', this.onDocumentPointerUp);
-    };
+    }
     // Destroy MS events also
-    MSPointer.prototype.destroy = function () {
+    destroy() {
         this.batchMSEvents(removeEvent);
-        _super.prototype.destroy.call(this);
-    };
+        super.destroy();
+    }
     // Disable default IE actions for pinch and such on chart element
-    MSPointer.prototype.init = function (chart, options) {
-        _super.prototype.init.call(this, chart, options);
+    constructor(chart, options) {
+        super(chart, options);
         if (this.hasZoom) { // #4014
             css(chart.container, {
                 '-ms-touch-action': 'none',
                 'touch-action': 'none'
             });
         }
-    };
+    }
     /**
-     * @private
+     * Utility to detect whether an element has, or has a parent with, a
+     * specific class name. Used on detection of tracker objects and on deciding
+     * whether hovering the tooltip should cause the active series to mouse out.
+     *
+     * @function Highcharts.Pointer#inClass
+     *
+     * @param {Highcharts.SVGDOMElement|Highcharts.HTMLDOMElement} element
+     * The element to investigate.
+     *
+     * @param {string} className
+     * The class name to look for.
+     *
+     * @return {boolean|undefined}
+     * True if either the element or one of its parents has the given class
+     * name.
+     */
+    inClass(element, className) {
+        let elem = element, elemClassName;
+        while (elem) {
+            elemClassName = attr(elem, 'class');
+            if (elemClassName) {
+                if (elemClassName.indexOf(className) !== -1) {
+                    return true;
+                }
+                if (elemClassName.indexOf('highcharts-container') !== -1) {
+                    return false;
+                }
+            }
+            // #21098 IE11 compatibility
+            elem = elem.parentNode;
+            if (elem && (
+            // HTMLElement
+            elem === document.documentElement ||
+                // Document
+                defined(elem.nodeType) &&
+                    elem.nodeType === document.nodeType)) {
+                elem = null;
+            }
+        }
+    }
+    /**
+     * @internal
      * @function Highcharts.Pointer#onContainerPointerDown
      */
-    MSPointer.prototype.onContainerPointerDown = function (e) {
+    onContainerPointerDown(e) {
         translateMSPointer(e, 'onContainerTouchStart', 'touchstart', function (e) {
             touches[e.pointerId] = {
                 pageX: e.pageX,
@@ -131,40 +165,64 @@ var MSPointer = /** @class */ (function (_super) {
                 target: e.currentTarget
             };
         });
-    };
+    }
     /**
-     * @private
+     * @internal
      * @function Highcharts.Pointer#onContainerPointerMove
      */
-    MSPointer.prototype.onContainerPointerMove = function (e) {
+    onContainerPointerMove(e) {
         translateMSPointer(e, 'onContainerTouchMove', 'touchmove', function (e) {
             touches[e.pointerId] = ({ pageX: e.pageX, pageY: e.pageY });
             if (!touches[e.pointerId].target) {
                 touches[e.pointerId].target = e.currentTarget;
             }
         });
-    };
+    }
     /**
-     * @private
+     * @internal
      * @function Highcharts.Pointer#onDocumentPointerUp
      */
-    MSPointer.prototype.onDocumentPointerUp = function (e) {
+    onDocumentPointerUp(e) {
         translateMSPointer(e, 'onDocumentTouchEnd', 'touchend', function (e) {
             delete touches[e.pointerId];
         });
-    };
+    }
     // Add IE specific touch events to chart
-    MSPointer.prototype.setDOMEvents = function () {
-        _super.prototype.setDOMEvents.call(this);
-        if (this.hasZoom || this.followTouchMove) {
+    setDOMEvents() {
+        const tooltip = this.chart.tooltip;
+        super.setDOMEvents();
+        if (this.hasZoom ||
+            pick((tooltip?.options.followTouchMove), true)) {
             this.batchMSEvents(addEvent);
         }
-    };
-    return MSPointer;
-}(Pointer));
+    }
+}
+/* *
+ *
+ *  Class Namespace
+ *
+ * */
+/** @internal */
+(function (MSPointer) {
+    /* *
+     *
+     *  Functions
+     *
+     * */
+    /** @internal */
+    function compose(ChartClass) {
+        if (pushUnique(composed, 'Core.MSPointer')) {
+            addEvent(ChartClass, 'beforeRender', function () {
+                this.pointer = new MSPointer(this, this.options);
+            });
+        }
+    }
+    MSPointer.compose = compose;
+})(MSPointer || (MSPointer = {}));
 /* *
  *
  *  Default Export
  *
  * */
+/** @internal */
 export default MSPointer;

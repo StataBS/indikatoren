@@ -1,14 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Pawe Dalek
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/vwap",["highcharts","highcharts/modules/stock"],function(d){a(d);a.Highcharts=d;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function d(a,e,d,h){a.hasOwnProperty(e)||(a[e]=h.apply(null,d))}a=a?a._modules:{};d(a,"Stock/Indicators/VWAP/VWAPIndicator.js",[a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],
-function(a,e){var d=this&&this.__extends||function(){var a=function(c,b){a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,b){a.__proto__=b}||function(a,b){for(var c in b)b.hasOwnProperty(c)&&(a[c]=b[c])};return a(c,b)};return function(c,b){function d(){this.constructor=c}a(c,b);c.prototype=null===b?Object.create(b):(d.prototype=b.prototype,new d)}}(),h=a.seriesTypes.sma,u=e.error,v=e.isArray,w=e.merge;e=function(a){function c(){var b=null!==a&&a.apply(this,arguments)||this;b.data=
-void 0;b.points=void 0;b.options=void 0;return b}d(c,a);c.prototype.getValues=function(a,c){var b=a.chart,d=a.xData;a=a.yData;var e=c.period,n=!0,g;if(g=b.get(c.volumeSeriesID))return v(a[0])||(n=!1),this.calculateVWAPValues(n,d,a,g,e);u("Series "+c.volumeSeriesID+" not found! Check `volumeSeriesID`.",!0,b)};c.prototype.calculateVWAPValues=function(a,c,d,e,h){var b=e.yData,g=e.xData.length,f=c.length;e=[];var p=[],q=[],r=[],m=[],k;g=f<=g?f:g;for(k=f=0;f<g;f++){var l=a?(d[f][1]+d[f][2]+d[f][3])/3:
-d[f];l*=b[f];l=k?e[f-1]+l:l;var t=k?p[f-1]+b[f]:b[f];e.push(l);p.push(t);m.push([c[f],l/t]);q.push(m[f][0]);r.push(m[f][1]);k++;k===h&&(k=0)}return{values:m,xData:q,yData:r}};c.defaultOptions=w(h.defaultOptions,{params:{index:void 0,period:30,volumeSeriesID:"volume"}});return c}(h);a.registerSeriesType("vwap",e);"";return e});d(a,"masters/indicators/vwap.src.js",[],function(){})});
-//# sourceMappingURL=vwap.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/vwap
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Paweł Dalek
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/vwap",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/vwap"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},s={};function a(e){var t=s[e];if(void 0!==t)return t.exports;var i=s[e]={exports:{}};return r[e](i,i.exports,a),i.exports}a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var r in t)a.o(t,r)&&!a.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var i={};a.d(i,{default:()=>g});var o=a(944),u=a.n(o),h=a(512),n=a.n(h);let{sma:p}=n().seriesTypes,{error:l,isArray:c,merge:d}=u();class f extends p{getValues(e,t){let r=e.chart,s=e.xData,a=e.yData,i=t.period,o=!0,u;return(u=r.get(t.volumeSeriesID))?(c(a[0])||(o=!1),this.calculateVWAPValues(o,s,a,u,i)):void l("Series "+t.volumeSeriesID+" not found! Check `volumeSeriesID`.",!0,r)}calculateVWAPValues(e,t,r,s,a){let i,o,u,h,n,p,l=s.getColumn("y"),c=l.length,d=t.length,f=[],g=[],v=[],y=[],x=[];for(n=0,i=d<=c?d:c,p=0;n<i;n++)o=(e?(r[n][1]+r[n][2]+r[n][3])/3:r[n])*l[n],u=p?f[n-1]+o:o,h=p?g[n-1]+l[n]:l[n],f.push(u),g.push(h),x.push([t[n],u/h]),v.push(x[n][0]),y.push(x[n][1]),++p===a&&(p=0);return{values:x,xData:v,yData:y}}}f.defaultOptions=d(p.defaultOptions,{params:{index:void 0,period:30,volumeSeriesID:"volume"}}),n().registerSeriesType("vwap",f);let g=u();return i.default})());

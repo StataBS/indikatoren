@@ -16,13 +16,13 @@
               }              
             }
         },
-        "borderColor": "#fbfbfb",
-        "backgroundColor": "#fbfbfb",
+        "borderColor": "#ffffff",
+        "backgroundColor": "#ffffff",
         "width": 485,
         "height": 415,
         "spacingBottom": 30,
         "style": {
-			"fontFamily": "Arial"
+			"fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
         },
         "zoomType": "xy",
         "type": "column"

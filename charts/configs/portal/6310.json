@@ -89,7 +89,7 @@
   },
   "chart": {
     "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "backgroundColor": "#ffffff",
     "width": 320,
     "height": 221,
     "spacing": [

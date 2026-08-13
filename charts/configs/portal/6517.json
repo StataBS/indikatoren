@@ -86,6 +86,7 @@
           198.74866
         ]
       ],
+      "pointStart": 0,
       "name": "Stimmt genau",
       "turboThreshold": 0
     },
@@ -175,6 +176,7 @@
           638.46621
         ]
       ],
+      "pointStart": 0,
       "name": "Stimmt eher",
       "turboThreshold": 0
     },
@@ -264,6 +266,7 @@
           348.61181
         ]
       ],
+      "pointStart": 0,
       "name": "Stimmt eher nicht",
       "turboThreshold": 0
     },
@@ -353,6 +356,7 @@
           110.84451
         ]
       ],
+      "pointStart": 0,
       "name": "Stimmt gar nicht",
       "turboThreshold": 0
     },
@@ -442,6 +446,7 @@
           432.20972
         ]
       ],
+      "pointStart": 0,
       "name": "Weiss nicht",
       "turboThreshold": 0
     },
@@ -531,6 +536,7 @@
           52.11909
         ]
       ],
+      "pointStart": 0,
       "name": "Keine Angabe",
       "turboThreshold": 0
     }
@@ -580,23 +586,46 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-            }
+      "load": function () {
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 513,
     "spacing": [
       10,
@@ -605,7 +634,7 @@
       10
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "column",
@@ -632,7 +661,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },

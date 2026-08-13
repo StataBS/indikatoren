@@ -1,56 +1,42 @@
 /* *
  *
- *  (c) 2009-2021 Øystein Moseng
+ *  (c) 2009-2026 Highsoft AS
+ *  Author: Øystein Moseng
  *
  *  Accessibility component for chart zoom.
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
 import AccessibilityComponent from '../AccessibilityComponent.js';
-import ChartUtilities from '../Utils/ChartUtilities.js';
-var unhideChartElementFromAT = ChartUtilities.unhideChartElementFromAT;
-import H from '../../Core/Globals.js';
-var noop = H.noop;
-import HTMLUtilities from '../Utils/HTMLUtilities.js';
-var removeElement = HTMLUtilities.removeElement, setElAttrs = HTMLUtilities.setElAttrs;
+import CU from '../Utils/ChartUtilities.js';
+const { unhideChartElementFromAT } = CU;
+import HU from '../Utils/HTMLUtilities.js';
+const { getFakeMouseEvent } = HU;
 import KeyboardNavigationHandler from '../KeyboardNavigationHandler.js';
 import U from '../../Core/Utilities.js';
-var extend = U.extend, pick = U.pick;
-/* eslint-disable no-invalid-this, valid-jsdoc */
+const { attr, pick } = U;
+/* *
+ *
+ *  Functions
+ *
+ * */
 /**
  * @private
  */
 function chartHasMapZoom(chart) {
-    return !!(chart.mapZoom &&
-        chart.mapNavButtons &&
-        chart.mapNavButtons.length);
+    return !!((chart.mapView) &&
+        chart.mapNavigation &&
+        chart.mapNavigation.navButtons.length);
 }
-/**
- * Pan along axis in a direction (1 or -1), optionally with a defined
- * granularity (number of steps it takes to walk across current view)
+/* *
  *
- * @private
- * @function Highcharts.Axis#panStep
+ *  Class
  *
- * @param {number} direction
- * @param {number} [granularity]
- */
-H.Axis.prototype.panStep = function (direction, granularity) {
-    var gran = granularity || 3, extremes = this.getExtremes(), step = (extremes.max - extremes.min) / gran * direction, newMax = extremes.max + step, newMin = extremes.min + step, size = newMax - newMin;
-    if (direction < 0 && newMin < extremes.dataMin) {
-        newMin = extremes.dataMin;
-        newMax = newMin + size;
-    }
-    else if (direction > 0 && newMax > extremes.dataMax) {
-        newMax = extremes.dataMax;
-        newMin = newMax - size;
-    }
-    this.setExtremes(newMin, newMax);
-};
+ * */
 /**
  * The ZoomComponent class
  *
@@ -58,92 +44,109 @@ H.Axis.prototype.panStep = function (direction, granularity) {
  * @class
  * @name Highcharts.ZoomComponent
  */
-var ZoomComponent = noop;
-ZoomComponent.prototype = new AccessibilityComponent();
-extend(ZoomComponent.prototype, /** @lends Highcharts.ZoomComponent */ {
+class ZoomComponent extends AccessibilityComponent {
+    constructor() {
+        /* *
+         *
+         *  Properties
+         *
+         * */
+        super(...arguments);
+        this.focusedMapNavButtonIx = -1;
+    }
+    /* *
+     *
+     *  Functions
+     *
+     * */
     /**
      * Initialize the component
      */
-    init: function () {
-        var component = this, chart = this.chart;
+    init() {
+        const component = this, chart = this.chart;
+        this.proxyProvider.addGroup('zoom', 'div');
         [
-            'afterShowResetZoom', 'afterDrilldown', 'drillupall'
-        ].forEach(function (eventType) {
+            'afterShowResetZoom', 'afterApplyDrilldown', 'drillupall'
+        ].forEach((eventType) => {
             component.addEvent(chart, eventType, function () {
                 component.updateProxyOverlays();
             });
         });
-    },
+    }
     /**
      * Called when chart is updated
      */
-    onChartUpdate: function () {
-        var chart = this.chart, component = this;
+    onChartUpdate() {
+        const chart = this.chart, component = this;
         // Make map zoom buttons accessible
-        if (chart.mapNavButtons) {
-            chart.mapNavButtons.forEach(function (button, i) {
+        if (chart.mapNavigation) {
+            chart.mapNavigation.navButtons.forEach((button, i) => {
                 unhideChartElementFromAT(chart, button.element);
                 component.setMapNavButtonAttrs(button.element, 'accessibility.zoom.mapZoom' + (i ? 'Out' : 'In'));
             });
         }
-    },
+    }
     /**
      * @private
      * @param {Highcharts.HTMLDOMElement|Highcharts.SVGDOMElement} button
      * @param {string} labelFormatKey
      */
-    setMapNavButtonAttrs: function (button, labelFormatKey) {
-        var chart = this.chart, label = chart.langFormat(labelFormatKey, { chart: chart });
-        setElAttrs(button, {
+    setMapNavButtonAttrs(button, labelFormatKey) {
+        const chart = this.chart, label = chart.langFormat(labelFormatKey, { chart: chart });
+        attr(button, {
             tabindex: -1,
             role: 'button',
             'aria-label': label
         });
-    },
+    }
     /**
      * Update the proxy overlays on every new render to ensure positions are
      * correct.
      */
-    onChartRender: function () {
+    onChartRender() {
         this.updateProxyOverlays();
-    },
+    }
     /**
      * Update proxy overlays, recreating the buttons.
      */
-    updateProxyOverlays: function () {
-        var chart = this.chart;
+    updateProxyOverlays() {
+        const chart = this.chart;
         // Always start with a clean slate
-        removeElement(this.drillUpProxyGroup);
-        removeElement(this.resetZoomProxyGroup);
+        this.proxyProvider.clearGroup('zoom');
         if (chart.resetZoomButton) {
-            this.recreateProxyButtonAndGroup(chart.resetZoomButton, 'resetZoomProxyButton', 'resetZoomProxyGroup', chart.langFormat('accessibility.zoom.resetZoomButton', { chart: chart }));
+            this.createZoomProxyButton(chart.resetZoomButton, 'resetZoomProxyButton', chart.langFormat('accessibility.zoom.resetZoomButton', { chart: chart }));
         }
-        if (chart.drillUpButton) {
-            this.recreateProxyButtonAndGroup(chart.drillUpButton, 'drillUpProxyButton', 'drillUpProxyGroup', chart.langFormat('accessibility.drillUpButton', {
+        if (chart.drillUpButton &&
+            chart.breadcrumbs &&
+            chart.breadcrumbs.list) {
+            const lastBreadcrumb = chart.breadcrumbs.list[chart.breadcrumbs.list.length - 1];
+            this.createZoomProxyButton(chart.drillUpButton, 'drillUpProxyButton', chart.langFormat('accessibility.drillUpButton', {
                 chart: chart,
-                buttonText: chart.getDrilldownBackText()
+                buttonText: chart.breadcrumbs.getButtonText(lastBreadcrumb)
             }));
         }
-    },
+    }
     /**
      * @private
      * @param {Highcharts.SVGElement} buttonEl
      * @param {string} buttonProp
-     * @param {string} groupProp
      * @param {string} label
      */
-    recreateProxyButtonAndGroup: function (buttonEl, buttonProp, groupProp, label) {
-        removeElement(this[groupProp]);
-        this[groupProp] = this.addProxyGroup();
-        this[buttonProp] = this.createProxyButton(buttonEl, this[groupProp], { 'aria-label': label, tabindex: -1 });
-    },
+    createZoomProxyButton(buttonEl, buttonProp, label) {
+        this[buttonProp] = this.proxyProvider.addProxyElement('zoom', {
+            click: buttonEl
+        }, 'button', {
+            'aria-label': label,
+            tabindex: -1
+        });
+    }
     /**
      * Get keyboard navigation handler for map zoom.
      * @private
      * @return {Highcharts.KeyboardNavigationHandler} The module object
      */
-    getMapZoomNavigation: function () {
-        var keys = this.keyCodes, chart = this.chart, component = this;
+    getMapZoomNavigation() {
+        const keys = this.keyCodes, chart = this.chart, component = this;
         return new KeyboardNavigationHandler(chart, {
             keyCodeMap: [
                 [
@@ -172,62 +175,79 @@ extend(ZoomComponent.prototype, /** @lends Highcharts.ZoomComponent */ {
                 return component.onMapNavInit(direction);
             }
         });
-    },
+    }
     /**
+     * Arrow key panning for maps.
      * @private
-     * @param {Highcharts.KeyboardNavigationHandler} keyboardNavigationHandler
-     * @param {number} keyCode
+     * @param {Highcharts.KeyboardNavigationHandler} keyboardNavigationHandler The handler context.
+     * @param {number} keyCode Key pressed.
      * @return {number} Response code
      */
-    onMapKbdArrow: function (keyboardNavigationHandler, keyCode) {
-        var keys = this.keyCodes, panAxis = (keyCode === keys.up || keyCode === keys.down) ?
-            'yAxis' : 'xAxis', stepDirection = (keyCode === keys.left || keyCode === keys.up) ?
-            -1 : 1;
-        this.chart[panAxis][0].panStep(stepDirection);
+    onMapKbdArrow(keyboardNavigationHandler, keyCode) {
+        const chart = this.chart, keys = this.keyCodes, target = chart.container, isY = keyCode === keys.up || keyCode === keys.down, stepDirection = (keyCode === keys.left || keyCode === keys.up) ?
+            1 : -1, granularity = 10, diff = (isY ? chart.plotHeight : chart.plotWidth) /
+            granularity * stepDirection, 
+        // Randomize since same mousedown coords twice is ignored in MapView
+        r = Math.random() * 10, startPos = {
+            x: target.offsetLeft + chart.plotLeft + chart.plotWidth / 2 + r,
+            y: target.offsetTop + chart.plotTop + chart.plotHeight / 2 + r
+        }, endPos = isY ? { x: startPos.x, y: startPos.y + diff } :
+            { x: startPos.x + diff, y: startPos.y };
+        [
+            getFakeMouseEvent('mousedown', startPos),
+            getFakeMouseEvent('mousemove', endPos),
+            getFakeMouseEvent('mouseup', endPos)
+        ].forEach((e) => target.dispatchEvent(e));
         return keyboardNavigationHandler.response.success;
-    },
+    }
     /**
      * @private
      * @param {Highcharts.KeyboardNavigationHandler} keyboardNavigationHandler
      * @param {global.KeyboardEvent} event
      * @return {number} Response code
      */
-    onMapKbdTab: function (keyboardNavigationHandler, event) {
-        var button, chart = this.chart, response = keyboardNavigationHandler.response, isBackwards = event.shiftKey, isMoveOutOfRange = isBackwards && !this.focusedMapNavButtonIx ||
+    onMapKbdTab(keyboardNavigationHandler, event) {
+        const chart = this.chart;
+        const response = keyboardNavigationHandler.response;
+        const isBackwards = event.shiftKey;
+        const isMoveOutOfRange = isBackwards && !this.focusedMapNavButtonIx ||
             !isBackwards && this.focusedMapNavButtonIx;
         // Deselect old
-        chart.mapNavButtons[this.focusedMapNavButtonIx].setState(0);
+        chart.mapNavigation.navButtons[this.focusedMapNavButtonIx].setState(0);
         if (isMoveOutOfRange) {
-            chart.mapZoom(); // Reset zoom
+            if (chart.mapView) {
+                chart.mapView.zoomBy(); // Reset zoom
+            }
             return response[isBackwards ? 'prev' : 'next'];
         }
         // Select other button
         this.focusedMapNavButtonIx += isBackwards ? -1 : 1;
-        button = chart.mapNavButtons[this.focusedMapNavButtonIx];
+        const button = chart.mapNavigation.navButtons[this.focusedMapNavButtonIx];
         chart.setFocusToElement(button.box, button.element);
         button.setState(2);
         return response.success;
-    },
+    }
     /**
+     * Called on map button click.
      * @private
-     * @param {Highcharts.KeyboardNavigationHandler} keyboardNavigationHandler
+     * @param {Highcharts.KeyboardNavigationHandler} keyboardNavigationHandler The handler context object
      * @return {number} Response code
      */
-    onMapKbdClick: function (keyboardNavigationHandler) {
-        this.fakeClickEvent(this.chart.mapNavButtons[this.focusedMapNavButtonIx]
-            .element);
+    onMapKbdClick(keyboardNavigationHandler) {
+        const el = this.chart.mapNavigation.navButtons[this.focusedMapNavButtonIx].element;
+        this.fakeClickEvent(el);
         return keyboardNavigationHandler.response.success;
-    },
+    }
     /**
      * @private
      * @param {number} direction
      */
-    onMapNavInit: function (direction) {
-        var chart = this.chart, zoomIn = chart.mapNavButtons[0], zoomOut = chart.mapNavButtons[1], initialButton = direction > 0 ? zoomIn : zoomOut;
+    onMapNavInit(direction) {
+        const chart = this.chart, zoomIn = chart.mapNavigation.navButtons[0], zoomOut = chart.mapNavigation.navButtons[1], initialButton = direction > 0 ? zoomIn : zoomOut;
         chart.setFocusToElement(initialButton.box, initialButton.element);
         initialButton.setState(2);
         this.focusedMapNavButtonIx = direction > 0 ? 0 : 1;
-    },
+    }
     /**
      * Get keyboard navigation handler for a simple chart button. Provide the
      * button reference for the chart, and a function to call on click.
@@ -236,15 +256,16 @@ extend(ZoomComponent.prototype, /** @lends Highcharts.ZoomComponent */ {
      * @param {string} buttonProp The property on chart referencing the button.
      * @return {Highcharts.KeyboardNavigationHandler} The module object
      */
-    simpleButtonNavigation: function (buttonProp, proxyProp, onClick) {
-        var keys = this.keyCodes, component = this, chart = this.chart;
+    simpleButtonNavigation(buttonProp, proxyProp, onClick) {
+        const keys = this.keyCodes, component = this, chart = this.chart;
         return new KeyboardNavigationHandler(chart, {
             keyCodeMap: [
                 [
                     [keys.tab, keys.up, keys.down, keys.left, keys.right],
                     function (keyCode, e) {
-                        var isBackwards = keyCode === keys.tab && e.shiftKey ||
-                            keyCode === keys.left || keyCode === keys.up;
+                        const isBackwards = (keyCode === keys.tab && e.shiftKey ||
+                            keyCode === keys.left ||
+                            keyCode === keys.up);
                         // Arrow/tab => just move
                         return this.response[isBackwards ? 'prev' : 'next'];
                     }
@@ -252,28 +273,28 @@ extend(ZoomComponent.prototype, /** @lends Highcharts.ZoomComponent */ {
                 [
                     [keys.space, keys.enter],
                     function () {
-                        var res = onClick(this, chart);
+                        const res = onClick(this, chart);
                         return pick(res, this.response.success);
                     }
                 ]
             ],
             validate: function () {
-                var hasButton = (chart[buttonProp] &&
+                const hasButton = (chart[buttonProp] &&
                     chart[buttonProp].box &&
-                    component[proxyProp]);
+                    component[proxyProp].innerElement);
                 return hasButton;
             },
             init: function () {
-                chart.setFocusToElement(chart[buttonProp].box, component[proxyProp]);
+                chart.setFocusToElement(chart[buttonProp].box, component[proxyProp].innerElement);
             }
         });
-    },
+    }
     /**
      * Get keyboard navigation handlers for this component.
      * @return {Array<Highcharts.KeyboardNavigationHandler>}
      *         List of module objects
      */
-    getKeyboardNavigation: function () {
+    getKeyboardNavigation() {
         return [
             this.simpleButtonNavigation('resetZoomButton', 'resetZoomProxyButton', function (_handler, chart) {
                 chart.zoomOut();
@@ -285,5 +306,10 @@ extend(ZoomComponent.prototype, /** @lends Highcharts.ZoomComponent */ {
             this.getMapZoomNavigation()
         ];
     }
-});
+}
+/* *
+ *
+ *  Default Export
+ *
+ * */
 export default ZoomComponent;

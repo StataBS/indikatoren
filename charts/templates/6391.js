@@ -64,7 +64,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -150,8 +150,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#ffffff');
+	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#ffffff');
 
 	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
 	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 355, 210);

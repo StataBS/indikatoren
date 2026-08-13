@@ -111,7 +111,8 @@
           "Wert": 0.0257474605
         }
       ],
-      "name": "Wert",
+      "pointStart": 0,
+      "name": "Rang",
       "turboThreshold": 0
     }
   ],
@@ -142,53 +143,50 @@
   "chart": {
     "events": {
       "load": function () {
-          this.credits.element.onclick = function () {};
-          //draw spider backgrounds
-          var top = -Math.PI / 2;
-          var endPurple = top + ((2 * Math.PI) / 17) * 7;
-          var endGreen = endPurple + ((2 * Math.PI) / 17) * 5;
-          var endBlue = top;
-          var centerX = 242.5;
-          var centerY = 207;
-          var radius = 142;
-
-          this.renderer
-            .arc(centerX, centerY, radius, 0, top, endPurple)
-            .attr({
-              fill: "#923F8D",
-              stroke: "#923F8D",
-              "stroke-width": 0,
-              "fill-opacity": 0.5,
-            })
-            .add();
-          this.renderer
-            .arc(centerX, centerY, radius, 0, endPurple, endGreen)
-            .attr({
-              fill: "#68AB2B",
-              stroke: "#68AB2B",
-              "stroke-width": 0,
-              "fill-opacity": 0.5,
-            })
-            .add();
-          this.renderer
-            .arc(centerX, centerY, radius, 0, endGreen, endBlue)
-            .attr({
-              fill: "#689199",
-              stroke: "#689199",
-              "stroke-width": 0,
-              "fill-opacity": 0.5,
-            })
-            .add();
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
     "marginLeft": 20,
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "type": "area",
@@ -222,7 +220,7 @@
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "align": "left",
@@ -232,7 +230,7 @@
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
     "text": "Stand 2016",

@@ -1,17 +1,26 @@
 /* *
  *
- *  Copyright (c) 2019-2021 Highsoft AS
+ *  (c) 2019-2026 Highsoft AS
  *
  *  Boost module: stripped-down renderer for higher performance
  *
  *  License: highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
-// These are the series we allow boosting for.
-var boostables = [
+'use strict';
+/* *
+ *
+ *  Constants
+ *
+ * */
+/**
+ * These are the series we allow boosting for.
+ * @internal
+ */
+const Boostables = [
     'area',
+    'areaspline',
     'arearange',
     'column',
     'columnrange',
@@ -22,4 +31,10 @@ var boostables = [
     'bubble',
     'treemap'
 ];
-export default boostables;
+/* *
+ *
+ *  Default Export
+ *
+ * */
+/** @internal */
+export default Boostables;

@@ -23,6 +23,7 @@
           0.32726
         ]
       ],
+      "pointStart": 2021,
       "name": "PW pro Haushalt Pestalozzi"
     },
     {
@@ -48,6 +49,7 @@
           175.415
         ]
       ],
+      "pointStart": 2021,
       "name": "Motorisierungsgrad Pestalozzi"
     },
     {
@@ -73,6 +75,7 @@
           0.40577
         ]
       ],
+      "pointStart": 2021,
       "name": "PW pro Haushalt Kannenfeld"
     },
     {
@@ -98,6 +101,7 @@
           204.039
         ]
       ],
+      "pointStart": 2021,
       "name": "Motorisierungsgrad Kannenfeld"
     },
     {
@@ -123,6 +127,7 @@
           0.35546
         ]
       ],
+      "pointStart": 2021,
       "name": "PW pro Haushalt Landskron"
     },
     {
@@ -148,6 +153,7 @@
           179.127
         ]
       ],
+      "pointStart": 2021,
       "name": "Motorisierungsgrad Landskron"
     },
     {
@@ -173,6 +179,7 @@
           0.38021
         ]
       ],
+      "pointStart": 2021,
       "name": "PW pro Haushalt Lysbüchel"
     },
     {
@@ -198,6 +205,7 @@
           169.77
         ]
       ],
+      "pointStart": 2021,
       "name": "Motorisierungsgrad Lysbüchel"
     },
     {
@@ -223,6 +231,7 @@
           0.56583
         ]
       ],
+      "pointStart": 2021,
       "name": "PW pro Haushalt Friedmatt"
     },
     {
@@ -248,6 +257,7 @@
           223.12
         ]
       ],
+      "pointStart": 2021,
       "name": "Motorisierungsgrad Friedmatt"
     },
     {
@@ -273,6 +283,7 @@
           0.44214
         ]
       ],
+      "pointStart": 2021,
       "name": "PW pro Haushalt Basel"
     },
     {
@@ -298,27 +309,78 @@
           223.174
         ]
       ],
+      "pointStart": 2021,
       "name": "Motorisierungsgrad Basel"
     }
   ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickInterval": 1
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 65,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          //move legend title
-          var title = this.legend.title.translate(-113, 75);
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "renderTo": "container-12650"
   },
@@ -348,24 +410,6 @@
       "color": "#000000"
     },
     "useHTML": true
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -445,37 +489,45 @@
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

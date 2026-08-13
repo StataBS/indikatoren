@@ -1,38 +1,66 @@
 /* *
  *
- *  (c) 2010-2021 Highsoft AS
+ *  (c) 2010-2026 Highsoft AS
  *
  *  Author: Øystein Moseng
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
  *  Accessible high-contrast theme for Highcharts. Considers colorblindness and
  *  monochrome rendering.
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-import H from '../../Core/Globals.js';
-import D from '../../Core/DefaultOptions.js';
-var setOptions = D.setOptions;
-H.theme = {
-    colors: ['#FDD089', '#FF7F79', '#A0446E', '#251535'],
-    colorAxis: {
-        maxColor: '#60042E',
-        minColor: '#FDD089'
-    },
-    plotOptions: {
-        map: {
-            nullColor: '#fefefc'
+import D from '../../Core/Defaults.js';
+const { setOptions } = D;
+/* *
+ *
+ *  Theme
+ *
+ * */
+var SunsetTheme;
+(function (SunsetTheme) {
+    /* *
+     *
+     *  Constants
+     *
+     * */
+    SunsetTheme.options = {
+        colors: ['#FDD089', '#FF7F79', '#A0446E', '#251535'],
+        colorAxis: {
+            maxColor: '#60042E',
+            minColor: '#FDD089'
+        },
+        plotOptions: {
+            map: {
+                nullColor: '#fefefc'
+            }
+        },
+        navigator: {
+            series: {
+                color: '#FF7F79',
+                lineColor: '#A0446E'
+            }
         }
-    },
-    navigator: {
-        series: {
-            color: '#FF7F79',
-            lineColor: '#A0446E'
-        }
+    };
+    /* *
+     *
+     *  Functions
+     *
+     * */
+    /**
+     * Apply the theme.
+     */
+    function apply() {
+        setOptions(SunsetTheme.options);
     }
-};
-// Apply the theme
-setOptions(H.theme);
+    SunsetTheme.apply = apply;
+})(SunsetTheme || (SunsetTheme = {}));
+/* *
+ *
+ *  Default Export
+ *
+ * */
+export default SunsetTheme;

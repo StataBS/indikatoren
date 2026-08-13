@@ -1,14 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Pawe Fus
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/rsi",["highcharts","highcharts/modules/stock"],function(d){a(d);a.Highcharts=d;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function d(a,f,d,k){a.hasOwnProperty(f)||(a[f]=k.apply(null,d))}a=a?a._modules:{};d(a,"Stock/Indicators/RSI/RSIIndicator.js",[a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],
-function(a,f){var d=this&&this.__extends||function(){var a=function(e,b){a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,b){a.__proto__=b}||function(a,b){for(var c in b)b.hasOwnProperty(c)&&(a[c]=b[c])};return a(e,b)};return function(e,b){function c(){this.constructor=e}a(e,b);e.prototype=null===b?Object.create(b):(c.prototype=b.prototype,new c)}}(),k=a.seriesTypes.sma,t=f.isNumber,u=f.merge;f=function(a){function e(){var b=null!==a&&a.apply(this,arguments)||this;b.data=void 0;
-b.points=void 0;b.options=void 0;return b}d(e,a);e.prototype.getValues=function(a,c){var b=c.period,e=a.xData,g=a.yData;a=g?g.length:0;var d=c.decimals,h=1,f=[],k=[],r=[],q=c.index,m=c=0,n;if(!(e.length<b)){if(t(g[0]))var p=g;else q=Math.min(q,g[0].length-1),p=g.map(function(a){return a[q]});for(;h<b;){var l=parseFloat((p[h]-p[h-1]).toFixed(d));0<l?c+=l:m+=Math.abs(l);h++}g=parseFloat((c/(b-1)).toFixed(d));for(n=parseFloat((m/(b-1)).toFixed(d));h<a;h++)l=parseFloat((p[h]-p[h-1]).toFixed(d)),0<l?(c=
-l,m=0):(c=0,m=Math.abs(l)),g=parseFloat(((g*(b-1)+c)/b).toFixed(d)),n=parseFloat(((n*(b-1)+m)/b).toFixed(d)),c=0===n?100:0===g?0:parseFloat((100-100/(1+g/n)).toFixed(d)),f.push([e[h],c]),k.push(e[h]),r.push(c);return{values:f,xData:k,yData:r}}};e.defaultOptions=u(k.defaultOptions,{params:{decimals:4,index:3}});return e}(k);a.registerSeriesType("rsi",f);"";return f});d(a,"masters/indicators/rsi.src.js",[],function(){})});
-//# sourceMappingURL=rsi.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/rsi
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Paweł Fus
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/rsi",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/rsi"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},s={};function i(e){var t=s[e];if(void 0!==t)return t.exports;var a=s[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var a={};i.d(a,{default:()=>g});var o=i(944),n=i.n(o),h=i(512),p=i.n(h);let{sma:c}=p().seriesTypes,{isNumber:d,merge:u}=n();function f(e,t){return parseFloat(e.toFixed(t))}class l extends c{getValues(e,t){let r=t.period,s=e.xData,i=e.yData,a=i?i.length:0,o=t.decimals,n=[],h=[],p=[],c=0,u=0,l=t.index,g=1,x,y,m,v,b,H;if(!(s.length<r)){for(d(i[0])?H=i:(l=Math.min(l,i[0].length-1),H=i.map(e=>e[l]));g<r;)(y=f(H[g]-H[g-1],o))>0?c+=y:u+=Math.abs(y),g++;for(m=f(c/(r-1),o),v=f(u/(r-1),o),b=g;b<a;b++)(y=f(H[b]-H[b-1],o))>0?(c=y,u=0):(c=0,u=Math.abs(y)),m=f((m*(r-1)+c)/r,o),x=0===(v=f((v*(r-1)+u)/r,o))?100:0===m?0:f(100-100/(1+m/v),o),n.push([s[b],x]),h.push(s[b]),p.push(x);return{values:n,xData:h,yData:p}}}}l.defaultOptions=u(c.defaultOptions,{params:{decimals:4,index:3}}),p().registerSeriesType("rsi",l);let g=n();return a.default})());

@@ -1,33 +1,20 @@
 /* *
- *  (c) 2010-2021 Rafal Sebestjanski
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Rafal Sebestjanski
  *
  *  Directional Movement Index (DMI) indicator for Highcharts Stock
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-import MultipleLinesMixin from '../../../Mixins/MultipleLines.js';
-import palette from '../../../Core/Color/Palette.js';
+import MultipleLinesComposition from '../MultipleLinesComposition.js';
 import SeriesRegistry from '../../../Core/Series/SeriesRegistry.js';
-var SMAIndicator = SeriesRegistry.seriesTypes.sma;
+const { sma: SMAIndicator } = SeriesRegistry.seriesTypes;
 import U from '../../../Core/Utilities.js';
-var correctFloat = U.correctFloat, extend = U.extend, isArray = U.isArray, merge = U.merge;
+const { correctFloat, extend, isArray, merge } = U;
 /* *
  *
  *  Class
@@ -42,49 +29,45 @@ var correctFloat = U.correctFloat, extend = U.extend, isArray = U.isArray, merge
  *
  * @augments Highcharts.Series
  */
-var DMIIndicator = /** @class */ (function (_super) {
-    __extends(DMIIndicator, _super);
-    function DMIIndicator() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
+class DMIIndicator extends SMAIndicator {
     /* *
      *
      *  Functions
      *
      * */
-    DMIIndicator.prototype.calculateDM = function (yVal, i, isPositiveDM) {
-        var currentHigh = yVal[i][1], currentLow = yVal[i][2], previousHigh = yVal[i - 1][1], previousLow = yVal[i - 1][2];
-        var DM;
+    calculateDM(yVal, i, isPositiveDM) {
+        const currentHigh = yVal[i][1], currentLow = yVal[i][2], previousHigh = yVal[i - 1][1], previousLow = yVal[i - 1][2];
+        let DM;
         if (currentHigh - previousHigh > previousLow - currentLow) {
-            // for +DM
+            // For +DM
             DM = isPositiveDM ? Math.max(currentHigh - previousHigh, 0) : 0;
         }
         else {
-            // for -DM
+            // For -DM
             DM = !isPositiveDM ? Math.max(previousLow - currentLow, 0) : 0;
         }
         return correctFloat(DM);
-    };
-    DMIIndicator.prototype.calculateDI = function (smoothedDM, tr) {
+    }
+    calculateDI(smoothedDM, tr) {
         return smoothedDM / tr * 100;
-    };
-    DMIIndicator.prototype.calculateDX = function (plusDI, minusDI) {
+    }
+    calculateDX(plusDI, minusDI) {
         return correctFloat(Math.abs(plusDI - minusDI) / Math.abs(plusDI + minusDI) * 100);
-    };
-    DMIIndicator.prototype.smoothValues = function (accumulatedValues, currentValue, period) {
+    }
+    smoothValues(accumulatedValues, currentValue, period) {
         return correctFloat(accumulatedValues - accumulatedValues / period + currentValue);
-    };
-    DMIIndicator.prototype.getTR = function (currentPoint, prevPoint) {
+    }
+    getTR(currentPoint, prevPoint) {
         return correctFloat(Math.max(
-        // currentHigh - currentLow
+        // `currentHigh - currentLow`
         currentPoint[1] - currentPoint[2], 
-        // currentHigh - previousClose
+        // `currentHigh - previousClose`
         !prevPoint ? 0 : Math.abs(currentPoint[1] - prevPoint[3]), 
-        // currentLow - previousClose
+        // `currentLow - previousClose`
         !prevPoint ? 0 : Math.abs(currentPoint[2] - prevPoint[3])));
-    };
-    DMIIndicator.prototype.getValues = function (series, params) {
-        var period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, DMI = [], xData = [], yData = [];
+    }
+    getValues(series, params) {
+        const period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, DMI = [], xData = [], yData = [];
         if (
         // Check period, if bigger than points length, skip
         (xVal.length <= period) ||
@@ -93,13 +76,13 @@ var DMIIndicator = /** @class */ (function (_super) {
             yVal[0].length !== 4) {
             return;
         }
-        var prevSmoothedPlusDM = 0, prevSmoothedMinusDM = 0, prevSmoothedTR = 0, i;
+        let prevSmoothedPlusDM = 0, prevSmoothedMinusDM = 0, prevSmoothedTR = 0, i;
         for (i = 1; i < yValLen; i++) {
-            var smoothedPlusDM = void 0, smoothedMinusDM = void 0, smoothedTR = void 0, plusDM = void 0, // +DM
-            minusDM = void 0, // -DM
-            TR = void 0, plusDI = void 0, // +DI
-            minusDI = void 0, // -DI
-            DX = void 0;
+            let smoothedPlusDM, smoothedMinusDM, smoothedTR, plusDM, // +DM
+            minusDM, // -DM
+            TR, plusDI, // +DI
+            minusDI, // -DI
+            DX;
             if (i <= period) {
                 plusDM = this.calculateDM(yVal, i, true);
                 minusDM = this.calculateDM(yVal, i);
@@ -145,100 +128,105 @@ var DMIIndicator = /** @class */ (function (_super) {
             xData: xData,
             yData: yData
         };
-    };
+    }
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+/**
+ * Directional Movement Index (DMI).
+ * This series requires the `linkedTo` option to be set and should
+ * be loaded after the `stock/indicators/indicators.js` file.
+ *
+ * @sample stock/indicators/dmi
+ *         DMI indicator
+ *
+ * @extends      plotOptions.sma
+ * @since 9.1.0
+ * @product      highstock
+ * @excluding    allAreas, colorAxis, joinBy, keys, navigatorOptions,
+ *               pointInterval, pointIntervalUnit, pointPlacement,
+ *               pointRange, pointStart, showInNavigator, stacking
+ * @requires     stock/indicators/indicators
+ * @requires     stock/indicators/dmi
+ * @optionparent plotOptions.dmi
+ */
+DMIIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
     /**
-     * Directional Movement Index (DMI).
-     * This series requires the `linkedTo` option to be set and should
-     * be loaded after the `stock/indicators/indicators.js` file.
-     *
-     * @sample stock/indicators/dmi
-     *         DMI indicator
-     *
-     * @extends      plotOptions.sma
-     * @since 9.1.0
-     * @product      highstock
-     * @excluding    allAreas, colorAxis, joinBy, keys, navigatorOptions,
-     *               pointInterval, pointIntervalUnit, pointPlacement,
-     *               pointRange, pointStart, showInNavigator, stacking
-     * @requires     stock/indicators/indicators
-     * @requires     stock/indicators/dmi
-     * @optionparent plotOptions.dmi
+     * @excluding index
      */
-    DMIIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
+    params: {
+        index: void 0 // Unused index, do not inherit (#15362)
+    },
+    marker: {
+        enabled: false
+    },
+    tooltip: {
+        pointFormat: '<span style="color: {point.color}">' +
+            '\u25CF</span><b> {series.name}</b><br/>' +
+            '<span style="color: {point.color}">DX</span>: {point.y}<br/>' +
+            '<span style="color: ' +
+            '{point.series.options.plusDILine.styles.lineColor}">' +
+            '+DI</span>: {point.plusDI}<br/>' +
+            '<span style="color: ' +
+            '{point.series.options.minusDILine.styles.lineColor}">' +
+            '-DI</span>: {point.minusDI}<br/>'
+    },
+    /**
+     * +DI line options.
+     */
+    plusDILine: {
         /**
-         * @excluding index
+         * Styles for the +DI line.
          */
-        params: {
-            index: void 0 // unused index, do not inherit (#15362)
-        },
-        marker: {
-            enabled: false
-        },
-        tooltip: {
-            pointFormat: '<span style="color: {point.color}">\u25CF</span><b> {series.name}</b><br/>' +
-                '<span style="color: {point.color}">DX</span>: {point.y}<br/>' +
-                '<span style="color: {point.series.options.plusDILine.styles.lineColor}">+DI</span>' +
-                ': {point.plusDI}<br/>' +
-                '<span style="color: {point.series.options.minusDILine.styles.lineColor}">-DI</span>' +
-                ': {point.minusDI}<br/>'
-        },
-        /**
-         * +DI line options.
-         */
-        plusDILine: {
+        styles: {
             /**
-             * Styles for the +DI line.
+             * Pixel width of the line.
              */
-            styles: {
-                /**
-                 * Pixel width of the line.
-                 */
-                lineWidth: 1,
-                /**
-                 * Color of the line.
-                 *
-                 * @type {Highcharts.ColorString}
-                 */
-                lineColor: palette.positiveColor // green-ish
-            }
-        },
-        /**
-         * -DI line options.
-         */
-        minusDILine: {
+            lineWidth: 1,
             /**
-             * Styles for the -DI line.
+             * Color of the line.
+             *
+             * @type {Highcharts.ColorString}
              */
-            styles: {
-                /**
-                 * Pixel width of the line.
-                 */
-                lineWidth: 1,
-                /**
-                 * Color of the line.
-                 *
-                 * @type {Highcharts.ColorString}
-                 */
-                lineColor: palette.negativeColor // red-ish
-            }
-        },
-        dataGrouping: {
-            approximation: 'averages'
+            lineColor: "#06b535" /* Palette.positiveColor */ // Green-ish
         }
-    });
-    return DMIIndicator;
-}(SMAIndicator));
+    },
+    /**
+     * -DI line options.
+     */
+    minusDILine: {
+        /**
+         * Styles for the -DI line.
+         */
+        styles: {
+            /**
+             * Pixel width of the line.
+             */
+            lineWidth: 1,
+            /**
+             * Color of the line.
+             *
+             * @type {Highcharts.ColorString}
+             */
+            lineColor: "#f21313" /* Palette.negativeColor */ // Red-ish
+        }
+    },
+    dataGrouping: {
+        approximation: 'averages'
+    }
+});
 extend(DMIIndicator.prototype, {
+    areaLinesNames: [],
     nameBase: 'DMI',
+    linesApiNames: ['plusDILine', 'minusDILine'],
     pointArrayMap: ['y', 'plusDI', 'minusDI'],
     parallelArrays: ['x', 'y', 'plusDI', 'minusDI'],
-    pointValKey: 'y',
-    linesApiNames: ['plusDILine', 'minusDILine'],
-    drawGraph: MultipleLinesMixin.drawGraph,
-    getTranslatedLinesNames: MultipleLinesMixin.getTranslatedLinesNames,
-    translate: MultipleLinesMixin.translate,
-    toYData: MultipleLinesMixin.toYData
+    pointValKey: 'y'
 });
+MultipleLinesComposition.compose(DMIIndicator);
 SeriesRegistry.registerSeriesType('dmi', DMIIndicator);
 /* *
  *
@@ -246,6 +234,11 @@ SeriesRegistry.registerSeriesType('dmi', DMIIndicator);
  *
  * */
 export default DMIIndicator;
+/* *
+ *
+ *  API Options
+ *
+ * */
 /**
  * The Directional Movement Index (DMI) indicator series.
  * If the [type](#series.dmi.type) option is not
@@ -261,4 +254,4 @@ export default DMIIndicator;
  * @requires  stock/indicators/dmi
  * @apioption series.dmi
  */
-''; // to include the above in the js output
+''; // To include the above in the js output
