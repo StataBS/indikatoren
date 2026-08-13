@@ -11,15 +11,15 @@
         ],
         [
           2012,
-          1497
+          1498
         ],
         [
           2013,
-          1717
+          1718
         ],
         [
           2014,
-          1865
+          1867
         ],
         [
           2015,
@@ -31,7 +31,7 @@
         ],
         [
           2017,
-          2225
+          2226
         ],
         [
           2018,
@@ -39,7 +39,7 @@
         ],
         [
           2019,
-          2289
+          2291
         ],
         [
           2020,
@@ -63,7 +63,7 @@
         ],
         [
           2025,
-          2052
+          2305
         ]
       ],
       "pointStart": 2011,
@@ -139,7 +139,7 @@
         ],
         [
           2025,
-          2
+          2.2
         ]
       ],
       "pointStart": 2011,
@@ -182,7 +182,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -216,7 +220,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "type": "line",
     "renderTo": "container-9292",
@@ -240,7 +258,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anzahl und Quote der Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Anzahl und Quote der Haushalte mit Mietbeiträgen"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -319,7 +337,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "tooltip": {
     "shared": false

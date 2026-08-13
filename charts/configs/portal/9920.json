@@ -164,7 +164,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -198,7 +202,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "alignTicks": false,
     "renderTo": "container-9920"
@@ -217,7 +237,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Mietverhältnisse mit Familienmietzinsbeiträgen und jährlicher Durchschnittsbeitrag in Franken"
+    "text": "Mietverhältnisse mit Mietbeiträgen und jährlicher Durchschnittsbeitrag in Franken"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -286,7 +306,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 12.6.2026"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Mietbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

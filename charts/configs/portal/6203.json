@@ -6569,83 +6569,83 @@
       "data": [
         [
           1,
-          0
+          0.1
         ],
         [
           2,
-          0.3
+          0.5
         ],
         [
           3,
-          0.9
-        ],
-        [
-          4,
-          1.9
-        ],
-        [
-          5,
-          1.4
-        ],
-        [
-          6,
-          2.1
-        ],
-        [
-          7,
-          1.3
-        ],
-        [
-          8,
-          1.3
-        ],
-        [
-          9,
-          1.3
-        ],
-        [
-          10,
-          2.7
-        ],
-        [
-          11,
-          2.9
-        ],
-        [
-          12,
           1.1
         ],
         [
-          13,
-          1.6
+          4,
+          2.1
         ],
         [
-          14,
-          0.8
+          5,
+          1.5
         ],
         [
-          15,
-          3.1
+          6,
+          2.3
         ],
         [
-          16,
-          3.4
+          7,
+          1.4
         ],
         [
-          17,
-          2.5
+          8,
+          1.5
         ],
         [
-          18,
+          9,
+          1.5
+        ],
+        [
+          10,
+          2.9
+        ],
+        [
+          11,
           3.2
         ],
         [
+          12,
+          1.6
+        ],
+        [
+          13,
+          1.8
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          3.3
+        ],
+        [
+          16,
+          3.9
+        ],
+        [
+          17,
+          2.9
+        ],
+        [
+          18,
+          3.6
+        ],
+        [
           19,
-          4.4
+          5.1
         ],
         [
           20,
-          1.5
+          1.6
         ],
         [
           30,
@@ -6659,83 +6659,83 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          -0.2
+          -0.1
         ],
         [
           "Vorstädte",
-          0
+          0.2
         ],
         [
           "Am Ring",
-          -0.1
+          0.2
         ],
         [
           "Breite",
-          -0.4
+          -0.2
         ],
         [
           "St. Alban",
-          -0.2
-        ],
-        [
-          "Gundeldingen",
-          -0.3
-        ],
-        [
-          "Bruderholz",
-          -0.2
-        ],
-        [
-          "Bachletten",
-          0
-        ],
-        [
-          "Gotthelf",
-          -0.5
-        ],
-        [
-          "Iselin",
-          -0.4
-        ],
-        [
-          "St. Johann",
-          -0.7
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.1
-        ],
-        [
-          "Clara",
-          -0.8
-        ],
-        [
-          "Wettstein",
-          -0.3
-        ],
-        [
-          "Hirzbrunnen",
           -0.1
         ],
         [
-          "Rosental",
-          -0.2
+          "Gundeldingen",
+          0
         ],
         [
-          "Matthäus",
+          "Bruderholz",
+          -0.1
+        ],
+        [
+          "Bachletten",
+          0.2
+        ],
+        [
+          "Gotthelf",
           -0.4
         ],
         [
-          "Klybeck",
-          -1
+          "Iselin",
+          -0.2
         ],
         [
-          "Kleinhüningen",
+          "St. Johann",
+          -0.4
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.7
+        ],
+        [
+          "Clara",
+          -0.6
+        ],
+        [
+          "Wettstein",
+          -0.1
+        ],
+        [
+          "Hirzbrunnen",
+          0.1
+        ],
+        [
+          "Rosental",
+          0.3
+        ],
+        [
+          "Matthäus",
+          0
+        ],
+        [
+          "Klybeck",
           -0.7
         ],
         [
+          "Kleinhüningen",
+          0
+        ],
+        [
           "Riehen",
-          -0.2
+          -0.1
         ],
         [
           "Bettingen",
@@ -7297,7 +7297,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Quote der Haushalte mit Familienmietzinsbeiträgen"
+    "text": "Quote der Haushalte mit Mietbeiträgen"
   },
   "subtitle": {
     "style": {
@@ -7322,7 +7322,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 29.4.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "colorAxis": {
     "min": 0,
