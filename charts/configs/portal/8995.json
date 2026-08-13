@@ -5304,7 +5304,7 @@
         ],
         [
           1779062400000,
-          2
+          3
         ],
         [
           1779667200000,
@@ -5320,7 +5320,7 @@
         ],
         [
           1781481600000,
-          3
+          4
         ],
         [
           1782086400000,
@@ -5336,7 +5336,7 @@
         ],
         [
           1783900800000,
-          null
+          4
         ],
         [
           1784505600000,
@@ -17491,7 +17491,7 @@
         ],
         [
           1771804800000,
-          35
+          36
         ],
         [
           1772409600000,
@@ -17543,7 +17543,7 @@
         ],
         [
           1779667200000,
-          28
+          29
         ],
         [
           1780272000000,
@@ -17551,7 +17551,7 @@
         ],
         [
           1780876800000,
-          25
+          26
         ],
         [
           1781481600000,
@@ -17571,7 +17571,7 @@
         ],
         [
           1783900800000,
-          null
+          21
         ],
         [
           1784505600000,
@@ -24488,7 +24488,7 @@
       }
     },
     "min": 1583107200000,
-    "max": 1788777142296,
+    "max": 1789629892282,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -24512,7 +24512,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -24546,7 +24550,13 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    //move legend title
+                    var title = this.legend.title;
+                    title.translate(-155, 23);
+                    //title.translate(-155, 37);
+                }
     },
     "renderTo": "container-8995"
   },
@@ -24659,7 +24669,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.8.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
