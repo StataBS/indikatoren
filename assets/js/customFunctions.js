@@ -10,9 +10,9 @@
  * http://jsfiddle.net/gh/get/jquery/1.7.2/highslide-software/highcharts.com/tree/master/samples/highcharts/studies/alignthresholds/
  */
 
-(function (H) {
+try { (function (H) {
   var Axis = H.Axis,
-    inArray = H.inArray,
+    inArray = H.inArray || function (elem, arr) { return arr.indexOf(elem); },
     wrap = H.wrap;
 
   wrap(Axis.prototype, 'adjustTickAmount', function (proceed) {
@@ -42,8 +42,9 @@
         this.tickAmount) {
 
         // Add tick positions to the top or bottom in order to align the threshold
-        // to the primary axis threshold
-        while (!isAligned(this)) {
+        // to the primary axis threshold (guard against infinite loop)
+        var safetyLimit = 20;
+        while (!isAligned(this) && safetyLimit-- > 0 && this.tickInterval > 0) {
 
           if (index < primaryIndex) {
             newTickPos = this.tickPositions[0] - this.tickInterval;
@@ -61,23 +62,22 @@
       proceed.call(this);
     }
   });
-}(Highcharts));
+}(Highcharts)); } catch(e) { console.warn('alignThresholds plugin failed:', e); }
 
 
 /* http://jsfiddle.net/zmktekak/14/ */
 
-function justifyColumns(chart) {
+window.justifyColumns = function justifyColumns(chart) {
     var categoriesNum = (1 + chart.xAxis[0].max - chart.xAxis[0].min),
       categoriesWidth = chart.plotSizeX / categoriesNum,
-      each = Highcharts.each,
       sum, categories = chart.xAxis[0].names,
       number;
-  
+
     for (var i = 0; i < categories.length; i++) {
       sum = 0;
-      each(chart.series, function (p, k) {
+      chart.series.forEach(function (p, k) {
         if (p.visible) {
-          each(p.data, function (ob, j) {
+          p.data.forEach(function (ob, j) {
             if (ob.options.name == categories[i]) {
               if (ob.options.y != null) {
                 sum++;
@@ -87,15 +87,19 @@ function justifyColumns(chart) {
         }
       });
       number = 1;
-      each(chart.series, function (p, k) {
+      chart.series.forEach(function (p, k) {
         if (p.visible) {
-          each(p.data, function (ob, j) {
+          p.data.forEach(function (ob, j) {
             if (ob.options.name == categories[i]) {
               if (ob.options.y != null) {
-                ob.graphic.element.x.baseVal.value = i * categoriesWidth + (categoriesWidth / 2) + ((number - 1) - (sum * 0.5)) * ob.pointWidth;
+                if (ob.graphic && ob.graphic.element && ob.graphic.element.x && ob.graphic.element.x.baseVal) {
+                  ob.graphic.element.x.baseVal.value = i * categoriesWidth + (categoriesWidth / 2) + ((number - 1) - (sum * 0.5)) * ob.pointWidth;
+                } else if (ob.graphic) {
+                  ob.graphic.attr({ x: i * categoriesWidth + (categoriesWidth / 2) + ((number - 1) - (sum * 0.5)) * ob.pointWidth });
+                }
                 number++;
               }
-  
+
             }
           });
         }

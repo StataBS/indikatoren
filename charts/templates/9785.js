@@ -125,7 +125,7 @@
               /*fillColor: {
                 linearGradient: [0, 0, 0, 300],
                 stops: [
-                  [0, "#fbfbfb"],
+                  [0, "#ffffff"],
                   [1, "#fbc9c9"]
                 ]
               }*/
@@ -157,7 +157,7 @@
            linearGradient: [0, 0, 0, 300],
            stops: [
              [0, "#c9fbc9"],
-             [1, "#fbfbfb"]
+             [1, "#ffffff"]
            ]
          }*/
       //},

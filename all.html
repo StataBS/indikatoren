@@ -1,24 +1,29 @@
 <html>
+  <head>
+    <script
+      src="assets/js/modules/jquery/dist/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="metadata/all/indikatoren.js" type="text/javascript"></script>
+    <script src="assets/js/url-min.js" type="text/javascript"></script>
 
-	<head>
-		<script src="assets/js/modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
-		<script src="metadata/all/indikatoren.js" type="text/javascript"></script>		
-		<script src="assets/js/url-min.js" type="text/javascript"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child"
+      type="text/javascript"
+      async
+    ></script>
 
-		<script src="https://cdn.jsdelivr.net/npm/@iframe-resizer/child" type="text/javascript" async></script>
+    <style>
+      iframe.noScrolling {
+        width: 600px;
+        height: 600px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
 
-		<!-- http://stackoverflow.com/questions/4856746/hide-horizontal-scrollbar-on-an-iframe -->
-		<style>
-			iframe.noScrolling{
-				width: 600px;
-				height: 600px;
-				overflow: hidden;
-			}
-		</style>
-	</head>
-
-	<body>
-		<!-- Google Tag Manager 
+  <body>
+    <!-- Google Tag Manager 
 		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KGK459"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -28,35 +33,40 @@
 		})(window,document,'script','dataLayer','GTM-KGK459');</script>
 		 End Google Tag Manager -->
 
-
-		<script>
-			/* 
+    <script>
+      /* 
 			global $
 			global indikatoren
 			*/
-            var viewFromUrl = window.decodeURIComponent($.url('?view'));
-            var view = 'portal';
-            if (!(viewFromUrl == 'indikatorenset' || viewFromUrl == 'portal' || viewFromUrl == 'print')) {
-              view = viewFromUrl;
-            }
+      var viewFromUrl = window.decodeURIComponent($.url("?view"));
+      var view = "portal";
+      if (
+        !(
+          viewFromUrl == "indikatorenset" ||
+          viewFromUrl == "portal" ||
+          viewFromUrl == "print"
+        )
+      ) {
+        view = viewFromUrl;
+      }
 
-
-			$(document).ready(function(){
-				$.each(indikatoren, function(index, item){
-					//hide print indikatoren
-					if(item.kennzahlenset.toLowerCase().indexOf('print') == -1){
-						var img = $('<img/>', {
-							id: item.id,
-							src: 'images/portal/' + item.id + '.svg', 
-							width: '25%'
-						})
-						.appendTo('body');
-						img.wrap("<a target='_blank' href='chart-details.html?id=" + img.attr("id") + "' </a>");
-					}
-				});
-			});
-		</script>
-
- 	</body>
-
+      $(document).ready(function () {
+        $.each(indikatoren, function (index, item) {
+          //hide print indikatoren
+          if (item.kennzahlenset.toLowerCase().indexOf("print") == -1) {
+            var img = $("<img/>", {
+              id: item.id,
+              src: "images/portal/" + item.id + ".svg",
+              width: "25%",
+            }).appendTo("body");
+            img.wrap(
+              "<a target='_blank' href='chart-details.html?id=" +
+                img.attr("id") +
+                "' </a>"
+            );
+          }
+        });
+      });
+    </script>
+  </body>
 </html>

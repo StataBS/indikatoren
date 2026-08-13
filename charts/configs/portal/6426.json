@@ -7,7 +7,7 @@
       "data": [
         [
           "2017",
-          6161
+          6162
         ],
         [
           "2018",
@@ -23,7 +23,7 @@
         ],
         [
           "2021",
-          5241
+          5244
         ],
         [
           "2022",
@@ -32,8 +32,13 @@
         [
           "2023",
           4722
+        ],
+        [
+          "2024",
+          4669
         ]
       ],
+      "pointStart": 0,
       "name": "Schweiz",
       "turboThreshold": 0
     },
@@ -69,8 +74,13 @@
         [
           "2023",
           356
+        ],
+        [
+          "2024",
+          360
         ]
       ],
+      "pointStart": 0,
       "name": "Deutschland",
       "turboThreshold": 0
     },
@@ -106,8 +116,13 @@
         [
           "2023",
           368
+        ],
+        [
+          "2024",
+          338
         ]
       ],
+      "pointStart": 0,
       "name": "Italien",
       "turboThreshold": 0
     },
@@ -143,8 +158,13 @@
         [
           "2023",
           719
+        ],
+        [
+          "2024",
+          680
         ]
       ],
+      "pointStart": 0,
       "name": "Türkei",
       "turboThreshold": 0
     },
@@ -179,9 +199,14 @@
         ],
         [
           "2023",
-          584
+          585
+        ],
+        [
+          "2024",
+          610
         ]
       ],
+      "pointStart": 0,
       "name": "EU-West + EFTA + UK",
       "turboThreshold": 0
     },
@@ -217,8 +242,13 @@
         [
           "2023",
           325
+        ],
+        [
+          "2024",
+          326
         ]
       ],
+      "pointStart": 0,
       "name": "EU-Ost",
       "turboThreshold": 0
     },
@@ -254,8 +284,13 @@
         [
           "2023",
           596
+        ],
+        [
+          "2024",
+          550
         ]
       ],
+      "pointStart": 0,
       "name": "Balkan",
       "turboThreshold": 0
     },
@@ -291,8 +326,13 @@
         [
           "2023",
           231
+        ],
+        [
+          "2024",
+          230
         ]
       ],
+      "pointStart": 0,
       "name": "Mittel- und Südamerika",
       "turboThreshold": 0
     },
@@ -328,8 +368,13 @@
         [
           "2023",
           621
+        ],
+        [
+          "2024",
+          621
         ]
       ],
+      "pointStart": 0,
       "name": "Arabische Länder",
       "turboThreshold": 0
     },
@@ -365,8 +410,13 @@
         [
           "2023",
           689
+        ],
+        [
+          "2024",
+          656
         ]
       ],
+      "pointStart": 0,
       "name": "Afrikanische Länder",
       "turboThreshold": 0
     },
@@ -402,8 +452,13 @@
         [
           "2023",
           536
+        ],
+        [
+          "2024",
+          525
         ]
       ],
+      "pointStart": 0,
       "name": "Übrige Länder",
       "turboThreshold": 0
     }
@@ -435,7 +490,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -443,29 +498,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "renderTo": "container-6426",
     "marginBottom": 75,
@@ -534,7 +611,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -551,7 +628,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.5.2024"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

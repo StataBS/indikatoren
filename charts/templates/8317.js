@@ -69,7 +69,7 @@
 				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056_StadtBasel,
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -189,8 +189,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#fbfbfb');
+					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#ffffff');
+					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#ffffff');
 					//fn.addLegendTitle(chart, chart.series[2].name.split(' ').slice(0, 2).join(' <br>'), 245, 210+20);
 					fn.addLegendTitle(chart, choroplethSeries.name + ' (%)', lp.blockChoropleth.title.x, lp.blockChoropleth.title.y[0]);
 

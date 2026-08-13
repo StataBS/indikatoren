@@ -31,6 +31,7 @@
           75.3518
         ]
       ],
+      "pointStart": 0,
       "name": "2014",
       "turboThreshold": 0
     },
@@ -73,7 +74,8 @@
           "high": 75.6794
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -107,6 +109,7 @@
           75.3794
         ]
       ],
+      "pointStart": 0,
       "name": "2015",
       "turboThreshold": 0
     },
@@ -149,7 +152,8 @@
           "high": 75.7142
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -183,6 +187,7 @@
           75.6075
         ]
       ],
+      "pointStart": 0,
       "name": "2016",
       "turboThreshold": 0
     },
@@ -225,7 +230,8 @@
           "high": 75.9387
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -259,6 +265,7 @@
           76.5141
         ]
       ],
+      "pointStart": 0,
       "name": "2017",
       "turboThreshold": 0
     },
@@ -301,7 +308,8 @@
           "high": 76.8399
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -335,6 +343,7 @@
           74.7748
         ]
       ],
+      "pointStart": 0,
       "name": "2018",
       "turboThreshold": 0
     },
@@ -377,7 +386,8 @@
           "high": 75.1152
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -411,6 +421,7 @@
           75.4409
         ]
       ],
+      "pointStart": 0,
       "name": "2019",
       "turboThreshold": 0
     },
@@ -453,7 +464,8 @@
           "high": 75.7747
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -487,6 +499,7 @@
           74.8357
         ]
       ],
+      "pointStart": 0,
       "name": "2020",
       "turboThreshold": 0
     },
@@ -529,7 +542,8 @@
           "high": 75.1532
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -563,6 +577,7 @@
           75.7711
         ]
       ],
+      "pointStart": 0,
       "name": "2021",
       "turboThreshold": 0
     },
@@ -605,7 +620,8 @@
           "high": 76.0951
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     },
     {
@@ -639,6 +655,7 @@
           76.2777
         ]
       ],
+      "pointStart": 0,
       "name": "2022",
       "turboThreshold": 0
     },
@@ -681,7 +698,8 @@
           "high": 76.5981
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "pointStart": 0,
+      "name": "Kanton",
       "turboThreshold": 0
     }
   ],
@@ -703,7 +721,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -711,29 +729,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "marginBottom": 80,
     "type": "column",
@@ -809,7 +849,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },

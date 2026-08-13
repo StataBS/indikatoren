@@ -1,14 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Sebastian Bochan
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/atr",["highcharts","highcharts/modules/stock"],function(d){a(d);a.Highcharts=d;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function d(a,f,d,g){a.hasOwnProperty(f)||(a[f]=g.apply(null,d))}a=a?a._modules:{};d(a,"Stock/Indicators/ATR/ATRIndicator.js",[a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],
-function(a,f){function d(a,b){return Math.max(a[1]-a[2],"undefined"===typeof b?0:Math.abs(a[1]-b[3]),"undefined"===typeof b?0:Math.abs(a[2]-b[3]))}var g=this&&this.__extends||function(){var a=function(b,c){a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,c){a.__proto__=c}||function(a,c){for(var b in c)c.hasOwnProperty(b)&&(a[b]=c[b])};return a(b,c)};return function(b,c){function d(){this.constructor=b}a(b,c);b.prototype=null===c?Object.create(c):(d.prototype=c.prototype,new d)}}(),
-k=a.seriesTypes.sma,r=f.isArray,m=f.merge;f=function(a){function b(){var c=null!==a&&a.apply(this,arguments)||this;c.data=void 0;c.points=void 0;c.options=void 0;return c}g(b,a);b.prototype.getValues=function(a,b){b=b.period;var c=a.xData,f=(a=a.yData)?a.length:0,g=1,l=0,k=0,n=[],p=[],q=[],e;var m=[[c[0],a[0]]];if(!(c.length<=b)&&r(a[0])&&4===a[0].length){for(e=1;e<=f;e++)if(m.push([c[e],a[e]]),b<g){var h=b;var t=c[e-1],u=d(a[e-1],a[e-2]);h=[t,(l*(h-1)+u)/h];l=h[1];n.push(h);p.push(h[0]);q.push(h[1])}else b===
-g?(l=k/(e-1),n.push([c[e-1],l]),p.push(c[e-1]),q.push(l)):k+=d(a[e-1],a[e-2]),g++;return{values:n,xData:p,yData:q}}};b.defaultOptions=m(k.defaultOptions,{params:{index:void 0}});return b}(k);a.registerSeriesType("atr",f);"";return f});d(a,"masters/indicators/atr.src.js",[],function(){})});
-//# sourceMappingURL=atr.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/atr
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Sebastian Bochan
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/atr",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/atr"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},s={};function a(e){var t=s[e];if(void 0!==t)return t.exports;var i=s[e]={exports:{}};return r[e](i,i.exports,a),i.exports}a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var r in t)a.o(t,r)&&!a.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var i={};a.d(i,{default:()=>l});var o=a(944),h=a.n(o),n=a(512),u=a.n(n);let{sma:p}=u().seriesTypes,{isArray:c,merge:d}=h();function f(e,t){return Math.max(e[1]-e[2],void 0===t?0:Math.abs(e[1]-t[3]),void 0===t?0:Math.abs(e[2]-t[3]))}class g extends p{getValues(e,t){let r=t.period,s=e.xData,a=e.yData,i=a?a.length:0,o=[[s[0],a[0]]],h=[],n=[],u=[],p,d,g=0,l=1,y=0;if(!(s.length<=r)&&c(a[0])&&4===a[0].length){for(d=1;d<=i;d++){var x,v,b,m,H;!function(e,t,r,s){let a=t[s],i=r[s];e.push([a,i])}(o,s,a,d),r<l?(g=(x=s,v=a,b=d,m=r,H=g,p=[x[b-1],(H*(m-1)+f(v[b-1],v[b-2]))/m])[1],h.push(p),n.push(p[0]),u.push(p[1])):(r===l?(g=y/(d-1),h.push([s[d-1],g]),n.push(s[d-1]),u.push(g)):y+=f(a[d-1],a[d-2]),l++)}return{values:h,xData:n,yData:u}}}}g.defaultOptions=d(p.defaultOptions,{params:{index:void 0}}),u().registerSeriesType("atr",g);let l=h();return i.default})());

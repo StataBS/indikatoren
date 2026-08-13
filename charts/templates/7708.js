@@ -15,7 +15,7 @@
 			//"verticalAlign": "middle",
 			"align": "right",
 			"x": -136,
-			"y": -25,
+			"y": 5,
 			itemMarginBottom: 2,
 			symbolRadius: 0,
 		},
@@ -72,7 +72,7 @@
 				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -158,17 +158,17 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
-					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#fbfbfb');
-					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
-					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m<sup>3</sup>", 365, 220, undefined, true);
+					fn.addLegendRectangle(chart, 245, 215, 115, 135, '#ffffff', 'pieLegend');
+					fn.addLegendRectangle(chart, 360, 215, 115, 135, '#ffffff', 'pieLegend');
+					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m³ in %", 245, 220); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
+					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m³", 365, 220);
 
-					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#5badff');
-					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#5badff');
-					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#5badff');
-					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 260, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 280, undefined, false, 'right');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 305, undefined, false, 'right');
+					fn.addLegendCircle(chart, 378, 301, 0.5 * pieSizeCatConfig[0].diameter, '#5badff');
+					fn.addLegendCircle(chart, 378, 320, 0.5 * pieSizeCatConfig[1].diameter, '#5badff');
+					fn.addLegendCircle(chart, 378, 345, 0.5 * pieSizeCatConfig[2].diameter, '#5badff');
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 270, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 290, undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 315, undefined, false, 'right');
 
 
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');

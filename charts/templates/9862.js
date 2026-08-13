@@ -54,7 +54,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -139,8 +139,8 @@
 					fn.drawPies(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig);
 
                 	//Add manually drawn legend	
-                	fn.addLegendRectangle(chart, 243, 221, 230, 101, '#fbfbfb', 'pieLegend');
-                	fn.addLegendRectangle(chart, 243, 330, 230, 60, '#fbfbfb');
+                	fn.addLegendRectangle(chart, 243, 221, 230, 101, '#ffffff', 'pieLegend');
+                	fn.addLegendRectangle(chart, 243, 330, 230, 60, '#ffffff');
 
                 	//fn.addLegendLabelbold(chart, pieSizeSeries.name, 250, 221, undefined, true);
 					fn.addLegendSquare(chart, 255, 245, 10, '#0F7399');

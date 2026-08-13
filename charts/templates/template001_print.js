@@ -1,13 +1,13 @@
 (function () {
     return {
         chart: {
-            borderColor: "#fbfbfb",
-            backgroundColor: "#fbfbfb",
+            borderColor: "#ffffff",
+            backgroundColor: "#ffffff",
             width: 320,
             height: 208,
             spacing: [2, 2, 2, 2], /*top, right, bottom and left */
             style: {
-                fontFamily: "Arial",
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 fontSize: '10px',
                 color: "#000000"
             },
@@ -97,7 +97,7 @@
                     style: {
                         fontSize: "10px",
                         color: "#000000",
-                        fontFamily: "Arial",
+                        fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                         fontWeight: "normal",
                     }
                 }
@@ -116,7 +116,7 @@
                 fontSize: '10px',
                 color: "#000000",
                 fontWeight: "normal",
-                fontFamily: "Arial",
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
             },
             text: "",
             align: "left"

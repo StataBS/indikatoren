@@ -1,17 +1,22 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highstock JS v9.1.2 (2021-06-16)
+ * @license Highstock JS v12.5.0 (2026-01-12)
  * @module highcharts/indicators/indicators-all
  * @requires highcharts
  * @requires highcharts/modules/stock
  *
  * All technical indicators for Highcharts Stock
  *
- * (c) 2010-2021 Pawel Fus
+ * (c) 2010-2026 Highsoft AS
+ * Author: Pawel Fus
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
+import Highcharts from '../../Core/Globals.js';
 import '../../Stock/Indicators/SMA/SMAIndicator.js';
+import '../../Stock/Indicators/EMA/EMAIndicator.js';
 import '../../Stock/Indicators/AD/ADIndicator.js';
 import '../../Stock/Indicators/AO/AOIndicator.js';
 import '../../Stock/Indicators/Aroon/AroonIndicator.js';
@@ -22,7 +27,6 @@ import '../../Stock/Indicators/CCI/CCIIndicator.js';
 import '../../Stock/Indicators/CMF/CMFIndicator.js';
 import '../../Stock/Indicators/DMI/DMIIndicator.js';
 import '../../Stock/Indicators/DPO/DPOIndicator.js';
-import '../../Stock/Indicators/EMA/EMAIndicator.js';
 import '../../Stock/Indicators/Chaikin/ChaikinIndicator.js';
 import '../../Stock/Indicators/CMO/CMOIndicator.js';
 import '../../Stock/Indicators/DEMA/DEMAIndicator.js';
@@ -52,12 +56,15 @@ import '../../Stock/Indicators/VWAP/VWAPIndicator.js';
 import '../../Stock/Indicators/WilliamsR/WilliamsRIndicator.js';
 import '../../Stock/Indicators/WMA/WMAIndicator.js';
 import '../../Stock/Indicators/Zigzag/ZigzagIndicator.js';
-import '../../Stock/Indicators/LinearRegression/LinearRegression.js';
-// eslint-disable-next-line max-len
-import '../../Stock/Indicators/LinearRegressionSlopes/LinearRegressionSlopes.js';
-// eslint-disable-next-line max-len
-import '../../Stock/Indicators/LinearRegressionIntercept/LinearRegressionIntercept.js';
-import '../../Stock/Indicators/LinearRegressionAngle/LinearRegressionAngle.js';
+import '../../Stock/Indicators/LinearRegression/LinearRegressionIndicator.js';
+import '../../Stock/Indicators/LinearRegressionSlopes/LinearRegressionSlopesIndicator.js';
+import '../../Stock/Indicators/LinearRegressionIntercept/LinearRegressionInterceptIndicator.js';
+import '../../Stock/Indicators/LinearRegressionAngle/LinearRegressionAngleIndicator.js';
 import '../../Stock/Indicators/ABands/ABandsIndicator.js';
 import '../../Stock/Indicators/TrendLine/TrendLineIndicator.js';
 import '../../Stock/Indicators/DisparityIndex/DisparityIndexIndicator.js';
+import MultipleLinesComposition from '../../Stock/Indicators/MultipleLinesComposition.js';
+const G = Highcharts;
+G.MultipleLinesComposition =
+    G.MultipleLinesComposition || MultipleLinesComposition;
+export default Highcharts;

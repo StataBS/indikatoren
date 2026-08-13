@@ -1,28 +1,19 @@
 /* *
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
 import SeriesRegistry from '../../../Core/Series/SeriesRegistry.js';
-var SMAIndicator = SeriesRegistry.seriesTypes.sma;
+const { sma: SMAIndicator } = SeriesRegistry.seriesTypes;
 import U from '../../../Core/Utilities.js';
-var isArray = U.isArray, merge = U.merge;
-/* eslint-disable valid-jsdoc */
+const { isArray, merge } = U;
+/* *
+ *
+ *  Functions
+ *
+ * */
 // Utils:
 /**
  * @private
@@ -36,16 +27,16 @@ function sumArray(array) {
  * @private
  */
 function meanDeviation(arr, sma) {
-    var len = arr.length, sum = 0, i;
+    const len = arr.length;
+    let sum = 0, i;
     for (i = 0; i < len; i++) {
         sum += Math.abs(sma - (arr[i]));
     }
     return sum;
 }
-/* eslint-enable valid-jsdoc */
 /* *
  *
- * Class
+ *  Class
  *
  * */
 /**
@@ -57,34 +48,22 @@ function meanDeviation(arr, sma) {
  *
  * @augments Highcharts.Series
  */
-var CCIIndicator = /** @class */ (function (_super) {
-    __extends(CCIIndicator, _super);
-    function CCIIndicator() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        /* *
-         *
-         *  Properties
-         *
-         * */
-        _this.data = void 0;
-        _this.points = void 0;
-        _this.options = void 0;
-        return _this;
-    }
+class CCIIndicator extends SMAIndicator {
     /* *
      *
      *  Functions
      *
      * */
-    CCIIndicator.prototype.getValues = function (series, params) {
-        var period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, TP = [], periodTP = [], range = 1, CCI = [], xData = [], yData = [], CCIPoint, p, len, smaTP, TPtemp, meanDev, i;
+    getValues(series, params) {
+        const period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, TP = [], CCI = [], xData = [], yData = [];
+        let CCIPoint, p, periodTP = [], len, range = 1, smaTP, TPtemp, meanDev, i;
         // CCI requires close value
         if (xVal.length <= period ||
             !isArray(yVal[0]) ||
             yVal[0].length !== 4) {
             return;
         }
-        // accumulate first N-points
+        // Accumulate first N-points
         while (range < period) {
             p = yVal[range - 1];
             TP.push((p[1] + p[2] + p[3]) / 3);
@@ -107,31 +86,35 @@ var CCIIndicator = /** @class */ (function (_super) {
             xData: xData,
             yData: yData
         };
-    };
+    }
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+/**
+ * Commodity Channel Index (CCI). This series requires `linkedTo` option to
+ * be set.
+ *
+ * @sample stock/indicators/cci
+ *         CCI indicator
+ *
+ * @extends      plotOptions.sma
+ * @since        6.0.0
+ * @product      highstock
+ * @requires     stock/indicators/indicators
+ * @requires     stock/indicators/cci
+ * @optionparent plotOptions.cci
+ */
+CCIIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
     /**
-     * Commodity Channel Index (CCI). This series requires `linkedTo` option to
-     * be set.
-     *
-     * @sample stock/indicators/cci
-     *         CCI indicator
-     *
-     * @extends      plotOptions.sma
-     * @since        6.0.0
-     * @product      highstock
-     * @requires     stock/indicators/indicators
-     * @requires     stock/indicators/cci
-     * @optionparent plotOptions.cci
+     * @excluding index
      */
-    CCIIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
-        /**
-         * @excluding index
-         */
-        params: {
-            index: void 0 // unused index, do not inherit (#15362)
-        }
-    });
-    return CCIIndicator;
-}(SMAIndicator));
+    params: {
+        index: void 0 // Unused index, do not inherit (#15362)
+    }
+});
 SeriesRegistry.registerSeriesType('cci', CCIIndicator);
 /* *
  *
@@ -139,6 +122,11 @@ SeriesRegistry.registerSeriesType('cci', CCIIndicator);
  *
  * */
 export default CCIIndicator;
+/* *
+ *
+ *  API Options
+ *
+ * */
 /**
  * A `CCI` series. If the [type](#series.cci.type) option is not
  * specified, it is inherited from [chart.type](#chart.type).
@@ -151,4 +139,4 @@ export default CCIIndicator;
  * @requires  stock/indicators/cci
  * @apioption series.cci
  */
-''; // to include the above in the js output
+''; // To include the above in the js output

@@ -6,87 +6,93 @@
       "type": "column",
       "data": [
         [
-          2005,
+          "2005",
           52422
         ],
         [
-          2006,
+          "2006",
           52177
         ],
         [
-          2007,
+          "2007",
           50528
         ],
         [
-          2008,
+          "2008",
           49684
         ],
         [
-          2009,
+          "2009",
           51915
         ],
         [
-          2010,
+          "2010",
           51485
         ],
         [
-          2011,
+          "2011",
           52341
         ],
         [
-          2012,
+          "2012",
           53403
         ],
         [
-          2013,
+          "2013",
           54294
         ],
         [
-          2014,
+          "2014",
           50302
         ],
         [
-          2015,
+          "2015",
           50633
         ],
         [
-          2016,
+          "2016",
           51229
         ],
         [
-          2017,
+          "2017",
           51887
         ],
         [
-          2018,
+          "2018",
           50986
         ],
         [
-          2019,
+          "2019",
           53088
         ],
         [
-          2020,
+          "2020",
           53309
         ],
         [
-          2021,
+          "2021",
           52919
         ],
         [
-          2022,
+          "2022",
           51711
         ],
         [
-          2023,
+          "2023",
           51231
         ],
         [
-          2024,
+          "2024",
           50795
+        ],
+        [
+          "2025",
+          49862
         ]
       ],
-      "name": "PV-Beziehende (inkl. SH\u002FEL)"
+      "pointStart": 0,
+      "name": "PV-Beziehende (inkl. SH\u002FEL)",
+      "turboThreshold": 0
     },
     {
       "color": "#7d60a0",
@@ -101,117 +107,192 @@
       },
       "data": [
         [
-          2005,
+          "2005",
           27.8959131545338
         ],
         [
-          2006,
+          "2006",
           27.7844636619238
         ],
         [
-          2007,
+          "2007",
           26.8765957446809
         ],
         [
-          2008,
+          "2008",
           26.2107240076811
         ],
         [
-          2009,
+          "2009",
           27.2069805832875
         ],
         [
-          2010,
+          "2010",
           26.9838940455663
         ],
         [
-          2011,
+          "2011",
           27.2178425825776
         ],
         [
-          2012,
+          "2012",
           27.6042985852299
         ],
         [
-          2013,
+          "2013",
           27.7776925084033
         ],
         [
-          2014,
+          "2014",
           25.602760712777
         ],
         [
-          2015,
+          "2015",
           25.6754426887893
         ],
         [
-          2016,
+          "2016",
           25.8463416849137
         ],
         [
-          2017,
+          "2017",
           26.07544173518
         ],
         [
-          2018,
+          "2018",
           25.4604106743368
         ],
         [
-          2019,
+          "2019",
           26.49009266
         ],
         [
-          2020,
+          "2020",
           26.39438335
         ],
         [
-          2021,
+          "2021",
           26.22283888
         ],
         [
-          2022,
+          "2022",
           25.28037155
         ],
         [
-          2023,
+          "2023",
           24.8322895864436
         ],
         [
-          2024,
+          "2024",
           24.4777486
+        ],
+        [
+          "2025",
+          23.68
         ]
       ],
-      "name": "Quote der PV-Beziehenden an der Wohnbevölkerung (rechte Skala)"
+      "pointStart": 0,
+      "name": "Quote der PV-Beziehenden an der Wohnbevölkerung (rechte Skala)",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+    var maxlabels = 10,
+      ext = this.getExtremes(),
+      i = Math.round(ext.max),
+      interval = Math.round((i - ext.min)/maxlabels),
+      pos = [i];
+    while (i >= ext.min) pos.unshift(i = i - interval);
+    return pos;
+  }
+  },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 65,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-					this.credits.element.onclick = function () { };
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
 
-					//for top-left legends with no x defined: move legend to x position of first yAxis
-					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-						this.update(
-							{
-								legend: {
-									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-								}
-							}
-						);
-					}
-				}
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "alignTicks": false,
     "renderTo": "container-9294"
@@ -240,24 +321,6 @@
       "fontWeight": "normal",
       "color": "#000000"
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "uniqueNames": true,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -315,41 +378,49 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "tooltip": {
     "shared": true

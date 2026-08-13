@@ -43,7 +43,7 @@
 				name: "Gemeinden",
 				animation: true,
 				mapData: geojson_GemeindenBSBL_EPSG_2056,
-				borderColor: "#fbfbfb",
+				borderColor: "#ffffff",
 				joinBy: ['GeoID', 'GeoID'],
 				keys: ['GeoID', 'value'],
 				"states": {
@@ -122,8 +122,8 @@
 					var maxValueInLegend = 1200;
 
 					//Add manually drawn legend		
-					fn.addLegendRectangle(chart, 250-260, 220-170, 230-70, 72, '#fbfbfb', 'pieLegend');
-					fn.addLegendRectangle(chart, 250+70, 300-250, 230-50, 62, '#fbfbfb');
+					fn.addLegendRectangle(chart, 250-260, 220-170, 230-70, 72, '#ffffff', 'pieLegend');
+					fn.addLegendRectangle(chart, 250+70, 300-250, 230-50, 62, '#ffffff');
 					//fn.addLegendTitle(chart, pieSizeSeries.name + "", 265, 220, 'pieLegend pieLegendHideOnZoom');
 
 					fn.addLegendCircle(chart, 280-260, 255-170, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#7F5F1A', 'pieLegendStayeOnZoom');

@@ -64,7 +64,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -150,8 +150,8 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 245, 212, 110, 120, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 360, 212, 105, 120, '#fbfbfb');	                
+	                fn.addLegendRectangle(chart, 245, 212, 110, 120, '#ffffff');
+	                fn.addLegendRectangle(chart, 360, 212, 105, 120, '#ffffff');	                
 	        		fn.addLegendTitle(chart, "Arbeitsstätten pro <br/> 100 Einwohner", 245, 210);
 	                fn.addLegendTitle(chart, "Anzahl <br/> Arbeitsstätten", 365, 210);
 	                

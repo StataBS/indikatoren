@@ -1,10 +1,12 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highmaps JS v9.1.2 (2021-06-16)
+ * @license Highcharts Maps v12.5.0 (2026-01-12)
  * @module highcharts/highmaps
  *
- * (c) 2011-2021 Torstein Honsi
+ * (c) 2011-2026 Highsoft AS
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
 import Highcharts from './highcharts.src.js';

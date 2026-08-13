@@ -18,13 +18,13 @@
     	    }
     	}, 
         "chart": {		
-             "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
+             "borderColor": "#ffffff",
+            "backgroundColor": "#ffffff",
 			"width": 992,
             "height": 484,
             spacing: [2,2,2,2],
             "style": {
-                "fontFamily": "Arial"
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             "type": "map",
     		"inverted": false,
@@ -68,7 +68,7 @@
             "style": {
                 "fontSize": "10px",
                 "fontWeight": "bold",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },        
             "align": "left"
@@ -77,7 +77,7 @@
             "style": {
                 "fontSize": "10px",
                 "fontWeight": "normal",
-                "fontFamily": "Arial",
+                "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 "color": "#000000"
             },
             "text": "",
@@ -98,7 +98,7 @@
         },
         "colorAxis": {
     		"min": 0,
-    		"gridLineColor": "#fbfbfb",	
+    		"gridLineColor": "#ffffff",	
             "gridLineWidth": 1,
             "labels": {	
     		    "style": {"color": "black", "cursor": "default", "fontSize": "10px", "textOverflow": "none"}
@@ -109,7 +109,7 @@
     	}, 
     	        "colorAxis": {
     		"min": 0,
-    		"gridLineColor": "#fbfbfb",	
+    		"gridLineColor": "#ffffff",	
             "gridLineWidth": 1,
             "labels": {	
     		    "style": {"color": "black", "cursor": "default", "fontSize": "10px", "textOverflow": "none"}
@@ -144,7 +144,7 @@
 				"animation": true,
 				"data": rheinDataEPSG2056, 
 				"color": "#008AC3",    
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				tooltip: {
 					pointFormatter: function(){
 						return '<br/>';

@@ -1,13 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Pawe Dalek
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(b){"object"===typeof module&&module.exports?(b["default"]=b,module.exports=b):"function"===typeof define&&define.amd?define("highcharts/indicators/natr",["highcharts","highcharts/modules/stock"],function(a){b(a);b.Highcharts=a;return b}):b("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(b){function a(b,e,a,d){b.hasOwnProperty(e)||(b[e]=d.apply(null,a))}b=b?b._modules:{};a(b,"Stock/Indicators/NATR/NATRIndicator.js",[b["Core/Series/SeriesRegistry.js"],b["Core/Utilities.js"]],
-function(b,a){var e=this&&this.__extends||function(){var b=function(a,c){b=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(b,a){b.__proto__=a}||function(b,a){for(var c in a)a.hasOwnProperty(c)&&(b[c]=a[c])};return b(a,c)};return function(a,c){function d(){this.constructor=a}b(a,c);a.prototype=null===c?Object.create(c):(d.prototype=c.prototype,new d)}}(),d=b.seriesTypes.atr,h=a.merge;a=a.extend;var g=function(b){function a(){var a=null!==b&&b.apply(this,arguments)||this;a.data=void 0;
-a.points=void 0;a.options=void 0;return a}e(a,b);a.prototype.getValues=function(a,b){var c=d.prototype.getValues.apply(this,arguments),e=c.values.length,g=b.period-1,h=a.yData,f=0;if(c){for(;f<e;f++)c.yData[f]=c.values[f][1]/h[g][3]*100,c.values[f][1]=c.yData[f],g++;return c}};a.defaultOptions=h(d.defaultOptions,{tooltip:{valueSuffix:"%"}});return a}(d);a(g.prototype,{requiredIndicators:["atr"]});b.registerSeriesType("natr",g);"";return g});a(b,"masters/indicators/natr.src.js",[],function(){})});
-//# sourceMappingURL=natr.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/natr
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Paweł Dalek
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/natr",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/natr"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},s={};function a(e){var t=s[e];if(void 0!==t)return t.exports;var i=s[e]={exports:{}};return r[e](i,i.exports,a),i.exports}a.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return a.d(t,{a:t}),t},a.d=(e,t)=>{for(var r in t)a.o(t,r)&&!a.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},a.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var i={};a.d(i,{default:()=>l});var o=a(944),n=a.n(o),h=a(512),u=a.n(h);let{atr:p}=u().seriesTypes,{merge:c}=n();class f extends p{getValues(e,t){let r=super.getValues.apply(this,arguments),s=r.values.length,a=e.yData,i=0,o=t.period-1;if(r){for(;i<s;i++)r.yData[i]=r.values[i][1]/a[o][3]*100,r.values[i][1]=r.yData[i],o++;return r}}}f.defaultOptions=c(p.defaultOptions,{tooltip:{valueSuffix:"%"}}),u().registerSeriesType("natr",f);let l=n();return i.default})());

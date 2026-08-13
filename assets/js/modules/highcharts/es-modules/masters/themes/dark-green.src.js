@@ -1,11 +1,18 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highcharts JS v9.1.2 (2021-06-16)
+ * @license Highcharts JS v12.5.0 (2026-01-12)
  * @module highcharts/themes/dark-green
  * @requires highcharts
  *
- * (c) 2009-2021 Torstein Honsi
+ * (c) 2009-2026 Highsoft AS
+ * Author: Torstein Honsi
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
-import '../../Extensions/Themes/DarkGreen.js';
+import H from '../../Core/Globals.js';
+import DarkGreenTheme from '../../Extensions/Themes/DarkGreen.js';
+H.theme = DarkGreenTheme.options;
+DarkGreenTheme.apply();
+export default H;

@@ -62,9 +62,9 @@ for (i = 0; i < 2; i++) {
 				//Outline Wohnviertel if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
 				name: "WohnviertelOutline",
 				enableMouseTracking: false,
-				color: '#fbfbfb', //#ededed
+				color: '#ffffff', //#ededed
 				borderWidth: 1,
-				borderColor: '#fbfbfb',
+				borderColor: '#ffffff',
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
 				"joinBy": ['TXT', 'Wohnviertel Id'],
@@ -106,7 +106,7 @@ for (i = 0; i < 2; i++) {
 				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056_StadtBasel,
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -236,8 +236,8 @@ for (i = 0; i < 2; i++) {
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//Add manually drawn legend
-					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#fbfbfb');
-					//					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#fbfbfb');
+					//fn.addLegendRectangle(chart, 243-5, 212+20, 105+5, 130-10, '#ffffff');
+					//					fn.addLegendRectangle(chart, 355 - 115, 212 + 10, 130, 130, '#ffffff');
 					fn.addLegendTitle(chart, choroplethSeries.name.replace(' ', ' <br>') + ' (%)', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
 					fn.addLegendTitle(chart, pieSizeSeries.name.replace(' ', ' <br>'), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 
@@ -332,7 +332,7 @@ for (i = 0; i < 2; i++) {
 				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056_StadtBasel,
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				tooltip: {

@@ -6,14 +6,14 @@
                   this.credits.element.onclick = function() {}
               }
           },
-    		"borderColor": "#fbfbfb",
-    		"backgroundColor": "#fbfbfb",
+    		"borderColor": "#ffffff",
+    		"backgroundColor": "#ffffff",
     		"zoomType": "xy",
             "width": 641,
     		"height": 415,
       	spacing: [2,2,2,2], /*top, right, bottom and left */
     		"style": {
-    		  "fontFamily": "Arial"
+    		  "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     		},
     		"type": "area"    
     	},
@@ -29,7 +29,7 @@
         "style": {
           "fontSize": '12px',
           "fontWeight": "normal",
-          "fontFamily": "Arial",
+          "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
           "color": "#000000"
         },
         "text": "",

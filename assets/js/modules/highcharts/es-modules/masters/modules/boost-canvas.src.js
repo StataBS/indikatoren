@@ -1,14 +1,27 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highcharts JS v9.1.2 (2021-06-16)
+ * @license Highcharts JS v12.5.0 (2026-01-12)
  * @module highcharts/modules/boost-canvas
  * @requires highcharts
  *
  * Boost module
  *
- * (c) 2010-2021 Highsoft AS
+ * (c) 2010-2026 Highsoft AS
  * Author: Torstein Honsi
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
-import '../../Extensions/BoostCanvas.js';
+import Highcharts from '../../Core/Globals.js';
+import BoostCanvas from '../../Extensions/BoostCanvas.js';
+const G = Highcharts;
+/**
+ * Initialize the canvas boost.
+ *
+ * @function Highcharts.initCanvasBoost
+ */
+G.initCanvasBoost = function () {
+    BoostCanvas.compose(G.Chart, G.Series, G.seriesTypes);
+};
+export default Highcharts;

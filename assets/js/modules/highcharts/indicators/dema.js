@@ -1,15 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Indicator series type for Highcharts Stock
-
- (c) 2010-2021 Rafa Sebestjaski
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/dema",["highcharts","highcharts/modules/stock"],function(b){a(b);a.Highcharts=b;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function b(a,f,c,e){a.hasOwnProperty(f)||(a[f]=e.apply(null,c))}a=a?a._modules:{};b(a,"Mixins/IndicatorRequired.js",[a["Core/Utilities.js"]],function(a){var f=a.error;return{isParentLoaded:function(a,
-e,k,b,m){if(a)return b?b(a):!0;f(m||this.generateMessage(k,e));return!1},generateMessage:function(a,b){return'Error: "'+a+'" indicator type requires "'+b+'" indicator loaded before. Please read docs: https://api.highcharts.com/highstock/plotOptions.'+a}}});b(a,"Stock/Indicators/DEMA/DEMAIndicator.js",[a["Mixins/IndicatorRequired.js"],a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],function(a,b,c){var e=this&&this.__extends||function(){var a=function(b,d){a=Object.setPrototypeOf||{__proto__:[]}instanceof
-Array&&function(a,d){a.__proto__=d}||function(a,d){for(var b in d)d.hasOwnProperty(b)&&(a[b]=d[b])};return a(b,d)};return function(b,d){function g(){this.constructor=b}a(b,d);b.prototype=null===d?Object.create(d):(g.prototype=d.prototype,new g)}}(),k=b.seriesTypes.ema,f=c.correctFloat,m=c.isArray,n=c.merge;c=function(b){function c(){var a=null!==b&&b.apply(this,arguments)||this;a.EMApercent=void 0;a.data=void 0;a.options=void 0;a.points=void 0;return a}e(c,b);c.prototype.init=function(){var b=arguments,
-g=this;a.isParentLoaded(k,"ema",g.type,function(a){a.prototype.init.apply(g,b)})};c.prototype.getEMA=function(a,b,c,f,e,y){return k.prototype.calculateEma(y||[],a,"undefined"===typeof e?1:e,this.EMApercent,b,"undefined"===typeof f?-1:f,c)};c.prototype.getValues=function(a,b){var c=b.period,d=2*c,e=a.xData,g=(a=a.yData)?a.length:0,p=-1,t=[],u=[],v=[],l=0,w=[],h;this.EMApercent=2/(c+1);if(!(g<2*c-1)){m(a[0])&&(p=b.index?b.index:0);b=k.prototype.accumulatePeriodPoints(c,p,a);var q=b/c;b=0;for(h=c;h<
-g+2;h++){h<g+1&&(l=this.getEMA(a,n,q,p,h)[1],w.push(l));var n=l;if(h<d)b+=l;else{h===d&&(q=b/c);l=w[h-c-1];var x=this.getEMA([l],x,q)[1];var r=[e[h-2],f(2*l-x)];t.push(r);u.push(r[0]);v.push(r[1])}}return{values:t,xData:u,yData:v}}};c.defaultOptions=n(k.defaultOptions);return c}(k);b.registerSeriesType("dema",c);"";return c});b(a,"masters/indicators/dema.src.js",[],function(){})});
-//# sourceMappingURL=dema.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/dema
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Indicator series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Rafał Sebestjański
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(e._Highcharts,e._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/dema",["highcharts/highcharts"],function(e){return t(e,e.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/dema"]=t(e._Highcharts,e._Highcharts.SeriesRegistry):e.Highcharts=t(e.Highcharts,e.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(e,t)=>(()=>{"use strict";var r={512:e=>{e.exports=t},944:t=>{t.exports=e}},s={};function i(e){var t=s[e];if(void 0!==t)return t.exports;var a=s[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t);var a={};i.d(a,{default:()=>l});var o=i(944),n=i.n(o),h=i(512),u=i.n(h);let{ema:p}=u().seriesTypes,{correctFloat:c,isArray:d,merge:f}=n();class g extends p{getEMA(e,t,r,s,i,a){return super.calculateEma(a||[],e,void 0===i?1:i,this.EMApercent,t,void 0===s?-1:s,r)}getValues(e,t){let r=t.period,s=[],i=2*r,a=e.xData,o=e.yData,n=o?o.length:0,h=[],u=[],p=[],f=0,g=0,l,y,x,v,m=-1,H,b=0;if(this.EMApercent=2/(r+1),!(n<2*r-1)){for(d(o[0])&&(m=t.index?t.index:0),b=(f=super.accumulatePeriodPoints(r,m,o))/r,f=0,v=r;v<n+2;v++)v<n+1&&(g=this.getEMA(o,y,b,m,v)[1],s.push(g)),y=g,v<i?f+=g:(v===i&&(b=f/r),g=s[v-r-1],l=this.getEMA([g],x,b)[1],H=[a[v-2],c(2*g-l)],h.push(H),u.push(H[0]),p.push(H[1]),x=l);return{values:h,xData:u,yData:p}}}}g.defaultOptions=f(p.defaultOptions),u().registerSeriesType("dema",g);let l=n();return a.default})());

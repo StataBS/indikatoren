@@ -1,29 +1,16 @@
 /* *
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
 import PivotPointsPoint from './PivotPointsPoint.js';
 import SeriesRegistry from '../../../Core/Series/SeriesRegistry.js';
-var SMAIndicator = SeriesRegistry.seriesTypes.sma;
+const { sma: SMAIndicator } = SeriesRegistry.seriesTypes;
 import U from '../../../Core/Utilities.js';
-var merge = U.merge, extend = U.extend, defined = U.defined, isArray = U.isArray;
+const { merge, extend, defined, isArray } = U;
 /**
  *
  *  Class
@@ -38,33 +25,18 @@ var merge = U.merge, extend = U.extend, defined = U.defined, isArray = U.isArray
  *
  * @augments Highcharts.Series
  */
-var PivotPointsIndicator = /** @class */ (function (_super) {
-    __extends(PivotPointsIndicator, _super);
-    function PivotPointsIndicator() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        /**
-         *
-         * Properties
-         *
-         */
-        _this.data = void 0;
-        _this.options = void 0;
-        _this.points = void 0;
-        _this.endPoint = void 0;
-        _this.plotEndPoint = void 0;
-        return _this;
-    }
-    /**
+class PivotPointsIndicator extends SMAIndicator {
+    /* *
      *
-     * Functions
+     *  Functions
      *
-     */
-    PivotPointsIndicator.prototype.toYData = function (point) {
+     * */
+    toYData(point) {
         return [point.P]; // The rest should not affect extremes
-    };
-    PivotPointsIndicator.prototype.translate = function () {
-        var indicator = this;
-        SeriesRegistry.seriesTypes.sma.prototype.translate.apply(indicator);
+    }
+    translate() {
+        const indicator = this;
+        super.translate.apply(indicator);
         indicator.points.forEach(function (point) {
             indicator.pointArrayMap.forEach(function (value) {
                 if (defined(point[value])) {
@@ -76,9 +48,10 @@ var PivotPointsIndicator = /** @class */ (function (_super) {
         // And last point start not from the next one (as it's the last one)
         // But from the approximated last position in a given range
         indicator.plotEndPoint = indicator.xAxis.toPixels(indicator.endPoint, true);
-    };
-    PivotPointsIndicator.prototype.getGraphPath = function (points) {
-        var indicator = this, pointsLength = points.length, allPivotPoints = ([[], [], [], [], [], [], [], [], []]), path = [], endPoint = indicator.plotEndPoint, pointArrayMapLength = indicator.pointArrayMap.length, position, point, i;
+    }
+    getGraphPath(points) {
+        const indicator = this, allPivotPoints = ([[], [], [], [], [], [], [], [], []]), pointArrayMapLength = indicator.pointArrayMap.length;
+        let endPoint = indicator.plotEndPoint, path = [], position, point, pointsLength = points.length, i;
         while (pointsLength--) {
             point = points[pointsLength];
             for (i = 0; i < pointArrayMapLength; i++) {
@@ -104,20 +77,21 @@ var PivotPointsIndicator = /** @class */ (function (_super) {
             }
             endPoint = point.plotX;
         }
-        allPivotPoints.forEach(function (pivotPoints) {
-            path = path.concat(SeriesRegistry.seriesTypes.sma.prototype.getGraphPath.call(indicator, pivotPoints));
+        allPivotPoints.forEach((pivotPoints) => {
+            path = path.concat(super.getGraphPath.call(indicator, pivotPoints));
         });
         return path;
-    };
+    }
     // TODO: Rewrite this logic to use multiple datalabels
-    PivotPointsIndicator.prototype.drawDataLabels = function () {
-        var indicator = this, pointMapping = indicator.pointArrayMap, currentLabel, pointsLength, point, i;
+    drawDataLabels() {
+        const indicator = this, pointMapping = indicator.pointArrayMap;
+        let currentLabel, pointsLength, point, i;
         if (indicator.options.dataLabels.enabled) {
             pointsLength = indicator.points.length;
-            // For every Ressitance/Support group we need to render labels.
+            // For every Resistance/Support group we need to render labels.
             // Add one more item, which will just store dataLabels from
             // previous iteration
-            pointMapping.concat([false]).forEach(function (position, k) {
+            pointMapping.concat([false]).forEach((position, k) => {
                 i = pointsLength;
                 while (i--) {
                     point = indicator.points[i];
@@ -145,14 +119,16 @@ var PivotPointsIndicator = /** @class */ (function (_super) {
                                     null;
                     }
                 }
-                SeriesRegistry.seriesTypes.sma.prototype.drawDataLabels.apply(indicator, arguments);
+                super.drawDataLabels
+                    .call(indicator);
             });
         }
-    };
-    PivotPointsIndicator.prototype.getValues = function (series, params) {
-        var period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, placement = this[params.algorithm + 'Placement'], 
+    }
+    getValues(series, params) {
+        const period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, placement = this[params.algorithm + 'Placement'], 
         // 0- from, 1- to, 2- R1, 3- R2, 4- pivot, 5- S1 etc.
-        PP = [], endTimestamp, xData = [], yData = [], slicedXLen, slicedX, slicedY, lastPP, pivot, avg, i;
+        PP = [], xData = [], yData = [];
+        let endTimestamp, slicedXLen, slicedX, slicedY, lastPP, pivot, avg, i;
         // Pivot Points requires high, low and close values
         if (xVal.length < period ||
             !isArray(yVal[0]) ||
@@ -182,18 +158,19 @@ var PivotPointsIndicator = /** @class */ (function (_super) {
             xData: xData,
             yData: yData
         };
-    };
-    PivotPointsIndicator.prototype.getPivotAndHLC = function (values) {
-        var high = -Infinity, low = Infinity, close = values[values.length - 1][3], pivot;
+    }
+    getPivotAndHLC(values) {
+        const close = values[values.length - 1][3];
+        let high = -Infinity, low = Infinity;
         values.forEach(function (p) {
             high = Math.max(high, p[1]);
             low = Math.min(low, p[2]);
         });
-        pivot = (high + low + close) / 3;
+        const pivot = (high + low + close) / 3;
         return [pivot, high, low, close];
-    };
-    PivotPointsIndicator.prototype.standardPlacement = function (values) {
-        var diff = values[1] - values[2], avg = [
+    }
+    standardPlacement(values) {
+        const diff = values[1] - values[2], avg = [
             null,
             null,
             values[0] + diff,
@@ -205,9 +182,9 @@ var PivotPointsIndicator = /** @class */ (function (_super) {
             null
         ];
         return avg;
-    };
-    PivotPointsIndicator.prototype.camarillaPlacement = function (values) {
-        var diff = values[1] - values[2], avg = [
+    }
+    camarillaPlacement(values) {
+        const diff = values[1] - values[2], avg = [
             values[3] + diff * 1.5,
             values[3] + diff * 1.25,
             values[3] + diff * 1.1666,
@@ -219,9 +196,9 @@ var PivotPointsIndicator = /** @class */ (function (_super) {
             values[3] - diff * 1.5
         ];
         return avg;
-    };
-    PivotPointsIndicator.prototype.fibonacciPlacement = function (values) {
-        var diff = values[1] - values[2], avg = [
+    }
+    fibonacciPlacement(values) {
+        const diff = values[1] - values[2], avg = [
             null,
             values[0] + diff,
             values[0] + diff * 0.618,
@@ -233,49 +210,53 @@ var PivotPointsIndicator = /** @class */ (function (_super) {
             null
         ];
         return avg;
-    };
+    }
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+/**
+ * Pivot points indicator. This series requires the `linkedTo` option to be
+ * set and should be loaded after `stock/indicators/indicators.js` file.
+ *
+ * @sample stock/indicators/pivot-points
+ *         Pivot points
+ *
+ * @extends      plotOptions.sma
+ * @since        6.0.0
+ * @product      highstock
+ * @requires     stock/indicators/indicators
+ * @requires     stock/indicators/pivot-points
+ * @optionparent plotOptions.pivotpoints
+ */
+PivotPointsIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
     /**
-     * Pivot points indicator. This series requires the `linkedTo` option to be
-     * set and should be loaded after `stock/indicators/indicators.js` file.
-     *
-     * @sample stock/indicators/pivot-points
-     *         Pivot points
-     *
-     * @extends      plotOptions.sma
-     * @since        6.0.0
-     * @product      highstock
-     * @requires     stock/indicators/indicators
-     * @requires     stock/indicators/pivotpoints
-     * @optionparent plotOptions.pivotpoints
+     * @excluding index
      */
-    PivotPointsIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
+    params: {
+        index: void 0, // Unchangeable index, do not inherit (#15362)
+        period: 28,
         /**
-         * @excluding index
+         * Algorithm used to calculate resistance and support lines based
+         * on pivot points. Implemented algorithms: `'standard'`,
+         * `'fibonacci'` and `'camarilla'`
          */
-        params: {
-            index: void 0,
-            period: 28,
-            /**
-             * Algorithm used to calculate ressistance and support lines based
-             * on pivot points. Implemented algorithms: `'standard'`,
-             * `'fibonacci'` and `'camarilla'`
-             */
-            algorithm: 'standard'
-        },
-        marker: {
-            enabled: false
-        },
-        enableMouseTracking: false,
-        dataLabels: {
-            enabled: true,
-            format: '{point.pivotLine}'
-        },
-        dataGrouping: {
-            approximation: 'averages'
-        }
-    });
-    return PivotPointsIndicator;
-}(SMAIndicator));
+        algorithm: 'standard'
+    },
+    marker: {
+        enabled: false
+    },
+    enableMouseTracking: false,
+    dataLabels: {
+        enabled: true,
+        format: '{point.pivotLine}'
+    },
+    dataGrouping: {
+        approximation: 'averages'
+    }
+});
 extend(PivotPointsIndicator.prototype, {
     nameBase: 'Pivot Points',
     pointArrayMap: ['R4', 'R3', 'R2', 'R1', 'P', 'S1', 'S2', 'S3', 'S4'],
@@ -294,6 +275,11 @@ SeriesRegistry.registerSeriesType('pivotpoints', PivotPointsIndicator);
  *
  * */
 export default PivotPointsIndicator;
+/* *
+ *
+ *  API Options
+ *
+ * */
 /**
  * A pivot points indicator. If the [type](#series.pivotpoints.type) option is
  * not specified, it is inherited from [chart.type](#chart.type).
@@ -303,7 +289,7 @@ export default PivotPointsIndicator;
  * @product   highstock
  * @excluding dataParser, dataURL
  * @requires  stock/indicators/indicators
- * @requires  stock/indicators/pivotpoints
+ * @requires  stock/indicators/pivot-points
  * @apioption series.pivotpoints
  */
-''; // to include the above in the js output'
+''; // To include the above in the js output'

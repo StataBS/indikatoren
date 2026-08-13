@@ -3,14 +3,14 @@
         chart: {
             type: "scatter",
             inverted: true,
-            borderColor: "#fbfbfb",
-            backgroundColor: "#fbfbfb",
+            borderColor: "#ffffff",
+            backgroundColor: "#ffffff",
             width: 320,
             height: 208,
             spacing: [2, 2, 2, 2], /*top, right, bottom and left */
             zoomType: "xy",
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             },
             events: {
                 load: function () {
@@ -28,7 +28,7 @@
             style: {
                 fontSize: "14px",
                 fontWeight: "bold",
-                fontFamily: "Arial",
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 color: "#000000"
             }
         },
@@ -37,7 +37,7 @@
             style: {
                 fontSize: "12px",
                 fontWeight: "normal",
-                fontFamily: "Arial",
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
                 color: "#000000"
             },
         },

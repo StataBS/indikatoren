@@ -1,32 +1,29 @@
 /* *
  *
- *  (c) 2009-2021 Øystein Moseng
+ *  (c) 2009-2026 Highsoft AS
+ *  Author: Øystein Moseng
  *
  *  Accessibility component for series and points.
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-import H from '../../../Core/Globals.js';
-import U from '../../../Core/Utilities.js';
-var extend = U.extend;
 import AccessibilityComponent from '../../AccessibilityComponent.js';
-import SeriesKeyboardNavigation from './SeriesKeyboardNavigation.js';
-import NewDataAnnouncer from './NewDataAnnouncer.js';
-import addForceMarkersEvents from './ForcedMarkers.js';
 import ChartUtilities from '../../Utils/ChartUtilities.js';
-var hideSeriesFromAT = ChartUtilities.hideSeriesFromAT;
+const { hideSeriesFromAT } = ChartUtilities;
+import ForcedMarkers from './ForcedMarkers.js';
+import NewDataAnnouncer from './NewDataAnnouncer.js';
 import SeriesDescriber from './SeriesDescriber.js';
-var describeSeries = SeriesDescriber.describeSeries;
-import Tooltip from '../../../Core/Tooltip.js';
-// Expose functionality to users
-H.SeriesAccessibilityDescriber = SeriesDescriber;
-// Handle forcing markers
-addForceMarkersEvents();
-/* eslint-disable no-invalid-this, valid-jsdoc */
+const { describeSeries } = SeriesDescriber;
+import SeriesKeyboardNavigation from './SeriesKeyboardNavigation.js';
+/* *
+ *
+ *  Class
+ *
+ * */
 /**
  * The SeriesComponent class
  *
@@ -34,37 +31,56 @@ addForceMarkersEvents();
  * @class
  * @name Highcharts.SeriesComponent
  */
-var SeriesComponent = function () { };
-SeriesComponent.prototype = new AccessibilityComponent();
-extend(SeriesComponent.prototype, /** @lends Highcharts.SeriesComponent */ {
+class SeriesComponent extends AccessibilityComponent {
+    /* *
+     *
+     *  Static Functions
+     *
+     * */
+    /* eslint-disable valid-jsdoc */
+    /**
+     * @private
+     */
+    static compose(ChartClass, PointClass, SeriesClass) {
+        NewDataAnnouncer.compose(SeriesClass);
+        ForcedMarkers.compose(SeriesClass);
+        SeriesKeyboardNavigation.compose(ChartClass, PointClass, SeriesClass);
+    }
+    /* *
+     *
+     *  Functions
+     *
+     * */
     /**
      * Init the component.
      */
-    init: function () {
+    init() {
         this.newDataAnnouncer = new NewDataAnnouncer(this.chart);
         this.newDataAnnouncer.init();
         this.keyboardNavigation = new SeriesKeyboardNavigation(this.chart, this.keyCodes);
         this.keyboardNavigation.init();
         this.hideTooltipFromATWhenShown();
         this.hideSeriesLabelsFromATWhenShown();
-    },
+    }
     /**
      * @private
      */
-    hideTooltipFromATWhenShown: function () {
-        var component = this;
-        this.addEvent(Tooltip, 'refresh', function () {
-            if (this.chart === component.chart &&
-                this.label &&
-                this.label.element) {
-                this.label.element.setAttribute('aria-hidden', true);
-            }
-        });
-    },
+    hideTooltipFromATWhenShown() {
+        const component = this;
+        if (this.chart.tooltip) {
+            this.addEvent(this.chart.tooltip.constructor, 'refresh', function () {
+                if (this.chart === component.chart &&
+                    this.label &&
+                    this.label.element) {
+                    this.label.element.setAttribute('aria-hidden', true);
+                }
+            });
+        }
+    }
     /**
      * @private
      */
-    hideSeriesLabelsFromATWhenShown: function () {
+    hideSeriesLabelsFromATWhenShown() {
         this.addEvent(this.chart, 'afterDrawSeriesLabels', function () {
             this.series.forEach(function (series) {
                 if (series.labelBySeries) {
@@ -72,17 +88,17 @@ extend(SeriesComponent.prototype, /** @lends Highcharts.SeriesComponent */ {
                 }
             });
         });
-    },
+    }
     /**
      * Called on chart render. It is necessary to do this for render in case
      * markers change on zoom/pixel density.
      */
-    onChartRender: function () {
-        var chart = this.chart;
+    onChartRender() {
+        const chart = this.chart;
         chart.series.forEach(function (series) {
-            var shouldDescribeSeries = (series.options.accessibility &&
+            const shouldDescribeSeries = (series.options.accessibility &&
                 series.options.accessibility.enabled) !== false &&
-                series.visible;
+                series.visible && series.getPointsCollection().length !== 0;
             if (shouldDescribeSeries) {
                 describeSeries(series);
             }
@@ -90,20 +106,26 @@ extend(SeriesComponent.prototype, /** @lends Highcharts.SeriesComponent */ {
                 hideSeriesFromAT(series);
             }
         });
-    },
+    }
     /**
      * Get keyboard navigation handler for this component.
-     * @return {Highcharts.KeyboardNavigationHandler}
+     * @private
      */
-    getKeyboardNavigation: function () {
+    getKeyboardNavigation() {
         return this.keyboardNavigation.getKeyboardNavigationHandler();
-    },
+    }
     /**
      * Remove traces
+     * @private
      */
-    destroy: function () {
+    destroy() {
         this.newDataAnnouncer.destroy();
         this.keyboardNavigation.destroy();
     }
-});
+}
+/* *
+ *
+ *  Default Export
+ *
+ * */
 export default SeriesComponent;

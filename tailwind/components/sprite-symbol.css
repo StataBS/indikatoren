@@ -1,0 +1,97 @@
+@layer components {
+  :root {
+    --wiggle-degrees: 13deg;
+  }
+  @keyframes wiggle {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(var(--wiggle-degrees));
+    }
+    40% {
+      transform: rotate(calc(-1 * var(--wiggle-degrees)));
+    }
+    60% {
+      transform: rotate(var(--wiggle-degrees));
+    }
+    80% {
+      transform: rotate(calc(-1 * var(--wiggle-degrees)));
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes jump {
+    0% {
+      transform: translateY(0) scale(1, 1);
+    }
+    50% {
+      transform: translateY(-6px) scale(0.8, 1.2);
+    }
+    100% {
+      transform: translateY(0) scale(1, 1);
+    }
+  }
+
+  svg[data-symbol="arrow-east"],
+  svg[data-symbol="arrow-north-east"],
+  svg[data-symbol="arrow-west"],
+  svg[data-symbol="arrow-south"],
+  svg[data-symbol="play"],
+  svg[data-symbol="send-mail"] {
+    @apply transition-[transform] duration-250 ease-in-out;
+  }
+
+  a:hover, button:hover, .button:hover, .link:hover {
+    & svg[data-symbol="arrow-east"] {
+      transform: translateX(4px);
+    }
+    & svg[data-symbol="send-mail"] {
+      transform: translateX(3px);
+    }
+
+    & svg[data-symbol="arrow-north-east"] {
+      transform: translate(1.5px, -1.5px);
+    }
+
+    & svg[data-symbol="arrow-west"] {
+      transform: translateX(-4px);
+    }
+
+    & svg[data-symbol="arrow-south"] {
+      transform: translateY(2px);
+    }
+
+    & svg[data-symbol="play"] {
+      transform: scale(1.1);
+    }
+
+    & svg[data-symbol="phone"] {
+      animation: wiggle .4s linear;
+    }
+
+    & svg[data-symbol="location"] {
+      animation: jump .5s cubic-bezier(0, 0, 0.58, 1.0);
+    }
+  }
+
+  a:active, button:active, .button:active, .link:active {
+    & svg[data-symbol="arrow-east"] {
+      transform: translateX(8px);
+    }
+
+    & svg[data-symbol="arrow-north-east"] {
+      transform: translate(2px, -2px);
+    }
+
+    & svg[data-symbol="arrow-west"] {
+      transform: translateX(-8px);
+    }
+
+    & svg[data-symbol="arrow-south"] {
+      transform: translateY(3px);
+    }
+  }
+}

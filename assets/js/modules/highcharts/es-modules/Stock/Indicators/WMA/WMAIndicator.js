@@ -1,37 +1,29 @@
 /* *
  *
- *  (c) 2010-2021 Kacper Madej
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Kacper Madej
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
 import SeriesRegistry from '../../../Core/Series/SeriesRegistry.js';
-var SMAIndicator = SeriesRegistry.seriesTypes.sma;
+const { sma: SMAIndicator } = SeriesRegistry.seriesTypes;
 import U from '../../../Core/Utilities.js';
-var isArray = U.isArray, merge = U.merge;
-/* eslint-disable valid-jsdoc */
+const { isArray, merge } = U;
+/* *
+ *
+ *  Functions
+ *
+ * */
 // Utils:
 /**
  * @private
  */
 function accumulateAverage(points, xVal, yVal, i, index) {
-    var xValue = xVal[i], yValue = index < 0 ? yVal[i] : yVal[i][index];
+    const xValue = xVal[i], yValue = index < 0 ? yVal[i] : yVal[i][index];
     points.push([xValue, yValue]);
 }
 /**
@@ -41,8 +33,8 @@ function weightedSumArray(array, pLen) {
     // The denominator is the sum of the number of days as a triangular number.
     // If there are 5 days, the triangular numbers are 5, 4, 3, 2, and 1.
     // The sum is 5 + 4 + 3 + 2 + 1 = 15.
-    var denominator = (pLen + 1) / 2 * pLen;
-    // reduce VS loop => reduce
+    const denominator = (pLen + 1) / 2 * pLen;
+    // Reduce VS loop => reduce
     return array.reduce(function (prev, cur, i) {
         return [null, prev[1] + cur[1] * (i + 1)];
     })[1] / denominator;
@@ -51,11 +43,15 @@ function weightedSumArray(array, pLen) {
  * @private
  */
 function populateAverage(points, xVal, yVal, i) {
-    var pLen = points.length, wmaY = weightedSumArray(points, pLen), wmaX = xVal[i - 1];
-    points.shift(); // remove point until range < period
+    const pLen = points.length, wmaY = weightedSumArray(points, pLen), wmaX = xVal[i - 1];
+    points.shift(); // Remove point until range < period
     return [wmaX, wmaY];
 }
-/* eslint-enable valid-jsdoc */
+/* *
+ *
+ *  Class
+ *
+ * */
 /**
  * The SMA series type.
  *
@@ -65,17 +61,15 @@ function populateAverage(points, xVal, yVal, i) {
  *
  * @augments Highcharts.Series
  */
-var WMAIndicator = /** @class */ (function (_super) {
-    __extends(WMAIndicator, _super);
-    function WMAIndicator() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.data = void 0;
-        _this.options = void 0;
-        _this.points = void 0;
-        return _this;
-    }
-    WMAIndicator.prototype.getValues = function (series, params) {
-        var period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, range = 1, xValue = xVal[0], yValue = yVal[0], WMA = [], xData = [], yData = [], index = -1, i, points, WMAPoint;
+class WMAIndicator extends SMAIndicator {
+    /* *
+     *
+     *  Functions
+     *
+     * */
+    getValues(series, params) {
+        const period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, xValue = xVal[0], wma = [], xData = [], yData = [];
+        let range = 1, index = -1, i, wmaPoint, yValue = yVal[0];
         if (xVal.length < period) {
             return;
         }
@@ -85,7 +79,7 @@ var WMAIndicator = /** @class */ (function (_super) {
             yValue = yVal[0][index];
         }
         // Starting point
-        points = [[xValue, yValue]];
+        const points = [[xValue, yValue]];
         // Accumulate first N-points
         while (range !== period) {
             accumulateAverage(points, xVal, yVal, range, index);
@@ -93,44 +87,48 @@ var WMAIndicator = /** @class */ (function (_super) {
         }
         // Calculate value one-by-one for each period in visible data
         for (i = range; i < yValLen; i++) {
-            WMAPoint = populateAverage(points, xVal, yVal, i);
-            WMA.push(WMAPoint);
-            xData.push(WMAPoint[0]);
-            yData.push(WMAPoint[1]);
+            wmaPoint = populateAverage(points, xVal, yVal, i);
+            wma.push(wmaPoint);
+            xData.push(wmaPoint[0]);
+            yData.push(wmaPoint[1]);
             accumulateAverage(points, xVal, yVal, i, index);
         }
-        WMAPoint = populateAverage(points, xVal, yVal, i);
-        WMA.push(WMAPoint);
-        xData.push(WMAPoint[0]);
-        yData.push(WMAPoint[1]);
+        wmaPoint = populateAverage(points, xVal, yVal, i);
+        wma.push(wmaPoint);
+        xData.push(wmaPoint[0]);
+        yData.push(wmaPoint[1]);
         return {
-            values: WMA,
+            values: wma,
             xData: xData,
             yData: yData
         };
-    };
-    /**
-     * Weighted moving average indicator (WMA). This series requires `linkedTo`
-     * option to be set.
-     *
-     * @sample stock/indicators/wma
-     *         Weighted moving average indicator
-     *
-     * @extends      plotOptions.sma
-     * @since        6.0.0
-     * @product      highstock
-     * @requires     stock/indicators/indicators
-     * @requires     stock/indicators/wma
-     * @optionparent plotOptions.wma
-     */
-    WMAIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
-        params: {
-            index: 3,
-            period: 9
-        }
-    });
-    return WMAIndicator;
-}(SMAIndicator));
+    }
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+/**
+ * Weighted moving average indicator (WMA). This series requires `linkedTo`
+ * option to be set.
+ *
+ * @sample stock/indicators/wma
+ *         Weighted moving average indicator
+ *
+ * @extends      plotOptions.sma
+ * @since        6.0.0
+ * @product      highstock
+ * @requires     stock/indicators/indicators
+ * @requires     stock/indicators/wma
+ * @optionparent plotOptions.wma
+ */
+WMAIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
+    params: {
+        index: 3,
+        period: 9
+    }
+});
 SeriesRegistry.registerSeriesType('wma', WMAIndicator);
 /* *
  *
@@ -138,6 +136,11 @@ SeriesRegistry.registerSeriesType('wma', WMAIndicator);
  *
  * */
 export default WMAIndicator;
+/* *
+ *
+ *  API Options
+ *
+ * */
 /**
  * A `WMA` series. If the [type](#series.wma.type) option is not specified, it
  * is inherited from [chart.type](#chart.type).
@@ -150,4 +153,4 @@ export default WMAIndicator;
  * @requires  stock/indicators/wma
  * @apioption series.wma
  */
-''; // adds doclet above to the transpiled file
+''; // Adds doclet above to the transpiled file

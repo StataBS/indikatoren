@@ -1,15 +1,14 @@
-/*
- Highstock JS v9.1.2 (2021-06-16)
-
- Slow Stochastic series type for Highcharts Stock
-
- (c) 2010-2021 Pawel Fus
-
- License: www.highcharts.com/license
-*/
-'use strict';(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/indicators",["highcharts","highcharts/modules/stock"],function(b){a(b);a.Highcharts=b;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function b(a,f,c,h){a.hasOwnProperty(f)||(a[f]=h.apply(null,c))}a=a?a._modules:{};b(a,"Mixins/IndicatorRequired.js",[a["Core/Utilities.js"]],function(a){var f=a.error;
-return{isParentLoaded:function(a,h,b,g,k){if(a)return g?g(a):!0;f(k||this.generateMessage(b,h));return!1},generateMessage:function(a,b){return'Error: "'+a+'" indicator type requires "'+b+'" indicator loaded before. Please read docs: https://api.highcharts.com/highstock/plotOptions.'+a}}});b(a,"Stock/Indicators/SlowStochastic/SlowStochasticIndicator.js",[a["Mixins/IndicatorRequired.js"],a["Core/Series/SeriesRegistry.js"],a["Core/Utilities.js"]],function(a,b,c){var h=this&&this.__extends||function(){var a=
-function(b,d){a=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,d){a.__proto__=d}||function(a,d){for(var e in d)d.hasOwnProperty(e)&&(a[e]=d[e])};return a(b,d)};return function(b,d){function e(){this.constructor=b}a(b,d);b.prototype=null===d?Object.create(d):(e.prototype=d.prototype,new e)}}(),f=b.seriesTypes.stochastic,g=b.seriesTypes,k=c.extend,l=c.merge;c=function(b){function c(){var a=null!==b&&b.apply(this,arguments)||this;a.data=void 0;a.options=void 0;a.points=void 0;return a}
-h(c,b);c.prototype.init=function(){var b=arguments,e=this;a.isParentLoaded(g.stochastic,"stochastic",e.type,function(a){a.prototype.init.apply(e,b)})};c.prototype.getValues=function(a,b){var c=b.periods,d=g.stochastic.prototype.getValues.call(this,a,b);a={values:[],xData:[],yData:[]};b=0;if(d){a.xData=d.xData.slice(c[1]-1);d=d.yData.slice(c[1]-1);var e=g.sma.prototype.getValues.call(this,{xData:a.xData,yData:d},{index:1,period:c[2]});if(e){for(var f=a.xData.length;b<f;b++)a.yData[b]=[d[b][1],e.yData[b-
-c[2]+1]||null],a.values[b]=[a.xData[b],d[b][1],e.yData[b-c[2]+1]||null];return a}}};c.defaultOptions=l(f.defaultOptions,{params:{periods:[14,3,3]}});return c}(f);k(c.prototype,{nameBase:"Slow Stochastic"});b.registerSeriesType("slowstochastic",c);"";return c});b(a,"masters/indicators/slow-stochastic.src.js",[],function(){})});
-//# sourceMappingURL=slow-stochastic.js.map
+!/**
+ * Highstock JS v12.5.0 (2026-01-12)
+ * @module highcharts/indicators/indicators
+ * @requires highcharts
+ * @requires highcharts/modules/stock
+ *
+ * Slow Stochastic series type for Highcharts Stock
+ *
+ * (c) 2010-2026 Highsoft AS
+ * Author: Pawel Fus
+ *
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
+ */function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e(t._Highcharts,t._Highcharts.SeriesRegistry):"function"==typeof define&&define.amd?define("highcharts/indicators/slow-stochastic",["highcharts/highcharts"],function(t){return e(t,t.SeriesRegistry)}):"object"==typeof exports?exports["highcharts/indicators/slow-stochastic"]=e(t._Highcharts,t._Highcharts.SeriesRegistry):t.Highcharts=e(t.Highcharts,t.Highcharts.SeriesRegistry)}("u"<typeof window?this:window,(t,e)=>(()=>{"use strict";var a={512:t=>{t.exports=e},944:e=>{e.exports=t}},s={};function r(t){var e=s[t];if(void 0!==e)return e.exports;var i=s[t]={exports:{}};return a[t](i,i.exports,r),i.exports}r.n=t=>{var e=t&&t.__esModule?()=>t.default:()=>t;return r.d(e,{a:e}),e},r.d=(t,e)=>{for(var a in e)r.o(e,a)&&!r.o(t,a)&&Object.defineProperty(t,a,{enumerable:!0,get:e[a]})},r.o=(t,e)=>Object.prototype.hasOwnProperty.call(t,e);var i={};r.d(i,{default:()=>y});var o=r(944),c=r.n(o),l=r(512),n=r.n(l);let{sma:h,stochastic:p}=n().seriesTypes,{extend:u,merge:d}=c();class f extends p{getValues(t,e){let a=e.periods,s=super.getValues.call(this,t,e),r={values:[],xData:[],yData:[]};if(!s)return;r.xData=s.xData.slice(a[1]-1);let i=s.yData.slice(a[1]-1),o=h.prototype.getValues.call(this,{xData:r.xData,yData:i},{index:1,period:a[2]});if(o){for(let t=0,e=r.xData.length;t<e;t++)r.yData[t]=[i[t][1],o.yData[t-a[2]+1]||null],r.values[t]=[r.xData[t],i[t][1],o.yData[t-a[2]+1]||null];return r}}}f.defaultOptions=d(p.defaultOptions,{params:{periods:[14,3,3]}}),u(f.prototype,{nameBase:"Slow Stochastic"}),n().registerSeriesType("slowstochastic",f);let y=c();return i.default})());

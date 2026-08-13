@@ -2,48 +2,51 @@
  *
  *  Money Flow Index indicator for Highcharts Stock
  *
- *  (c) 2010-2021 Grzegorz Blachliński
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Grzegorz Blachliński
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
 import SeriesRegistry from '../../../Core/Series/SeriesRegistry.js';
-var SMAIndicator = SeriesRegistry.seriesTypes.sma;
+const { sma: SMAIndicator } = SeriesRegistry.seriesTypes;
 import U from '../../../Core/Utilities.js';
-var extend = U.extend, merge = U.merge, error = U.error, isArray = U.isArray;
-/* eslint-disable require-jsdoc */
+const { extend, merge, error, isArray } = U;
+/* *
+ *
+ *  Functions
+ *
+ * */
 // Utils:
+/**
+ *
+ */
 function sumArray(array) {
     return array.reduce(function (prev, cur) {
         return prev + cur;
     });
 }
+/**
+ *
+ */
 function toFixed(a, n) {
     return parseFloat(a.toFixed(n));
 }
+/**
+ *
+ */
 function calculateTypicalPrice(point) {
     return (point[1] + point[2] + point[3]) / 3;
 }
+/**
+ *
+ */
 function calculateRawMoneyFlow(typicalPrice, volume) {
     return typicalPrice * volume;
 }
-/* eslint-enable require-jsdoc */
 /* *
  *
  *  Class
@@ -58,30 +61,18 @@ function calculateRawMoneyFlow(typicalPrice, volume) {
  *
  * @augments Highcharts.Series
  */
-var MFIIndicator = /** @class */ (function (_super) {
-    __extends(MFIIndicator, _super);
-    function MFIIndicator() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        /* *
-        *
-        *  Properties
-        *
-        * */
-        _this.data = void 0;
-        _this.options = void 0;
-        _this.points = void 0;
-        return _this;
-    }
+class MFIIndicator extends SMAIndicator {
     /* *
-    *
-    *  Functions
-    *
-    * */
-    MFIIndicator.prototype.getValues = function (series, params) {
-        var period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, decimals = params.decimals, 
+     *
+     *  Functions
+     *
+     * */
+    getValues(series, params) {
+        const period = params.period, xVal = series.xData, yVal = series.yData, yValLen = yVal ? yVal.length : 0, decimals = params.decimals, volumeSeries = series.chart.get(params.volumeSeriesID), yValVolume = volumeSeries?.getColumn('y') || [], MFI = [], xData = [], yData = [], positiveMoneyFlow = [], negativeMoneyFlow = [];
+        let newTypicalPrice, oldTypicalPrice, rawMoneyFlow, negativeMoneyFlowSum, positiveMoneyFlowSum, moneyFlowRatio, MFIPoint, i, isUp = false, 
         // MFI starts calculations from the second point
         // Cause we need to calculate change between two points
-        range = 1, volumeSeries = series.chart.get(params.volumeSeriesID), yValVolume = (volumeSeries && volumeSeries.yData), MFI = [], isUp = false, xData = [], yData = [], positiveMoneyFlow = [], negativeMoneyFlow = [], newTypicalPrice, oldTypicalPrice, rawMoneyFlow, negativeMoneyFlowSum, positiveMoneyFlowSum, moneyFlowRatio, MFIPoint, i;
+        range = 1;
         if (!volumeSeries) {
             error('Series ' +
                 params.volumeSeriesID +
@@ -138,41 +129,45 @@ var MFIIndicator = /** @class */ (function (_super) {
             xData: xData,
             yData: yData
         };
-    };
+    }
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+/**
+ * Money Flow Index. This series requires `linkedTo` option to be set and
+ * should be loaded after the `stock/indicators/indicators.js` file.
+ *
+ * @sample stock/indicators/mfi
+ *         Money Flow Index Indicator
+ *
+ * @extends      plotOptions.sma
+ * @since        6.0.0
+ * @product      highstock
+ * @requires     stock/indicators/indicators
+ * @requires     stock/indicators/mfi
+ * @optionparent plotOptions.mfi
+ */
+MFIIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
     /**
-     * Money Flow Index. This series requires `linkedTo` option to be set and
-     * should be loaded after the `stock/indicators/indicators.js` file.
-     *
-     * @sample stock/indicators/mfi
-     *         Money Flow Index Indicator
-     *
-     * @extends      plotOptions.sma
-     * @since        6.0.0
-     * @product      highstock
-     * @requires     stock/indicators/indicators
-     * @requires     stock/indicators/mfi
-     * @optionparent plotOptions.mfi
+     * @excluding index
      */
-    MFIIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
+    params: {
+        index: void 0, // Unchangeable index, do not inherit (#15362)
         /**
-         * @excluding index
+         * The id of volume series which is mandatory.
+         * For example using OHLC data, volumeSeriesID='volume' means
+         * the indicator will be calculated using OHLC and volume values.
          */
-        params: {
-            index: void 0,
-            /**
-             * The id of volume series which is mandatory.
-             * For example using OHLC data, volumeSeriesID='volume' means
-             * the indicator will be calculated using OHLC and volume values.
-             */
-            volumeSeriesID: 'volume',
-            /**
-             * Number of maximum decimals that are used in MFI calculations.
-             */
-            decimals: 4
-        }
-    });
-    return MFIIndicator;
-}(SMAIndicator));
+        volumeSeriesID: 'volume',
+        /**
+         * Number of maximum decimals that are used in MFI calculations.
+         */
+        decimals: 4
+    }
+});
 extend(MFIIndicator.prototype, {
     nameBase: 'Money Flow Index'
 });
@@ -183,6 +178,11 @@ SeriesRegistry.registerSeriesType('mfi', MFIIndicator);
  *
  * */
 export default MFIIndicator;
+/* *
+ *
+ *  API Options
+ *
+ * */
 /**
  * A `MFI` series. If the [type](#series.mfi.type) option is not specified, it
  * is inherited from [chart.type](#chart.type).
@@ -195,4 +195,4 @@ export default MFIIndicator;
  * @requires  stock/indicators/mfi
  * @apioption series.mfi
  */
-''; // to include the above in the js output
+''; // To include the above in the js output

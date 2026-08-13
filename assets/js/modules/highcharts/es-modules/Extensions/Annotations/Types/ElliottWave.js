@@ -1,91 +1,79 @@
 /* *
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-import Annotation from '../Annotations.js';
+import Annotation from '../Annotation.js';
 import CrookedLine from './CrookedLine.js';
+import D from '../../../Core/Defaults.js';
+const { defaultOptions } = D;
 import U from '../../../Core/Utilities.js';
-var merge = U.merge;
-/* eslint-disable no-invalid-this, valid-jsdoc */
-var ElliottWave = /** @class */ (function (_super) {
-    __extends(ElliottWave, _super);
-    function ElliottWave(chart, options) {
-        return _super.call(this, chart, options) || this;
-    }
+const { merge } = U;
+if (defaultOptions.annotations?.types) {
+    defaultOptions.annotations.types.elliottWave = merge(defaultOptions.annotations.types.crookedLine, 
+    /**
+     * Options for the elliott wave annotation type.
+     *
+     * @sample highcharts/annotations-advanced/elliott-wave/
+     *         Elliott wave
+     *
+     * @extends      annotations.types.crookedLine
+     * @product      highstock
+     * @optionparent annotations.types.elliottWave
+     */
+    {
+        typeOptions: {
+            /**
+             * @extends   annotations.types.crookedLine.labelOptions
+             * @apioption annotations.types.elliottWave.typeOptions.points.label
+             */
+            /**
+             * @ignore-option
+             */
+            labels: ['(0)', '(A)', '(B)', '(C)', '(D)', '(E)'],
+            line: {
+                strokeWidth: 1
+            }
+        },
+        labelOptions: {
+            align: 'center',
+            allowOverlap: true,
+            crop: true,
+            overflow: 'none',
+            type: 'rect',
+            backgroundColor: 'none',
+            borderWidth: 0,
+            y: -5,
+            style: {
+                color: "#333333" /* Palette.neutralColor80 */
+            }
+        }
+    });
+}
+/* *
+ *
+ *  Class
+ *
+ * */
+/** @internal */
+class ElliottWave extends CrookedLine {
     /* *
      *
      * Functions
      *
      * */
-    ElliottWave.prototype.addLabels = function () {
-        this.getPointsOptions().forEach(function (point, i) {
-            var typeOptions = this.options.typeOptions, label = this.initLabel(merge(point.label, {
+    addLabels() {
+        this.getPointsOptions().forEach((point, i) => {
+            const typeOptions = this.options.typeOptions, label = this.initLabel(merge(point.label, {
                 text: typeOptions.labels[i],
                 point: function (target) {
                     return target.annotation.points[i];
                 }
             }), false);
             point.label = label.options;
-        }, this);
-    };
-    return ElliottWave;
-}(CrookedLine));
-ElliottWave.prototype.defaultOptions = merge(CrookedLine.prototype.defaultOptions, 
-/**
- * An elliott wave annotation.
- *
- * @sample highcharts/annotations-advanced/elliott-wave/
- *         Elliott wave
- *
- * @extends      annotations.crookedLine
- * @product      highstock
- * @optionparent annotations.elliottWave
- */
-{
-    typeOptions: {
-        /**
-         * @extends   annotations.crookedLine.labelOptions
-         * @apioption annotations.elliottWave.typeOptions.points.label
-         */
-        /**
-         * @ignore-options
-         */
-        labels: ['(0)', '(A)', '(B)', '(C)', '(D)', '(E)'],
-        line: {
-            strokeWidth: 1
-        }
-    },
-    labelOptions: {
-        align: 'center',
-        allowOverlap: true,
-        crop: true,
-        overflow: 'none',
-        type: 'rect',
-        backgroundColor: 'none',
-        borderWidth: 0,
-        y: -5
+        });
     }
-});
-/* *
- *
- *  Registry
- *
- * */
+}
 Annotation.types.elliottWave = ElliottWave;
 /* *
  *

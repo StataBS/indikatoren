@@ -1,0 +1,41 @@
+:root {
+  --page-header-height: 118px;
+  @screen md {
+    --page-header-height: 58px;
+  }
+  @screen xl {
+    --page-header-height: 70px;
+  }
+}
+@layer components {
+  .header-title {
+    @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold;
+  }
+
+  .page-header {
+    @apply grid items-center container [@media(min-width:1660px)]:max-w-[2560px];
+    height: var(--page-header-height);
+
+    grid-template:
+      'logo controls' 46px
+      'console console' auto /
+      1fr auto;
+
+    @screen md {
+      grid-template:
+        'logo console controls' 1fr /
+        1fr 1fr 1fr;
+    }
+
+    .page-header-console {
+      grid-area: console;
+      @apply flex items-center justify-center;
+    }
+
+    .page-header-controls {
+      @apply grid h-30 justify-end gap-[8px];
+      grid-area: controls; /* If we do not set the grid area explicitly here, the controls move one to the left on Bettingen. */
+      grid-template-columns: auto auto auto;
+    }
+  }
+}

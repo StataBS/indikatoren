@@ -1,23 +1,84 @@
 /* *
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-import ControllableMixin from '../Mixins/ControllableMixin.js';
+import Controllable from './Controllable.js';
+import ControllableDefaults from './ControllableDefaults.js';
+const { defaultMarkers } = ControllableDefaults;
 import H from '../../../Core/Globals.js';
-import MarkerMixin from '../Mixins/MarkerMixin.js';
 import U from '../../../Core/Utilities.js';
-var extend = U.extend;
+const { addEvent, defined, extend, merge, uniqueKey } = U;
+/* *
+ *
+ *  Constants
+ *
+ * */
+const markerEndSetter = createMarkerSetter('marker-end');
+const markerStartSetter = createMarkerSetter('marker-start');
 // See TRACKER_FILL in highcharts.src.js
-var TRACKER_FILL = 'rgba(192,192,192,' + (H.svg ? 0.0001 : 0.002) + ')';
-/* eslint-disable no-invalid-this, valid-jsdoc */
+const TRACKER_FILL = 'rgba(192,192,192,' + (H.svg ? 0.0001 : 0.002) + ')';
+/* *
+ *
+ *  Functions
+ *
+ * */
+/** @internal */
+function createMarkerSetter(markerType) {
+    return function (value) {
+        this.attr(markerType, 'url(#' + value + ')');
+    };
+}
+/** @internal */
+function onChartAfterGetContainer() {
+    this.options.defs = merge(defaultMarkers, this.options.defs || {});
+    ///  objectEach(this.options.defs, function (def): void {
+    //     const attributes = def.attributes;
+    //     if (
+    //         def.tagName === 'marker' &&
+    //         attributes &&
+    //         attributes.id &&
+    //         attributes.display !== 'none'
+    //     ) {
+    //         this.renderer.addMarker(attributes.id, def);
+    //     }
+    // }, this);
+}
+/** @internal */
+function svgRendererAddMarker(id, markerOptions) {
+    const options = { attributes: { id } };
+    const attrs = {
+        stroke: markerOptions.color || 'none',
+        fill: markerOptions.color || 'rgba(0, 0, 0, 0.75)'
+    };
+    options.children = (markerOptions.children &&
+        markerOptions.children.map(function (child) {
+            return merge(attrs, child);
+        }));
+    const ast = merge(true, {
+        attributes: {
+            markerWidth: 20,
+            markerHeight: 20,
+            refX: 0,
+            refY: 0,
+            orient: 'auto'
+        }
+    }, markerOptions, options);
+    const marker = this.definition(ast);
+    marker.id = id;
+    return marker;
+}
+/* *
+ *
+ *  Class
+ *
+ * */
 /**
  * A controllable path class.
  *
+ * @internal
  * @requires modules/annotations
  *
- * @private
  * @class
  * @name Highcharts.AnnotationControllablePath
  *
@@ -30,43 +91,32 @@ var TRACKER_FILL = 'rgba(192,192,192,' + (H.svg ? 0.0001 : 0.002) + ')';
  * @param {number} index
  * Index of the path.
  */
-var ControllablePath = /** @class */ (function () {
+class ControllablePath extends Controllable {
+    /* *
+     *
+     *  Static Functions
+     *
+     * */
+    static compose(ChartClass, SVGRendererClass) {
+        const svgRendererProto = SVGRendererClass.prototype;
+        if (!svgRendererProto.addMarker) {
+            addEvent(ChartClass, 'afterGetContainer', onChartAfterGetContainer);
+            svgRendererProto.addMarker = svgRendererAddMarker;
+        }
+    }
     /* *
      *
      *  Constructors
      *
      * */
-    function ControllablePath(annotation, options, index) {
+    constructor(annotation, options, index) {
+        super(annotation, options, index, 'shape');
         /* *
          *
          *  Properties
          *
          * */
-        this.addControlPoints = ControllableMixin.addControlPoints;
-        this.anchor = ControllableMixin.anchor;
-        this.attr = ControllableMixin.attr;
-        this.attrsFromOptions = ControllableMixin.attrsFromOptions;
-        this.destroy = ControllableMixin.destroy;
-        this.getPointsOptions = ControllableMixin.getPointsOptions;
-        this.init = ControllableMixin.init;
-        this.linkPoints = ControllableMixin.linkPoints;
-        this.point = ControllableMixin.point;
-        this.rotate = ControllableMixin.rotate;
-        this.scale = ControllableMixin.scale;
-        this.setControlPointsVisibility = ControllableMixin.setControlPointsVisibility;
-        this.setMarkers = MarkerMixin.setItemMarkers;
-        this.transform = ControllableMixin.transform;
-        this.transformPoint = ControllableMixin.transformPoint;
-        this.translate = ControllableMixin.translate;
-        this.translatePoint = ControllableMixin.translatePoint;
-        this.translateShape = ControllableMixin.translateShape;
-        this.update = ControllableMixin.update;
-        /**
-         * @type 'path'
-         */
         this.type = 'path';
-        this.init(annotation, options, index);
-        this.collection = 'shapes';
     }
     /* *
      *
@@ -79,14 +129,15 @@ var ControllablePath = /** @class */ (function () {
      * @return {Highcharts.SVGPathArray|null}
      * A path's d attribute.
      */
-    ControllablePath.prototype.toD = function () {
-        var dOption = this.options.d;
+    toD() {
+        const dOption = this.options.d;
         if (dOption) {
             return typeof dOption === 'function' ?
                 dOption.call(this) :
                 dOption;
         }
-        var points = this.points, len = points.length, showPath = len, point = points[0], position = showPath && this.anchor(point).absolutePosition, pointIndex = 0, command, d = [];
+        const points = this.points, len = points.length, d = [];
+        let showPath = len, point = points[0], position = showPath && this.anchor(point).absolutePosition, pointIndex = 0, command;
         if (position) {
             d.push(['M', position.x, position.y]);
             while (++pointIndex < len && showPath) {
@@ -105,22 +156,19 @@ var ControllablePath = /** @class */ (function () {
                 showPath = point.series.visible;
             }
         }
-        return showPath ?
+        return (showPath && this.graphic ?
             this.chart.renderer.crispLine(d, this.graphic.strokeWidth()) :
-            null;
-    };
-    ControllablePath.prototype.shouldBeDrawn = function () {
-        return (ControllableMixin.shouldBeDrawn.call(this) || Boolean(this.options.d));
-    };
-    ControllablePath.prototype.render = function (parent) {
-        var options = this.options, attrs = this.attrsFromOptions(options);
+            null);
+    }
+    shouldBeDrawn() {
+        return super.shouldBeDrawn() || !!this.options.d;
+    }
+    render(parent) {
+        const options = this.options, attrs = this.attrsFromOptions(options);
         this.graphic = this.annotation.chart.renderer
             .path([['M', 0, 0]])
             .attr(attrs)
             .add(parent);
-        if (options.className) {
-            this.graphic.addClass(options.className);
-        }
         this.tracker = this.annotation.chart.renderer
             .path([['M', 0, 0]])
             .addClass('highcharts-tracker-line')
@@ -130,51 +178,89 @@ var ControllablePath = /** @class */ (function () {
             .add(parent);
         if (!this.annotation.chart.styledMode) {
             this.tracker.attr({
-                'stroke-linejoin': 'round',
+                'stroke-linejoin': 'round', // #1225
                 stroke: TRACKER_FILL,
                 fill: TRACKER_FILL,
                 'stroke-width': this.graphic.strokeWidth() +
                     options.snap * 2
             });
         }
-        ControllableMixin.render.call(this);
-        extend(this.graphic, {
-            markerStartSetter: MarkerMixin.markerStartSetter,
-            markerEndSetter: MarkerMixin.markerEndSetter
-        });
+        super.render();
+        extend(this.graphic, { markerStartSetter, markerEndSetter });
         this.setMarkers(this);
-    };
-    ControllablePath.prototype.redraw = function (animation) {
-        var d = this.toD(), action = animation ? 'animate' : 'attr';
-        if (d) {
-            this.graphic[action]({ d: d });
-            this.tracker[action]({ d: d });
+    }
+    redraw(animation) {
+        if (this.graphic) {
+            const d = this.toD(), action = animation ? 'animate' : 'attr';
+            if (d) {
+                this.graphic[action]({ d: d });
+                this.tracker[action]({ d: d });
+            }
+            else {
+                this.graphic.attr({ d: 'M 0 ' + -9e9 });
+                this.tracker.attr({ d: 'M 0 ' + -9e9 });
+            }
+            this.graphic.placed = this.tracker.placed = !!d;
         }
-        else {
-            this.graphic.attr({ d: 'M 0 ' + -9e9 });
-            this.tracker.attr({ d: 'M 0 ' + -9e9 });
-        }
-        this.graphic.placed = this.tracker.placed = Boolean(d);
-        ControllableMixin.redraw.call(this, animation);
-    };
-    /* *
-     *
-     *  Static Properties
-     *
-     * */
+        super.redraw(animation);
+    }
     /**
-     * A map object which allows to map options attributes to element attributes
+     * Set markers.
      *
-     * @name Highcharts.AnnotationControllablePath.attrsMap
-     * @type {Highcharts.Dictionary<string>}
+     * @param {Highcharts.AnnotationControllablePath} item
      */
-    ControllablePath.attrsMap = {
-        dashStyle: 'dashstyle',
-        strokeWidth: 'stroke-width',
-        stroke: 'stroke',
-        fill: 'fill',
-        zIndex: 'zIndex'
-    };
-    return ControllablePath;
-}());
+    setMarkers(item) {
+        const itemOptions = item.options, chart = item.chart, defs = chart.options.defs, fill = itemOptions.fill, color = defined(fill) && fill !== 'none' ?
+            fill :
+            itemOptions.stroke;
+        const setMarker = function (markerType) {
+            const markerId = itemOptions[markerType];
+            let def, predefinedMarker, key, marker;
+            if (markerId) {
+                for (key in defs) { // eslint-disable-line guard-for-in
+                    def = defs[key];
+                    if ((markerId === (def.attributes && def.attributes.id) ||
+                        // Legacy, for
+                        // unit-tests/annotations/annotations-shapes
+                        markerId === def.id) &&
+                        def.tagName === 'marker') {
+                        predefinedMarker = def;
+                        break;
+                    }
+                }
+                if (predefinedMarker) {
+                    marker = item[markerType] = chart.renderer
+                        .addMarker((itemOptions.id || uniqueKey()) + '-' + markerId, merge(predefinedMarker, { color: color }));
+                    item.attr(markerType, marker.getAttribute('id'));
+                }
+            }
+        };
+        ['markerStart', 'markerEnd']
+            .forEach(setMarker);
+    }
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+/**
+ * A map object which allows to map options attributes to element attributes
+ *
+ * @name Highcharts.AnnotationControllablePath.attrsMap
+ * @type {Highcharts.Dictionary<string>}
+ */
+ControllablePath.attrsMap = {
+    dashStyle: 'dashstyle',
+    strokeWidth: 'stroke-width',
+    stroke: 'stroke',
+    fill: 'fill',
+    zIndex: 'zIndex'
+};
+/* *
+ *
+ *  Default Export
+ *
+ * */
+/** @internal */
 export default ControllablePath;

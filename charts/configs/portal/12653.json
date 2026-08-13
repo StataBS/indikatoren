@@ -28,6 +28,7 @@
           21841
         ]
       ],
+      "pointStart": 0,
       "name": "Freiraumfläche Pestalozzi",
       "turboThreshold": 0
     },
@@ -60,6 +61,7 @@
           11.44
         ]
       ],
+      "pointStart": 0,
       "name": "Anteil Freiraumfläche Pestalozzi (rechte Skala)",
       "turboThreshold": 0
     },
@@ -92,6 +94,7 @@
           0
         ]
       ],
+      "pointStart": 0,
       "name": "Freiraumfläche Kannenfeld",
       "turboThreshold": 0
     },
@@ -125,6 +128,7 @@
           0
         ]
       ],
+      "pointStart": 0,
       "name": "Anteil Freiraumfläche Kannenfeld (rechte Skala)",
       "turboThreshold": 0
     },
@@ -157,6 +161,7 @@
           0
         ]
       ],
+      "pointStart": 0,
       "name": "Freiraumfläche Landskron",
       "turboThreshold": 0
     },
@@ -190,6 +195,7 @@
           0
         ]
       ],
+      "pointStart": 0,
       "name": "Anteil Freiraumfläche Landskron (rechte Skala)",
       "turboThreshold": 0
     },
@@ -221,6 +227,7 @@
           55211
         ]
       ],
+      "pointStart": 0,
       "name": "Freiraumfläche Lysbüchel",
       "turboThreshold": 0
     },
@@ -253,6 +260,7 @@
           7.59
         ]
       ],
+      "pointStart": 0,
       "name": "Anteil Freiraumfläche Lysbüchel (rechte Skala)",
       "turboThreshold": 0
     },
@@ -284,6 +292,7 @@
           73439
         ]
       ],
+      "pointStart": 0,
       "name": "Freiraumfläche Friedmatt",
       "turboThreshold": 0
     },
@@ -316,6 +325,7 @@
           7.37
         ]
       ],
+      "pointStart": 0,
       "name": "Anteil Freiraumfläche Friedmatt (rechte Skala)",
       "turboThreshold": 0
     }
@@ -340,36 +350,54 @@
   },
   "chart": {
     "type": "line",
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacingBottom": 55,
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-          //add and move legend title (get it from series names)
-          this.legend.title
-            .attr({
-              text:
-                this.series[0].name.split(" ").slice(-1).toString() //holt 'Friedmatt' aus 'Freiraumfäche Friedmatt'
-                + ':<br>'
-                + this.series[2].name.split(" ").slice(-1).toString() //Kannenfeld
-                + ':<br>'
-                + this.series[4].name.split(" ").slice(-1).toString() //Landskron
-                + ':<br>'
-                + this.series[6].name.split(" ").slice(-1).toString() //Lysbüchel
-                + ':<br>'
-                + this.series[8].name.split(" ").slice(-1).toString() //Pestalozzi
-                + ':'
-            })
-            .translate(-65,90); //move -x to the left and +y down
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
         }
+      });
+    }
     },
     "renderTo": "container-12653"
   },
@@ -482,37 +510,45 @@
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
+        //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/
+        //function checks how many decimal places has a number
+        var countDecimals = function (value) {
+          if (value % 1 != 0) return value.toString().split(".")[1].length;
+          return 0;
+        };
 
-				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-				//function checks how many decimal places has a number
-				var countDecimals = function (value) {
-					if ((value % 1) != 0)
-						return value.toString().split(".")[1].length;
-					return 0;
-				};
+        var ticks = axis.tickPositions;
+        var howManyDecimals = 0;
 
-				var ticks = axis.tickPositions;
-				var howManyDecimals = 0;
+        //loop looks for the the largest number of decimal places
+        ticks.forEach(function (tick) {
+          if (countDecimals(tick) > howManyDecimals) {
+            howManyDecimals = countDecimals(tick);
+          }
+        });
 
-				//loop looks for the the largest number of decimal places
-				ticks.forEach(function (tick) {
-					if (countDecimals(tick) > howManyDecimals) {
-						howManyDecimals = countDecimals(tick);
-					}
-				});
-
-				//update labels so they have the same number of decimal places
-				axis.chart.update({
-					yAxis: [{
-						labels: {
-							//format: '{value:,.' + howManyDecimals + 'f}',
-							format: formatString.replace('howManyDecimals', howManyDecimals),
-						}
-					}, {
-						//second yAxis, if present
-					}]
-				}, true, true);
-			}
+        //update labels so they have the same number of decimal places
+        axis.chart.update(
+          {
+            yAxis: [
+              {
+                labels: {
+                  //format: '{value:,.' + howManyDecimals + 'f}',
+                  format: formatString.replace(
+                    "howManyDecimals",
+                    howManyDecimals
+                  ),
+                },
+              },
+              {
+                //second yAxis, if present
+              },
+            ],
+          },
+          true,
+          true
+        );
+      }
   },
   "exporting": {
     "filename": "12653"

@@ -1,18 +1,37 @@
 /* *
  *
- *  Copyright (c) 2019-2021 Highsoft AS
+ *  (c) 2019-2026 Highsoft AS
  *
  *  Boost module: stripped-down renderer for higher performance
  *
  *  License: highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
-import boostables from './Boostables.js';
-// These are the series we allow boosting for.
-var boostableMap = {};
-boostables.forEach(function (item) {
-    boostableMap[item] = 1;
+'use strict';
+/* *
+ *
+ *  Imports
+ *
+ * */
+import Boostables from './Boostables.js';
+/* *
+ *
+ *  Constants
+ *
+ * */
+/**
+ * These are the series we allow boosting for.
+ * @internal
+ */
+const BoostableMap = {};
+Boostables.forEach((item) => {
+    BoostableMap[item] = true;
 });
-export default boostableMap;
+/* *
+ *
+ *  Default Export
+ *
+ * */
+/** @internal */
+export default BoostableMap;

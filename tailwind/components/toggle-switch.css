@@ -1,0 +1,178 @@
+.toggle-switch {
+  @apply relative flex gap-5 items-center cursor-pointer;
+  &:before {
+    @apply block content-[''] border border-blue-900 bg-white w-[36px] h-20 relative rounded-large transition-all ease-in-out duration-250;
+  }
+  &:after {
+    @apply block content-[''] bg-blue-900 w-[14px] h-[14px] absolute left-[3px] rounded-full transition-all ease-in-out duration-250;
+  }
+
+  &:hover {
+    &:before {
+      @apply border-blue-500;
+    }
+
+    &:after {
+      @apply bg-blue-500;
+    }
+  }
+
+  &.is-on-dark {
+    @apply text-white;
+
+    &:before {
+      @apply border-white bg-blue-900;
+    }
+
+    &:after {
+      @apply bg-white;
+    }
+
+    &:hover {
+      &:before {
+        @apply border-blue-300;
+      }
+
+      &:after {
+        @apply bg-blue-300;
+      }
+    }
+  }
+}
+
+input[role="switch"] {
+  &:focus + .toggle-switch {
+    &:before {
+      @apply border-purple-600 shadow-purple-600;
+    }
+
+    &.is-on-dark:before {
+      @apply border-purple-400 shadow-[0_0_10px_0_#C196DC];
+    }
+  }
+
+  &:disabled + .toggle-switch {
+    @apply cursor-default;
+
+    &:before,
+    &:before:hover {
+      @apply border-gray-500;
+    }
+
+    &:after,
+    &:after:hover {
+      @apply bg-gray-500;
+    }
+
+    &.is-on-dark {
+      @apply text-gray-300;
+
+      &:before,
+      &:before:hover {
+        @apply border-gray-300 bg-transparent;
+      }
+
+      &:after,
+      &:after:hover {
+        @apply border-gray-300;
+      }
+    }
+  }
+
+  &:checked + .toggle-switch {
+    &:before {
+      @apply bg-blue-900;
+    }
+
+    &:after {
+      @apply bg-white left-[19px];
+    }
+
+    &:hover {
+      &:before {
+        @apply border-blue-300;
+      }
+
+      &:after {
+        @apply bg-blue-300;
+      }
+    }
+
+    &.is-on-dark {
+      &:before {
+        @apply bg-white border-white;
+      }
+
+      &:after {
+        @apply bg-blue-900;
+      }
+
+      &:hover {
+        &:before {
+          @apply border-blue-400;
+        }
+
+        &:after {
+          @apply bg-blue-400;
+        }
+      }
+    }
+  }
+}
+
+.text-toggle-switch {
+  @apply border inline-flex rounded-full text-blue-900 hover:border-blue-500;
+  @apply h-[2.4em];
+  @apply p-[0.2em];
+}
+
+.text-toggle-switch-inner {
+  @apply relative flex overflow-hidden rounded-[inherit];
+
+  a {
+    @apply flex relative items-center font-bold rounded-[inherit] transition-colors no-underline h-full px-[0.85em];
+    @apply focus-visible:outline focus-visible:-outline-offset-[3px] focus-visible:outline-[3px] focus-visible:outline-body;
+    @apply duration-500;
+
+    svg {
+      @apply w-25 h-25;
+    }
+
+    span {
+      @apply relative z-40;
+    }
+
+    &:before {
+      @apply content-[''] pointer-events-none block rounded-[inherit] bg-blue-700 w-full h-full absolute top-0 left-0 z-[-2];
+      @apply transition duration-500;
+      @apply translate-x-[240%];
+      @apply select-none;
+    }
+
+    &:not(.is-active):hover span {
+      @apply text-blue-500;
+    }
+
+    &:not(.is-active):hover svg {
+      @apply text-blue-500;
+    }
+
+    &.is-active {
+      @apply text-white;
+      &:before {
+        @apply translate-x-0;
+      }
+    }
+
+    &:first-child {
+      @apply overflow-hidden;
+      &:not(.is-active):before {
+        @apply translate-x-[250%];
+      }
+    }
+
+    &:first-child.is-active + a:before {
+      @apply translate-x-[-110%];
+    }
+  }
+}

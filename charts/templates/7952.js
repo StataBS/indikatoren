@@ -55,7 +55,7 @@ global rheinData
 				"name": "Perimeter",
 				"animation": true,
 				"mapData": geojson_gemeinden,
-				"borderColor": "#fbfbfb",
+				"borderColor": "#ffffff",
 				"keys": ['Gemeinde', 'value'],
 				"joinBy": ['GMDNR', 'Gemeinde'],
 				"states": {

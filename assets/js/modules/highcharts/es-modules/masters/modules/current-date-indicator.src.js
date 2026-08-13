@@ -1,13 +1,20 @@
+// SPDX-License-Identifier: LicenseRef-Highcharts
 /**
- * @license Highcharts Gantt JS v9.1.2 (2021-06-16)
+ * @license Highcharts Gantt JS v12.5.0 (2026-01-12)
  * @module highcharts/modules/current-date-indicator
  * @requires highcharts
  *
  * CurrentDateIndicator
  *
- * (c) 2010-2021 Lars A. V. Cabrera
+ * (c) 2010-2026 Highsoft AS
+ * Author: Lars A. V. Cabrera
  *
- * License: www.highcharts.com/license
+ * A commercial license may be required depending on use.
+ * See www.highcharts.com/license
  */
 'use strict';
-import '../../Extensions/CurrentDateIndication.js';
+import Highcharts from '../../Core/Globals.js';
+import CurrentDateIndication from '../../Extensions/CurrentDateIndication.js';
+const G = Highcharts;
+CurrentDateIndication.compose(G.Axis, G.PlotLineOrBand);
+export default Highcharts;

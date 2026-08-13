@@ -5,10 +5,6 @@
       "legendIndex": 6,
       "data": [
         [
-          "2012",
-          1378.2
-        ],
-        [
           "2013",
           1409
         ],
@@ -39,8 +35,17 @@
         [
           "2020",
           1209.3
+        ],
+        [
+          "2021",
+          1080.8
+        ],
+        [
+          "2022",
+          1078.7
         ]
       ],
+      "pointStart": 0,
       "name": "Schlachten, Fleischverarbeitung",
       "turboThreshold": 0
     },
@@ -48,10 +53,6 @@
       "color": "#B00000",
       "legendIndex": 5,
       "data": [
-        [
-          "2012",
-          111.1
-        ],
         [
           "2013",
           103.5
@@ -83,8 +84,17 @@
         [
           "2020",
           123.9
+        ],
+        [
+          "2021",
+          114.7
+        ],
+        [
+          "2022",
+          106.9
         ]
       ],
+      "pointStart": 0,
       "name": "Fischverarbeitung",
       "turboThreshold": 0
     },
@@ -92,10 +102,6 @@
       "color": "#FF8028",
       "legendIndex": 4,
       "data": [
-        [
-          "2012",
-          320.6
-        ],
         [
           "2013",
           312.3
@@ -127,8 +133,17 @@
         [
           "2020",
           327.1
+        ],
+        [
+          "2021",
+          305.2
+        ],
+        [
+          "2022",
+          313.7
         ]
       ],
+      "pointStart": 0,
       "name": "Herstellung Back- und Teigwaren",
       "turboThreshold": 0
     },
@@ -136,10 +151,6 @@
       "color": "#FFBB58",
       "legendIndex": 3,
       "data": [
-        [
-          "2012",
-          196
-        ],
         [
           "2013",
           194.4
@@ -171,8 +182,17 @@
         [
           "2020",
           226.7
+        ],
+        [
+          "2021",
+          156.4
+        ],
+        [
+          "2022",
+          155.6
         ]
       ],
+      "pointStart": 0,
       "name": "Sonstige Nahrungsmittelindustrie",
       "turboThreshold": 0
     }
@@ -196,7 +216,7 @@
     }
   },
   "chart": {
-    "width": 485,
+    "width": null,
     "height": 428,
     "spacing": [
       10,
@@ -204,29 +224,51 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "borderColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
     },
     "zoomType": "xy",
     "panning": true,
     "panKey": "shift",
     "events": {
       "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
+      originalLoad.call(this);
+      var chart = this;
+      var shift = chart.chartWidth - 485;
+      if (shift === 0) return;
+      var svg = chart.container.querySelector("svg");
+      if (!svg) return;
+      var sel = [
+        ".pieLegend",
+        ".pieLegendStayeOnZoom",
+        ".pieLegendRecalculateOnZoom",
+        ".pieLegendHideOnZoom",
+        ".pieLegendTitle",
+      ].join(",");
+      // Rects with class="undefined" (addLegendRectangle called without cssClass)
+      // get transparent fill so they don't cover the map
+      svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
+        el.setAttribute("fill", "transparent");
+      });
+      svg.querySelectorAll(sel).forEach(function (el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === "rect") {
+          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+        } else if (tag === "g") {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+)/, function (_, x) {
+              return "translate(" + (parseFloat(x) + shift);
+            }),
+          );
+        }
+      });
+    }
     },
     "type": "column",
     "renderTo": "container-9219",
@@ -300,7 +342,7 @@
   },
   "navigation": {
     "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
       "padding": "2px 10px"
     }
   },
@@ -317,7 +359,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 19.3.2024"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 17.3.2025"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

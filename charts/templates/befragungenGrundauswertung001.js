@@ -16,8 +16,8 @@
                     }
                 }
             },
-            borderColor: "#fbfbfb",
-            backgroundColor: "#fbfbfb",
+            borderColor: "#ffffff",
+            backgroundColor: "#ffffff",
             inverted: true,
             width: 485,
             height: 700,
@@ -27,7 +27,7 @@
             zoomType: "xy",
             type: "column",
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             }
         },
         navigation: {

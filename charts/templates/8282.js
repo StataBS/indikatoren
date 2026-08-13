@@ -68,7 +68,7 @@
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -172,8 +172,8 @@
                 	//Add manually drawn legend	
 					//fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 
-					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
-					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
+					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#ffffff');
+					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#ffffff');
 					
 					fn.addLegendTitle(chart, choroplethSeries.name, lp.blockChoropleth.title.x, lp.blockChoropleth.title.y[0]);
 					

@@ -1,85 +1,138 @@
 /* *
  *
- *  (c) 2010-2021 Torstein Honsi
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Torstein Honsi
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
 import U from '../../Utilities.js';
-var defined = U.defined, isNumber = U.isNumber, pick = U.pick;
+const { defined, isNumber, pick } = U;
 /* *
  *
  *  Functions
  *
  * */
 /* eslint-disable require-jsdoc, valid-jsdoc */
-function arc(x, y, w, h, options) {
-    var arc = [];
+/**
+ * Arc symbol path.
+ *
+ * @param {number} cx
+ * Center X
+ * @param {number} cy
+ * Center Y
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @param {Highcharts.SymbolOptions} [options]
+ * Options
+ * @return {Highcharts.SVGPathArray}
+ * Path
+ */
+function arc(cx, cy, w, h, options) {
+    const arc = [];
     if (options) {
-        var start = options.start || 0, rx = pick(options.r, w), ry = pick(options.r, h || w), proximity = 0.001, fullCircle = (Math.abs((options.end || 0) - start - 2 * Math.PI) <
-            proximity), 
-        // Substract a small number to prevent cos and sin of start
-        // and end from becoming equal on 360 arcs (related: #1561)
-        end = (options.end || 0) - proximity, innerRadius = options.innerR, open_1 = pick(options.open, fullCircle), cosStart = Math.cos(start), sinStart = Math.sin(start), cosEnd = Math.cos(end), sinEnd = Math.sin(end), 
+        let start = options.start || 0, end = options.end || 0;
+        const rx = pick(options.r, w), ry = pick(options.r, h || w), 
+        // Subtract a small number to prevent cos and sin of start and end
+        // from becoming equal on 360 arcs (#1561). The size of the circle
+        // affects the constant, therefore the division by `rx`. If the
+        // proximity is too small, the arc disappears. If it is too great, a
+        // gap appears. This can be seen in the animation of the official
+        // bubble demo (#20585).
+        proximity = 0.0002 / (options.borderRadius ? 1 : Math.max(rx, 1)), fullCircle = (Math.abs(end - start - 2 * Math.PI) <
+            proximity);
+        if (fullCircle) {
+            start = Math.PI / 2;
+            end = Math.PI * 2.5 - proximity;
+        }
+        const innerRadius = options.innerR, open = pick(options.open, fullCircle), cosStart = Math.cos(start), sinStart = Math.sin(start), cosEnd = Math.cos(end), sinEnd = Math.sin(end), 
         // Proximity takes care of rounding errors around PI (#6971)
         longArc = pick(options.longArc, end - start - Math.PI < proximity ? 0 : 1);
+        let arcSegment = [
+            'A', // ArcTo
+            rx, // X radius
+            ry, // Y radius
+            0, // Slanting
+            longArc, // Long or short arc
+            pick(options.clockwise, 1), // Clockwise
+            cx + rx * cosEnd,
+            cy + ry * sinEnd
+        ];
+        arcSegment.params = { start, end, cx, cy }; // Memo for border radius
         arc.push([
             'M',
-            x + rx * cosStart,
-            y + ry * sinStart
-        ], [
-            'A',
-            rx,
-            ry,
-            0,
-            longArc,
-            pick(options.clockwise, 1),
-            x + rx * cosEnd,
-            y + ry * sinEnd
-        ]);
+            cx + rx * cosStart,
+            cy + ry * sinStart
+        ], arcSegment);
         if (defined(innerRadius)) {
-            arc.push(open_1 ?
-                [
-                    'M',
-                    x + innerRadius * cosEnd,
-                    y + innerRadius * sinEnd
-                ] : [
-                'L',
-                x + innerRadius * cosEnd,
-                y + innerRadius * sinEnd
-            ], [
-                'A',
-                innerRadius,
-                innerRadius,
-                0,
-                longArc,
+            arcSegment = [
+                'A', // ArcTo
+                innerRadius, // X radius
+                innerRadius, // Y radius
+                0, // Slanting
+                longArc, // Long or short arc
                 // Clockwise - opposite to the outer arc clockwise
                 defined(options.clockwise) ? 1 - options.clockwise : 0,
-                x + innerRadius * cosStart,
-                y + innerRadius * sinStart
-            ]);
+                cx + innerRadius * cosStart,
+                cy + innerRadius * sinStart
+            ];
+            // Memo for border radius
+            arcSegment.params = {
+                start: end,
+                end: start,
+                cx,
+                cy
+            };
+            arc.push(open ?
+                [
+                    'M',
+                    cx + innerRadius * cosEnd,
+                    cy + innerRadius * sinEnd
+                ] : [
+                'L',
+                cx + innerRadius * cosEnd,
+                cy + innerRadius * sinEnd
+            ], arcSegment);
         }
-        if (!open_1) {
+        if (!open) {
             arc.push(['Z']);
         }
     }
     return arc;
 }
 /**
- * Callout shape used for default tooltips, also used for rounded
- * rectangles in VML
+ * Callout shape used for default tooltips.
+ *
+ * @param {number} cx
+ * Center X
+ * @param {number} cy
+ * Center Y
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @param {Highcharts.SymbolOptions} [options]
+ * Options
+ * @return {Highcharts.SVGPathArray}
+ * Path
  */
 function callout(x, y, w, h, options) {
-    var arrowLength = 6, halfDistance = 6, r = Math.min((options && options.r) || 0, w, h), safeDistance = r + halfDistance, anchorX = options && options.anchorX, anchorY = options && options.anchorY || 0;
-    var path = roundedRect(x, y, w, h, { r: r });
+    const arrowLength = 6, halfDistance = 6, r = Math.min((options?.r) || 0, w, h), safeDistance = r + halfDistance, anchorX = options?.anchorX, anchorY = options?.anchorY || 0;
+    const path = roundedRect(x, y, w, h, { r });
     if (!isNumber(anchorX)) {
         return path;
     }
+    // Do not render a connector, if anchor starts inside the label
+    if (anchorX < w && anchorX > 0 && anchorY < h && anchorY > 0) {
+        return path;
+    }
     // Anchor on right side
-    if (x + anchorX >= w) {
+    if (x + anchorX > w - safeDistance) {
         // Chevron
         if (anchorY > y + safeDistance &&
             anchorY < y + h - safeDistance) {
@@ -87,11 +140,17 @@ function callout(x, y, w, h, options) {
             // Simple connector
         }
         else {
-            path.splice(3, 1, ['L', x + w, h / 2], ['L', anchorX, anchorY], ['L', x + w, h / 2], ['L', x + w, y + h - r]);
+            if (anchorX < w) { // Corner connector
+                const isTopCorner = anchorY < y + safeDistance, cornerY = isTopCorner ? y : y + h, sliceStart = isTopCorner ? 2 : 5;
+                path.splice(sliceStart, 0, ['L', anchorX, anchorY], ['L', x + w - r, cornerY]);
+            }
+            else { // Side connector
+                path.splice(3, 1, ['L', x + w, h / 2], ['L', anchorX, anchorY], ['L', x + w, h / 2], ['L', x + w, y + h - r]);
+            }
         }
         // Anchor on left side
     }
-    else if (x + anchorX <= 0) {
+    else if (x + anchorX < safeDistance) {
         // Chevron
         if (anchorY > y + safeDistance &&
             anchorY < y + h - safeDistance) {
@@ -99,25 +158,41 @@ function callout(x, y, w, h, options) {
             // Simple connector
         }
         else {
-            path.splice(7, 1, ['L', x, h / 2], ['L', anchorX, anchorY], ['L', x, h / 2], ['L', x, y + r]);
+            if (anchorX > 0) { // Corner connector
+                const isTopCorner = anchorY < y + safeDistance, cornerY = isTopCorner ? y : y + h, sliceStart = isTopCorner ? 1 : 6;
+                path.splice(sliceStart, 0, ['L', anchorX, anchorY], ['L', x + r, cornerY]);
+            }
+            else { // Side connector
+                path.splice(7, 1, ['L', x, h / 2], ['L', anchorX, anchorY], ['L', x, h / 2], ['L', x, y + r]);
+            }
         }
     }
-    else if ( // replace bottom
-    anchorY &&
-        anchorY > h &&
-        anchorX > x + safeDistance &&
-        anchorX < x + w - safeDistance) {
+    else if ( // Replace bottom
+    anchorY > h &&
+        anchorX < w - safeDistance) {
         path.splice(5, 1, ['L', anchorX + halfDistance, y + h], ['L', anchorX, y + h + arrowLength], ['L', anchorX - halfDistance, y + h], ['L', x + r, y + h]);
     }
-    else if ( // replace top
-    anchorY &&
-        anchorY < 0 &&
-        anchorX > x + safeDistance &&
-        anchorX < x + w - safeDistance) {
+    else if ( // Replace top
+    anchorY < 0 &&
+        anchorX > safeDistance) {
         path.splice(1, 1, ['L', anchorX - halfDistance, y], ['L', anchorX, y - arrowLength], ['L', anchorX + halfDistance, y], ['L', w - r, y]);
     }
     return path;
 }
+/**
+ * Circle symbol path.
+ *
+ * @param {number} x
+ * X coordinate
+ * @param {number} y
+ * Y coordinate
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @return {Highcharts.SVGPathArray}
+ * Path
+ */
 function circle(x, y, w, h) {
     // Return a full arc
     return arc(x + w / 2, y + h / 2, w / 2, h / 2, {
@@ -126,6 +201,20 @@ function circle(x, y, w, h) {
         open: false
     });
 }
+/**
+ * Diamond symbol path.
+ *
+ * @param {number} x
+ * X coordinate
+ * @param {number} y
+ * Y coordinate
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @return {Highcharts.SVGPathArray}
+ * Path
+ */
 function diamond(x, y, w, h) {
     return [
         ['M', x + w / 2, y],
@@ -136,8 +225,24 @@ function diamond(x, y, w, h) {
     ];
 }
 // #15291
+/**
+ * Rect symbol path.
+ *
+ * @param {number} x
+ * X coordinate
+ * @param {number} y
+ * Y coordinate
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @param {Highcharts.SymbolOptions} [options]
+ * Options
+ * @return {Highcharts.SVGPathArray}
+ * Path
+ */
 function rect(x, y, w, h, options) {
-    if (options && options.r) {
+    if (options?.r) {
         return roundedRect(x, y, w, h, options);
     }
     return [
@@ -148,20 +253,51 @@ function rect(x, y, w, h, options) {
         ['Z']
     ];
 }
+/**
+ * Rounded rectangle symbol path.
+ *
+ * @param {number} x
+ * X coordinate
+ * @param {number} y
+ * Y coordinate
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @param {Highcharts.SymbolOptions} [options]
+ * Options
+ * @return {Highcharts.SVGPathArray}
+ * Path
+ */
 function roundedRect(x, y, w, h, options) {
-    var r = (options && options.r) || 0;
+    const r = options?.r || 0;
     return [
         ['M', x + r, y],
-        ['L', x + w - r, y],
-        ['C', x + w, y, x + w, y, x + w, y + r],
-        ['L', x + w, y + h - r],
-        ['C', x + w, y + h, x + w, y + h, x + w - r, y + h],
-        ['L', x + r, y + h],
-        ['C', x, y + h, x, y + h, x, y + h - r],
-        ['L', x, y + r],
-        ['C', x, y, x, y, x + r, y] // top-left corner
+        ['L', x + w - r, y], // Top side
+        ['A', r, r, 0, 0, 1, x + w, y + r], // Top-right corner
+        ['L', x + w, y + h - r], // Right side
+        ['A', r, r, 0, 0, 1, x + w - r, y + h], // Bottom-right corner
+        ['L', x + r, y + h], // Bottom side
+        ['A', r, r, 0, 0, 1, x, y + h - r], // Bottom-left corner
+        ['L', x, y + r], // Left side
+        ['A', r, r, 0, 0, 1, x + r, y],
+        ['Z'] // Top-left corner
     ];
 }
+/**
+ * Triangle symbol path.
+ *
+ * @param {number} x
+ * X coordinate
+ * @param {number} y
+ * Y coordinate
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @return {Highcharts.SVGPathArray}
+ * Path
+ */
 function triangle(x, y, w, h) {
     return [
         ['M', x + w / 2, y],
@@ -170,6 +306,20 @@ function triangle(x, y, w, h) {
         ['Z']
     ];
 }
+/**
+ * Inverted triangle symbol path.
+ *
+ * @param {number} x
+ * X coordinate
+ * @param {number} y
+ * Y coordinate
+ * @param {number} w
+ * Width
+ * @param {number} h
+ * Height
+ * @return {Highcharts.SVGPathArray}
+ * Path
+ */
 function triangleDown(x, y, w, h) {
     return [
         ['M', x, y],
@@ -178,15 +328,151 @@ function triangleDown(x, y, w, h) {
         ['Z']
     ];
 }
-var Symbols = {
-    arc: arc,
-    callout: callout,
-    circle: circle,
-    diamond: diamond,
-    rect: rect,
-    roundedRect: roundedRect,
+const Symbols = {
+    /**
+     * Arc symbol path.
+     *
+     * @param {number} cx
+     * Center X
+     * @param {number} cy
+     * Center Y
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @param {Highcharts.SymbolOptions} [options]
+     * Options
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
+    arc,
+    /**
+     * Callout shape used for default tooltips.
+     *
+     * @param {number} cx
+     * Center X
+     * @param {number} cy
+     * Center Y
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @param {Highcharts.SymbolOptions} [options]
+     * Options
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
+    callout,
+    /**
+     * Circle symbol path.
+     *
+     * @param {number} x
+     * X coordinate
+     * @param {number} y
+     * Y coordinate
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
+    circle,
+    /**
+     * Diamond symbol path.
+     *
+     * @param {number} x
+     * X coordinate
+     * @param {number} y
+     * Y coordinate
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
+    diamond,
+    /**
+     * Rect symbol path.
+     *
+     * @param {number} x
+     * X coordinate
+     * @param {number} y
+     * Y coordinate
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @param {Highcharts.SymbolOptions} [options]
+     * Options
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
+    rect,
+    /**
+     * Rounded rectangle symbol path.
+     *
+     * @param {number} x
+     * X coordinate
+     * @param {number} y
+     * Y coordinate
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @param {Highcharts.SymbolOptions} [options]
+     * Options
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
+    roundedRect,
+    /**
+     * Rect symbol path.
+     *
+     * @param {number} x
+     * X coordinate
+     * @param {number} y
+     * Y coordinate
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @param {Highcharts.SymbolOptions} [options]
+     * Options
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
     square: rect,
-    triangle: triangle,
+    /**
+     * Triangle symbol path.
+     *
+     * @param {number} x
+     * X coordinate
+     * @param {number} y
+     * Y coordinate
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
+    triangle,
+    /**
+     * Inverted triangle symbol path.
+     *
+     * @param {number} x
+     * X coordinate
+     * @param {number} number
+     * Y coordinate
+     * @param {number} w
+     * Width
+     * @param {number} h
+     * Height
+     * @return {Highcharts.SVGPathArray}
+     * Path
+     */
     'triangle-down': triangleDown
 };
 /* *
@@ -195,3 +481,57 @@ var Symbols = {
  *
  * */
 export default Symbols;
+/* *
+ *
+ *  API Declarations
+ *
+ * */
+/**
+ * @interface Highcharts.SymbolOptions
+ */ /**
+* @name anchorX
+* @type {number|undefined}
+*/ /**
+* @name anchorY
+* @type {number|undefined}
+*/ /**
+* @name backgroundSize
+* @type {"contain"|"cover"|"within"}
+*/ /**
+* @name clockwise
+* @type {0|1|undefined}
+*/ /**
+* @name context
+* @type {string|undefined}
+*/ /**
+* @name end
+* @type {number|undefined}
+*/ /**
+* @name height
+* @type {number|undefined}
+*/ /**
+* @name innerR
+* @type {number|undefined}
+*/ /**
+* @name longArc
+* @type {0|1|undefined}
+*/ /**
+* @name open
+* @type {boolean|undefined}
+*/ /**
+* @name r
+* @type {number|undefined}
+*/ /**
+* @name start
+* @type {number|undefined}
+*/ /**
+* @name width
+* @type {number|undefined}
+*/ /**
+* @name x
+* @type {number|undefined}
+*/ /**
+* @name y
+* @type {number|undefined}
+*/
+''; // Keeps doclets above in file

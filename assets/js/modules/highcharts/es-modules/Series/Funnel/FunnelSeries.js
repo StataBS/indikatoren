@@ -2,35 +2,55 @@
  *
  *  Highcharts funnel module
  *
- *  (c) 2010-2021 Torstein Honsi
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Torstein Honsi
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-import Chart from '../../Core/Chart/Chart.js';
+import FunnelSeriesDefaults from './FunnelSeriesDefaults.js';
 import H from '../../Core/Globals.js';
-var noop = H.noop;
-import palette from '../../Core/Color/Palette.js';
+const { composed, noop } = H;
+import BorderRadius from '../../Extensions/BorderRadius.js';
 import SeriesRegistry from '../../Core/Series/SeriesRegistry.js';
-var Series = SeriesRegistry.series, PieSeries = SeriesRegistry.seriesTypes.pie;
+const { column: ColumnSeries, pie: PieSeries } = SeriesRegistry.seriesTypes;
 import U from '../../Core/Utilities.js';
-var addEvent = U.addEvent, extend = U.extend, fireEvent = U.fireEvent, isArray = U.isArray, merge = U.merge, pick = U.pick;
+const { addEvent, correctFloat, extend, fireEvent, isArray, merge, pick, pushUnique, relativeLength, splat } = U;
+/* *
+ *
+ *  Constants
+ *
+ * */
+const baseAlignDataLabel = SeriesRegistry.series.prototype.alignDataLabel;
+/* *
+ *
+ *  Functions
+ *
+ * */
+/**
+ * Get positions - either an integer or a percentage string must be
+ * given.
+ * @private
+ * @param {number|string|undefined} length
+ *        Length
+ * @param {number} relativeTo
+ *        Relative factor
+ * @return {number}
+ *         Relative position
+ */
+function getLength(length, relativeTo) {
+    return (/%$/).test(length) ?
+        relativeTo * parseInt(length, 10) / 100 :
+        parseInt(length, 10);
+}
+/* *
+ *
+ *  Class
+ *
+ * */
 /**
  * @private
  * @class
@@ -38,21 +58,7 @@ var addEvent = U.addEvent, extend = U.extend, fireEvent = U.fireEvent, isArray =
  *
  * @augments Highcharts.Series
  */
-var FunnelSeries = /** @class */ (function (_super) {
-    __extends(FunnelSeries, _super);
-    function FunnelSeries() {
-        /* *
-         *
-         *  Static Properties
-         *
-         * */
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.data = void 0;
-        _this.options = void 0;
-        _this.points = void 0;
-        return _this;
-        /* eslint-enable valid-jsdoc */
-    }
+class FunnelSeries extends PieSeries {
     /* *
      *
      *  Functions
@@ -62,28 +68,30 @@ var FunnelSeries = /** @class */ (function (_super) {
     /**
      * @private
      */
-    FunnelSeries.prototype.alignDataLabel = function (point, dataLabel, options, alignTo, isNew) {
-        var series = point.series, reversed = series.options.reversed, dlBox = point.dlBox || point.shapeArgs, align = options.align, verticalAlign = options.verticalAlign, inside = ((series.options || {}).dataLabels || {}).inside, centerY = series.center[1], pointPlotY = (reversed ?
-            2 * centerY - point.plotY :
-            point.plotY), widthAtLabel = series.getWidthAt(pointPlotY - dlBox.height / 2 +
-            dataLabel.height), offset = verticalAlign === 'middle' ?
+    alignDataLabel(point, dataLabel, options, alignTo, isNew) {
+        const series = point.series, reversed = series.options.reversed, dlBox = point.dlBox || point.shapeArgs, { align, padding = 0, verticalAlign } = options, inside = ((series.options || {}).dataLabels || {}).inside, centerY = series.center[1], plotY = point.plotY || 0, pointPlotY = (reversed ?
+            2 * centerY - plotY :
+            plotY), 
+        // #16176: Only SVGLabel has height set
+        dataLabelHeight = dataLabel.height ?? dataLabel.getBBox().height, widthAtLabel = series.getWidthAt(pointPlotY - dlBox.height / 2 +
+            dataLabelHeight), offset = verticalAlign === 'middle' ?
             (dlBox.topWidth - dlBox.bottomWidth) / 4 :
-            (widthAtLabel - dlBox.bottomWidth) / 2, y = dlBox.y, x = dlBox.x;
+            (widthAtLabel - dlBox.bottomWidth) / 2;
+        let y = dlBox.y, x = dlBox.x;
         if (verticalAlign === 'middle') {
-            y = dlBox.y - dlBox.height / 2 + dataLabel.height / 2;
+            y = dlBox.y - dlBox.height / 2 + dataLabelHeight / 2;
         }
         else if (verticalAlign === 'top') {
-            y = dlBox.y - dlBox.height + dataLabel.height +
-                options.padding;
+            y = dlBox.y - dlBox.height + dataLabelHeight + padding;
         }
         if (verticalAlign === 'top' && !reversed ||
             verticalAlign === 'bottom' && reversed ||
             verticalAlign === 'middle') {
             if (align === 'right') {
-                x = dlBox.x - options.padding + offset;
+                x = dlBox.x - padding + offset;
             }
             else if (align === 'left') {
-                x = dlBox.x + options.padding - offset;
+                x = dlBox.x + padding - offset;
             }
         }
         alignTo = {
@@ -93,9 +101,15 @@ var FunnelSeries = /** @class */ (function (_super) {
             height: dlBox.height
         };
         options.verticalAlign = 'bottom';
+        if (inside) {
+            // If the distance were positive (as default), the overlapping
+            // labels logic would skip these labels and they would be allowed
+            // to overlap.
+            options.distance = void 0;
+        }
         // Call the parent method
-        if (!inside || point.visible) {
-            Series.prototype.alignDataLabel.call(this, point, dataLabel, options, alignTo, isNew);
+        if (inside && point.visible) {
+            baseAlignDataLabel.call(series, point, dataLabel, options, alignTo, isNew);
         }
         if (inside) {
             if (!point.visible && point.dataLabel) {
@@ -109,85 +123,72 @@ var FunnelSeries = /** @class */ (function (_super) {
                 });
             }
         }
-    };
+    }
     /**
-     * Extend the pie data label method.
+     * Extend the data label method.
      * @private
      */
-    FunnelSeries.prototype.drawDataLabels = function () {
-        var series = this, data = series.data, labelDistance = series.options.dataLabels.distance, leftSide, sign, point, i = data.length, x, y;
-        // In the original pie label anticollision logic, the slots are
-        // distributed from one labelDistance above to one labelDistance
-        // below the pie. In funnels we don't want this.
-        series.center[2] -= 2 * labelDistance;
-        // Set the label position array for each point.
-        while (i--) {
-            point = data[i];
-            leftSide = point.half;
-            sign = leftSide ? 1 : -1;
-            y = point.plotY;
-            point.labelDistance = pick(point.options.dataLabels &&
-                point.options.dataLabels.distance, labelDistance);
-            series.maxLabelDistance = Math.max(point.labelDistance, series.maxLabelDistance || 0);
-            x = series.getX(y, leftSide, point);
-            // set the anchor point for data labels
-            point.labelPosition = {
-                // initial position of the data label - it's utilized for
-                // finding the final position for the label
-                natural: {
-                    x: 0,
-                    y: y
+    drawDataLabels() {
+        (splat(this.options.dataLabels || {})[0].inside ?
+            ColumnSeries :
+            PieSeries).prototype.drawDataLabels.call(this);
+    }
+    /** @private */
+    getDataLabelPosition(point, distance) {
+        const y = point.plotY || 0, sign = point.half ? 1 : -1, x = this.getX(y, !!point.half, point);
+        return {
+            distance,
+            // Initial position of the data label - it's utilized for finding
+            // the final position for the label
+            natural: {
+                x: 0,
+                y
+            },
+            computed: {
+            // Used for generating connector path - initialized later in
+            // drawDataLabels function x: undefined, y: undefined
+            },
+            // Left - funnel on the left side of the data label
+            // Right - funnel on the right side of the data label
+            alignment: point.half ? 'right' : 'left',
+            connectorPosition: {
+                breakAt: {
+                    x: x + (distance - 5) * sign,
+                    y
                 },
-                'final': {
-                // used for generating connector path -
-                // initialized later in drawDataLabels function
-                // x: undefined,
-                // y: undefined
-                },
-                // left - funnel on the left side of the data label
-                // right - funnel on the right side of the data label
-                alignment: leftSide ? 'right' : 'left',
-                connectorPosition: {
-                    breakAt: {
-                        x: x + (point.labelDistance - 5) * sign,
-                        y: y
-                    },
-                    touchingSliceAt: {
-                        x: x + point.labelDistance * sign,
-                        y: y
-                    }
+                touchingSliceAt: {
+                    x: x + distance * sign,
+                    y
                 }
-            };
-        }
-        SeriesRegistry.seriesTypes[series.options.dataLabels.inside ? 'column' : 'pie'].prototype.drawDataLabels.call(this);
-    };
+            }
+        };
+    }
     /**
      * Overrides the pie translate method.
      * @private
      */
-    FunnelSeries.prototype.translate = function () {
-        var sum = 0, series = this, chart = series.chart, options = series.options, reversed = options.reversed, ignoreHiddenPoint = options.ignoreHiddenPoint, plotWidth = chart.plotWidth, plotHeight = chart.plotHeight, cumulative = 0, // start at top
-        center = options.center, centerX = getLength(center[0], plotWidth), centerY = getLength(center[1], plotHeight), width = getLength(options.width, plotWidth), tempWidth, height = getLength(options.height, plotHeight), neckWidth = getLength(options.neckWidth, plotWidth), neckHeight = getLength(options.neckHeight, plotHeight), neckY = (centerY - height / 2) + height - neckHeight, data = series.data, path, fraction, half = (options.dataLabels.position === 'left' ?
+    translate() {
+        const series = this, chart = series.chart, options = series.options, reversed = options.reversed, ignoreHiddenPoint = options.ignoreHiddenPoint, borderRadiusObject = BorderRadius.optionsToObject(options.borderRadius), plotWidth = chart.plotWidth, plotHeight = chart.plotHeight, center = options.center, centerX = getLength(center[0], plotWidth), centerY = getLength(center[1], plotHeight), width = getLength(options.width, plotWidth), height = getLength(options.height, plotHeight), neckWidth = getLength(options.neckWidth, plotWidth), neckHeight = getLength(options.neckHeight, plotHeight), neckY = (centerY - height / 2) + height - neckHeight, points = series.points, borderRadius = relativeLength(borderRadiusObject.radius, width), radiusScope = borderRadiusObject.scope, half = (options.dataLabels.position === 'left' ?
             1 :
-            0), x1, y1, x2, x3, y3, x4, y5;
-        /**
-         * Get positions - either an integer or a percentage string must be
-         * given.
-         * @private
-         * @param {number|string|undefined} length
-         *        Length
-         * @param {number} relativeTo
-         *        Relative factor
-         * @return {number}
-         *         Relative position
-         */
-        function getLength(length, relativeTo) {
-            return (/%$/).test(length) ?
-                relativeTo * parseInt(length, 10) / 100 :
-                parseInt(length, 10);
-        }
+            0), roundingFactors = (angle) => {
+            const tan = Math.tan(angle / 2), cosA = Math.cos(alpha), sinA = Math.sin(alpha);
+            let r = borderRadius, t = r / tan, k = Math.tan((Math.PI - angle) / 3.2104);
+            if (t > maxT) {
+                t = maxT;
+                r = t * tan;
+            }
+            k *= r;
+            return {
+                dx: [t * cosA, (t - k) * cosA, t - k, t],
+                dy: [t * sinA, (t - k) * sinA, t - k, t]
+                    .map((i) => (reversed ? -i : i))
+            };
+        };
+        let sum = 0, cumulative = 0, // Start at top
+        tempWidth, path, fraction, alpha, // The angle between top and left point's edges
+        maxT, x1, y1, x2, x3, y3, x4, y5;
         series.getWidthAt = function (y) {
-            var top = (centerY - height / 2);
+            const top = (centerY - height / 2);
             return (y > neckY || height === neckHeight) ?
                 neckWidth :
                 neckWidth + (width - neckWidth) *
@@ -196,7 +197,8 @@ var FunnelSeries = /** @class */ (function (_super) {
         series.getX = function (y, half, point) {
             return centerX + (half ? -1 : 1) *
                 ((series.getWidthAt(reversed ? 2 * centerY - y : y) / 2) +
-                    point.labelDistance);
+                    (point.dataLabel?.dataLabelPosition?.distance ??
+                        relativeLength(this.options.dataLabels?.distance || 0, width)));
         };
         // Expose
         series.center = [centerX, centerY, height];
@@ -205,29 +207,30 @@ var FunnelSeries = /** @class */ (function (_super) {
         Individual point coordinate naming:
 
         x1,y1 _________________ x2,y1
-            \                         /
-            \                       /
-            \                     /
-            \                   /
-                \                 /
-            x3,y3 _________ x4,y3
+        \                         /
+         \                       /
+          \                     /
+           \                   /
+            \                 /
+           x3,y3 _________ x4,y3
 
         Additional for the base of the neck:
 
-                |               |
-                |               |
-                |               |
-            x3,y5 _________ x4,y5
+             |               |
+             |               |
+             |               |
+           x3,y5 _________ x4,y5
 
         */
         // get the total sum
-        data.forEach(function (point) {
-            if (!ignoreHiddenPoint || point.visible !== false) {
+        for (const point of points) {
+            if (point.y && point.isValid() &&
+                (!ignoreHiddenPoint || point.visible !== false)) {
                 sum += point.y;
             }
-        });
-        data.forEach(function (point) {
-            // set start and end positions
+        }
+        for (const point of points) {
+            // Set start and end positions
             y5 = null;
             fraction = sum ? point.y / sum : 0;
             y1 = centerY - height / 2 + cumulative * height;
@@ -238,11 +241,11 @@ var FunnelSeries = /** @class */ (function (_super) {
             tempWidth = series.getWidthAt(y3);
             x3 = centerX - tempWidth / 2;
             x4 = x3 + tempWidth;
-            // the entire point is within the neck
-            if (y1 > neckY) {
+            // The entire point is within the neck
+            if (correctFloat(y1) >= neckY) {
                 x1 = x3 = centerX - neckWidth / 2;
                 x2 = x4 = centerX + neckWidth / 2;
-                // the base of the neck
+                // The base of the neck
             }
             else if (y3 > neckY) {
                 y5 = y3;
@@ -258,20 +261,131 @@ var FunnelSeries = /** @class */ (function (_super) {
                     y5 = 2 * centerY - y5;
                 }
             }
-            // save the path
-            path = [
-                ['M', x1, y1],
-                ['L', x2, y1],
-                ['L', x4, y3]
-            ];
-            if (y5 !== null) {
-                path.push(['L', x4, y5], ['L', x3, y5]);
+            if (borderRadius && (radiusScope === 'point' ||
+                point.index === 0 ||
+                point.index === points.length - 1 ||
+                y5 !== null)) {
+                // Creating the path of funnel points with rounded corners
+                // (#18839)
+                const h = Math.abs(y3 - y1), xSide = x2 - x4, lBase = x4 - x3, lSide = Math.sqrt(xSide * xSide + h * h);
+                // If xSide equals zero, return Infinity to avoid dividing
+                // by zero (#20319)
+                alpha = Math.atan(xSide !== 0 ? h / xSide : Infinity);
+                maxT = lSide / 2;
+                if (y5 !== null) {
+                    maxT = Math.min(maxT, Math.abs(y5 - y3) / 2);
+                }
+                if (lBase >= 1) {
+                    maxT = Math.min(maxT, lBase / 2);
+                }
+                // Creating a point base
+                let f = roundingFactors(alpha);
+                if (radiusScope === 'stack' && point.index !== 0) {
+                    path = [
+                        ['M', x1, y1],
+                        ['L', x2, y1]
+                    ];
+                }
+                else {
+                    path = [
+                        ['M', x1 + f.dx[0], y1 + f.dy[0]],
+                        [
+                            'C',
+                            x1 + f.dx[1], y1 + f.dy[1],
+                            x1 + f.dx[2], y1,
+                            x1 + f.dx[3], y1
+                        ],
+                        ['L', x2 - f.dx[3], y1],
+                        [
+                            'C',
+                            x2 - f.dx[2], y1,
+                            x2 - f.dx[1], y1 + f.dy[1],
+                            x2 - f.dx[0], y1 + f.dy[0]
+                        ]
+                    ];
+                }
+                if (y5 !== null) {
+                    // Closure of point with extension
+                    const fr = roundingFactors(Math.PI / 2);
+                    f = roundingFactors(Math.PI / 2 + alpha);
+                    path.push(['L', x4 + f.dx[0], y3 - f.dy[0]], [
+                        'C',
+                        x4 + f.dx[1], y3 - f.dy[1],
+                        x4, y3 + f.dy[2],
+                        x4, y3 + f.dy[3]
+                    ]);
+                    if (radiusScope === 'stack' &&
+                        point.index !== points.length - 1) {
+                        path.push(['L', x4, y5], ['L', x3, y5]);
+                    }
+                    else {
+                        path.push(['L', x4, y5 - fr.dy[3]], [
+                            'C',
+                            x4, y5 - fr.dy[2],
+                            x4 - fr.dx[2], y5,
+                            x4 - fr.dx[3], y5
+                        ], ['L', x3 + fr.dx[3], y5], [
+                            'C',
+                            x3 + fr.dx[2], y5,
+                            x3, y5 - fr.dy[2],
+                            x3, y5 - fr.dy[3]
+                        ]);
+                    }
+                    path.push(['L', x3, y3 + f.dy[3]], [
+                        'C',
+                        x3, y3 + f.dy[2],
+                        x3 - f.dx[1], y3 - f.dy[1],
+                        x3 - f.dx[0], y3 - f.dy[0]
+                    ]);
+                }
+                else if (lBase >= 1) {
+                    // Closure of point without extension
+                    f = roundingFactors(Math.PI - alpha);
+                    if (radiusScope === 'stack' && point.index === 0) {
+                        path.push(['L', x4, y3], ['L', x3, y3]);
+                    }
+                    else {
+                        path.push(['L', x4 + f.dx[0], y3 - f.dy[0]], [
+                            'C',
+                            x4 + f.dx[1], y3 - f.dy[1],
+                            x4 - f.dx[2], y3,
+                            x4 - f.dx[3], y3
+                        ], ['L', x3 + f.dx[3], y3], [
+                            'C',
+                            x3 + f.dx[2], y3,
+                            x3 - f.dx[1], y3 - f.dy[1],
+                            x3 - f.dx[0], y3 - f.dy[0]
+                        ]);
+                    }
+                }
+                else {
+                    // Creating a rounded tip of the "pyramid"
+                    f = roundingFactors(Math.PI - alpha * 2);
+                    path.push(['L', x3 + f.dx[0], y3 - f.dy[0]], [
+                        'C',
+                        x3 + f.dx[1], y3 - f.dy[1],
+                        x3 - f.dx[1], y3 - f.dy[1],
+                        x3 - f.dx[0], y3 - f.dy[0]
+                    ]);
+                }
             }
-            path.push(['L', x3, y3], ['Z']);
-            // prepare for using shared dr
+            else {
+                // Creating the path of funnel points without rounded corners
+                path = [
+                    ['M', x1, y1],
+                    ['L', x2, y1],
+                    ['L', x4, y3]
+                ];
+                if (y5 !== null) {
+                    path.push(['L', x4, y5], ['L', x3, y5]);
+                }
+                path.push(['L', x3, y3]);
+            }
+            path.push(['Z']);
+            // Prepare for using shared dr
             point.shapeType = 'path';
             point.shapeArgs = { d: path };
-            // for tooltips and data labels
+            // For tooltips and data labels
             point.percentage = fraction * 100;
             point.plotX = centerX;
             point.plotY = (y1 + (y5 || y3)) / 2;
@@ -292,159 +406,64 @@ var FunnelSeries = /** @class */ (function (_super) {
             point.slice = noop;
             // Mimicking pie data label placement logic
             point.half = half;
-            if (!ignoreHiddenPoint || point.visible !== false) {
+            if (point.isValid() &&
+                (!ignoreHiddenPoint || point.visible !== false)) {
                 cumulative += fraction;
             }
-        });
+        }
         fireEvent(series, 'afterTranslate');
-    };
+    }
     /**
      * Funnel items don't have angles (#2289).
      * @private
      */
-    FunnelSeries.prototype.sortByAngle = function (points) {
-        points.sort(function (a, b) {
-            return a.plotY - b.plotY;
-        });
-    };
-    /**
-     * Funnel charts are a type of chart often used to visualize stages in a
-     * sales project, where the top are the initial stages with the most
-     * clients. It requires that the modules/funnel.js file is loaded.
-     *
-     * @sample highcharts/demo/funnel/
-     *         Funnel demo
-     *
-     * @extends      plotOptions.pie
-     * @excluding    innerSize,size,dataSorting
-     * @product      highcharts
-     * @requires     modules/funnel
-     * @optionparent plotOptions.funnel
-     */
-    FunnelSeries.defaultOptions = merge(PieSeries.defaultOptions, {
-        /**
-         * Initial animation is by default disabled for the funnel chart.
-         */
-        animation: false,
-        /**
-         * The center of the series. By default, it is centered in the middle
-         * of the plot area, so it fills the plot area height.
-         *
-         * @type    {Array<number|string>}
-         * @default ["50%", "50%"]
-         * @since   3.0
-         */
-        center: ['50%', '50%'],
-        /**
-         * The width of the funnel compared to the width of the plot area,
-         * or the pixel width if it is a number.
-         *
-         * @type  {number|string}
-         * @since 3.0
-         */
-        width: '90%',
-        /**
-         * The width of the neck, the lower part of the funnel. A number defines
-         * pixel width, a percentage string defines a percentage of the plot
-         * area width.
-         *
-         * @sample {highcharts} highcharts/demo/funnel/
-         *         Funnel demo
-         *
-         * @type  {number|string}
-         * @since 3.0
-         */
-        neckWidth: '30%',
-        /**
-         * The height of the funnel or pyramid. If it is a number it defines
-         * the pixel height, if it is a percentage string it is the percentage
-         * of the plot area height.
-         *
-         * @sample {highcharts} highcharts/demo/funnel/
-         *         Funnel demo
-         *
-         * @type  {number|string}
-         * @since 3.0
-         */
-        height: '100%',
-        /**
-         * The height of the neck, the lower part of the funnel. A number
-         * defines pixel width, a percentage string defines a percentage of the
-         * plot area height.
-         *
-         * @type {number|string}
-         */
-        neckHeight: '25%',
-        /**
-         * A reversed funnel has the widest area down. A reversed funnel with
-         * no neck width and neck height is a pyramid.
-         *
-         * @since 3.0.10
-         */
-        reversed: false,
-        /**
-         * To avoid adapting the data label size in Pie.drawDataLabels.
-         * @ignore-option
-         */
-        size: true,
-        dataLabels: {
-            connectorWidth: 1,
-            verticalAlign: 'middle'
-        },
-        /**
-         * Options for the series states.
-         */
-        states: {
-            /**
-             * @excluding halo, marker, lineWidth, lineWidthPlus
-             * @apioption plotOptions.funnel.states.hover
-             */
-            /**
-             * Options for a selected funnel item.
-             *
-             * @excluding halo, marker, lineWidth, lineWidthPlus
-             */
-            select: {
-                /**
-                 * A specific color for the selected point.
-                 *
-                 * @type {Highcharts.ColorString|Highcharts.GradientColorObject|Highcharts.PatternObject}
-                 */
-                color: palette.neutralColor20,
-                /**
-                 * A specific border color for the selected point.
-                 *
-                 * @type {Highcharts.ColorString}
-                 */
-                borderColor: palette.neutralColor100
-            }
-        }
-    });
-    return FunnelSeries;
-}(PieSeries));
+    sortByAngle(points) {
+        points.sort((a, b) => (a.plotY - b.plotY));
+    }
+}
+/* *
+ *
+ *  Static Properties
+ *
+ * */
+FunnelSeries.defaultOptions = merge(PieSeries.defaultOptions, FunnelSeriesDefaults);
 extend(FunnelSeries.prototype, {
     animate: noop
 });
 /* *
  *
- *  Hack
+ *  Class Namespace
  *
  * */
-/* eslint-disable no-invalid-this */
-addEvent(Chart, 'afterHideAllOverlappingLabels', function () {
-    this.series.forEach(function (series) {
-        var dataLabelsOptions = series.options && series.options.dataLabels;
-        if (isArray(dataLabelsOptions)) {
-            dataLabelsOptions = dataLabelsOptions[0];
+(function (FunnelSeries) {
+    /* *
+     *
+     *  Functions
+     *
+     * */
+    /** @private */
+    function compose(ChartClass) {
+        if (pushUnique(composed, 'FunnelSeries')) {
+            addEvent(ChartClass, 'afterHideAllOverlappingLabels', onChartAfterHideAllOverlappingLabels);
         }
-        if (series.is('pie') &&
-            series.placeDataLabels &&
-            dataLabelsOptions &&
-            !dataLabelsOptions.inside) {
-            series.placeDataLabels();
+    }
+    FunnelSeries.compose = compose;
+    /** @private */
+    function onChartAfterHideAllOverlappingLabels() {
+        for (const series of this.series) {
+            let dataLabelsOptions = series.options && series.options.dataLabels;
+            if (isArray(dataLabelsOptions)) {
+                dataLabelsOptions = dataLabelsOptions[0];
+            }
+            if (series.is('pie') &&
+                series.placeDataLabels &&
+                dataLabelsOptions &&
+                !dataLabelsOptions.inside) {
+                series.placeDataLabels();
+            }
         }
-    });
-});
+    }
+})(FunnelSeries || (FunnelSeries = {}));
 SeriesRegistry.registerSeriesType('funnel', FunnelSeries);
 /* *
  *
@@ -452,65 +471,3 @@ SeriesRegistry.registerSeriesType('funnel', FunnelSeries);
  *
  * */
 export default FunnelSeries;
-/* *
- *
- *  API Options
- *
- * */
-/**
- * A `funnel` series. If the [type](#series.funnel.type) option is
- * not specified, it is inherited from [chart.type](#chart.type).
- *
- * @extends   series,plotOptions.funnel
- * @excluding dataParser, dataURL, stack, xAxis, yAxis, dataSorting,
- *            boostBlending, boostThreshold
- * @product   highcharts
- * @requires  modules/funnel
- * @apioption series.funnel
- */
-/**
- * An array of data points for the series. For the `funnel` series type,
- * points can be given in the following ways:
- *
- * 1.  An array of numerical values. In this case, the numerical values
- * will be interpreted as `y` options. Example:
- *
- *  ```js
- *  data: [0, 5, 3, 5]
- *  ```
- *
- * 2.  An array of objects with named values. The following snippet shows only a
- * few settings, see the complete options set below. If the total number of data
- * points exceeds the series' [turboThreshold](#series.funnel.turboThreshold),
- * this option is not available.
- *
- *  ```js
- *     data: [{
- *         y: 3,
- *         name: "Point2",
- *         color: "#00FF00"
- *     }, {
- *         y: 1,
- *         name: "Point1",
- *         color: "#FF00FF"
- *     }]
- *  ```
- *
- * @sample {highcharts} highcharts/chart/reflow-true/
- *         Numerical values
- * @sample {highcharts} highcharts/series/data-array-of-arrays/
- *         Arrays of numeric x and y
- * @sample {highcharts} highcharts/series/data-array-of-arrays-datetime/
- *         Arrays of datetime x and y
- * @sample {highcharts} highcharts/series/data-array-of-name-value/
- *         Arrays of point.name and y
- * @sample {highcharts} highcharts/series/data-array-of-objects/
- *         Config objects
- *
- * @type      {Array<number|null|*>}
- * @extends   series.pie.data
- * @excluding sliced
- * @product   highcharts
- * @apioption series.funnel.data
- */
-''; // keeps doclets above in transpiled file

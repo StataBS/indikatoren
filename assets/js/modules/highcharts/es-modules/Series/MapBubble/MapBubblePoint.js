@@ -1,72 +1,42 @@
 /* *
  *
- *  (c) 2010-2021 Torstein Honsi
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Torstein Honsi
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
 'use strict';
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
+/* *
+ *
+ *  Imports
+ *
+ * */
+import BubblePoint from '../Bubble/BubblePoint.js';
 import SeriesRegistry from '../../Core/Series/SeriesRegistry.js';
-var _a = SeriesRegistry.seriesTypes, BubbleSeries = _a.bubble, MapSeries = _a.map;
+const { seriesTypes: { map: { prototype: { pointClass: { prototype: mapPointProto } } } } } = SeriesRegistry;
 import U from '../../Core/Utilities.js';
-var extend = U.extend, merge = U.merge;
+const { extend } = U;
 /* *
  *
  *  Class
  *
  * */
-var MapBubblePoint = /** @class */ (function (_super) {
-    __extends(MapBubblePoint, _super);
-    function MapBubblePoint() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
+class MapBubblePoint extends BubblePoint {
     /* *
      *
      *  Functions
      *
      * */
-    /* eslint-disable valid-jsdoc */
-    /**
-     * @private
-     */
-    MapBubblePoint.prototype.applyOptions = function (options, x) {
-        var point;
-        if (options &&
-            typeof options.lat !== 'undefined' &&
-            typeof options.lon !== 'undefined') {
-            point = _super.prototype.applyOptions.call(this, merge(options, this.series.chart.fromLatLonToPoint(options)), x);
-        }
-        else {
-            point = MapSeries.prototype.pointClass.prototype
-                .applyOptions.call(this, options, x);
-        }
-        return point;
-    };
-    /**
-     * @private
-     */
-    MapBubblePoint.prototype.isValid = function () {
+    isValid() {
         return typeof this.z === 'number';
-    };
-    return MapBubblePoint;
-}(BubbleSeries.prototype.pointClass));
+    }
+}
 extend(MapBubblePoint.prototype, {
-    ttBelow: false
+    applyOptions: mapPointProto.applyOptions,
+    getProjectedBounds: mapPointProto.getProjectedBounds
 });
 /* *
  *

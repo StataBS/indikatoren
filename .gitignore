@@ -13,4 +13,9 @@ build/convertArgs.json
 build/config.json
 npm-debug.log.*
 /node_cache
+.vscode
+.claude
+assets/js/modules/highcharts/**/*.d.ts
+assets/js/modules/highcharts/es-modules/
+assets/js/modules/highcharts/.github/
 

@@ -29,22 +29,19 @@ global lazyRenderChartById
 //holds config of each chart
 
 var indikatoren;
+var indikatoren_sorted;
+var indikatoren_original;
 var view = false;
-var perPage = 16;
+var perPage = 32;
+var maxStufe = 2;
+var itemsToShow = 32;
+var itemsIncrement = 64;
 
 $(document).ready(function () {
   //display header if requested
   var showHeader = window.decodeURIComponent($.url("?showHeader")) === "true";
   if (showHeader) {
     $("#header").removeClass("hidden");
-  }
-
-  //pre-populate searchbox
-  var searchUrlParamValue = window.decodeURIComponent($.url("?search"));
-  if (searchUrlParamValue != "undefined") {
-    $("#searchbox-indikatorenset").val(searchUrlParamValue);
-
-    $("#searchbox").val(searchUrlParamValue);
   }
 
   //Render page differently depending on url query string 'Indikatorenset'
@@ -56,11 +53,35 @@ $(document).ready(function () {
   if (indikatorensetNames.indexOf(indikatorenset) > -1) {
     view = true;
     jsonDatabaseUrl = "metadata/sets/" + indikatorenset + ".js";
+    // Clear all saved portal filters when entering Indikatorenset mode
+    localStorage.removeItem("portal_search");
+    localStorage.removeItem("portal_thema");
+    localStorage.removeItem("portal_unterthema");
   }
+
+  //pre-populate searchbox
+  var searchUrlParamValue = window.decodeURIComponent($.url("?search"));
+  if (searchUrlParamValue != "undefined") {
+    $("#searchbox").val(searchUrlParamValue);
+  } else {
+    var storedSearch = localStorage.getItem("portal_search");
+    if (storedSearch) {
+      $("#searchbox").val(storedSearch);
+    }
+  }
+
+  $("#searchbox").on("input", function () {
+    var val = $(this).val();
+    if (val) {
+      localStorage.setItem("portal_search", val);
+    } else {
+      localStorage.removeItem("portal_search");
+    }
+  });
 
   //dynamically change filterColumns in indikatorenset view only, see http://jsfiddle.net/KyleMit/pgt6tczj/
   var stufeParameter = parseInt(window.decodeURIComponent($.url("?stufe")), 10);
-  var maxStufe =
+  maxStufe =
     stufeParameter >= 0 && stufeParameter <= 5 ? stufeParameter : 2;
   if (isIndikatorensetView(view)) {
     //change width of columns
@@ -81,12 +102,20 @@ $(document).ready(function () {
     });
   }
 
+  function sortByAktualisierungsdatumDesc(arr) {
+    return arr.sort(function (a, b) {
+      return (
+        new Date(b.aktualisierungsdatum).getTime() -
+        new Date(a.aktualisierungsdatum).getTime()
+      );
+    });
+  }
   //load data
   $.when(
     $.getScript(jsonDatabaseUrl),
     $.Deferred(function (deferred) {
       $(deferred.resolve);
-    })
+    }),
   ).done(function () {
     if (isIndikatorensetView(view)) {
       //if indikatorenset is loaded: make sure the data is loaded into var indikatoren
@@ -99,16 +128,28 @@ $(document).ready(function () {
         return val;
       });
     }
-
     //determine how many chart previews to display
     var perPageParam = parseInt(
       window.decodeURIComponent($.url("?PerPage")),
-      10
+      10,
     );
+
+    indikatoren_original = indikatoren.slice();
+
+    // sorted version for normal view
+    indikatoren_sorted = sortByAktualisierungsdatumDesc(indikatoren.slice());
+
+    // id ist eine Zahl – als String hinzufügen damit die Suche "4249" matcht
+    indikatoren_sorted.forEach(function (item) {
+      item.id_str = String(item.id);
+    });
+
     //parameter must be an int, see https://stackoverflow.com/a/14636652
     if (perPageParam > 0 && perPageParam <= 32) {
       //perPage defined globally with a default value
       perPage = perPageParam;
+      itemsToShow = perPage;
+      //itemsIncrement = perPage;
     }
 
     //determine sort order
@@ -117,7 +158,7 @@ $(document).ready(function () {
     if (sortParam != "undefined") {
       sortOptions = getSortOptions(sortParam);
     }
-    initializeFilterJS(indikatorenset, perPage, sortOptions);
+    initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe);
   });
 });
 
@@ -125,7 +166,6 @@ $(document).ready(function () {
 function resetPortalFilter(FJS, view) {
   if (isIndikatorensetView(view)) {
     $("#searchbox").val("");
-    $("#searchbox-indikatorenset").val("");
     $("#stufe3_filter").prop("selectedIndex", 0);
     $("#stufe2_filter").prop("selectedIndex", 0);
     $("#stufe1_filter").prop("selectedIndex", 0);
@@ -137,9 +177,11 @@ function resetPortalFilter(FJS, view) {
   //portal view
   else {
     $("#searchbox").val("");
-    $("#searchbox-indikatorenset").val("");
-    $("#thema_criteria :radio:first()").prop("checked", true);
+    $("#thema").prop("selectedIndex", 0);
     $("#unterthema_filter").prop("selectedIndex", 0);
+    localStorage.removeItem("portal_search");
+    localStorage.removeItem("portal_thema");
+    localStorage.removeItem("portal_unterthema");
     $("#raeumlicheGliederung_filter")
       .multiselect("selectAll", false)
       .multiselect("updateButtonText");
@@ -150,13 +192,11 @@ function resetPortalFilter(FJS, view) {
   }
 }
 
-function initializeFilterJS(indikatorenset, perPage, sortOptions) {
+function initializeFilterJS(indikatorenset, perPage, sortOptions, maxStufe) {
   var fjsConfig = {
     template: undefined,
     search: {
-      ele: isIndikatorensetView(view)
-        ? "#searchbox-indikatorenset"
-        : "#searchbox",
+      ele: "#searchbox",
       start_length: 1,
       // define fields in which to search for search term
       fields: [
@@ -170,7 +210,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
         "lesehilfe",
         "erlaeuterungen",
         "quellenangabe",
-        "id",
+        "id_str",
         "children",
       ],
     },
@@ -193,7 +233,10 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     if (!sortOptions) {
       sortOptions = { orderKey: "asc" };
     }
-    prepareIndikatorensetView(indikatorenset);
+    // Hide portal-only controls (list/tile toggle stays visible in Indikatorenset view)
+    $("#portal-reset-button").hide();
+    $("#result-count").hide();
+    prepareIndikatorensetView(indikatorenset, maxStufe);
 
     //define filter.js configuration
     fjsConfig["template"] = "#indikator-template-carousel-indikatorenset";
@@ -221,11 +264,12 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
     //define filter.js configuration
     fjsConfig["template"] = "#indikator-template-carousel-portal";
 
-    FJS = FilterJS(indikatoren, "#indikatoren", fjsConfig);
+    FJS = FilterJS(indikatoren_sorted, "#indikatoren", fjsConfig);
+    console.log(FJS.search_text);
     FJS.addCriteria({
       field: "thema",
-      ele: "#thema_criteria input:radio",
-      all: "Alle",
+      ele: "#thema",
+      all: "all",
     });
     FJS.addCriteria({
       field: "unterthema",
@@ -243,11 +287,29 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
       all: "all",
     });
 
+    const builtin = FJS.paginator.onPagination.bind(FJS.paginator);
+    FJS.paginator.onPagination = function (currentPage, perPage) {
+      //builtin(currentPage, perPage);
+      //console.log("Page changed to", currentPage);
+      //if (window.attachLightboxTriggers) window.attachLightboxTriggers();
+    };
+
     //reset all filter criteria
     $("#portal-reset-button").click(function () {
       resetPortalFilter(FJS, false);
     });
   }
+
+  // Klick-Handler einmalig setzen
+  $("#load-more")
+    .off("click")
+    .on("click", function (e) {
+      e.preventDefault();
+      itemsToShow = Infinity;
+      // letztes Filter-Ergebnis erneut schneiden
+      var result = getLastFjsResult(); // helper existiert bei dir bereits
+      renderCardsSlice(result);
+    });
 
   //implement default sorting, add event listener, and implement sortResult function
   $("#sortBy").on("change", function (e) {
@@ -263,9 +325,36 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
   }
 
   window.FJS = FJS;
+
+  // Restore thema/unterthema from localStorage (portal view only)
+  if (!view) {
+    var storedThema = localStorage.getItem("portal_thema");
+    if (storedThema && storedThema !== "all") {
+      $("#thema").val(storedThema).trigger("change");
+      var storedUnterthema = localStorage.getItem("portal_unterthema");
+      if (storedUnterthema && storedUnterthema !== "all") {
+        $("#unterthema_filter").val(storedUnterthema);
+      }
+    }
+  }
+
   FJS.filter();
   //only now display page
   $("body").show();
+
+  // Sync toggle options to restored state
+  updateViewToggleActiveState();
+
+  $("#portal-view-toggle [data-view-mode]").on("click", function () {
+    var mode = $(this).data("view-mode");
+    if (mode === portalViewMode) return;
+    portalViewMode = mode;
+    localStorage.setItem("portal_listView", portalViewMode);
+    updateViewToggleActiveState();
+
+    // FilterJS zwingt ein Re-Render
+    window.FJS.filter();
+  });
 
   //add event listener to render chart on modal show
   $("#lightbox").on("show.bs.modal", function (e) {
@@ -280,10 +369,10 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions) {
       var indicatorText = $("#carousel-indicators li").text();
       var lastNumberText = indicatorText.substring(
         0,
-        indicatorText.indexOf(" /")
+        indicatorText.indexOf(" /"),
       );
       $("#carousel-indicators li").text(
-        indicatorText.replace(lastNumberText, number)
+        indicatorText.replace(lastNumberText, number),
       );
       $("#carousel-indicators li").removeClass("active");
     }
@@ -336,7 +425,40 @@ function getSortOptions(name) {
 //change DOM and render controls to accomodate portal view
 function preparePortalView() {
   $("#main-control-element-indikatorenset").remove();
-  renderThema();
+  renderDropdownFromJson(indikatoren, "thema", "#thema", "thema");
+
+  $("#thema").on("change", function () {
+    const val = $(this).val();
+    localStorage.setItem("portal_thema", val);
+    //Unterthema-Optionen auf das gewählte Thema einschränken (bzw. bei "Alle" wieder alle zeigen)
+    var unterthemaQuery = val && val !== "all" ? { thema: val } : {};
+    renderDropdownFromJson(
+      indikatoren,
+      "unterthema",
+      "#unterthema_filter",
+      "unterthema",
+      unterthemaQuery,
+    );
+    renderDropdownFromJson(
+      indikatoren,
+      "unterthema",
+      "#table-filter-unterthema",
+      "unterthema",
+      unterthemaQuery,
+    );
+    if (val && val !== "all") {
+      $("#unterthema_filter_container").removeClass("hidden");
+    } else {
+      $("#unterthema_filter_container").addClass("hidden").val("all");
+      localStorage.removeItem("portal_unterthema");
+      if (window.FJS) FJS.filter();
+    }
+  });
+
+  $("#unterthema_filter").on("change", function () {
+    localStorage.setItem("portal_unterthema", $(this).val());
+  });
+
   renderMultiselectDropdownFromJson(
     [
       "Schweiz",
@@ -352,13 +474,13 @@ function preparePortalView() {
     ],
     "",
     "#raeumlicheGliederung_filter",
-    false
+    false,
   );
   renderMultiselectDropdownFromJson(
     indikatoren,
     "darstellungsart",
     "#darstellungsart_filter",
-    false
+    false,
   );
 
   //prepare query String object for filtering thema and unterthema
@@ -369,8 +491,59 @@ function preparePortalView() {
     "unterthema",
     "#unterthema_filter",
     "unterthema",
-    baseQuery
+    baseQuery,
   );
+
+  //Tabellenansicht: Thema-/Unterthema-Dropdowns im Spaltenkopf spiegeln die
+  //Haupt-Filter und werden bidirektional mit ihnen synchronisiert
+  renderDropdownFromJson(indikatoren, "thema", "#table-filter-thema", "thema");
+  renderDropdownFromJson(
+    indikatoren,
+    "unterthema",
+    "#table-filter-unterthema",
+    "unterthema",
+    baseQuery,
+  );
+
+  $("#table-filter-thema").on("change", function () {
+    $("#thema").val($(this).val()).trigger("change");
+  });
+  $("#thema").on("change", function () {
+    $("#table-filter-thema").val($(this).val());
+  });
+
+  $("#table-filter-unterthema").on("change", function () {
+    $("#unterthema_filter").val($(this).val()).trigger("change");
+  });
+  $("#unterthema_filter").on("change", function () {
+    $("#table-filter-unterthema").val($(this).val());
+  });
+
+  //Tabellenansicht: Titel-/Untertitel-Filter im Spaltenkopf. Wirkt nur auf die
+  //gerenderten Zeilen (und die Lightbox-Slides), nicht auf die
+  //FJS-Trefferzahl/Dropdown-Zähler, da FilterJS pro Instanz nur ein
+  //Volltextsuchfeld unterstützt.
+  $("#table-filter-title, #table-filter-subtitle").on("input", function () {
+    renderCardsSlice(getLastFjsResult());
+  });
+
+  //Tabellenansicht: Sortierung per Klick auf Spaltenkopf. Sortiert das Array
+  //direkt in JS statt über FilterJS' query.order(), da deren "shortResult"-
+  //Callback-Rückgabewert nicht übernommen wird (bereits bestehendes Verhalten,
+  //nicht durch diese Änderung verursacht).
+  $("#table-view-header [data-sort-field]").on("click", function () {
+    var field = $(this).data("sort-field");
+    if (tableSort.field === field) {
+      tableSort.dir = tableSort.dir === "asc" ? "desc" : "asc";
+    } else {
+      tableSort.field = field;
+      tableSort.dir = "asc";
+    }
+    updateTableSortIndicators();
+    renderCardsSlice(getLastFjsResult());
+  });
+
+  // hier!
 
   //pre-populate fields with url parameter values
   var themaUrlParameterVal = window.decodeURIComponent($.url("?thema"));
@@ -386,21 +559,21 @@ function preparePortalView() {
   }
   setDropdownValFromUrlParameter("unterthema");
   var raeumlicheGliederungUrlParameterValue = window.decodeURIComponent(
-    $.url("?raeumlicheGliederung")
+    $.url("?raeumlicheGliederung"),
   );
   if (raeumlicheGliederungUrlParameterValue != "undefined") {
     setMultiselectValue(
       "#raeumlicheGliederung_filter",
-      raeumlicheGliederungUrlParameterValue
+      raeumlicheGliederungUrlParameterValue,
     );
   }
   var darstellungsartUrlParameterValue = window.decodeURIComponent(
-    $.url("?darstellungsart")
+    $.url("?darstellungsart"),
   );
   if (darstellungsartUrlParameterValue != "undefined") {
     setMultiselectValue(
       "#darstellungsart_filter",
-      darstellungsartUrlParameterValue
+      darstellungsartUrlParameterValue,
     );
   }
 
@@ -442,18 +615,19 @@ function setMultiselectValue(selector, value) {
 }
 
 //change DOM and render controls to accomodate indikatorenset view
-function prepareIndikatorensetView(indikatorenset) {
+function prepareIndikatorensetView(indikatorenset, maxStufe) {
   $("#sidebar-element").remove();
   //Change bootstrap col size in order to fill width
   $("#main-element").removeClass();
   $("#main-element").addClass("col-xs-12");
   $("#main-control-element-portal").remove();
+  $("#thema_filter_label").hide();
 
   renderDropdownFromJson(
     indikatoren,
     "kennzahlenset",
     "#kennzahlenset_filter",
-    "kennzahlenset"
+    "kennzahlenset",
   );
   //select requested Indikatorenset in dropdown
   $("#kennzahlenset_filter").val(indikatorenset);
@@ -467,28 +641,34 @@ function prepareIndikatorensetView(indikatorenset) {
     "stufe1",
     "#stufe1_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
   renderDropdownFromJson(
     indikatoren,
     "stufe2",
     "#stufe2_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
   renderDropdownFromJson(
     indikatoren,
     "stufe3",
     "#stufe3_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
+
+  // Show each filter label only when the dropdown has actual choices
+  if (maxStufe >= 1) $("#stufe1_filter_label").toggleClass("hidden", $("#stufe1_filter > option").length <= 1);
+  if (maxStufe >= 2) $("#stufe2_filter_label").toggleClass("hidden", $("#stufe2_filter > option").length <= 1);
+  if (maxStufe >= 3) $("#stufe3_filter_label").toggleClass("hidden", $("#stufe3_filter > option").length <= 1);
+
   renderDropdownFromJson(
     indikatoren,
     "darstellungsart",
     "#darstellungsart_filter",
     "orderKey",
-    baseQuery
+    baseQuery,
   );
 
   //pre-populate fields with url parameter values
@@ -525,11 +705,11 @@ function renderLastUpdatedSets(selector) {
               Thema: c.Thema,
               Bereich: c.Bereich,
               Datenstand: c.Datenstand,
-            })
+            }),
           );
         }
       });
-    }
+    },
   );
 }
 
@@ -564,23 +744,28 @@ function setDropdownValFromUrlParameter(field) {
 }
 
 function renderThema() {
-  //get all values of thema and add value "Alle" as the first one
-  var values = ["Alle"].concat(
-    JsonQuery(indikatoren).uniq("thema").order({ thema: "asc" }).pluck("thema")
-      .all
-  );
-  var html = $("#radio-template").html();
-  var templateFunction = FilterJS.templateBuilder(html);
-  var container = $("#thema_criteria");
-
-  $.each(values, function (i, c) {
-    container.append(
-      templateFunction({ value: c, radioGroupName: "themaRadioGroup" })
-    );
+  var JQ = JsonQuery(indikatoren);
+  var allValues = JQ.pluck("thema").all;
+  var uniqueValues = allValues.filter(function (item, i, ar) {
+    return ar.indexOf(item) === i && item != "";
   });
 
-  //check first radio ('Alle')
-  $("#thema_criteria :radio:first()").prop("checked", true);
+  var html = $("#option-template").html();
+  var templateFunction = FilterJS.templateBuilder(html);
+  var container = $("#thema");
+
+  // Clear existing options and add "All" option
+  container.children().remove();
+  container.append('<option value="all">Alle</option>');
+
+  $.each(uniqueValues, function (i, c) {
+    container.append(templateFunction({ key: c, value: c }));
+  });
+
+  // Attach event listener for change event
+  $("#thema").change(function () {
+    FJS.filter();
+  });
 }
 
 //create a single-select dropdown that contain values from a given json object at a specified place in the DOM
@@ -589,9 +774,8 @@ function renderDropdownFromJson(
   field,
   selector,
   sortKey,
-  filterQueryString
+  filterQueryString,
 ) {
-  console.log("render dropdown From JSON");
   var JQ = JsonQuery(data);
   //If filterQueryString is given: filter data before rendering dropdowns
   if (typeof filterQueryString !== "undefined") {
@@ -712,7 +896,7 @@ function configureMultiselect(selector) {
       selectAllNumber: false,
       nSelectedText: "ausgewählt",
       numberDisplayed: 2,
-    }
+    },
     /*
       dropUp: true,
       allSelectedText: 'Alle ausgewählt',
@@ -729,6 +913,7 @@ function configureMultiselect(selector) {
 
 //if full-text search is used (search_text has some minimum length), FJS uses a different results array than if not.
 function getLastFjsResult() {
+  if (!window.FJS) return [];
   return window.FJS.search_text.length > FJS.opts.search.start_length
     ? window.FJS.search_result
     : window.FJS.last_result;
@@ -750,6 +935,157 @@ function getIndexByFid(fid) {
   }
 }
 
+// Wie getIndexByFid, aber sucht direkt in window.slides statt im
+// unsortierten FJS-Ergebnis. Nötig für die Tabellenansicht, da dort
+// Sortierung/Spaltenfilter die Reihenfolge lokal verändern (siehe
+// applyTableSort/applyTableColumnFilters) - die Lightbox navigiert durch
+// window.slides, dessen Reihenfolge dann von der FJS-Reihenfolge abweicht.
+function getSlideIndexById(id) {
+  try {
+    for (var i = 0; i < window.slides.length; i++) {
+      if (window.slides[i].id == id) {
+        return i;
+      }
+    }
+    return undefined;
+  } catch (e) {
+    return undefined;
+  }
+}
+
+// Portal view mode: "grid" (Kacheln), "list" (Liste) or "table" (Tabelle) - freely switchable
+// Migrates the old boolean value ("true"/"false") stored under the same key.
+var portalViewMode = (function () {
+  var stored = localStorage.getItem("portal_listView");
+  if (stored === "grid" || stored === "list" || stored === "table") {
+    return stored;
+  }
+  return stored === "true" ? "list" : "grid";
+})();
+
+// Hide the currently active view option entirely; only the other, switchable views are shown
+function updateViewToggleActiveState() {
+  $("#portal-view-toggle [data-view-mode]").each(function () {
+    var isActive = $(this).data("view-mode") === portalViewMode;
+    $(this).toggleClass("hidden", isActive);
+  });
+}
+
+// Tabellenansicht: aktuell aktive Spalten-Sortierung
+var tableSort = { field: "aktualisierungsdatum", dir: "desc" };
+
+function updateTableSortIndicators() {
+  $("#table-view-header [data-sort-field]").each(function () {
+    var isActive = $(this).data("sort-field") === tableSort.field;
+    $(this)
+      .find(".table-sort-icon")
+      .text(isActive ? (tableSort.dir === "asc" ? "▲" : "▼") : "⇅")
+      .toggleClass("text-gray-700", isActive)
+      .toggleClass("text-gray-400", !isActive);
+  });
+}
+
+// Tabellenansicht: Titel-/Untertitel-Freitextfilter aus dem Spaltenkopf auf ein Ergebnis anwenden
+function applyTableColumnFilters(result) {
+  var titleQuery = ($("#table-filter-title").val() || "").trim().toLowerCase();
+  var subtitleQuery = ($("#table-filter-subtitle").val() || "")
+    .trim()
+    .toLowerCase();
+  if (!titleQuery && !subtitleQuery) return result;
+  return result.filter(function (item) {
+    var titleOk =
+      !titleQuery || (item.title || "").toLowerCase().indexOf(titleQuery) > -1;
+    var subtitleOk =
+      !subtitleQuery ||
+      (item.subtitle || "").toLowerCase().indexOf(subtitleQuery) > -1;
+    return titleOk && subtitleOk;
+  });
+}
+
+// Tabellenansicht: aktuelle Spalten-Sortierung auf ein Ergebnis anwenden.
+// aktualisierungsdatum ist ein ISO-8601-String, der sich auch als reiner
+// String-Vergleich korrekt chronologisch sortieren lässt.
+function applyTableSort(result) {
+  if (!tableSort.field) return result;
+  var field = tableSort.field;
+  var dir = tableSort.dir === "desc" ? -1 : 1;
+  return result.slice().sort(function (a, b) {
+    var av = (a[field] || "").toString();
+    var bv = (b[field] || "").toString();
+    return av.localeCompare(bv, "de") * dir;
+  });
+}
+
+function getCardTemplateId() {
+  if (portalViewMode === "table") {
+    return "#indikator-template-table-portal";
+  }
+  if (isIndikatorensetView(view)) {
+    return portalViewMode === "list"
+      ? "#indikator-template-list-portal"
+      : "#indikator-template-carousel-indikatorenset";
+  }
+  return portalViewMode === "list"
+    ? "#indikator-template-list-portal"
+    : "#indikator-template-carousel-portal";
+}
+
+function renderCardsSlice(result) {
+  var templateId = getCardTemplateId();
+  $("#table-view-header").toggleClass(
+    "hidden",
+    templateId !== "#indikator-template-table-portal",
+  );
+  var html = $(templateId).html();
+  if (typeof html !== "string" || html.trim() === "") {
+    console.error("[Grid] Template fehlt/leer:", templateId);
+    $("#indikatoren").html(
+      "<div class='p-4 text-sm text-red-700'>Template fehlt</div>",
+    );
+    return;
+  }
+  var tpl = FilterJS.templateBuilder(html); // nutzt deine FilterJS-Template Engine
+
+  var $container = $("#indikatoren");
+  $container.empty();
+
+  // Tabellenansicht: Spalten-Textfilter und -Sortierung anwenden, dann immer
+  // alle Treffer zeigen, kein "Alle anzeigen" nötig
+  if (templateId === "#indikator-template-table-portal") {
+    result = applyTableColumnFilters(result);
+    result = applyTableSort(result);
+    updateTableSortIndicators();
+    // Trefferzahl auf die durch Spaltenfilter reduzierte Menge aktualisieren
+    // (afterFilter() hat sie zuvor auf Basis der FJS-Trefferzahl gesetzt)
+    $("#result-count").text(result.length + " Indikatoren gefunden");
+    // window.slides schon vor dem Rendern auf die finale (sortierte/gefilterte)
+    // Reihenfolge setzen, da getSlideIndexById() im Template pro Zeile bereits
+    // während dieser Schleife dagegen nachschlägt - attachLightboxTriggers()
+    // (das window.slides sonst setzt) läuft erst danach.
+    window.slides = result.map(function (item) {
+      return { id: item.id, kuerzel: item.kuerzel };
+    });
+  }
+  var count =
+    portalViewMode === "table"
+      ? result.length
+      : Math.min(itemsToShow, result.length);
+  for (var i = 0; i < count; i++) {
+    $container.append(tpl(result[i]));
+  }
+
+  // Button ein-/ausblenden
+  if (portalViewMode !== "table" && itemsToShow < result.length) {
+    $("#load-more-container").removeClass("hidden");
+  } else {
+    $("#load-more-container").addClass("hidden");
+  }
+
+  // Lightbox-Trigger neu binden – result übergeben damit alle (nicht nur
+  // gerenderten) Indikatoren navigierbar sind
+  if (window.attachLightboxTriggers) window.attachLightboxTriggers(result);
+}
+
 //after filtering is done: update dropdonws and their counts, create all carousel components
 var afterFilter = function (result, jQ) {
   //$('#total_indikatoren').text(result.length);
@@ -767,7 +1103,6 @@ var afterFilter = function (result, jQ) {
   //deep copy so that changes have no effect on filtering charts, only dropdowns
   var baseQueryCopy = $.extend(true, {}, baseQuery);
   //start from the right: remove field of dropdown and render dropdown. This way, stufe3 selection does not filter stufe2 dropdown options, and so on.
-  console.log("ju here?");
   if (baseQueryCopy) {
     delete baseQueryCopy["stufe3" + ".$in"];
   }
@@ -776,7 +1111,7 @@ var afterFilter = function (result, jQ) {
     "stufe3",
     "#stufe3_filter",
     "orderKey",
-    baseQueryCopy
+    baseQueryCopy,
   );
   if (baseQueryCopy) {
     delete baseQueryCopy["stufe2" + ".$in"];
@@ -786,7 +1121,7 @@ var afterFilter = function (result, jQ) {
     "stufe2",
     "#stufe2_filter",
     "orderKey",
-    baseQueryCopy
+    baseQueryCopy,
   );
   if (baseQueryCopy) {
     delete baseQueryCopy["stufe1" + ".$in"];
@@ -796,8 +1131,15 @@ var afterFilter = function (result, jQ) {
     "stufe1",
     "#stufe1_filter",
     "orderKey",
-    baseQueryCopy
+    baseQueryCopy,
   );
+
+  // In indikatorenset view: hide stufe filter labels when no choices are available
+  if (isIndikatorensetView(view)) {
+    if (maxStufe >= 1) $("#stufe1_filter_label").toggleClass("hidden", $("#stufe1_filter > option").length <= 1);
+    if (maxStufe >= 2) $("#stufe2_filter_label").toggleClass("hidden", $("#stufe2_filter > option").length <= 1);
+    if (maxStufe >= 3) $("#stufe3_filter_label").toggleClass("hidden", $("#stufe3_filter > option").length <= 1);
+  }
 
   var baseQueryCopyUnterthema = $.extend(true, {}, baseQuery);
   //make sure currently selected unterthema does not filter the unterthema dropdown
@@ -807,15 +1149,12 @@ var afterFilter = function (result, jQ) {
     "unterthema",
     "#unterthema_filter",
     "unterthema",
-    baseQueryCopyUnterthema
+    baseQueryCopyUnterthema,
   );
 
   //define how counts in dropdowns or checkboxes are rendered
   var optionCountRenderFunction = function (c, count) {
-    c.text(c.val() + " (" + count + ")");
-  };
-  var checkboxCountRenderFunction = function (c, count) {
-    c.next().text(c.val() + " (" + count + ")");
+    //c.text(c.val() + " (" + count + ")");
   };
 
   //render new counts after each control
@@ -824,26 +1163,29 @@ var afterFilter = function (result, jQ) {
     query && query.criteria && query.criteria.where
       ? updateCountsExclusive
       : updateCountsInclusive;
+
   updateFunction(
-    "#thema_criteria :input:gt(0)",
+    "#thema_criteria option:gt(0)",
     "thema",
-    checkboxCountRenderFunction,
+    optionCountRenderFunction,
     result,
-    jQ
+    jQ,
   );
+
   updateFunction(
     "#raeumlicheGliederung_filter > option",
     "raeumlicheGliederung",
     optionCountRenderFunction,
     result,
-    jQ
+    jQ,
   );
+
   updateFunction(
     "#darstellungsart_filter > option",
     "darstellungsart",
     optionCountRenderFunction,
     result,
-    jQ
+    jQ,
   );
 
   //hide dropdowns if no specific values present, or select the single specific value
@@ -859,7 +1201,17 @@ var afterFilter = function (result, jQ) {
     ? $("#pagination").addClass("invisible")
     : $("#pagination").removeClass("invisible");
 
-  createCarousel(result);
+  // Update result count display
+  $("#result-count").text(result.length + " Indikatoren gefunden");
+
+  // createCarousel is no longer needed (replaced by new lightbox)
+  // --- Load-More-Grid steuern ---
+  // Reset auf Startwert bei jedem neuen Filterresultat
+  itemsToShow = perPage;
+  // FilterJS-eigene Pagination im UI ausblenden
+  $("#pagination").addClass("hidden");
+  // unser Slicing-Render (ruft attachLightboxTriggers am Ende selbst auf)
+  renderCardsSlice(result);
 
   //add Counts in brackets after each option
   //calculate number of results that would be found if only the current value was selected (i.e. exclusive any filtercriteria of the current control)
@@ -952,7 +1304,18 @@ var afterFilter = function (result, jQ) {
       ? "#indikator-template-modal-indikatorenset"
       : "#indikator-template-modal-portal";
     var html = $(template).html();
+    if (typeof html !== "string" || html.trim() === "") {
+      console.error("[Lightbox] Template nicht gefunden oder leer:", template);
+      // optional: Nutzerfreundliche Fallback-Box
+      $("#carousel-inner").html(
+        "<div class='p-4 text-sm text-red-700'>Fehlendes Template: " +
+          template +
+          "</div>",
+      );
+      return; // Crash verhindern
+    }
     var templateFunction = FilterJS.templateBuilder(html);
+
     var container = $("#carousel-inner");
     //first remove all carousel divs
     container.children().remove();
@@ -987,6 +1350,12 @@ var afterFilter = function (result, jQ) {
       }
     });
   }
+
+  // Note: window.attachLightboxTriggers is already called with the full
+  // result set inside renderCardsSlice() above. Calling it again here
+  // without arguments would fall back to building window.slides from only
+  // the currently rendered (itemsToShow-limited) DOM cards, breaking
+  // lightbox navigation/count beyond the initial page size.
 }; //afterFilter
 
 // https://tc39.github.io/ecma262/#sec-array.prototype.find

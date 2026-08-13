@@ -36,7 +36,7 @@ global geojson_wohnviertelEPSG2056
 				"name": "Wohnviertel", 
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#ffffff",		
 				"joinBy": ['TXT', 'Wohnviertel Id'],
 				"keys": ['Wohnviertel Id', 'value'],
 				"states": {
@@ -75,7 +75,7 @@ global geojson_wohnviertelEPSG2056
 	                var chart = this;
 	                var fn = this.options.customFunctions;
 	                //define new Highcharts template "mappie"
-	                fn.addLegendRectangle(chart, 260, 280, 220, 80, '#fbfbfb');
+	                fn.addLegendRectangle(chart, 260, 280, 220, 80, '#ffffff');
 	            }
 			}
 		}

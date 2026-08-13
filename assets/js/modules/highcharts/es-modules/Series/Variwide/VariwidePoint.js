@@ -2,62 +2,37 @@
  *
  *  Highcharts variwide module
  *
- *  (c) 2010-2021 Torstein Honsi
+ *  (c) 2010-2026 Highsoft AS
+ *  Author: Torstein Honsi
  *
- *  License: www.highcharts.com/license
+ *  A commercial license may be required depending on use.
+ *  See www.highcharts.com/license
  *
- *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
+'use strict';
 import SeriesRegistry from '../../Core/Series/SeriesRegistry.js';
-var ColumnSeries = SeriesRegistry.seriesTypes.column;
+const { column: { prototype: { pointClass: ColumnPoint } } } = SeriesRegistry.seriesTypes;
 import U from '../../Core/Utilities.js';
-var isNumber = U.isNumber;
+const { isNumber } = U;
 /* *
  *
- * Class
+ *  Class
  *
  * */
-var VariwidePoint = /** @class */ (function (_super) {
-    __extends(VariwidePoint, _super);
-    function VariwidePoint() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        /* *
-         *
-         * Properites
-         *
-         * */
-        _this.crosshairWidth = void 0;
-        _this.options = void 0;
-        _this.series = void 0;
-        return _this;
-    }
+class VariwidePoint extends ColumnPoint {
     /* *
      *
-     * Functions
+     *  Functions
      *
      * */
-    VariwidePoint.prototype.isValid = function () {
+    isValid() {
         return isNumber(this.y) && isNumber(this.z);
-    };
-    return VariwidePoint;
-}(ColumnSeries.prototype.pointClass));
+    }
+}
 /* *
  *
- * Export
+ *  Default Export
  *
  * */
 export default VariwidePoint;

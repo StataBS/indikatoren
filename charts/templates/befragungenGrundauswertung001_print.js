@@ -16,8 +16,8 @@
                     }
                 }
             },
-            borderColor: "#fbfbfb",
-            backgroundColor: "#fbfbfb",
+            borderColor: "#ffffff",
+            backgroundColor: "#ffffff",
             width: 665,
             height: 270,//208, //Maps: 325
             //marginLeft: 125,
@@ -25,7 +25,7 @@
             spacingBottom: 5,
             type: "column",
             style: {
-                fontFamily: "Arial"
+                fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif"
             }
         },
         plotOptions: {
