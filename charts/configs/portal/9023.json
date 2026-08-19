@@ -5391,14 +5391,16 @@
     "line": {
       "index": 1,
       "visible": false,
-      "yAxis": 1
+      "yAxis": 1,
+      "threshold": 0
     },
     "column": {
       "pointPadding": 0,
       "borderWidth": 0,
       "index": 0,
       "visible": false,
-      "yAxis": 0
+      "yAxis": 0,
+      "threshold": 0
     }
   },
   "title": {
@@ -5500,7 +5502,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

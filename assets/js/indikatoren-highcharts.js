@@ -37,6 +37,14 @@ Highcharts.setOptions({
   },
 });
 
+// HC12 Compatibility: Highcharts.each wurde entfernt, einige Chart-Templates
+// (v.a. mappie-Templates) rufen es noch auf.
+if (!Highcharts.each) {
+  Highcharts.each = function (arr, fn) {
+    arr.forEach(fn);
+  };
+}
+
 // HC12 Compatibility: series.yData wurde durch series.getColumn('y') ersetzt.
 // Viele Chart-Templates greifen noch direkt auf series.yData zu.
 if (
@@ -351,7 +359,7 @@ function injectMetadataToChartConfig(
     //options['chart']["height"] = 415;
     delete options.exporting.buttons;
   }
-  options["chart"]["width"] = null;
+  options["chart"]["width"] = view == "print" ? 567 : null;
 
   // Remove hardcoded legend dimensions — these were set for the old fixed
   // 485px width and cause text truncation at responsive (wider) sizes.
@@ -366,7 +374,7 @@ function injectMetadataToChartConfig(
   // If subtitle has text and marginTop is hardcoded, remove it so Highcharts
   // calculates the correct spacing automatically (prevents subtitle overlap).
   // StockCharts are most affected because rangeSelector/navigator add extra elements.
-  if (options["subtitle"]["text"] && options["chart"]["marginTop"]) {
+  if (options["subtitle"] && options["subtitle"]["text"] && options["chart"]["marginTop"]) {
     delete options["chart"]["marginTop"];
   }
 
