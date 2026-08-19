@@ -29,6 +29,7 @@
         index: 1,
         visible: false,
         yAxis: 1,
+        threshold: 0,
       },
       column: {
         pointPadding: 0,
@@ -36,6 +37,7 @@
         index: 0,
         visible: false,
         yAxis: 0,
+        threshold: 0,
       }
     },
     xAxis: {
