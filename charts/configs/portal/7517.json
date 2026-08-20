@@ -9,15 +9,15 @@
         ],
         [
           "3-Sterne",
-          1519
+          1518
         ],
         [
           "4- und 5-Sterne",
-          2003
+          1996
         ],
         [
           "Nicht klassiert",
-          692
+          688
         ]
       ],
       "pointStart": 0,
@@ -29,7 +29,7 @@
       "data": [
         [
           "1- und 2-Sterne",
-          497
+          489
         ],
         [
           "3-Sterne",
@@ -37,11 +37,11 @@
         ],
         [
           "4- und 5-Sterne",
-          2004
+          2003
         ],
         [
           "Nicht klassiert",
-          692
+          691
         ]
       ],
       "pointStart": 0,
@@ -60,19 +60,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.699939831
+          0.708279958
         ],
         [
           "3-Sterne",
-          0.747311827
+          0.684474478
         ],
         [
           "4- und 5-Sterne",
-          0.797819936
+          0.71636822
         ],
         [
           "Nicht klassiert",
-          0.732129094
+          0.69042264
         ]
       ],
       "pointStart": 0,
@@ -91,19 +91,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.601945003
+          0.656161403
         ],
         [
           "3-Sterne",
-          0.795919335
+          0.654115486
         ],
         [
           "4- und 5-Sterne",
-          0.81086161
+          0.700674794
         ],
         [
           "Nicht klassiert",
-          0.768111753
+          0.659586387
         ]
       ],
       "pointStart": 0,
@@ -147,7 +147,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -181,7 +185,24 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+            //move legend title
+            var title = this.legend.title;
+            title.translate(-215, 40);
+          }
     },
     "type": "column",
     "renderTo": "container-7517",
@@ -218,7 +239,7 @@
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Juni",
+    "text": "Basel-Stadt, Juli",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -314,7 +335,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.7.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.8.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
