@@ -9,15 +9,15 @@
       "data": [
         [
           "Grossbasel",
-          678
+          457
         ],
         [
           "Kleinbasel",
-          319
+          360
         ],
         [
           "Riehen\u002FBettingen",
-          82
+          95
         ],
         [
           "Arlesheim",
@@ -65,15 +65,15 @@
       "data": [
         [
           "Grossbasel",
-          0.009201
+          0.007217
         ],
         [
           "Kleinbasel",
-          0.010053
+          0.008452
         ],
         [
           "Riehen\u002FBettingen",
-          0.0071541
+          0.008227
         ],
         [
           "Arlesheim",
@@ -121,23 +121,23 @@
         ],
         [
           "Arlesheim",
-          723
+          548
         ],
         [
           "Laufen",
-          93
+          89
         ],
         [
           "Liestal",
-          259
+          231
         ],
         [
           "Sissach",
-          77
+          78
         ],
         [
           "Waldenburg",
-          44
+          34
         ]
       ],
       "pointStart": 0,
@@ -177,23 +177,23 @@
         ],
         [
           "Arlesheim",
-          0.0088
+          0.006582
         ],
         [
           "Laufen",
-          0.008737
+          0.008247
         ],
         [
           "Liestal",
-          0.008221
+          0.007264
         ],
         [
           "Sissach",
-          0.004203
+          0.004222
         ],
         [
           "Waldenburg",
-          0.005442
+          0.004185
         ]
       ],
       "pointStart": 0,
@@ -238,7 +238,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -272,7 +276,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "renderTo": "container-7576",
     "spacingBottom": 40
@@ -299,7 +317,7 @@
     "text": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet"
   },
   "subtitle": {
-    "text": "Basel-Stadt und Basel-Landschaft, 2025",
+    "text": "Basel-Stadt und Basel-Landschaft, 2026",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -309,7 +327,9 @@
   },
   "yAxis": [
     {
-      "max": 1500,
+      "max": 1000,
+      "tickInterval": 250,
+      "tickAmount": 5,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -330,7 +350,9 @@
     {
       "opposite": true,
       "min": 0,
-      "max": 0.015,
+      "max": 0.01,
+      "tickInterval": 0.0025,
+      "tickAmount": 5,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
       "lineColor": "#B9CFD7",
@@ -343,7 +365,7 @@
       },
       "labels": {
         "formatter": function(){
-            return Highcharts.numberFormat(this.value*100, 1) + "%";/*number of decimals changed from 2 to 1*/
+            return Highcharts.numberFormat(this.value*100, 2) + "%";/*number of decimals changed from 2 to 1*/
           },
         "style": {
           "color": "#000000"
@@ -384,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "shared": true

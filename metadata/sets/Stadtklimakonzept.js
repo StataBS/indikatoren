@@ -273,7 +273,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Strukturen der Fliessgewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
 		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wird eine Fliesstrecke von insgesamt 47 km bewertet.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -300,7 +300,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-19T11:16:35",
+		"aktualisierungsdatum": "2026-08-21T08:58:58",
 		"id": 22415
 	},
 	{

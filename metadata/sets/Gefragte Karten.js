@@ -210,8 +210,8 @@ var indikatorensetData = [
 			8546
 		],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2025",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2025 im Wohnviertel Vorstädte (2,5%) beobachtet, die tiefste im Wohnviertel Bachletten (0,5%).",
+		"subtitle": "Basel-Stadt, 2026",
+		"lesehilfe": "Die höchste Anzahl Leerwohnungen weist 2026 das Wohnviertel St. Johann (118) auf, die tiefste die Gemeinde Bettingen (3).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -236,7 +236,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:44",
+		"aktualisierungsdatum": "2026-08-21T08:59:04",
 		"id": 6379
 	},
 	{
@@ -515,8 +515,8 @@ var indikatorensetData = [
 		"parentId": "6379",
 		"children": [],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2025",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2025 im Wohnviertel Vorstädte (2,5%) beobachtet, die tiefste im Wohnviertel Bachletten (0,5%).",
+		"subtitle": "Basel-Stadt, 2026",
+		"lesehilfe": "Die höchste Anzahl Leerwohnungen weist 2026 das Wohnviertel St. Johann (118) auf, die tiefste die Gemeinde Bettingen (3).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -541,7 +541,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:46",
+		"aktualisierungsdatum": "2026-08-21T08:59:06",
 		"id": 6391
 	},
 	{

@@ -13,7 +13,7 @@
   },
   "yAxis": {
     offset: -10,
-    tickAmount: 7,
+    tickAmount: 6,
 	"labels": {
 		"format": "{value:,.0f}"
 	}

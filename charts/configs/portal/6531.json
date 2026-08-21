@@ -7,23 +7,23 @@
       "data": [
         [
           "BS",
-          27924
+          28017
         ],
         [
           "BL",
-          31906
+          32247
         ],
         [
           "AG",
-          77117
+          76951
         ],
         [
           "ZH",
-          201350
+          203700
         ],
         [
           "CH",
-          1205860
+          1206050
         ]
       ],
       "pointStart": 0,
@@ -37,23 +37,23 @@
       "data": [
         [
           "BS",
-          31841
+          32832
         ],
         [
           "BL",
-          35600
+          35099
         ],
         [
           "AG",
-          74991
+          76052
         ],
         [
           "ZH",
-          227932
+          231761
         ],
         [
           "CH",
-          1214621
+          1224426
         ]
       ],
       "pointStart": 0,
@@ -67,23 +67,23 @@
       "data": [
         [
           "BS",
-          41471
+          41401
         ],
         [
           "BL",
-          37925
+          37895
         ],
         [
           "AG",
-          74325
+          73987
         ],
         [
           "ZH",
-          221996
+          223034
         ],
         [
           "CH",
-          1125957
+          1127541
         ]
       ],
       "pointStart": 0,
@@ -97,23 +97,23 @@
       "data": [
         [
           "BS",
-          54422
+          56110
         ],
         [
           "BL",
-          19852
+          21524
         ],
         [
           "AG",
-          51961
+          53727
         ],
         [
           "ZH",
-          224587
+          228308
         ],
         [
           "CH",
-          833071
+          846844
         ]
       ],
       "pointStart": 0,
@@ -148,7 +148,11 @@
   "chart": {
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -182,7 +186,20 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
     },
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",
@@ -218,7 +235,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil der Vollzeitäquivalente, 2023"
+    "text": "Anteil der Vollzeitäquivalente, 2024"
   },
   "navigation": {
     "menuItemStyle": {
@@ -278,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "legend": {
     "layout": "horizontal",

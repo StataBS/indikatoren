@@ -32,28 +32,28 @@
       },
       "data": [
         [
-          "1 Zimmer (0,7%)",
-          34
+          "1 Zimmer (0,6%)",
+          31
         ],
         [
-          "2 Zimmer (0,8%)",
-          132
+          "2 Zimmer (0,7%)",
+          120
         ],
         [
-          "3 Zimmer (1,2%)",
-          504
+          "3 Zimmer (0,9%)",
+          380
         ],
         [
-          "4 Zimmer (0,9%)",
-          390
+          "4 Zimmer (0,7%)",
+          314
         ],
         [
           "5 Zimmer (0,3%)",
-          86
+          82
         ],
         [
-          "6 u.m. Zimmer (0,3%)",
-          50
+          "6 Zimmer (0,3%)",
+          53
         ]
       ],
       "pointStart": 0,
@@ -73,7 +73,11 @@
   "chart": {
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -107,7 +111,10 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function() {
+                  this.credits.element.onclick = function() {};
+              }
     },
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",
@@ -160,7 +167,7 @@
       "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2025",
+    "text": "Basel-Landschaft, 2026",
     "align": "left"
   },
   "tooltip": {
@@ -181,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "legend": {
     "layout": "vertical",

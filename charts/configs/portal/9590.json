@@ -6,10 +6,6 @@
       "legendIndex": 1,
       "data": [
         [
-          2016,
-          10559
-        ],
-        [
           2017,
           11956
         ],
@@ -44,9 +40,13 @@
         [
           2025,
           12223
+        ],
+        [
+          2026,
+          21233
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Laden"
     },
     {
@@ -54,10 +54,6 @@
       "index": 4,
       "legendIndex": 2,
       "data": [
-        [
-          2016,
-          54565
-        ],
         [
           2017,
           59699
@@ -93,9 +89,13 @@
         [
           2025,
           132740
+        ],
+        [
+          2026,
+          124688
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Büro"
     },
     {
@@ -103,10 +103,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          2016,
-          7793
-        ],
         [
           2017,
           17388
@@ -142,9 +138,13 @@
         [
           2025,
           37804
+        ],
+        [
+          2026,
+          59922
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Gewerbe"
     },
     {
@@ -152,10 +152,6 @@
       "index": 2,
       "legendIndex": 4,
       "data": [
-        [
-          2016,
-          2035
-        ],
         [
           2017,
           380
@@ -191,9 +187,13 @@
         [
           2025,
           100
+        ],
+        [
+          2026,
+          1462
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Produktion"
     },
     {
@@ -201,10 +201,6 @@
       "index": 1,
       "legendIndex": 5,
       "data": [
-        [
-          2016,
-          11291
-        ],
         [
           2017,
           20317
@@ -240,9 +236,13 @@
         [
           2025,
           17572
+        ],
+        [
+          2026,
+          23194
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Lager"
     }
   ],
@@ -281,7 +281,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -315,7 +319,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-9590"
   },
@@ -392,7 +412,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

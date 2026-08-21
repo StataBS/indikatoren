@@ -88,8 +88,8 @@
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
 		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2026",
-		"lesehilfe": "Im Januar 2025 bot das Tertianum 107 Wohnungen mit Service an.",
-		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Das Angebot des Adullam Basel wurde per 1.1.2025 aufgelöst.<br><br>Stand März 2026.",
+		"lesehilfe": "Im Januar 2026 bot das Tertianum 107 Wohnungen mit Service an.",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand März 2026.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -116,7 +116,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-07T10:38:55",
+		"aktualisierungsdatum": "2026-08-21T08:58:32",
 		"id": 11167
 	},
 	{
@@ -128,8 +128,8 @@
 		"children": [],
 		"title": "Anzahl Spitex-Anbieter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Anfang 2025 gab es im Kanton Basel-Stadt 65 Organisationen sowie 58 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Alle verfügen über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen.",
-		"erlaeuterungen": "Stand Anfang 2025",
+		"lesehilfe": "Anfang 2025 gab es im Kanton Basel-Stadt 65 Organisationen sowie 60 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Alle verfügen über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen.",
+		"erlaeuterungen": "Stand Ende 2025.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -156,7 +156,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-03T07:01:22",
+		"aktualisierungsdatum": "2026-08-21T08:58:29",
 		"id": 11168
 	},
 	{
@@ -405,8 +405,8 @@
 		"children": [],
 		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
 		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
-		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2024 verglichen mit dem Vorjahrauf 279 leicht gesunken. Zu deren Gunsten wurden an insgesamt 76 165 Tagen Pflegeleistungen erbracht.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2024 verglichen mit dem Vorjahr leicht auf 296 gestiegen. Zu deren Gunsten wurden an insgesamt 79 747 Tagen Pflegeleistungen erbracht.",
+		"erlaeuterungen": "Stand Anfang 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -433,7 +433,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:31",
+		"aktualisierungsdatum": "2026-08-21T08:58:33",
 		"id": 11175
 	},
 	{
@@ -560,8 +560,8 @@
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,8 Franken. Der Kanton zahlte im Jahr 2024 2,4 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,7 Mio. Franken auf die Stadt Basel.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2024 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 21,8 Franken. Der Kanton zahlte im Jahr 2024 2,4 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,7 Mio. Franken auf die Stadt Basel.",
+		"erlaeuterungen": "Stand Anfang 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -586,7 +586,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:32",
+		"aktualisierungsdatum": "2026-08-21T08:58:34",
 		"id": 11179
 	},
 	{
@@ -949,10 +949,13 @@
 		"chart-id": 11909,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22315,
+			22415
+		],
 		"title": "Strukturen der Fliessgewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
 		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wird eine Fliesstrecke von insgesamt 47 km bewertet.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -980,7 +983,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:47",
+		"aktualisierungsdatum": "2026-08-21T08:59:29",
 		"id": 11909
 	},
 	{
@@ -990,12 +993,13 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			22316
+			22316,
+			22414
 		],
 		"title": "Revitalisierungsrate Oberflächengewässer",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Seit 2015 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
-		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km der Fliessgewässer in der Schweiz revitalisiert werden.",
+		"erlaeuterungen": "Länge der revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km Fliessgewässer in der Schweiz revitalisiert werden.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -1020,7 +1024,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:40",
+		"aktualisierungsdatum": "2026-08-21T08:59:30",
 		"id": 11910
 	},
 	{
@@ -3829,9 +3833,7 @@
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100377/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Tagesgäste von Tages- und Nachtpflegeeinrichtungen (TNP)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100378/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Pflegebedürftige im Bereich der Pflege zu Hause (PzH)</a>"
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -3855,7 +3857,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-23T07:42:19",
+		"aktualisierungsdatum": "2026-08-21T08:58:35",
 		"id": 12728
 	},
 	{
@@ -3874,9 +3876,7 @@
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100377/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Tagesgäste von Tages- und Nachtpflegeeinrichtungen (TNP)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100378/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Pflegebedürftige im Bereich der Pflege zu Hause (PzH)</a>"
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -3900,7 +3900,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-07T10:38:57",
+		"aktualisierungsdatum": "2026-08-21T08:58:36",
 		"id": 12729
 	},
 	{
@@ -6626,7 +6626,7 @@
 		],
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 sind in der chemischen und pharmazeutischen Industrie 17 514 Beschäftigte (in VZÄ) tätig und somit etwas weniger als im Vorjahr (17 541). In der Industrie (exkl. Chemie, Pharma) und im Baugewerbe beträgt die Beschäftigung in VZÄ im gleichen Jahr 7 287 bzw. 6 671 und ist etwas höher als im Vorjahr (+4,5% bzw. +0,3%).",
+		"lesehilfe": "Im Jahr 2024 sind in der chemischen und pharmazeutischen Industrie 16 887 Beschäftigte (in VZÄ) tätig und somit 3,6% weniger als im Vorjahr. In der Industrie (exkl. Chemie, Pharma) und im Baugewerbe beträgt die Beschäftigung in VZÄ im gleichen Jahr 7 402 bzw. 6 740 und ist etwas höher als im Vorjahr (+1,6% bzw. +1,0%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -6652,7 +6652,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:26",
+		"aktualisierungsdatum": "2026-08-21T08:58:48",
 		"id": 2528
 	},
 	{
@@ -6666,7 +6666,7 @@
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Gastgewerbe nahm die Beschäftigung im Jahr 2023 auf 7 814 VZÄ ab,  was einer Abnahme um -2,4% gegenüber dem Vorjahr entspricht.",
+		"lesehilfe": "Im Gastgewerbe nahm die Beschäftigung im Jahr 2024 auf 8 164 VZÄ zu,  was einer Zunahme um 4,5% gegenüber dem Vorjahr entspricht.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -6692,7 +6692,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:27",
+		"aktualisierungsdatum": "2026-08-21T08:58:51",
 		"id": 2529
 	},
 	{
@@ -6706,7 +6706,7 @@
 		],
 		"title": "Beschäftigung nach Kanton",
 		"subtitle": "in Vollzeitäquivalenten",
-		"lesehilfe": "Im Jahr 2023 sind im Kanton Basel-Stadt 155 657 Beschäftigte (in VZÄ) tätig, was einer Abnahme um -0,4% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft (+1,5%), Aargau (+1,3%) und Zürich (+1,8%) verzeichnen hingegen eine Zunahme der VZÄ.",
+		"lesehilfe": "Im Jahr 2024 sind im Kanton Basel-Stadt 158 360 Beschäftigte (in VZÄ) tätig, was einer Zunahme um +1,7% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft (+1,2%), Aargau (+0,8%) und Zürich (+1,2%) verzeichnen ebenfalls eine Zunahme der VZÄ.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -6732,7 +6732,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:21",
+		"aktualisierungsdatum": "2026-08-21T08:58:43",
 		"id": 2547
 	},
 	{
@@ -7186,8 +7186,8 @@
 		"children": [],
 		"title": "Mietpreisentwicklung der Leerwohnungen",
 		"subtitle": "nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Die mittleren Mietpreise der Leerwohnungen sind bei den Wohnungen mit einem bis drei Zimmern angestiegen. Bei den Vier- und Fünfzimmerwohnungen sind sie gesunken.",
-		"erlaeuterungen": "Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Bei den 5-Zimmer-Wohnungen kommt es aufgrund des kleinen Stichprobenumfangs zu grösseren Schwankungen bzw. können Werte aus Datenschutzgründen teilweise (z. B. 2014) nicht ausgewiesen werden.",
+		"lesehilfe": "Die mittleren Mietpreise der Leerwohnungen sind bei den Wohnungen mit einem, zwei und vier Zimmern gestiegen. Bei den Drei- und Fünfzimmerwohnungen sind sie gesunken.",
+		"erlaeuterungen": "Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Bei den Fünfzimmerwohnungen kommt es aufgrund des kleinen Stichprobenumfangs zu grösseren Schwankungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -7212,7 +7212,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:38",
+		"aktualisierungsdatum": "2026-08-21T08:58:25",
 		"id": 4129
 	},
 	{
@@ -7333,7 +7333,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-21T05:06:51",
+		"aktualisierungsdatum": "2026-08-21T08:58:27",
 		"id": 4132
 	},
 	{
@@ -7551,7 +7551,7 @@
 		],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2016 mit 0,4% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen. Aktuell liegt die Quote bei 0,9%.",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2017 mit 0,5% ihren Tiefstwert innerhalb des Beobachtungszeitraums. 2026 liegt die Leerwohnungsquote bei 0,8%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -7577,7 +7577,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:41",
+		"aktualisierungsdatum": "2026-08-21T08:58:30",
 		"id": 4138
 	},
 	{
@@ -7589,7 +7589,7 @@
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2025 weisen Wohnungen mit einer Fläche von weniger als 29m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2026 weisen Wohnungen mit einer Fläche von weniger als 29 m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -7615,7 +7615,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:42",
+		"aktualisierungsdatum": "2026-08-21T08:58:31",
 		"id": 4139
 	},
 	{
@@ -15985,7 +15985,7 @@
 		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "in Prozent, Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote liegt 2025 bei 0,92%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie bis 1,17% (2022).",
+		"lesehilfe": "Die Leerwohnungsquote liegt 2026 bei 0,78%. Zwischen 2005 und 2014 sank die Quote von 1,52% auf 0,23%, danach stieg sie bis 2022 wieder auf 1,17%. Seither ist die Quote unter diesem Wert geblieben.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -16011,7 +16011,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:08",
+		"aktualisierungsdatum": "2026-08-21T08:59:31",
 		"id": 5813
 	},
 	{
@@ -16024,8 +16024,8 @@
 			6246
 		],
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2025",
-		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2025 im Wohnviertel Vorstädte verzeichnet (2,5%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Vorstädte am grössten (von 0,5% auf 2,5%).",
+		"subtitle": "Basel-Stadt, 2026",
+		"lesehilfe": "Die höchste Leerwohnungsquote wird 2026 im Wohnviertel Vorstädte verzeichnet (2,4%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Vorstädte am grössten (von 0,5% auf 2,4%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -16051,7 +16051,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:09",
+		"aktualisierungsdatum": "2026-08-21T08:59:32",
 		"id": 5814
 	},
 	{
@@ -18149,7 +18149,7 @@
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 kamen 1 776 Kinder zur Welt, davon waren 986 Schweizer Staatsangehörige.",
+		"lesehilfe": "2025 kamen 1 837 Kinder zur Welt, davon waren 1 030 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -18175,7 +18175,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-28T08:25:59",
+		"aktualisierungsdatum": "2026-08-21T08:59:03",
 		"id": 6076
 	},
 	{
@@ -19233,8 +19233,8 @@
 		],
 		"title": "Leerstehende Geschäftsflächen",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Im Jahr 2025 beträgt die leerstehende Fläche insgesamt 200 400 m², 48 800 m²  weniger als im Vorjahr. Die Büroflächen machen mit 132 700 m² rund zwei Drittel der leerstehenden Geschäftsflächen aus.",
-		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
+		"lesehilfe": "Im Jahr 2026 beträgt die leerstehende Fläche insgesamt 230 499 m², 30 060 m²  mehr als im Vorjahr. Die Büroflächen machen mit 124  688 m² weiterhin den grössten Teil der leerstehenden Geschäftsflächen aus.",
+		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
@@ -19259,7 +19259,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:10",
+		"aktualisierungsdatum": "2026-08-21T08:59:36",
 		"id": 6217
 	},
 	{
@@ -19359,7 +19359,7 @@
 		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 sind in Basel-Stadt 199 745 Personen beschäftigt. Das sind 8 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branche «Übriges verarbeitendes Gewerbe» mit +4,0% im Vergleich zum Vorjahr, während die Branche «Unternehmensdienstleistungen und Freiberufe» mit -3,8% die grösste Beschäftigungsabnahme aufweist.",
+		"lesehilfe": "Im Jahr 2024 sind in Basel-Stadt 201 823 Personen beschäftigt. Das sind 2 078 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit +6,9% im Vergleich zum Vorjahr, während die Pharmaindustrie mit -3,8% die grösste Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -19385,7 +19385,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:36",
+		"aktualisierungsdatum": "2026-08-21T08:59:34",
 		"id": 6236
 	},
 	{
@@ -19725,8 +19725,8 @@
 			8546
 		],
 		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2025",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2025 im Wohnviertel Vorstädte (2,5%) beobachtet, die tiefste im Wohnviertel Bachletten (0,5%).",
+		"subtitle": "Basel-Stadt, 2026",
+		"lesehilfe": "Die höchste Anzahl Leerwohnungen weist 2026 das Wohnviertel St. Johann (118) auf, die tiefste die Gemeinde Bettingen (3).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -19752,7 +19752,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:44",
+		"aktualisierungsdatum": "2026-08-21T08:59:04",
 		"id": 6379
 	},
 	{
@@ -21498,7 +21498,7 @@
 		],
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Kanton Basel-Stadt weist im Jahr 2023 einen durchschnittlichen Beschäftigungsgrad von rund 78% auf, welcher für Männer bei rund 85% und für Frauen bei rund 70% liegt.",
+		"lesehilfe": "Der Kanton Basel-Stadt weist im Jahr 2024 einen durchschnittlichen Beschäftigungsgrad von rund 79% auf, welcher für Männer bei rund 86% und für Frauen bei rund 71% liegt.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -21524,7 +21524,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:25",
+		"aktualisierungsdatum": "2026-08-21T08:58:47",
 		"id": 6455
 	},
 	{
@@ -21538,7 +21538,7 @@
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete 2023 einen Rückgang der Beschäftigung um -4,0% gegenüber dem Vorjahr auf 20 185 VZÄ. In der Branche Finanz- und Versicherungsdienstleistungen hat die Beschäftigung im gleichen Zeitraum zugenommen (+1,8%).",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete 2024 eine Zunahme der Beschäftigung um +3,4% gegenüber dem Vorjahr auf 20 863 VZÄ. In der Branche Finanz- und Versicherungsdienstleistungen hat die Beschäftigung im gleichen Zeitraum ebenfalls zugenommen (+5,1%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -21564,7 +21564,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:28",
+		"aktualisierungsdatum": "2026-08-21T08:58:52",
 		"id": 6456
 	},
 	{
@@ -21578,7 +21578,7 @@
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In der Branche Gesundheits- und Sozialwesen hat die Beschäftigung im Jahr 2023 um 2,5% auf 25 306 VZÄ zugenommen. In der Branche Erziehung und Unterricht (-0,1%) hat die Beschäftigung in VZÄ im gleichen Zeitraum leicht abgenommen.",
+		"lesehilfe": "In der Branche Gesundheits- und Sozialwesen hat die Beschäftigung im Jahr 2024 um +3,6% auf 26 207 VZÄ zugenommen. In den übrigen Branchen hat die Beschäftigung in VZÄ im gleichen Zeitraum ebenfalls zugenommen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -21604,7 +21604,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:30",
+		"aktualisierungsdatum": "2026-08-21T08:58:56",
 		"id": 6457
 	},
 	{
@@ -21620,7 +21620,7 @@
 		],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2023 rund 155 700 Beschäftigte (in VZÄ) tätig, was einem Rückgang um rund 600 VZÄ bzw. -0,4% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 25 300 VZÄ (+2,5%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+613 VZÄ). Die Branche «Personalvermittlung und -überlassung» hingegen weist im Jahr 2023 die grösste relative Abnahme auf (-391 VZÄ bzw. -5,9%).",
+		"lesehilfe": "In Basel-Stadt sind 2024 rund 158 400 Beschäftigte (in VZÄ) tätig, was einer Zunahme um rund 2 700 VZÄ bzw. +1,7% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 26 200 VZÄ (+3,6%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+901 VZÄ). Die Branche «Chemie und Pharma» hingegen weist im Jahr 2024 die grösste relative Abnahme auf (-627 VZÄ bzw. -3,6%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -21646,7 +21646,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:19",
+		"aktualisierungsdatum": "2026-08-21T08:58:40",
 		"id": 6459
 	},
 	{
@@ -23957,8 +23957,8 @@
 			7064
 		],
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, 2023",
-		"lesehilfe": "Im Jahr 2023 sind im Kanton Basel-Stadt rund 35% der Beschäftigten in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei rund 16%. In den Kantonen Aargau und Zürich fällt er mit rund 19% bzw. rund 26% ebenfalls tiefer aus als in Basel-Stadt.",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2024",
+		"lesehilfe": "Im Jahr 2024 sind im Kanton Basel-Stadt rund 35% der Beschäftigten in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei rund 17%. In den Kantonen Aargau und Zürich fällt er mit rund 19% bzw. rund 26% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -23984,7 +23984,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:22",
+		"aktualisierungsdatum": "2026-08-21T08:58:44",
 		"id": 6531
 	},
 	{
@@ -29115,7 +29115,7 @@
 		],
 		"title": "Leerwohnungsbestand und -quote",
 		"subtitle": "Basel-Stadt und Basel-Landschaft",
-		"lesehilfe": "Die Leerstandsquote für die Kantone Basel-Landschaft und Basel-Stadt zusammen ist innert Jahresfrist auf 0,9% gestiegen. Insgesamt standen 2025 in den beiden Kantonen 2 275 Wohnungen leer, 291 mehr als 2024.",
+		"lesehilfe": "Die Leerstandsquote beider Basel ist innert Jahresfrist auf 0,7% gesunken. Insgesamt stehen 2026 in den beiden Kantonen 1 892 Wohnungen leer, 383 weniger als 2025.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29141,7 +29141,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:47",
+		"aktualisierungsdatum": "2026-08-21T08:59:07",
 		"id": 7573
 	},
 	{
@@ -29155,7 +29155,7 @@
 		],
 		"title": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerstandsquote im Stadtkanton steigt 2025 auf 0,9%. Insgesamt stehen 1079 Wohnungen leer, davon sind rund 70% Zwei- oder Dreizimmerwohnungen.",
+		"lesehilfe": "Die Leerstandsquote im Stadtkanton sinkt 2026 auf 0,8%. Insgesamt stehen 912 Wohnungen leer, davon sind fast 55% Ein- oder Zweizimmerwohnungen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29181,7 +29181,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:48",
+		"aktualisierungsdatum": "2026-08-21T08:59:09",
 		"id": 7574
 	},
 	{
@@ -29194,8 +29194,8 @@
 			9068
 		],
 		"title": "Leerwohnungsbestand nach Gemeinde",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2025",
-		"lesehilfe": "Die Leerwohnungsquoten unterscheiden sich teilweise beträchtlich zwischen den Gemeinden. An der Spitze befinden sich Waldenburg mit 2,1%, Zwingen mit 2,0% und Röschenz mit 1,3%.",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2026",
+		"lesehilfe": "Die Leerwohnungsquoten unterscheiden sich teilweise beträchtlich zwischen den Gemeinden. An der Spitze befinden sich Giebenach (1,3%), Roggenburg (1,2%) und Röschenz (1,2%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29221,7 +29221,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:50",
+		"aktualisierungsdatum": "2026-08-21T08:59:11",
 		"id": 7575
 	},
 	{
@@ -29234,8 +29234,8 @@
 			9069
 		],
 		"title": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet",
-		"subtitle": "Basel-Stadt und Basel-Landschaft, 2025",
-		"lesehilfe": "Im Kanton Basel-Landschaft weisen die Bezirke Arlesheim und Laufen (je 0,9%) die höchsten Leerwohnungsquoten auf. Im Kanton Basel-Stadt ist die Quote in Kleinbasel mit 1,0% am höchsten. Im Durchschnitt stehen 2025 in Basel-Landschaft 0,8% und in Basel-Stadt 0,9% der Wohnungen leer.",
+		"subtitle": "Basel-Stadt und Basel-Landschaft, 2026",
+		"lesehilfe": "Im Kanton Basel-Landschaft weist der Bezirk Laufen (0,8%) die höchste Leerstandsquote auf. In den Bezirken Sissach (0,4%) und Waldenburg (0,4%) liegen die Leerwohnungsquoten hingegen unter dem gesamtkantonalen Wert von 0,6%. Im Stadtkanton betragen die Quoten in Kleinbasel 0,8%, in Grossbasel 0,7% und in Riehen und Bettingen 0,8%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29263,7 +29263,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:51",
+		"aktualisierungsdatum": "2026-08-21T08:59:12",
 		"id": 7576
 	},
 	{
@@ -29276,8 +29276,8 @@
 			9070
 		],
 		"title": "Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt, 2025",
-		"lesehilfe": "Die Leerstandsquote der Dreizimmerwohnungen entspricht mit 0,9% der kantonalen Leerstandsquote. Die höchste Quote weisen mit 1,3% die Einzimmerwohnungen auf. Bei den Wohnungen mit sechs und mehr Zimmern ist sie mit 0,3% am niedrigsten.",
+		"subtitle": "Basel-Stadt, 2026",
+		"lesehilfe": "Mit 1,7% weisen die Einzimmerwohnungen die höchste Leerstandsquote auf. Bei den Wohnungen mit sechs und mehr Zimmern ist die Quote mit 0,3% am tiefsten.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29303,7 +29303,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:52",
+		"aktualisierungsdatum": "2026-08-21T08:59:13",
 		"id": 7577
 	},
 	{
@@ -29316,8 +29316,8 @@
 			9071
 		],
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Stadt, 2025",
-		"lesehilfe": "78% der leerstehenden Wohnungen sind in den letzen zwei Jahren unverändert geblieben; 21% sind renoviert und 1% neu erstellt worden.",
+		"subtitle": "Basel-Stadt, 2026",
+		"lesehilfe": "Rund 70% der leerstehenden Wohnungen sind in den letzten zwei Jahren unverändert geblieben; 24,5% sind renoviert und 5,5% neu erstellt worden.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29343,7 +29343,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:53",
+		"aktualisierungsdatum": "2026-08-21T08:59:14",
 		"id": 7578
 	},
 	{
@@ -29357,8 +29357,8 @@
 		],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2024 511 Einheiten. Davon stammen 151 aus Neu- und 437 aus Umbauten. Durch Abbrüche gehen 77 Wohnungen verloren. 2025 wird eine Nettoproduktion von rund 525 Wohnungen prognostiziert.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen beträgt 2025 540 Einheiten. Davon stammen 263 aus Neu- und 311 aus Umbauten. Durch Abbrüche gehen 34 Wohnungen verloren. 2026 wird provisorisch eine Nettoproduktion von rund 550 Wohnungen prognostiziert.",
+		"erlaeuterungen": "Der Umbausaldo ergibt sich aus der Zahl der durch Umbau neuentstandenen Wohnungen minus der durch Umbau weggefallenen Wohnungen.\n Das Total aller Bautätigkeiten wird in der sogenannten Wohnungsbilanz dargestellt. Die Nettoproduktion ergibt sich dabei aus den Neubauten minus der Abbrüche plus dem Umbausaldo.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -29383,7 +29383,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:54",
+		"aktualisierungsdatum": "2026-08-21T08:59:15",
 		"id": 7579
 	},
 	{
@@ -29397,8 +29397,8 @@
 		],
 		"title": "Wohnungen und Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Leerwohnungsbestände von meist mehr als 800 Einheiten ergaben sich mit rückläufiger Bevölkerungszahl Mitte der 1970er- und 1980er-Jahre sowie von 1997 bis 2008. Seit 2019 liegt die Leerwohnungszahl wieder über dieser Marke.",
-		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Es wird die Bevölkerungszahl und der Bestand an belegten Wohnungen am 31. Mai dargestellt.",
+		"lesehilfe": "2026 ist der Leerwohnungsbestand bei anhaltendem Bevölkerungswachstum, höherer Nettoproduktion und mehr belegten Wohnungen gesunken.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Dargestellt ist die Bevölkerungszahl und der Bestand an belegten Wohnungen am 31. Mai.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -29423,7 +29423,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:55",
+		"aktualisierungsdatum": "2026-08-21T08:59:16",
 		"id": 7580
 	},
 	{
@@ -29436,8 +29436,8 @@
 			9074
 		],
 		"title": "Leerwohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Landschaft, 2025",
-		"lesehilfe": "Dreizimmerwohnungen machen rund 42% des Gesamtbestandes der leeren Wohnungen aus. Sie weisen mit einer Quote von 1,2% den höchsten Leerstand auf.",
+		"subtitle": "Basel-Landschaft, 2026",
+		"lesehilfe": "Dreizimmerwohnungen machen rund 39% des Gesamtbestandes der leeren Wohnungen aus. Sie weisen mit einer Quote von 0,9% auch den höchsten Leerstand auf.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29463,7 +29463,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:56",
+		"aktualisierungsdatum": "2026-08-21T08:59:17",
 		"id": 7581
 	},
 	{
@@ -29476,8 +29476,8 @@
 			9075
 		],
 		"title": "Leerwohnungen nach Bautätigkeit",
-		"subtitle": "Basel-Landschaft, 2025",
-		"lesehilfe": "74% der Leerwohnungen sind in den zwei letzten Jahren unverändert geblieben, 16% wurden renoviert und 10% neu erstellt.",
+		"subtitle": "Basel-Landschaft, 2026",
+		"lesehilfe": "Knapp 81% der Leerwohnungen sind in den letzten zwei Jahren unverändert geblieben; gut 13% sind renoviert und rund 6% neu erstellt worden.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29503,7 +29503,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:57",
+		"aktualisierungsdatum": "2026-08-21T08:59:18",
 		"id": 7582
 	},
 	{
@@ -29517,8 +29517,8 @@
 		],
 		"title": "Nettoproduktion an Wohnungen",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Die Nettoproduktion von Wohnungen stieg seit dem Rückgang zwischen 2015 und 2018 bis 2022 an. 2023 nahm sie ab und 2024 wieder zu. 2025 handelt es sich um eine Prognose.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Nettoproduktion von Wohnungen ist 2025 gegenüber dem Vorjahr um 7,7% gestiegen und beträgt 1 783 Einheiten.",
+		"erlaeuterungen": "Der Umbausaldo ergibt sich aus der Zahl der durch Umbau neuentstandenen Wohnungen minus der durch Umbau weggefallenen Wohnungen.\n Das Total aller Bautätigkeiten wird in der sogenannten Wohnungsbilanz dargestellt. Die Nettoproduktion ergibt sich dabei aus den Neubauten minus der Abbrüche plus dem Umbausaldo.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -29543,7 +29543,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:58",
+		"aktualisierungsdatum": "2026-08-21T08:59:19",
 		"id": 7583
 	},
 	{
@@ -29557,8 +29557,8 @@
 		],
 		"title": "Wohnungen und Wohnbevölkerung",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Der Leerwohnungsbestand ist 2025 höher als 2024. Dies bei steigender Bevölkerung und einer Zunahme der belegten Wohnungen.",
-		"erlaeuterungen": "Seit 1994 mit Bezirk Laufen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Es wird die Bevölkerungszahl und der Bestand an belegten Wohnungen am 31. Dezember vor der Leerstandserhebung dargestellt.",
+		"lesehilfe": "2026 sinkt der Leerwohnungsbestand bei einem Trend zu Bevölkerungswachstum und mehr belegten Wohnungen.",
+		"erlaeuterungen": "Seit 1994 mit Bezirk Laufen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Dargestellt wird die Bevölkerungszahl und der Bestand an belegten Wohnungen am 31. Dezember vor der Leerstandserhebung.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -29583,7 +29583,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:59",
+		"aktualisierungsdatum": "2026-08-21T08:59:20",
 		"id": 7584
 	},
 	{
@@ -29597,7 +29597,7 @@
 		],
 		"title": "Leerwohnungsquote nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Die Leerstandsquoten in den Kantonen Basel-Stadt und Basel-Landschaft lagen in den letzten Jahren unter dem schweizerischen Durchschnitt. Sie haben sich jedoch der schweizerischen Quote stetig angenähert.",
+		"lesehilfe": "Die Leerstandsquoten in den Kantonen Basel-Stadt und Basel-Landschaft liegen voraussichtlich auch in diesem Jahr unter dem gesamtschweizerischen Durchschnitt.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -29623,7 +29623,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:33",
+		"aktualisierungsdatum": "2026-08-21T08:59:22",
 		"id": 7585
 	},
 	{
@@ -29634,7 +29634,9 @@
 		"parentId": null,
 		"children": [
 			9079,
-			22299
+			22299,
+			22456,
+			22463
 		],
 		"title": "Leerwohnungsquote in Grossstädten und in der Schweiz",
 		"subtitle": "",
@@ -29665,7 +29667,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:34",
+		"aktualisierungsdatum": "2026-08-21T08:59:23",
 		"id": 7586
 	},
 	{
@@ -29679,7 +29681,7 @@
 		],
 		"title": "Geschäftsleerstandsfläche",
 		"subtitle": "in m², Basel-Stadt und Basel-Landschaft",
-		"lesehilfe": "Das Angebot an Geschäftsflächen ist 2025 im Kanton Basel-Landschaft um 16,1% gestiegen, im Stadtkanton dagegen um 19,6% gesunkenen. In den beiden Basel zusammen ist das Angebot gegenüber dem Vorjahr um 6% auf 378 009 m² gestiegen.",
+		"lesehilfe": "Das Angebot an Geschäftsflächen ist 2026 im Kanton Basel-Landschaft um 58% gestiegen, im Stadtkanton um 15%. In den beiden Basel zusammen hat das Angebot gegenüber dem Vorjahr um 35% auf 511 185 m² zugenommen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -29705,7 +29707,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:03",
+		"aktualisierungsdatum": "2026-08-21T08:59:24",
 		"id": 7587
 	},
 	{
@@ -29722,7 +29724,7 @@
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2024 und 2025 von 249 200  m² auf 200 400 m² abgenommen. Dies ist hauptsächlich auf eine Abnahme im Bürobereich von 175 100 m² auf 132 700 m² zurückzuführen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2025 und 2026 von 200 439 m² auf 230 499 m² zugenommen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -29748,7 +29750,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:04",
+		"aktualisierungsdatum": "2026-08-21T08:59:25",
 		"id": 7588
 	},
 	{
@@ -29762,7 +29764,7 @@
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Landschaft",
-		"lesehilfe": "Im Landkanton hat die Bürofläche zwischen 2024 und 2025 um rund 16 500 m² auf rund 87 500 m² zugenommen. Die Büroflächen sind mit einem Anteil von 49% mit Abstand der grösste Bereich. Danach folgt die Gewerbefläche mit 19%.",
+		"lesehilfe": "Im Landkanton hat die Bürofläche zwischen 2025 und 2026 um rund 19 178 m² auf rund 106 700 m² zugenommen. Die Bürofläche ist mit einem Anteil von 38% mit Abstand die wichtigste Nutzungsart. Danach folgt die Lagerfläche mit 26%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -29788,7 +29790,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:05",
+		"aktualisierungsdatum": "2026-08-21T08:59:26",
 		"id": 7589
 	},
 	{
@@ -29801,8 +29803,8 @@
 			9083
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Stadt, Anteile 2025",
-		"lesehilfe": "Rund zwei Drittel des Geschäftsleerstandes entfallen auf den Bürobereich. Auf Gewerbeflächen entfallen 19%, auf Lagerflächen 9% und auf Ladenflächen 6%.",
+		"subtitle": "Basel-Stadt, Anteile 2026",
+		"lesehilfe": "Rund 54% des Geschäftsleerstands entfallen auf den Bürobereich. Gewerbeflächen machen 26% aus, Lagerflächen 10% und Ladenflächen 9%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -29828,7 +29830,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:06",
+		"aktualisierungsdatum": "2026-08-21T08:59:27",
 		"id": 7590
 	},
 	{
@@ -38358,8 +38360,8 @@
 			9084
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Landschaft, Anteile 2025",
-		"lesehilfe": "Der Bürobereich erreicht nach der aktuellen Zunahme einen Anteil von 49% der leerstehenden Geschäftsflächen. Danach folgen die Gewerbeflächen mit 19%.",
+		"subtitle": "Basel-Landschaft, Anteile 2026",
+		"lesehilfe": "Der Bürobereich erreicht einen Anteil von 38% der leerstehenden Geschäftsflächen. Danach folgt die Lagerfläche mit 26%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -38385,7 +38387,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:07",
+		"aktualisierungsdatum": "2026-08-21T08:59:28",
 		"id": 9064
 	},
 	{
@@ -38399,7 +38401,7 @@
 		],
 		"title": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Im Kanton Basel-Landschaft ist die Leerstandsquote 2025 auf 0,8% gestiegen. 1 196 Wohnungen stehen leer. Davon sind rund drei Viertel Drei- oder Vierzimmerwohnungen.",
+		"lesehilfe": "Im Kanton Basel-Landschaft ist die Leerstandsquote 2026 auf 0,6% gesunken. 980 Wohnungen stehen leer. Davon sind rund 71% Drei- oder Vierzimmerwohnungen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -38425,7 +38427,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:49",
+		"aktualisierungsdatum": "2026-08-21T08:59:10",
 		"id": 9137
 	},
 	{

@@ -889,7 +889,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2024 und 2025 von 249 200  m² auf 200 400 m² abgenommen. Dies ist hauptsächlich auf eine Abnahme im Bürobereich von 175 100 m² auf 132 700 m² zurückzuführen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2025 und 2026 von 200 439 m² auf 230 499 m² zugenommen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -914,7 +914,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:40",
+		"aktualisierungsdatum": "2026-08-21T08:58:28",
 		"id": 9365
 	},
 	{
@@ -2072,7 +2072,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2023 rund 155 700 Beschäftigte (in VZÄ) tätig, was einem Rückgang um rund 600 VZÄ bzw. -0,4% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 25 300 VZÄ (+2,5%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+613 VZÄ). Die Branche «Personalvermittlung und -überlassung» hingegen weist im Jahr 2023 die grösste relative Abnahme auf (-391 VZÄ bzw. -5,9%).",
+		"lesehilfe": "In Basel-Stadt sind 2024 rund 158 400 Beschäftigte (in VZÄ) tätig, was einer Zunahme um rund 2 700 VZÄ bzw. +1,7% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 26 200 VZÄ (+3,6%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+901 VZÄ). Die Branche «Chemie und Pharma» hingegen weist im Jahr 2024 die grösste relative Abnahme auf (-627 VZÄ bzw. -3,6%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2097,7 +2097,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:16",
+		"aktualisierungsdatum": "2026-08-21T08:58:38",
 		"id": 9457
 	}
 ];

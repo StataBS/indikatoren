@@ -79,6 +79,10 @@
         [
           2024,
           986
+        ],
+        [
+          2025,
+          1030
         ]
       ],
       "pointStart": 2007,
@@ -163,6 +167,10 @@
         [
           2024,
           130
+        ],
+        [
+          2025,
+          170
         ]
       ],
       "pointStart": 2007,
@@ -247,6 +255,10 @@
         [
           2024,
           53
+        ],
+        [
+          2025,
+          48
         ]
       ],
       "pointStart": 2007,
@@ -331,6 +343,10 @@
         [
           2024,
           21
+        ],
+        [
+          2025,
+          28
         ]
       ],
       "pointStart": 2007,
@@ -415,6 +431,10 @@
         [
           2024,
           125
+        ],
+        [
+          2025,
+          148
         ]
       ],
       "pointStart": 2007,
@@ -499,6 +519,10 @@
         [
           2024,
           60
+        ],
+        [
+          2025,
+          53
         ]
       ],
       "pointStart": 2007,
@@ -583,6 +607,10 @@
         [
           2024,
           60
+        ],
+        [
+          2025,
+          56
         ]
       ],
       "pointStart": 2007,
@@ -667,6 +695,10 @@
         [
           2024,
           21
+        ],
+        [
+          2025,
+          13
         ]
       ],
       "pointStart": 2007,
@@ -751,6 +783,10 @@
         [
           2024,
           25
+        ],
+        [
+          2025,
+          27
         ]
       ],
       "pointStart": 2007,
@@ -835,6 +871,10 @@
         [
           2024,
           29
+        ],
+        [
+          2025,
+          27
         ]
       ],
       "pointStart": 2007,
@@ -919,6 +959,10 @@
         [
           2024,
           266
+        ],
+        [
+          2025,
+          237
         ]
       ],
       "pointStart": 2007,
@@ -960,7 +1004,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -994,7 +1042,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-6076"
   },
@@ -1073,7 +1137,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 28.7.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -7,10 +7,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2016,
-          412
-        ],
-        [
           2017,
           369
         ],
@@ -44,10 +40,14 @@
         ],
         [
           2025,
-          300
+          263
+        ],
+        [
+          2026,
+          400
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Neubau"
     },
     {
@@ -56,10 +56,6 @@
       "type": "column",
       "legendIndex": 1,
       "data": [
-        [
-          2016,
-          106
-        ],
         [
           2017,
           54
@@ -94,10 +90,14 @@
         ],
         [
           2025,
+          311
+        ],
+        [
+          2026,
           200
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Umbausaldo"
     },
     {
@@ -106,10 +106,6 @@
       "type": "column",
       "legendIndex": 2,
       "data": [
-        [
-          2016,
-          -75
-        ],
         [
           2017,
           -59
@@ -144,10 +140,14 @@
         ],
         [
           2025,
+          -34
+        ],
+        [
+          2026,
           -50
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Abbruch"
     },
     {
@@ -159,10 +159,6 @@
       },
       "legendIndex": 3,
       "data": [
-        [
-          2016,
-          443
-        ],
         [
           2017,
           364
@@ -197,10 +193,14 @@
         ],
         [
           2025,
-          450
+          540
+        ],
+        [
+          2026,
+          550
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Nettoproduktion"
     },
     {
@@ -209,19 +209,19 @@
       "showInLegend": false,
       "data": [
         [
-          2024.4,
+          2025.45,
           -250
         ],
         [
-          2024.4,
+          2025.45,
           1250
         ],
         [
-          2026,
+          2027,
           1250
         ],
         [
-          2026,
+          2027,
           -250
         ]
       ],
@@ -248,8 +248,8 @@
     "endOnTick": true,
     "startOnTick": true,
     "tickInterval": 1,
-    "min": 2016,
-    "max": 2025
+    "min": 2017,
+    "max": 2026
   },
   "chart": {
     "width": null,
@@ -270,7 +270,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -304,7 +308,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "type": "column",
     "renderTo": "container-7579",
@@ -392,7 +410,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "shared": false,

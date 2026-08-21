@@ -4,10 +4,6 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2014",
-          10308
-        ],
-        [
           "2015",
           10205
         ],
@@ -42,6 +38,10 @@
         [
           "2023",
           10434
+        ],
+        [
+          "2024",
+          10969
         ]
       ],
       "pointStart": 0,
@@ -51,10 +51,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2014",
-          19099
-        ],
         [
           "2015",
           18864
@@ -90,6 +86,10 @@
         [
           "2023",
           20185
+        ],
+        [
+          "2024",
+          20863
         ]
       ],
       "pointStart": 0,
@@ -99,10 +99,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2014",
-          5684
-        ],
         [
           "2015",
           5721
@@ -138,6 +134,10 @@
         [
           "2023",
           5293
+        ],
+        [
+          "2024",
+          5317
         ]
       ],
       "pointStart": 0,
@@ -147,10 +147,6 @@
     {
       "color": "#B00000",
       "data": [
-        [
-          "2014",
-          6470
-        ],
         [
           "2015",
           5993
@@ -186,6 +182,10 @@
         [
           "2023",
           6282
+        ],
+        [
+          "2024",
+          6159
         ]
       ],
       "pointStart": 0,
@@ -227,7 +227,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -261,7 +265,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-6456"
   },
@@ -348,7 +368,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

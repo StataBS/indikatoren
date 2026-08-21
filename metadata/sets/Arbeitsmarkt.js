@@ -912,7 +912,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung in Industrie und Baugewerbe",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 sind in der chemischen und pharmazeutischen Industrie 17 514 Beschäftigte (in VZÄ) tätig und somit etwas weniger als im Vorjahr (17 541). In der Industrie (exkl. Chemie, Pharma) und im Baugewerbe beträgt die Beschäftigung in VZÄ im gleichen Jahr 7 287 bzw. 6 671 und ist etwas höher als im Vorjahr (+4,5% bzw. +0,3%).",
+		"lesehilfe": "Im Jahr 2024 sind in der chemischen und pharmazeutischen Industrie 16 887 Beschäftigte (in VZÄ) tätig und somit 3,6% weniger als im Vorjahr. In der Industrie (exkl. Chemie, Pharma) und im Baugewerbe beträgt die Beschäftigung in VZÄ im gleichen Jahr 7 402 bzw. 6 740 und ist etwas höher als im Vorjahr (+1,6% bzw. +1,0%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -937,7 +937,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:26",
+		"aktualisierungsdatum": "2026-08-21T08:58:48",
 		"id": 2528
 	},
 	{
@@ -951,7 +951,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (I)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Im Gastgewerbe nahm die Beschäftigung im Jahr 2023 auf 7 814 VZÄ ab,  was einer Abnahme um -2,4% gegenüber dem Vorjahr entspricht.",
+		"lesehilfe": "Im Gastgewerbe nahm die Beschäftigung im Jahr 2024 auf 8 164 VZÄ zu,  was einer Zunahme um 4,5% gegenüber dem Vorjahr entspricht.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -976,7 +976,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:27",
+		"aktualisierungsdatum": "2026-08-21T08:58:51",
 		"id": 2529
 	},
 	{
@@ -990,7 +990,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung nach Kanton",
 		"subtitle": "in Vollzeitäquivalenten",
-		"lesehilfe": "Im Jahr 2023 sind im Kanton Basel-Stadt 155 657 Beschäftigte (in VZÄ) tätig, was einer Abnahme um -0,4% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft (+1,5%), Aargau (+1,3%) und Zürich (+1,8%) verzeichnen hingegen eine Zunahme der VZÄ.",
+		"lesehilfe": "Im Jahr 2024 sind im Kanton Basel-Stadt 158 360 Beschäftigte (in VZÄ) tätig, was einer Zunahme um +1,7% gegenüber dem Vorjahr entspricht. Die Kantone Basel-Landschaft (+1,2%), Aargau (+0,8%) und Zürich (+1,2%) verzeichnen ebenfalls eine Zunahme der VZÄ.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1015,7 +1015,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:21",
+		"aktualisierungsdatum": "2026-08-21T08:58:43",
 		"id": 2547
 	},
 	{
@@ -1536,7 +1536,7 @@ var indikatorensetData = [
 		],
 		"title": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Kanton Basel-Stadt weist im Jahr 2023 einen durchschnittlichen Beschäftigungsgrad von rund 78% auf, welcher für Männer bei rund 85% und für Frauen bei rund 70% liegt.",
+		"lesehilfe": "Der Kanton Basel-Stadt weist im Jahr 2024 einen durchschnittlichen Beschäftigungsgrad von rund 79% auf, welcher für Männer bei rund 86% und für Frauen bei rund 71% liegt.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1561,7 +1561,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:25",
+		"aktualisierungsdatum": "2026-08-21T08:58:47",
 		"id": 6455
 	},
 	{
@@ -1575,7 +1575,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (II)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete 2023 einen Rückgang der Beschäftigung um -4,0% gegenüber dem Vorjahr auf 20 185 VZÄ. In der Branche Finanz- und Versicherungsdienstleistungen hat die Beschäftigung im gleichen Zeitraum zugenommen (+1,8%).",
+		"lesehilfe": "Die Branche Beratung, Planung, Forschung und Immobilien verzeichnete 2024 eine Zunahme der Beschäftigung um +3,4% gegenüber dem Vorjahr auf 20 863 VZÄ. In der Branche Finanz- und Versicherungsdienstleistungen hat die Beschäftigung im gleichen Zeitraum ebenfalls zugenommen (+5,1%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1600,7 +1600,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:28",
+		"aktualisierungsdatum": "2026-08-21T08:58:52",
 		"id": 6456
 	},
 	{
@@ -1614,7 +1614,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung im Dienstleistungssektor (III)",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In der Branche Gesundheits- und Sozialwesen hat die Beschäftigung im Jahr 2023 um 2,5% auf 25 306 VZÄ zugenommen. In der Branche Erziehung und Unterricht (-0,1%) hat die Beschäftigung in VZÄ im gleichen Zeitraum leicht abgenommen.",
+		"lesehilfe": "In der Branche Gesundheits- und Sozialwesen hat die Beschäftigung im Jahr 2024 um +3,6% auf 26 207 VZÄ zugenommen. In den übrigen Branchen hat die Beschäftigung in VZÄ im gleichen Zeitraum ebenfalls zugenommen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1639,7 +1639,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:30",
+		"aktualisierungsdatum": "2026-08-21T08:58:56",
 		"id": 6457
 	},
 	{
@@ -1655,7 +1655,7 @@ var indikatorensetData = [
 		],
 		"title": "Beschäftigung nach Branche",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"lesehilfe": "In Basel-Stadt sind 2023 rund 155 700 Beschäftigte (in VZÄ) tätig, was einem Rückgang um rund 600 VZÄ bzw. -0,4% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 25 300 VZÄ (+2,5%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+613 VZÄ). Die Branche «Personalvermittlung und -überlassung» hingegen weist im Jahr 2023 die grösste relative Abnahme auf (-391 VZÄ bzw. -5,9%).",
+		"lesehilfe": "In Basel-Stadt sind 2024 rund 158 400 Beschäftigte (in VZÄ) tätig, was einer Zunahme um rund 2 700 VZÄ bzw. +1,7% im Vergleich zum Vorjahr entspricht. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 26 200 VZÄ (+3,6%), welche auch das stärkste absolute Wachstum gegenüber dem Vorjahr aufweist (+901 VZÄ). Die Branche «Chemie und Pharma» hingegen weist im Jahr 2024 die grösste relative Abnahme auf (-627 VZÄ bzw. -3,6%).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1680,7 +1680,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:19",
+		"aktualisierungsdatum": "2026-08-21T08:58:40",
 		"id": 6459
 	},
 	{
@@ -2360,8 +2360,8 @@ var indikatorensetData = [
 			7064
 		],
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, 2023",
-		"lesehilfe": "Im Jahr 2023 sind im Kanton Basel-Stadt rund 35% der Beschäftigten in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei rund 16%. In den Kantonen Aargau und Zürich fällt er mit rund 19% bzw. rund 26% ebenfalls tiefer aus als in Basel-Stadt.",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2024",
+		"lesehilfe": "Im Jahr 2024 sind im Kanton Basel-Stadt rund 35% der Beschäftigten in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei rund 17%. In den Kantonen Aargau und Zürich fällt er mit rund 19% bzw. rund 26% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -2386,7 +2386,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:22",
+		"aktualisierungsdatum": "2026-08-21T08:58:44",
 		"id": 6531
 	},
 	{

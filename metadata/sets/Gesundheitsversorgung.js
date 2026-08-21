@@ -86,8 +86,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Wohnungen mit Service-Angebot",
 		"subtitle": "Anzahl Wohnungen, Basel-Stadt, 2026",
-		"lesehilfe": "Im Januar 2025 bot das Tertianum 107 Wohnungen mit Service an.",
-		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Das Angebot des Adullam Basel wurde per 1.1.2025 aufgelöst.<br><br>Stand März 2026.",
+		"lesehilfe": "Im Januar 2026 bot das Tertianum 107 Wohnungen mit Service an.",
+		"erlaeuterungen": "Wohnungen mit Service-Angebot sind ein Angebot von Pflegeheimen im Bereich der ambulanten Unterstützung betagter Menschen. Wohnungen mit Leistungsvereinbarung richten sich in erster Linie an einkommensschwache ältere Menschen. Der Leistungsauftrag mit dem Kanton Basel-Stadt umschreibt dabei das minimale Grundangebot an Dienstleistungen, welche vom Pflegeheim für die Mietenden der Wohnungen angeboten werden müssen (24-Stunden-Notrufbereitschaft, eine Grundberatung sowie einen täglichen Kurzkontakt) sowie die maximale Monatstaxe.<br><br>Stand März 2026.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -113,7 +113,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-07T10:38:55",
+		"aktualisierungsdatum": "2026-08-21T08:58:32",
 		"id": 11167
 	},
 	{
@@ -125,8 +125,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Spitex-Anbieter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Anfang 2025 gab es im Kanton Basel-Stadt 65 Organisationen sowie 58 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Alle verfügen über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen.",
-		"erlaeuterungen": "Stand Anfang 2025",
+		"lesehilfe": "Anfang 2025 gab es im Kanton Basel-Stadt 65 Organisationen sowie 60 Einzelpersonen, welche eine Spitex-Dienstleistung angeboten haben. Alle verfügen über eine Bewilligung zur Ausübung und Abrechnung von Spitex-Leistungen.",
+		"erlaeuterungen": "Stand Ende 2025.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -152,7 +152,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-03T07:01:22",
+		"aktualisierungsdatum": "2026-08-21T08:58:29",
 		"id": 11168
 	},
 	{
@@ -395,8 +395,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leistungsvolumen der Beiträge an die Pflege zu Hause",
 		"subtitle": "durch Angehörige oder andere nahestehende Personen, Stadt Basel",
-		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2024 verglichen mit dem Vorjahrauf 279 leicht gesunken. Zu deren Gunsten wurden an insgesamt 76 165 Tagen Pflegeleistungen erbracht.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Anzahl der durch Angehörige oder nahestehende Personen Gepflegten in der Stadt Basel, welche dafür Pflegebeiträge beziehen, ist 2024 verglichen mit dem Vorjahr leicht auf 296 gestiegen. Zu deren Gunsten wurden an insgesamt 79 747 Tagen Pflegeleistungen erbracht.",
+		"erlaeuterungen": "Stand Anfang 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -422,7 +422,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:31",
+		"aktualisierungsdatum": "2026-08-21T08:58:33",
 		"id": 11175
 	},
 	{
@@ -546,8 +546,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Finanzierung der Beiträge an die Pflege zu Hause",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 22,8 Franken. Der Kanton zahlte im Jahr 2024 2,4 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,7 Mio. Franken auf die Stadt Basel.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Im Jahr 2024 betrug der Durchschnittsbeitrag der Stadt Basel an die Pflege zu Hause pro Tag 21,8 Franken. Der Kanton zahlte im Jahr 2024 2,4 Mio. Franken an die Beiträge für die Pflege zu Hause, davon entfielen 1,7 Mio. Franken auf die Stadt Basel.",
+		"erlaeuterungen": "Stand Anfang 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -571,7 +571,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-06-12T08:52:32",
+		"aktualisierungsdatum": "2026-08-21T08:58:34",
 		"id": 11179
 	},
 	{
@@ -822,9 +822,7 @@ var indikatorensetData = [
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100377/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Tagesgäste von Tages- und Nachtpflegeeinrichtungen (TNP)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100378/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Pflegebedürftige im Bereich der Pflege zu Hause (PzH)</a>"
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -847,7 +845,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-23T07:42:19",
+		"aktualisierungsdatum": "2026-08-21T08:58:35",
 		"id": 12728
 	},
 	{
@@ -866,9 +864,7 @@ var indikatorensetData = [
 			"Bundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED)"
 		],
 		"externalLinks": [
-			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100377/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Tagesgäste von Tages- und Nachtpflegeeinrichtungen (TNP)</a>",
-			"OGD-Tabelle: <a href = 'https://data.bs.ch/explore/dataset/100378/table/?sort=jahr' target = '_blank'>Gesundheitsversorgung (GSV): Pflegebedürftige im Bereich der Pflege zu Hause (PzH)</a>"
+			"<a href = 'https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de' target = '_blank'>Krankenpflege-Leistungsverordnung (KLV)</a>"
 		],
 		"renderLink": [],
 		"raeumlicheGliederung": [
@@ -891,7 +887,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-07T10:38:57",
+		"aktualisierungsdatum": "2026-08-21T08:58:36",
 		"id": 12729
 	},
 	{

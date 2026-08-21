@@ -6,131 +6,6 @@
       "data": [
         [
           "CH",
-          1.54
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "BS",
-          1.1
-        ],
-        [
-          "BL",
-          0.97
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "ZH",
-          0.72
-        ],
-        [
-          "BE",
-          1.61
-        ],
-        [
-          "LU",
-          1.23
-        ],
-        [
-          "UR",
-          1.74
-        ],
-        [
-          "SZ",
-          0.99
-        ],
-        [
-          "OW",
-          0.96
-        ],
-        [
-          "NW",
-          1.23
-        ],
-        [
-          "GL",
-          1.72
-        ],
-        [
-          "ZG",
-          0.34
-        ],
-        [
-          "FR",
-          1.8
-        ],
-        [
-          "SO",
-          3.15
-        ],
-        [
-          "SH",
-          1.59
-        ],
-        [
-          "AR",
-          2.05
-        ],
-        [
-          "AI",
-          2.59
-        ],
-        [
-          "SG",
-          2.05
-        ],
-        [
-          "GR",
-          0.87
-        ],
-        [
-          "AG",
-          2.1
-        ],
-        [
-          "TG",
-          2.21
-        ],
-        [
-          "TI",
-          2.83
-        ],
-        [
-          "VD",
-          1.35
-        ],
-        [
-          "VS",
-          2.29
-        ],
-        [
-          "NE",
-          2.36
-        ],
-        [
-          "GE",
-          0.51
-        ],
-        [
-          "JU",
-          2.56
-        ]
-      ],
-      "pointStart": 0,
-      "name": "2021",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "visible": false,
-      "data": [
-        [
-          "CH",
           1.31
         ],
         [
@@ -251,7 +126,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923F8D",
+      "color": "#B375AB",
       "visible": false,
       "data": [
         [
@@ -376,7 +251,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#923F8D",
+      "visible": false,
       "data": [
         [
           "CH",
@@ -500,7 +376,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2E1435",
+      "color": "#662673",
       "data": [
         [
           "CH",
@@ -622,6 +498,130 @@
       "pointStart": 0,
       "name": "2025",
       "turboThreshold": 0
+    },
+    {
+      "color": "#2E1435",
+      "data": [
+        [
+          "CH",
+          null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "BS",
+          0.78
+        ],
+        [
+          "BL",
+          0.64
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "ZH",
+          0.52
+        ],
+        [
+          "BE",
+          null
+        ],
+        [
+          "LU",
+          null
+        ],
+        [
+          "UR",
+          null
+        ],
+        [
+          "SZ",
+          null
+        ],
+        [
+          "OW",
+          null
+        ],
+        [
+          "NW",
+          null
+        ],
+        [
+          "GL",
+          null
+        ],
+        [
+          "ZG",
+          null
+        ],
+        [
+          "FR",
+          null
+        ],
+        [
+          "SO",
+          null
+        ],
+        [
+          "SH",
+          null
+        ],
+        [
+          "AR",
+          null
+        ],
+        [
+          "AI",
+          null
+        ],
+        [
+          "SG",
+          null
+        ],
+        [
+          "GR",
+          null
+        ],
+        [
+          "AG",
+          null
+        ],
+        [
+          "TG",
+          null
+        ],
+        [
+          "TI",
+          null
+        ],
+        [
+          "VD",
+          0.87
+        ],
+        [
+          "VS",
+          null
+        ],
+        [
+          "NE",
+          null
+        ],
+        [
+          "GE",
+          0.31
+        ],
+        [
+          "JU",
+          null
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2026",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -661,7 +661,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -695,7 +699,19 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function (event) {
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+          //justifyColumns(event.target);
+        }
     },
     "type": "column",
     "animation": false,
@@ -782,7 +798,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

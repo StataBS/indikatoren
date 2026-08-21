@@ -65,10 +65,10 @@
     }
   },
   "series": [
-    {
+    /*{
       "color": "#d7e8d2",
       "visible": false
-    },
+    },*/
     {
       "color": "#73B97C",
       "visible": false
@@ -111,13 +111,13 @@
       },
       "yAxis": 1,
       "type": "line",
-      "visible": false, 
+      //"visible": false, 
       tooltip: {
         pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
       }
     }
     ,
-    {
+    /*{
       "color": "#b00000",
       "marker": {
         "enabled": false
@@ -127,7 +127,7 @@
       tooltip: {
         pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
       }
-    }
+    }*/
   ],
   "chart": {
     "type": "column"
