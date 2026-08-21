@@ -11,7 +11,9 @@
   
   yAxis: [
       {
-        max: 1500,
+        max: 1000,
+        tickInterval: 250,
+        tickAmount: 5,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -32,7 +34,9 @@
       {
         opposite: true,
         min: 0,
-        max: 0.015,
+        max: 0.010,
+        tickInterval: 0.0025,
+        tickAmount: 5,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -45,7 +49,7 @@
         },
         labels: {
         	formatter: function(){
-            return Highcharts.numberFormat(this.value*100, 1) + "%";/*number of decimals changed from 2 to 1*/
+            return Highcharts.numberFormat(this.value*100, 2) + "%";/*number of decimals changed from 2 to 1*/
           },
             style: {
                 color: "#000000"

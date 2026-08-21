@@ -52,6 +52,11 @@
                       type: 'year',
                       text: '100 J'
     	            },
+                    {
+                      count: 150,
+                      type: 'year',
+                      text: '150 J'
+    	            },
     	            {
                       type: 'all',
                       text: 'Alle J'
@@ -59,7 +64,7 @@
                 ],
             buttonSpacing: 15,                
             inputEnabled: false,
-            selected: 2, 
+            selected: 4, 
             inputDateFormat: '%Y',
     		inputEditDateFormat: '%Y'
         }  

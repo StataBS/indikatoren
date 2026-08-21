@@ -6,10 +6,6 @@
       "legendIndex": 7,
       "data": [
         [
-          2016,
-          10
-        ],
-        [
           2017,
           13
         ],
@@ -44,9 +40,13 @@
         [
           2025,
           50
+        ],
+        [
+          2026,
+          53
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "6 u.m. Zi"
     },
     {
@@ -54,10 +54,6 @@
       "index": 1,
       "legendIndex": 6,
       "data": [
-        [
-          2016,
-          53
-        ],
         [
           2017,
           44
@@ -93,9 +89,13 @@
         [
           2025,
           86
+        ],
+        [
+          2026,
+          82
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "5 Zi"
     },
     {
@@ -103,10 +103,6 @@
       "index": 1,
       "legendIndex": 5,
       "data": [
-        [
-          2016,
-          205
-        ],
         [
           2017,
           254
@@ -142,9 +138,13 @@
         [
           2025,
           390
+        ],
+        [
+          2026,
+          314
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "4 Zi"
     },
     {
@@ -152,10 +152,6 @@
       "index": 1,
       "legendIndex": 4,
       "data": [
-        [
-          2016,
-          306
-        ],
         [
           2017,
           394
@@ -191,9 +187,13 @@
         [
           2025,
           504
+        ],
+        [
+          2026,
+          380
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "3 Zi"
     },
     {
@@ -201,10 +201,6 @@
       "index": 1,
       "legendIndex": 3,
       "data": [
-        [
-          2016,
-          66
-        ],
         [
           2017,
           81
@@ -240,9 +236,13 @@
         [
           2025,
           132
+        ],
+        [
+          2026,
+          120
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "2 Zi"
     },
     {
@@ -250,10 +250,6 @@
       "index": 1,
       "legendIndex": 2,
       "data": [
-        [
-          2016,
-          5
-        ],
         [
           2017,
           23
@@ -289,9 +285,13 @@
         [
           2025,
           34
+        ],
+        [
+          2026,
+          31
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "1 Zi"
     },
     {
@@ -310,10 +310,6 @@
           }
       },
       "data": [
-        [
-          2016,
-          0.004713
-        ],
         [
           2017,
           0.005838
@@ -344,14 +340,18 @@
         ],
         [
           2024,
-          0.007293
+          0.007291
         ],
         [
           2025,
           0.007935
+        ],
+        [
+          2026,
+          0.006428
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Leerstandsquote (rechte Skala)"
     }
   ],
@@ -391,7 +391,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -425,7 +429,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "type": "column",
     "renderTo": "container-9137",
@@ -539,7 +557,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "formatter": formatter() {

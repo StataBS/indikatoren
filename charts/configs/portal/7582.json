@@ -24,15 +24,15 @@
       "data": [
         [
           "neu erstellt",
-          125
+          58
         ],
         [
           "renoviert",
-          190
+          131
         ],
         [
           "unverändert",
-          881
+          791
         ]
       ],
       "pointStart": 0,
@@ -52,7 +52,11 @@
   "chart": {
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -86,7 +90,10 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function() {
+                  this.credits.element.onclick = function() {};
+              }
     },
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",
@@ -138,7 +145,7 @@
       "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "Basel-Landschaft, 2025",
+    "text": "Basel-Landschaft, 2026",
     "align": "left"
   },
   "tooltip": {
@@ -159,7 +166,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "legend": {
     "layout": "vertical",

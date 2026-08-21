@@ -85,8 +85,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Mietpreisentwicklung der Leerwohnungen",
 		"subtitle": "nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Die mittleren Mietpreise der Leerwohnungen sind bei den Wohnungen mit einem bis drei Zimmern angestiegen. Bei den Vier- und Fünfzimmerwohnungen sind sie gesunken.",
-		"erlaeuterungen": "Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Bei den 5-Zimmer-Wohnungen kommt es aufgrund des kleinen Stichprobenumfangs zu grösseren Schwankungen bzw. können Werte aus Datenschutzgründen teilweise (z. B. 2014) nicht ausgewiesen werden.",
+		"lesehilfe": "Die mittleren Mietpreise der Leerwohnungen sind bei den Wohnungen mit einem, zwei und vier Zimmern gestiegen. Bei den Drei- und Fünfzimmerwohnungen sind sie gesunken.",
+		"erlaeuterungen": "Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird. Bei den Fünfzimmerwohnungen kommt es aufgrund des kleinen Stichprobenumfangs zu grösseren Schwankungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -110,7 +110,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:38",
+		"aktualisierungsdatum": "2026-08-21T08:58:25",
 		"id": 4129
 	},
 	{
@@ -228,7 +228,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-21T05:06:51",
+		"aktualisierungsdatum": "2026-08-21T08:58:27",
 		"id": 4132
 	},
 	{
@@ -441,7 +441,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2016 mit 0,4% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen. Aktuell liegt die Quote bei 0,9%.",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2017 mit 0,5% ihren Tiefstwert innerhalb des Beobachtungszeitraums. 2026 liegt die Leerwohnungsquote bei 0,8%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:41",
+		"aktualisierungsdatum": "2026-08-21T08:58:30",
 		"id": 4138
 	},
 	{
@@ -478,7 +478,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2025 weisen Wohnungen mit einer Fläche von weniger als 29m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2026 weisen Wohnungen mit einer Fläche von weniger als 29 m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit 0,6% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -503,7 +503,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:42",
+		"aktualisierungsdatum": "2026-08-21T08:58:31",
 		"id": 4139
 	},
 	{

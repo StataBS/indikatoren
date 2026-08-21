@@ -913,7 +913,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2016 mit 0,4% ihren Tiefstwert innerhalb des Beobachtungszeitraumes. Danach ist die LWQ bis 2022 auf 1,2% gestiegen. Aktuell liegt die Quote bei 0,9%.",
+		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2017 mit 0,5% ihren Tiefstwert innerhalb des Beobachtungszeitraums. 2026 liegt die Leerwohnungsquote bei 0,8%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -938,7 +938,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:38:45",
+		"aktualisierungsdatum": "2026-08-21T08:59:05",
 		"id": 5195
 	},
 	{
@@ -1666,7 +1666,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 sind in Basel-Stadt 199 745 Personen beschäftigt. Das sind 8 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branche «Übriges verarbeitendes Gewerbe» mit +4,0% im Vergleich zum Vorjahr, während die Branche «Unternehmensdienstleistungen und Freiberufe» mit -3,8% die grösste Beschäftigungsabnahme aufweist.",
+		"lesehilfe": "Im Jahr 2024 sind in Basel-Stadt 201 823 Personen beschäftigt. Das sind 2 078 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit +6,9% im Vergleich zum Vorjahr, während die Pharmaindustrie mit -3,8% die grösste Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1691,7 +1691,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:39",
+		"aktualisierungsdatum": "2026-08-21T08:59:38",
 		"id": 6046
 	},
 	{

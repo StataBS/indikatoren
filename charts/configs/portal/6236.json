@@ -56,6 +56,10 @@
         [
           "2023",
           17688
+        ],
+        [
+          "2024",
+          17018
         ]
       ],
       "pointStart": 0,
@@ -118,6 +122,10 @@
         [
           "2023",
           7478
+        ],
+        [
+          "2024",
+          7470
         ]
       ],
       "pointStart": 0,
@@ -180,6 +188,10 @@
         [
           "2023",
           8508
+        ],
+        [
+          "2024",
+          8629
         ]
       ],
       "pointStart": 0,
@@ -242,6 +254,10 @@
         [
           "2023",
           26636
+        ],
+        [
+          "2024",
+          26458
         ]
       ],
       "pointStart": 0,
@@ -304,6 +320,10 @@
         [
           "2023",
           10926
+        ],
+        [
+          "2024",
+          11675
         ]
       ],
       "pointStart": 0,
@@ -366,6 +386,10 @@
         [
           "2023",
           11971
+        ],
+        [
+          "2024",
+          12540
         ]
       ],
       "pointStart": 0,
@@ -428,6 +452,10 @@
         [
           "2023",
           37950
+        ],
+        [
+          "2024",
+          37949
         ]
       ],
       "pointStart": 0,
@@ -490,6 +518,10 @@
         [
           "2023",
           21080
+        ],
+        [
+          "2024",
+          21578
         ]
       ],
       "pointStart": 0,
@@ -552,6 +584,10 @@
         [
           "2023",
           35671
+        ],
+        [
+          "2024",
+          36304
         ]
       ],
       "pointStart": 0,
@@ -614,6 +650,10 @@
         [
           "2023",
           21837
+        ],
+        [
+          "2024",
+          22202
         ]
       ],
       "pointStart": 0,
@@ -660,7 +700,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -694,7 +738,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "type": "column",
     "inverted": false,
@@ -780,7 +838,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E",

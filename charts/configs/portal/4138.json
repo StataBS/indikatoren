@@ -7,10 +7,6 @@
       "visible": false,
       "data": [
         [
-          2016,
-          61
-        ],
-        [
           2017,
           68
         ],
@@ -45,9 +41,13 @@
         [
           2025,
           172
+        ],
+        [
+          2026,
+          224
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "1 Zimmer"
     },
     {
@@ -56,10 +56,6 @@
       "legendIndex": 4,
       "visible": false,
       "data": [
-        [
-          2016,
-          107
-        ],
         [
           2017,
           164
@@ -95,9 +91,13 @@
         [
           2025,
           346
+        ],
+        [
+          2026,
+          274
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "2 Zimmer"
     },
     {
@@ -106,10 +106,6 @@
       "legendIndex": 6,
       "visible": false,
       "data": [
-        [
-          2016,
-          163
-        ],
         [
           2017,
           202
@@ -145,9 +141,13 @@
         [
           2025,
           403
+        ],
+        [
+          2026,
+          265
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "3 Zimmer"
     },
     {
@@ -156,10 +156,6 @@
       "legendIndex": 8,
       "visible": false,
       "data": [
-        [
-          2016,
-          77
-        ],
         [
           2017,
           84
@@ -195,9 +191,13 @@
         [
           2025,
           114
+        ],
+        [
+          2026,
+          100
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "4 Zimmer"
     },
     {
@@ -206,10 +206,6 @@
       "legendIndex": 10,
       "visible": false,
       "data": [
-        [
-          2016,
-          44
-        ],
         [
           2017,
           28
@@ -245,9 +241,13 @@
         [
           2025,
           44
+        ],
+        [
+          2026,
+          49
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "5+ Zimmer"
     },
     {
@@ -256,10 +256,6 @@
       "legendIndex": 0,
       "visible": true,
       "data": [
-        [
-          2016,
-          452
-        ],
         [
           2017,
           546
@@ -295,9 +291,13 @@
         [
           2025,
           1079
+        ],
+        [
+          2026,
+          912
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "Anzahl leere Wohnungen"
     },
     {
@@ -310,10 +310,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2016,
-          0.4168
-        ],
         [
           2017,
           0.5004
@@ -349,9 +345,13 @@
         [
           2025,
           0.9232
+        ],
+        [
+          2026,
+          0.7764
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "LWQ alle Wohnungen (rechte Skala)"
     },
     {
@@ -365,10 +365,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2016,
-          0.5605
-        ],
         [
           2017,
           0.6144
@@ -404,9 +400,13 @@
         [
           2025,
           1.3393
+        ],
+        [
+          2026,
+          1.7292
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "LWQ 1 Zimmer"
     },
     {
@@ -420,10 +420,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2016,
-          0.424
-        ],
         [
           2017,
           0.6449
@@ -459,9 +455,13 @@
         [
           2025,
           1.2337
+        ],
+        [
+          2026,
+          0.9679
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "LWQ 2 Zimmer"
     },
     {
@@ -475,10 +475,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2016,
-          0.4026
-        ],
         [
           2017,
           0.497
@@ -514,9 +510,13 @@
         [
           2025,
           0.9429
+        ],
+        [
+          2026,
+          0.6183
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "LWQ 3 Zimmer"
     },
     {
@@ -530,10 +530,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2016,
-          0.405
-        ],
         [
           2017,
           0.4394
@@ -569,9 +565,13 @@
         [
           2025,
           0.5674
+        ],
+        [
+          2026,
+          0.4962
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "LWQ 4 Zimmer"
     },
     {
@@ -585,10 +585,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2016,
-          0.3427
-        ],
         [
           2017,
           0.2177
@@ -624,9 +620,13 @@
         [
           2025,
           0.3344
+        ],
+        [
+          2026,
+          0.3714
         ]
       ],
-      "pointStart": 2016,
+      "pointStart": 2017,
       "name": "LWQ 5+ Zimmer"
     }
   ],
@@ -666,7 +666,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -700,7 +704,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "type": "column",
     "spacingBottom": 38,
@@ -815,7 +833,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

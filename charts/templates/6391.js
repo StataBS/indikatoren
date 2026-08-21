@@ -106,19 +106,19 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 35,0",
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 35",
 								from: 0,
 								to: 34.999,
 								diameter: 5
 							},
 							{
-								name: ' 35,0 − 79,9',
+								name: ' 35 − 79',
 								from: 35,
 								to: 79.9999,
 								diameter: 10
 							},
 							{
-								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  80,0",
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  80",
 								from: 80,
 								to: 1000000000,
 								diameter: 20

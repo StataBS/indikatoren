@@ -357,10 +357,13 @@ var indikatorensetData = [
 		"chart-id": 11909,
 		"filter": "",
 		"parentId": null,
-		"children": [],
+		"children": [
+			22315,
+			22415
+		],
 		"title": "Strukturen der Fliessgewässer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur knapp 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
+		"lesehilfe": "Von 47 km Fliessstrecke werden 2025 nur 2 km (4,2%)  als natürlich oder naturnah bezeichnet.",
 		"erlaeuterungen": "Die Beurteilung der Struktur der Fliessgewässer erfolgt über die ökomorphologische Bewertung nach dem Modul-Stufen-Konzept, Stufe F des Bundesamtes für Umwelt. Im Kanton Basel-Stadt wird eine Fliesstrecke von insgesamt 47 km bewertet.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -387,7 +390,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-05-21T02:31:47",
+		"aktualisierungsdatum": "2026-08-21T08:59:29",
 		"id": 11909
 	},
 	{
@@ -397,12 +400,13 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			22316
+			22316,
+			22414
 		],
 		"title": "Revitalisierungsrate Oberflächengewässer",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Seit 2015 wurden 1,6 km der bis 2035 geplanten 9,6 km revitalisiert.",
-		"erlaeuterungen": "Länge der jährlich revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km der Fliessgewässer in der Schweiz revitalisiert werden.",
+		"erlaeuterungen": "Länge der revitalisierten Gewässerabschnitte im Vergleich zur Gesamtlänge der gemäss Revitalisierungsplanung prioritär zu revitalisierenden Gewässerstrecken. Laut Gewässerschutzgesetz sind die Kantone verpflichtet, Revitalisierungen an Gewässern durchzuführen. Im Kanton Basel-Stadt ist der Nutzen von Revitalisierungsmassnahmen an Wiese und Riehenteich (Abschnitte Neuer Teich und Mühleteich) unter Berücksichtigung des zu erwartenden Aufwands am grössten. Bis 2035 sollen 9,6 km revitalisiert werden. In den Jahren 2015 bis 2095 sollen gesamthaft rund 4 000 km Fliessgewässer in der Schweiz revitalisiert werden.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
@@ -426,7 +430,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-05T08:30:40",
+		"aktualisierungsdatum": "2026-08-21T08:59:30",
 		"id": 11910
 	},
 	{
@@ -810,7 +814,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-19T08:43:08",
+		"aktualisierungsdatum": "2026-08-21T08:59:39",
 		"id": 22456
 	},
 	{
@@ -1137,7 +1141,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerwohnungsquote",
 		"subtitle": "in Prozent, Basel-Stadt",
-		"lesehilfe": "Die Leerwohnungsquote liegt 2025 bei 0,92%. Zwischen 2005 und 2014 sank sie von 1,52% auf 0,23%, danach stieg sie bis 1,17% (2022).",
+		"lesehilfe": "Die Leerwohnungsquote liegt 2026 bei 0,78%. Zwischen 2005 und 2014 sank die Quote von 1,52% auf 0,23%, danach stieg sie bis 2022 wieder auf 1,17%. Seither ist die Quote unter diesem Wert geblieben.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -1162,7 +1166,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:08",
+		"aktualisierungsdatum": "2026-08-21T08:59:31",
 		"id": 5813
 	},
 	{
@@ -1175,8 +1179,8 @@ var indikatorensetData = [
 			6246
 		],
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2025",
-		"lesehilfe": "Die höchste Leerwohnungsquote wurde 2025 im Wohnviertel Vorstädte verzeichnet (2,5%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Vorstädte am grössten (von 0,5% auf 2,5%).",
+		"subtitle": "Basel-Stadt, 2026",
+		"lesehilfe": "Die höchste Leerwohnungsquote wird 2026 im Wohnviertel Vorstädte verzeichnet (2,4%). Auch die Zunahme gegenüber der Quote von vor zehn Jahren war im Wohnviertel Vorstädte am grössten (von 0,5% auf 2,4%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -1201,7 +1205,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:09",
+		"aktualisierungsdatum": "2026-08-21T08:59:32",
 		"id": 5814
 	},
 	{
@@ -1809,8 +1813,8 @@ var indikatorensetData = [
 		],
 		"title": "Leerstehende Geschäftsflächen",
 		"subtitle": "in m², Basel-Stadt",
-		"lesehilfe": "Im Jahr 2025 beträgt die leerstehende Fläche insgesamt 200 400 m², 48 800 m²  weniger als im Vorjahr. Die Büroflächen machen mit 132 700 m² rund zwei Drittel der leerstehenden Geschäftsflächen aus.",
-		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
+		"lesehilfe": "Im Jahr 2026 beträgt die leerstehende Fläche insgesamt 230 499 m², 30 060 m²  mehr als im Vorjahr. Die Büroflächen machen mit 124  688 m² weiterhin den grössten Teil der leerstehenden Geschäftsflächen aus.",
+		"erlaeuterungen": "Die Erhebung wird vom Schweizerischen Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
@@ -1834,7 +1838,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-08-22T08:39:10",
+		"aktualisierungsdatum": "2026-08-21T08:59:36",
 		"id": 6217
 	},
 	{
@@ -1932,7 +1936,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 sind in Basel-Stadt 199 745 Personen beschäftigt. Das sind 8 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branche «Übriges verarbeitendes Gewerbe» mit +4,0% im Vergleich zum Vorjahr, während die Branche «Unternehmensdienstleistungen und Freiberufe» mit -3,8% die grösste Beschäftigungsabnahme aufweist.",
+		"lesehilfe": "Im Jahr 2024 sind in Basel-Stadt 201 823 Personen beschäftigt. Das sind 2 078 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet das Gastgewerbe mit +6,9% im Vergleich zum Vorjahr, während die Pharmaindustrie mit -3,8% die grösste Beschäftigungsabnahme aufweist.",
 		"erlaeuterungen": "Übrige Branchen: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung sowie sonstige Dienstleistungen; Unternehmens-DL, Freiberufe: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen sowie Erbringung von sonstigen wirtschaftlichen Dienstleistungen.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1957,7 +1961,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:36",
+		"aktualisierungsdatum": "2026-08-21T08:59:34",
 		"id": 6236
 	},
 	{

@@ -5,74 +5,6 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          7119
-        ],
-        [
-          "Chemie, Pharma",
-          17646
-        ],
-        [
-          "Baugewerbe",
-          6679
-        ],
-        [
-          "Handel, Reparatur",
-          11351
-        ],
-        [
-          "Verkehr, Lagerei",
-          9483
-        ],
-        [
-          "Gastgewerbe",
-          6728
-        ],
-        [
-          "Information, Kommunikation",
-          4647
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          10027
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          20626
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5326
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          6919
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          5422
-        ],
-        [
-          "Erziehung, Unterricht",
-          9123
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          23181
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          7091
-        ]
-      ],
-      "pointStart": 0,
-      "name": "2021",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
           6974
         ],
         [
@@ -137,7 +69,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#689199",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
@@ -203,6 +135,74 @@
       "pointStart": 0,
       "name": "2023",
       "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          7402
+        ],
+        [
+          "Chemie, Pharma",
+          16887
+        ],
+        [
+          "Baugewerbe",
+          6740
+        ],
+        [
+          "Handel, Reparatur",
+          11396
+        ],
+        [
+          "Verkehr, Lagerei",
+          10182
+        ],
+        [
+          "Gastgewerbe",
+          8164
+        ],
+        [
+          "Information, Kommunikation",
+          5169
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          10969
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          20863
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5317
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          6159
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          5757
+        ],
+        [
+          "Erziehung, Unterricht",
+          9405
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          26207
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          7657
+        ]
+      ],
+      "pointStart": 0,
+      "name": "2024",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -247,7 +247,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -281,7 +285,21 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
     },
     "marginRight": 50,
     "marginLeft": 200,
@@ -367,7 +385,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

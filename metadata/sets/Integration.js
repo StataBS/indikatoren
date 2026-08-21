@@ -758,7 +758,7 @@ var indikatorensetData = [
 		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2024 kamen 1 776 Kinder zur Welt, davon waren 986 Schweizer Staatsangehörige.",
+		"lesehilfe": "2025 kamen 1 837 Kinder zur Welt, davon waren 1 030 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -783,7 +783,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-07-28T08:25:59",
+		"aktualisierungsdatum": "2026-08-21T08:59:03",
 		"id": 6076
 	},
 	{

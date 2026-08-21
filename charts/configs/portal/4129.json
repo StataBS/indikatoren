@@ -9,14 +9,6 @@
       "color": "#DC440E",
       "data": [
         [
-          "2014",
-          735
-        ],
-        [
-          "2015",
-          798
-        ],
-        [
           "2016",
           940
         ],
@@ -55,6 +47,10 @@
         [
           "2025",
           1065
+        ],
+        [
+          "2026",
+          1198
         ]
       ],
       "pointStart": 0,
@@ -69,14 +65,6 @@
       "index": 3,
       "color": "#933F8D",
       "data": [
-        [
-          "2014",
-          1133
-        ],
-        [
-          "2015",
-          1263
-        ],
         [
           "2016",
           1300
@@ -116,6 +104,10 @@
         [
           "2025",
           1413
+        ],
+        [
+          "2026",
+          1455
         ]
       ],
       "pointStart": 0,
@@ -130,14 +122,6 @@
       "index": 2,
       "color": "#68AB2B",
       "data": [
-        [
-          "2014",
-          1632
-        ],
-        [
-          "2015",
-          1714
-        ],
         [
           "2016",
           1687
@@ -177,6 +161,10 @@
         [
           "2025",
           1732
+        ],
+        [
+          "2026",
+          1722
         ]
       ],
       "pointStart": 0,
@@ -191,14 +179,6 @@
       "index": 1,
       "color": "#689199",
       "data": [
-        [
-          "2014",
-          2147
-        ],
-        [
-          "2015",
-          2245
-        ],
         [
           "2016",
           2411
@@ -238,6 +218,10 @@
         [
           "2025",
           2270
+        ],
+        [
+          "2026",
+          2373
         ]
       ],
       "pointStart": 0,
@@ -252,14 +236,6 @@
       "index": 0,
       "color": "#008AC3",
       "data": [
-        [
-          "2014",
-          null
-        ],
-        [
-          "2015",
-          2865
-        ],
         [
           "2016",
           3643
@@ -299,6 +275,10 @@
         [
           "2025",
           3084
+        ],
+        [
+          "2026",
+          2924
         ]
       ],
       "pointStart": 0,
@@ -339,7 +319,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -373,7 +357,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-4129"
   },
@@ -457,7 +457,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 22.8.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
