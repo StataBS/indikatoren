@@ -38055,7 +38055,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-17T10:04:54",
+		"aktualisierungsdatum": "2026-08-25T10:03:31",
 		"id": 8995
 	},
 	{
@@ -38264,7 +38264,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-19T08:25:53",
+		"aktualisierungsdatum": "2026-08-25T10:03:32",
 		"id": 9023
 	},
 	{
