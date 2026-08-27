@@ -441,23 +441,27 @@
         ],
         [
           "2020",
-          4280.200228
+          4280.2
         ],
         [
           "2021",
-          4484.631073
+          4484.631
         ],
         [
           "2022",
-          3725.565414
+          3725.565
         ],
         [
           "2023",
-          4163.016878
+          4163.017
         ],
         [
           "2024",
-          4429.452142
+          4429.452
+        ],
+        [
+          "2025",
+          3802.88
         ]
       ],
       "pointStart": 0,
@@ -905,23 +909,27 @@
         ],
         [
           "2020",
-          846.580154
+          846.58
         ],
         [
           "2021",
-          922.635175
+          922.635
         ],
         [
           "2022",
-          874.955698
+          874.956
         ],
         [
           "2023",
-          811.256919
+          811.257
         ],
         [
           "2024",
-          959.95123
+          959.951
+        ],
+        [
+          "2025",
+          979.415
         ]
       ],
       "pointStart": 0,
@@ -1369,23 +1377,27 @@
         ],
         [
           "2020",
-          5126.780382
+          5126.78
         ],
         [
           "2021",
-          5407.266248
+          5407.266
         ],
         [
           "2022",
-          4600.521112
+          4600.521
         ],
         [
           "2023",
-          4974.273797
+          4974.274
         ],
         [
           "2024",
-          5389.403372
+          5389.403
+        ],
+        [
+          "2025",
+          4782.295
         ]
       ],
       "pointStart": 0,
@@ -1437,7 +1449,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -1471,7 +1487,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "marginRight": 20,
     "renderTo": "container-9604"
@@ -1497,10 +1529,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Güterumschlag seit 1911"
+    "text": "Güterumschlag Schweizerische Rheinhäfen"
   },
   "subtitle": {
-    "text": "in Tausend Tonnen, Schweizerische Rheinhäfen",
+    "text": "in Tausend Tonnen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -1551,7 +1583,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 15.4.2025"
+    "text": "Quelle: Schweizerische Rheinhäfen.\u003Cbr\u002F\u003EZuletzt geändert: 27.8.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
