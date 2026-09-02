@@ -126,7 +126,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Kariesfreiheit der Kinder und Jugendlichen",
 		"subtitle": "Anteil der jeweiligen Altersgruppe, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 waren 75,6% der 5-jährigen Schulkinder im Kanton Basel-Stadt kariesfrei.",
+		"lesehilfe": "Im Jahr 2025 waren 75,4% der 5-jährigen Schulkinder im Kanton Basel-Stadt kariesfrei.",
 		"erlaeuterungen": "Erhebung des Universitären Zentrums für Zahnmedizin (UZB) des Kantons Basel-Stadt im Rahmen der jährlichen zahnmedizinischen Schuluntersuchungen.<br>Die Daten der 12-Jährigen werden seit 2016 statistisch ausgewertet.",
 		"quellenangabe": [
 			"Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik"
@@ -151,7 +151,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:10",
+		"aktualisierungsdatum": "2026-09-02T09:01:04",
 		"id": 9186
 	}
 ];

@@ -16,9 +16,22 @@ document.addEventListener("DOMContentLoaded", () => {
   // mirroring the lightbox's full scrollHeight onto body.style.minHeight, which
   // iframe-resizer *does* measure. A ResizeObserver keeps it in sync as the chart
   // and text content render asynchronously.
+  //
+  // The DOM write is deferred to a rAF and skipped when the value doesn't change,
+  // so setting body.style.minHeight can't itself retrigger the observed element's
+  // resize within the same synchronous callback. Without this, browsers - Safari/
+  // iOS in particular - can throw "ResizeObserver loop completed with undelivered
+  // notifications", which aborts the rest of the script and leaves the page blank.
+  let lightboxHeightRaf = null;
   function syncLightboxHeight() {
-    const h = lightbox.scrollHeight;
-    document.body.style.minHeight = h + "px";
+    if (lightboxHeightRaf) return;
+    lightboxHeightRaf = requestAnimationFrame(function () {
+      lightboxHeightRaf = null;
+      const h = lightbox.scrollHeight + "px";
+      if (document.body.style.minHeight !== h) {
+        document.body.style.minHeight = h;
+      }
+    });
   }
 
   function openLightbox(index) {
@@ -49,6 +62,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function closeLightbox() {
     lightboxResizeObserver?.disconnect();
     lightboxResizeObserver = null;
+    if (lightboxHeightRaf) {
+      cancelAnimationFrame(lightboxHeightRaf);
+      lightboxHeightRaf = null;
+    }
     lightbox.classList.add("hidden");
     lightboxContent.innerHTML = "";
     document.body.style.overflow = "";
