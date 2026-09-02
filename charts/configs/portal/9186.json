@@ -87,6 +87,10 @@
         [
           2024,
           75.6
+        ],
+        [
+          2025,
+          75.4
         ]
       ],
       "pointStart": 2004,
@@ -179,6 +183,10 @@
         [
           2024,
           67.8
+        ],
+        [
+          2025,
+          72
         ]
       ],
       "pointStart": 2004,
@@ -271,6 +279,10 @@
         [
           2024,
           55.6
+        ],
+        [
+          2025,
+          60.2
         ]
       ],
       "pointStart": 2004,
@@ -363,6 +375,10 @@
         [
           2024,
           52.3
+        ],
+        [
+          2025,
+          65
         ]
       ],
       "pointStart": 2004,
@@ -402,7 +418,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -436,7 +456,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-9186"
   },
@@ -516,7 +552,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 12.9.2025"
+    "text": "Quelle: Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik.\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
