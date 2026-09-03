@@ -4,10 +4,6 @@
       "color": "rgb(111,111,111)",
       "data": [
         [
-          1751335200000,
-          0.1
-        ],
-        [
           1754013600000,
           0.1
         ],
@@ -54,18 +50,18 @@
         [
           1782871200000,
           0.3
+        ],
+        [
+          1785549600000,
+          0.6
         ]
       ],
-      "pointStart": 1748743200000,
+      "pointStart": 1754013600000,
       "name": "Basler Index"
     },
     {
       "color": "rgb(176,0,0)",
       "data": [
-        [
-          1751335200000,
-          0.2
-        ],
         [
           1754013600000,
           0.2
@@ -113,9 +109,13 @@
         [
           1782871200000,
           0.4
+        ],
+        [
+          1785549600000,
+          0.8
         ]
       ],
-      "pointStart": 1748743200000,
+      "pointStart": 1754013600000,
       "name": "Landesindex"
     }
   ],
@@ -161,7 +161,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -195,7 +199,23 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.credits.element.onclick = function () {};
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (
+            this["legend"]["options"]["align"] == "left" &&
+            this["legend"]["options"]["verticalAlign"] == "top" &&
+            this["legend"]["options"]["x"] == 0
+          ) {
+            this.update({
+              legend: {
+                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding,
+              },
+            });
+          }
+        }
     },
     "renderTo": "container-7512"
   },
@@ -275,7 +295,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 3.8.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 3.9.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

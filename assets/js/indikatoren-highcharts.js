@@ -359,7 +359,12 @@ function injectMetadataToChartConfig(
     //options['chart']["height"] = 415;
     delete options.exporting.buttons;
   }
-  options["chart"]["width"] = view == "print" ? 567 : null;
+  // for print, keep the width the template already defines (e.g. 320 for
+  // bar charts, 992 for maps) instead of forcing one fixed value on every
+  // chart type; other views stay responsive to their container as before.
+  if (view != "print") {
+    options["chart"]["width"] = null;
+  }
 
   // Remove hardcoded legend dimensions — these were set for the old fixed
   // 485px width and cause text truncation at responsive (wider) sizes.
