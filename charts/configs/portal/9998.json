@@ -72,7 +72,11 @@
   "chart": {
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -106,7 +110,73 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function() {
+                  this.credits.element.onclick = function() {};
+        
+                // Remove all pie slices with same color when clicking onto legend item
+                // see https://www.bountysource.com/issues/1055141-linkedto-on-pie-chart-s-data-points-for-e-g-setvisible
+                // or http://jsfiddle.net/highcharts/u7FQS/278/
+                  
+                var chart = this;
+                $(chart.series[0].data).each(function(i, e) {
+                    e.legendItem.on('click', function(event) {
+                        var legendItem=e.name;
+                        
+                        event.stopPropagation();
+                        
+                        $(chart.series).each(function(j,f){
+                               $(this.data).each(function(k,z){
+                                   if(z.name==legendItem)
+                                   {
+                                       if(z.visible)
+                                       {
+                                           z.setVisible(false);
+                                       }
+                                       else
+                                       {
+                                           z.setVisible(true);
+                                       }
+                                   }
+                               });
+                        });
+                    });
+                    e.legendItem.on('mouseover', function(event) {
+                        var legendItem=e.name;
+                        
+                        event.stopPropagation();
+                        
+                        $(chart.series).each(function(j,f){
+                               $(this.data).each(function(k,z){
+                                   if(z.name==legendItem)
+                                   {
+                                       z.setState('hover');
+                                   }
+                               });
+                        });
+                    });
+                    e.legendItem.on('mouseout', function(event) {
+                        var legendItem=e.name;
+                        
+                        event.stopPropagation();
+                        
+                        $(chart.series).each(function(j,f){    
+                               $(this.data).each(function(k,z){
+                                   if(z.name==legendItem)
+                                   {
+                                       z.setState('');
+                                   }
+                               });
+                        });
+                    });
+                    
+                });
+        
+                
+
+                  
+                  
+              }
     },
     "borderColor": "#ffffff",
     "backgroundColor": "#ffffff",

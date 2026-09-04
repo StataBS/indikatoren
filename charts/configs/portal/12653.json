@@ -363,7 +363,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -397,7 +401,25 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(" ").slice(-1).toString() //holt 'Friedmatt' aus 'Freiraumfäche Friedmatt'
+                + ':<br>'
+                + this.series[2].name.split(" ").slice(-1).toString() //Kannenfeld
+                + ':<br>'
+                + this.series[4].name.split(" ").slice(-1).toString() //Landskron
+                + ':<br>'
+                + this.series[6].name.split(" ").slice(-1).toString() //Lysbüchel
+                + ':<br>'
+                + this.series[8].name.split(" ").slice(-1).toString() //Pestalozzi
+                + ':'
+            })
+            .translate(-65,90); //move -x to the left and +y down
+        }
     },
     "renderTo": "container-12653"
   },

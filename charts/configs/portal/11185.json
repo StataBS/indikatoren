@@ -118,7 +118,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -152,7 +156,29 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          this.series[0].points[10].update({
+            marker: {
+              symbol: 'square',
+              radius: 6,
+              enabled: true,
+              states: {
+                hover: {
+                  enabled: true,
+                  symbol: 'square',
+                }
+              },
+              fillColor: 'black',
+              // lineColor: 'black',
+            },
+            dataLabels:{
+//              align: "right",
+              verticalAlign: "bottom"
+            },
+          });
+
+        }
     },
     "renderTo": "container-11185"
   },
