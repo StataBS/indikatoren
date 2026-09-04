@@ -136,13 +136,13 @@
         "textOverflow": "none"
       },
       "rotation": -45,
-      "formatter": function() {
-              if (this.isFirst || this.isLast) {
-                return Highcharts.dateFormat('%b %y', this.value);
-              } else {
-                return Highcharts.dateFormat('%b', this.value);
-              }
-            }
+      "formatter": function () {
+          if (this.isFirst || this.isLast) {
+            return Highcharts.dateFormat("%b %y", this.value);
+          } else {
+            return Highcharts.dateFormat("%b", this.value);
+          }
+        }
     },
     "tickInterval": 2592000000
   },
@@ -267,10 +267,11 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function(){
-                return Highcharts.numberFormat((this.value*1),1)+'%'; 
-              }
-    }
+      "formatter": function () {
+          return Highcharts.numberFormat(this.value * 1, 1) + "%";
+        }
+    },
+    "tickInterval": 0.1
   },
   "legend": {
     "enabled": true,
