@@ -381,7 +381,8 @@
 									return correspondingMapSeriesItem.Wohnviertel_Id;
 									//return correspondingMapSeriesItem.properties.LIBGEO;
 								}
-							}
+							},
+							colorAxis: false
 						};
 						//create the config handed in from the chart
 						var pieTemplate = config(data, correspondingMapSeriesItem, color);
