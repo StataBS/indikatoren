@@ -174,6 +174,7 @@
     },
     plotOptions: {
       series: {
+        borderRadius: 0,
         marker: {
           enabled: false
         }

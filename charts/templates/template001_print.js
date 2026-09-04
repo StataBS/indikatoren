@@ -93,6 +93,7 @@
         plotOptions: {
             series: {
                 borderWidth: 0,
+                borderRadius: 0,
                 dataLabels: {
                     style: {
                         fontSize: "10px",
