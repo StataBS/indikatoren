@@ -760,7 +760,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -794,7 +798,19 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(" ").slice(2).toString() //holt 'Wöchentlich' aus '2015 Wöchentlich'
+                + ':<br>'
+                + this.series[1].name.split(" ").slice(2).toString() //holt 'Kumuliert' aus '2020 Kumuliert'
+                /*+ ' (rechte Skala):'*/
+            })
+            .translate(-70, 8); //move -140 to the left and 8 down
+        }
     },
     "renderTo": "container-7599"
   },

@@ -346,7 +346,11 @@
     "panKey": "shift",
     "events": {
       "load": function () {
-      originalLoad.call(this);
+      var originalLoad =
+        this.options && this.options.chart && this.options.chart.events
+          ? this.options.chart.events.loadBase
+          : null;
+      if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
       if (shift === 0) return;
@@ -380,7 +384,11 @@
           );
         }
       });
-    }
+    },
+      "loadBase": function () {
+          //move legend title
+          var title = this.legend.title.translate(-113, 75);
+        }
     },
     "renderTo": "container-12650"
   },
