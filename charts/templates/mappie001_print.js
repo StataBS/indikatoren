@@ -71,6 +71,7 @@
 		"legend": {
 			"enabled": true,
 			"align": "right",
+			"verticalAlign": "bottom",
 			"floating": true,
 			symbolPadding: 10,
 			itemStyle: {
