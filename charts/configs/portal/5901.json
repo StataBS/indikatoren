@@ -52,6 +52,10 @@
         [
           2023,
           206308
+        ],
+        [
+          2024,
+          207515
         ]
       ],
       "pointStart": 2014,
@@ -75,39 +79,43 @@
         ],
         [
           2015,
-          100.37308
+          100.37308305042474
         ],
         [
           2016,
-          100.88308
+          100.8830819815647
         ],
         [
           2017,
-          101.28111
+          101.28110509948034
         ],
         [
           2018,
-          101.92649
+          101.92649296842791
         ],
         [
           2019,
-          102.00335
+          102.00334909477735
         ],
         [
           2020,
-          102.7994
+          102.79939533060858
         ],
         [
           2021,
-          102.7149
+          102.71490448972114
         ],
         [
           2022,
-          104.11206
+          104.11205725017942
         ],
         [
           2023,
-          105.00685
+          105.00684579403577
+        ],
+        [
+          2024,
+          105.62118582386204
         ]
       ],
       "pointStart": 2014,
@@ -165,6 +173,10 @@
         [
           2023,
           199745
+        ],
+        [
+          2024,
+          201823
         ]
       ],
       "pointStart": 2014,
@@ -189,39 +201,43 @@
         ],
         [
           2015,
-          99.569982
+          99.56998247495488
         ],
         [
           2016,
-          99.553242
+          99.55324213334728
         ],
         [
           2017,
-          99.669378
+          99.66937825324999
         ],
         [
           2018,
-          99.637467
+          99.6374669770605
         ],
         [
           2019,
-          100.67746
+          100.6774606994324
         ],
         [
           2020,
-          98.756506
+          98.75650649996076
         ],
         [
           2021,
-          100.96623
+          100.96623159216342
         ],
         [
           2022,
-          104.48955
+          104.48955036488714
         ],
         [
           2023,
-          104.49374
+          104.49373545028904
+        ],
+        [
+          2024,
+          105.58081138343229
         ]
       ],
       "pointStart": 2014,
@@ -337,7 +353,7 @@
     "text": "Bevölkerungs- und Beschäftigtenentwicklung"
   },
   "subtitle": {
-    "text": "indexiert (Basis 2014 = 100), Basel-Stadt",
+    "text": "Basel-Stadt, indexiert (Basis 2014 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -387,7 +403,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 3.9.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

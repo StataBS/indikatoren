@@ -118,6 +118,10 @@
         [
           "2023",
           209
+        ],
+        [
+          "2024",
+          221
         ]
       ],
       "pointStart": 0,
@@ -243,6 +247,10 @@
         [
           "2023",
           167
+        ],
+        [
+          "2024",
+          172
         ]
       ],
       "pointStart": 0,
@@ -419,7 +427,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 4.9.2026"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 8.9.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
