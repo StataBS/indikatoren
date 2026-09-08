@@ -1666,7 +1666,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigte",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2014 und 2023 von 191 155 auf 199 745.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
+		"lesehilfe": "Die Zahl der Beschäftigten stieg zwischen 2014 und 2024 von 191 155 auf 201 823.<br>Zielwert gemäss kantonalem Richtplan: 220 000 Beschäftige bis 2035. Zielpfad: ab 2019 lineares Wachstum um ca. 1 700 Beschäftigte pro Jahr.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1692,7 +1692,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-03T02:46:36",
+		"aktualisierungsdatum": "2026-09-08T09:29:20",
 		"id": 12564
 	},
 	{
@@ -16231,7 +16231,7 @@ var indikatoren = [
 		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"lesehilfe": "Im Jahr 2023 arbeiteten im Kanton Basel-Stadt in Vollzeitäquivalente (VZÄ) umgerechnet und pro Hektar rund 43 Beschäftigte (2014: rund 41 Beschäftigte).",
+		"lesehilfe": "Im Jahr 2024 arbeiteten im Kanton Basel-Stadt in Vollzeitäquivalente (VZÄ) umgerechnet und pro Hektar rund 44 Beschäftigte (2015: rund 41 Beschäftigte).",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -16257,7 +16257,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-03T02:46:38",
+		"aktualisierungsdatum": "2026-09-08T09:29:21",
 		"id": 5823
 	},
 	{
@@ -16353,9 +16353,9 @@ var indikatoren = [
 			6257
 		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "indexiert (Basis 2014 = 100), Basel-Stadt",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2014 und 2023 um 5,0% gestiegen. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 4,5%.",
-		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"subtitle": "Basel-Stadt, indexiert (Basis 2014 = 100)",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2014 und 2024 um 5,6% gewachsen. Die Zahl der Beschäftigten stieg im gleichen Zeitraum ebenfalls um 5,6%.",
+		"erlaeuterungen": "Bevölkerungsbestand Ende Jahr. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -16381,7 +16381,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-03T02:46:35",
+		"aktualisierungsdatum": "2026-09-08T09:29:19",
 		"id": 5901
 	},
 	{
@@ -16830,7 +16830,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-05-20T10:02:18",
+		"aktualisierungsdatum": "2026-09-08T09:29:18",
 		"id": 6029
 	},
 	{
@@ -19064,8 +19064,8 @@ var indikatoren = [
 		],
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt steigt seit 1995 recht kontinuierlich, teilweise stark, insgesamt um 109%. Die Staatsausgaben liegen 2023 ca. 67% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
-		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.Die BIP-Daten sind eine Schätzung von BAK Economics. Im Oktober wird das Bundesamt für Statistik umfassend revidierte Daten publizieren.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt steigt seit 1995 recht kontinuierlich, teilweise stark, insgesamt um 121%. Die Staatsausgaben liegen 2024 ca. 72% über dem Wert von 1995. Besonders grosse Ausschläge sind in der Regel auf Sonderfaktoren (zum Beispiel 2007 Rückstellung wegen Ausfinanzierung der Pensionskasse) zurückzuführen.",
+		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.Die BIP-Daten sind eine Schätzung von BAK Economics. Im Oktober 2026 wird das Bundesamt für Statistik umfassend revidierte Daten publizieren.",
 		"quellenangabe": [
 			"BAK Economics",
 			"Eidgenössische Finanzverwaltung"
@@ -19091,7 +19091,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-04T11:09:50",
+		"aktualisierungsdatum": "2026-09-08T09:29:14",
 		"id": 6205
 	},
 	{
@@ -19273,7 +19273,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2023 beträgt dieser Anteil knapp 50%. Rund 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und knapp 20% eine auf Niveau Sekundarstufe I.",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2024 beträgt dieser Anteil 50%. 31% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 19% eine auf Niveau Sekundarstufe I.",
 		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal obligatorische Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Da die Frage zur höchsten abgeschlossenen Ausbildung im Fragebogen der Strukturerhebung 2020 verändert wurde, ist die Veränderung zwischen 2020 und den Vorjahren mit Vorsicht zu interpretieren.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -19300,7 +19300,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-06-19T07:43:17",
+		"aktualisierungsdatum": "2026-09-08T09:29:23",
 		"id": 6218
 	},
 	{
@@ -35652,7 +35652,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Durchimpfungsraten ausgewählter Krankheiten",
 		"subtitle": "nach Schuljahr für die 13- und 14-Jährigen, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2023/24 waren 97,9% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
+		"lesehilfe": "Im Schuljahr 2024/25 waren 97,6% der Schülerinnen und Schüler im Alter von 13 und 14 Jahren gegen Masern geimpft.",
 		"erlaeuterungen": "Erhoben im Rahmen der Impfaktion des Schulärztlichen Dienstes, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -35681,7 +35681,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:05",
+		"aktualisierungsdatum": "2026-09-08T09:29:16",
 		"id": 8348
 	},
 	{
@@ -37267,7 +37267,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Übergewichtige Kinder",
 		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
-		"lesehilfe": "Im Schuljahr 2023/24 waren 20% der Schweizer Knaben der 6. Schulstufe (4. Primarklasse) übergewichtig. Das bedeutet, dass sie einen BMI-Wert hatten, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"lesehilfe": "Im Schuljahr 2024/25 waren 20% der Schweizer Knaben der 6. Schulstufe (4. Primarklasse) übergewichtig. Das bedeutet, dass sie einen BMI-Wert hatten, der für ihr Alter und Geschlecht über dem Referenzwert für Übergewicht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse (bis 2019/20), 6. Stufe = 4. Primarklasse (ab 2021/22), 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).<br>Per Schuljahr 2020/21 wechselte die schulärztliche Untersuchung der 5. in die 6. Stufe. Da die 6. Stufe bereits 2019/20 in der 5. Stufe untersucht worden war, fand 2020/21 keine neue Untersuchung statt.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
@@ -37295,7 +37295,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-12T11:18:06",
+		"aktualisierungsdatum": "2026-09-08T09:29:17",
 		"id": 8451
 	},
 	{
@@ -38055,7 +38055,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-07T08:07:01",
+		"aktualisierungsdatum": "2026-09-08T09:29:15",
 		"id": 8995
 	},
 	{
