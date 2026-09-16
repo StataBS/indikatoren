@@ -159,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "158 473 Logiernächte wurden im Juli 2026 in den Basler Hotelbetrieben gebucht, 5 736 mehr als im Juni. Im Vergleich zum Juli 2025 entspricht dies einem Rückgang um 5,3% bzw. 8 905 Übernachtungen. Die inländischen Gäste buchten 63 544 Logiernächte (+2,4%), die Gäste aus dem Ausland 94 929 Übernachtungen (-9,9%).",
+		"lesehilfe": "147 825 Logiernächte wurden im August 2026 in den Basler Hotelbetrieben gebucht, 10 648 weniger als im Juli. Im Vergleich zum August 2025 entspricht dies einem Rückgang um 7% bzw. 11 593 Übernachtungen. Die inländischen Gäste buchten 49 311 Logiernächte (-3,6%), die Gäste aus dem Ausland 98 514 Übernachtungen (-9%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-20T08:26:18",
+		"aktualisierungsdatum": "2026-09-16T08:37:59",
 		"id": 7516
 	},
 	{
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juli",
+		"subtitle": "Basel-Stadt, August",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 65%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-20T08:26:19",
+		"aktualisierungsdatum": "2026-09-16T08:38:00",
 		"id": 7517
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Juli",
-		"lesehilfe": "Im Juli 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln sowie in Riehen. In zehn Wohnvierteln sowie in Bettingen sank sie.",
+		"subtitle": "Basel-Stadt, August",
+		"lesehilfe": "Im August 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in zwölf Wohnvierteln sowie in Riehen und Bettingen. In sechs Wohnvierteln sank sie. Im Clara blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-19T08:25:49",
+		"aktualisierungsdatum": "2026-09-16T08:38:01",
 		"id": 7763
 	},
 	{
