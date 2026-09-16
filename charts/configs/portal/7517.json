@@ -9,15 +9,15 @@
         ],
         [
           "3-Sterne",
-          1518
+          1501
         ],
         [
           "4- und 5-Sterne",
-          1996
+          1994
         ],
         [
           "Nicht klassiert",
-          688
+          689
         ]
       ],
       "pointStart": 0,
@@ -29,7 +29,7 @@
       "data": [
         [
           "1- und 2-Sterne",
-          489
+          449
         ],
         [
           "3-Sterne",
@@ -37,11 +37,11 @@
         ],
         [
           "4- und 5-Sterne",
-          2003
+          1992
         ],
         [
           "Nicht klassiert",
-          691
+          692
         ]
       ],
       "pointStart": 0,
@@ -239,7 +239,7 @@
     "text": "Auslastung der Hotels nach Kategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, Juli",
+    "text": "Basel-Stadt, August",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -335,7 +335,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 20.8.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 16.9.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

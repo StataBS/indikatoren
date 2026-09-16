@@ -28837,7 +28837,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "158 473 Logiernächte wurden im Juli 2026 in den Basler Hotelbetrieben gebucht, 5 736 mehr als im Juni. Im Vergleich zum Juli 2025 entspricht dies einem Rückgang um 5,3% bzw. 8 905 Übernachtungen. Die inländischen Gäste buchten 63 544 Logiernächte (+2,4%), die Gäste aus dem Ausland 94 929 Übernachtungen (-9,9%).",
+		"lesehilfe": "147 825 Logiernächte wurden im August 2026 in den Basler Hotelbetrieben gebucht, 10 648 weniger als im Juli. Im Vergleich zum August 2025 entspricht dies einem Rückgang um 7% bzw. 11 593 Übernachtungen. Die inländischen Gäste buchten 49 311 Logiernächte (-3,6%), die Gäste aus dem Ausland 98 514 Übernachtungen (-9%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28863,7 +28863,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-20T08:26:18",
+		"aktualisierungsdatum": "2026-09-16T08:37:59",
 		"id": 7516
 	},
 	{
@@ -28874,7 +28874,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juli",
+		"subtitle": "Basel-Stadt, August",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 65%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -28901,7 +28901,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-20T08:26:19",
+		"aktualisierungsdatum": "2026-09-16T08:38:00",
 		"id": 7517
 	},
 	{
@@ -32704,8 +32704,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Juli",
-		"lesehilfe": "Im Juli 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln sowie in Riehen. In zehn Wohnvierteln sowie in Bettingen sank sie.",
+		"subtitle": "Basel-Stadt, August",
+		"lesehilfe": "Im August 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in zwölf Wohnvierteln sowie in Riehen und Bettingen. In sechs Wohnvierteln sank sie. Im Clara blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32732,7 +32732,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-19T08:25:49",
+		"aktualisierungsdatum": "2026-09-16T08:38:01",
 		"id": 7763
 	},
 	{
@@ -38026,8 +38026,8 @@
 		"children": [],
 		"title": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
 		"subtitle": "",
-		"lesehilfe": "Für die Kalenderwoche 51 des Jahres 2020 (14.12. - 20.12.) sind im Kanton Basel-Stadt insgesamt 67 Todesfälle gemeldet worden, davon 64 Todesfälle von Personen ab 65 Jahren und 3 Todesfälle von Personen unter 65 Jahren. Die schattierte Fläche gibt das Vertrauensintervall der normalerweise zu erwartenden Todesfälle an. Beobachtete Werte oberhalb des Vertrauensintervalls deuten auf eine sogenannte Übersterblichkeit hin.",
-		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Das Vertrauensintervall entspricht dem Bereich, in dem man die wöchentlichen Todesfälle mit einer Wahrscheinlichkeit von 99% erwarten würde. Die Schätzung des Vertrauensintervalls pro Kalenderwoche erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklassen, um sie von möglichen zeitlichen und demographischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"lesehilfe": "Für die Kalenderwoche 27 des Jahres 2026 (29.06. bis 05.07.2026) wurden im Kanton Basel-Stadt insgesamt 55 Todesfälle gemeldet. Davon entfielen 48 Todesfälle auf Personen im Alter von 65 Jahren oder älter und 7 Todesfälle auf Personen unter 65 Jahren. Die gestrichelte Linie zeigt die jeweils erwartete Anzahl Todesfälle. Die schattierte Fläche stellt den Bereich der statistisch zu erwartenden Schwankungen (Vertrauensintervall) dar. Liegt die Zahl der beobachteten Todesfälle oberhalb dieses Bereichs, ist von einer statistisch signifikanten Übersterblichkeit auszugehen.",
+		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oft verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen leicht ändern.<br>Das Vertrauensintervall entspricht dem Bereich, in dem man die wöchentlichen Todesfälle mit einer Wahrscheinlichkeit von 99% erwarten würde. Die Schätzung des Vertrauensintervalls berücksichtigt saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklassen, um sie von möglichen zeitlichen und demographischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -38055,7 +38055,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-10T02:41:02",
+		"aktualisierungsdatum": "2026-09-16T08:38:02",
 		"id": 8995
 	},
 	{
