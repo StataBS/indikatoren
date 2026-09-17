@@ -6876,9 +6876,9 @@
 		"parentId": null,
 		"children": [],
 		"title": "Hitzebedingte Todesfälle",
-		"subtitle": "in Abhängigkeit der Lufttemperatur, Basel-Stadt",
-		"lesehilfe": "Die grösste Anzahl hitzebedingter Todesfälle wird in Basel-Stadt im dargestellten Zeitraum für den bisher wärmsten Sommer 2003 geschätzt: Rund 80 Todesfälle (95%-Konfidenzintervall: 69,9-94,6) werden der Hitze zugeschrieben.",
-		"erlaeuterungen": "Das Bundesamt für Umwelt (BAFU) schätzt mittels attributabler Fallberechnung (siehe Link) schweizweit die Anzahl Todesfälle, die statistisch auf die Hitzebelastung in der Schweiz zwischen Mai und September zurückzuführen sind. Hohe Temperaturen und Hitzewellen stellen ein Risiko für die menschliche Gesundheit dar. Hitze kann Erschöpfung und Hitzschlag auslösen sowie bestehende Erkrankungen wie Herz-Kreislauf‑, Atemwegs-, Nieren- oder psychische Erkrankungen verschlimmern.",
+		"subtitle": "in Abhängigkeit von der Lufttemperatur, Basel-Stadt",
+		"lesehilfe": "Im Sommer 2003 wurden in Basel-Stadt rund 80 Todesfälle der Hitze zugeschrieben. Der Unsicherheitsbereich der Schätzung liegt bei 69,9 bis 94,6 Personen (95%-Konfidenzintervall).",
+		"erlaeuterungen": "Das Bundesamt für Umwelt (BAFU) schätzt für alle Kantone die Anzahl Todesfälle, die statistisch auf die Hitzebelastung zwischen Mai und September zurückzuführen sind. Hohe Temperaturen und Hitzewellen stellen ein Risiko für die menschliche Gesundheit dar. Hitze kann Erschöpfung und Hitzschlag auslösen sowie bestehende Erkrankungen wie Herz-Kreislauf‑, Atemwegs-, Nieren- oder psychische Erkrankungen verschlimmern.",
 		"quellenangabe": [
 			"Bundesamt für Umwelt (BAFU)"
 		],
@@ -6905,7 +6905,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-07-02T08:34:40",
+		"aktualisierungsdatum": "2026-09-17T01:24:44",
 		"id": 21847
 	},
 	{
@@ -19859,7 +19859,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-23T07:42:38",
+		"aktualisierungsdatum": "2026-09-17T01:24:46",
 		"id": 5160
 	},
 	{
@@ -84279,7 +84279,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-04-07T10:38:58",
+		"aktualisierungsdatum": "2026-09-17T01:24:45",
 		"id": 9663
 	},
 	{
