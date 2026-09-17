@@ -26,52 +26,106 @@
         {
           "x": 0
         },
+        {
+          "x": 0
+        },
       ]
     },
     plotOptions: {
       series: {
+      },
+      line: {
+        index: 1,
+        yAxis: 1,
+        threshold: 0,
+      },
+      column: {
         stacking: "normal",
-        //pointPadding: 0,
+        pointPadding: 0,
         borderWidth: 0,
         groupPadding: 0.1,
-        minPointLength: 0.5
-      }
+        minPointLength: 0.5,
+        index: 0,
+        yAxis: 0,
+        threshold: 0,
+      },
     },
+
     tooltip: {
       shared: true,
       useHTML: true,
       followPointer: true,
       formatter: function () {
-        var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0, ki='';
+        var h = '<span style="font-size: 10px">' + this.points[0].key + '</span>', sum = 0, ki = '', s='', t='';
         $.each(this.points, function (i, point) {
-          if (this.series.userOptions.type != 'errorbar') { //nur für series mit stacking: true
-            s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ': </td>'
-              + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(point.y,1) + '</b></td>'
+          if (this.series.userOptions.type == 'line') {
+            t = '<br><span style="color:' + point.color + '">\u25CF</span>&nbsp;&nbsp;' + point.series.name + ': '
+              + '<b>' + Highcharts.numberFormat(point.y, 1) + ' °C</b>';
+          } else if (this.series.userOptions.type == null) {
+            s += '<tr><td><span style="color:' + point.color + '">\u25CF</span>&nbsp;&nbsp;' + point.series.name + ': </td>'
+              + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(point.y, 1) + '</b></td>'
               + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
             sum += point.y;
-          }else{
-            ki = '<tr><td><span style="color:transparent">\u25CF</span> 95%-Konfidenzintervall:&nbsp;</td>'
-            + '<td style="text-align:left" colspan=2>&nbsp;<b>' + Highcharts.numberFormat(point.point.low, 1) + '</b> - <b>' + Highcharts.numberFormat(point.point.high,1) + '</b></td>'
-            + '</tr>';
+          } else if (this.series.userOptions.type == 'errorbar') {
+            ki = '<tr><td style="padding-top: 3px;"><span style="color:transparent">\u25CF</span>&nbsp;&nbsp;95%-Konfidenzintervall:&nbsp;</td>'
+              + '<td style="text-align:left padding-top: 3px;" colspan=2>&nbsp;<b>' + Highcharts.numberFormat(point.point.low, 1) + '</b> - <b>' + Highcharts.numberFormat(point.point.high, 1) + '</b></td>'
+              + '</tr>';
           }
+
         });
-        s += '<tr><td style="padding-top: 7px;"><span style="color:transparent">\u25CF</span> Total: </td>'
-        + '<td style="text-align:right; padding-top: 7px;">&nbsp;<b>' + Highcharts.numberFormat(sum, 1) + '</b></td>'
-        + '<td></td></tr>'+ki+'</table>';
-        return s;
+        return h
+          + '<table><tr><td style="padding-top: 7px;"><b>Todesfälle:</b></td></tr>' 
+          + s
+          + '<tr><td style="padding-top: 3px;"><span style="color:transparent">\u25CF</span>&nbsp;&nbsp;Total: </td>'
+          + '<td style="text-align:right; padding-top: 3px;">&nbsp;<b>' + Highcharts.numberFormat(sum, 1) + '</b></td><td></td></tr>' 
+          + ki
+          + '</table>'
+          + t;
       },
-    },
+    }, 
     "xAxis": {
       "type": "category"
     },
-    "yAxis": {
-      reversedStacks: false,
-      /*"labels": {
-        "formatter": function () {
-          return Highcharts.numberFormat((this.value), 0) + '%';
+     yAxis: [
+      {
+        reversedStacks: false,
+        title: {
+          text: null,
         },
-      }*/
-    },
+        labels: {
+          format: "{value:,.0f}",
+          style: {
+            color: "black",
+          },
+        },
+        plotLines: [
+          {
+            color: "#B9CFD7",
+            value: 0,
+            width: 2,
+          },
+        ],
+      },
+      {
+        opposite: true,
+        title: {
+          text: null,
+        },
+        labels: {
+          format: "{value:,.0f}",
+          style: {
+            color: "black",
+          },
+        },
+        plotLines: [
+          {
+            color: "#B9CFD7",
+            value: 0,
+            width: 2,
+          },
+        ],
+      },
+    ],
     "legend": {
       itemDistance: 15,
       "enabled": true,
@@ -81,6 +135,15 @@
       alignColumns: false,
     },
     "series": [
+      {
+        "index": 0,
+        color: "#5555ff",
+        type: "line",
+        marker: {
+          enabled: false,
+        },
+        index:99
+      },
       {
         "index": 0,
         color: "#facd5a",

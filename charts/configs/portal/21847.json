@@ -1,6 +1,203 @@
 {
   "series": [
     {
+      "index": 99,
+      "color": "#5555ff",
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          "1980",
+          9.1
+        ],
+        [
+          "1981",
+          9.9
+        ],
+        [
+          "1982",
+          10.5
+        ],
+        [
+          "1983",
+          10.5
+        ],
+        [
+          "1984",
+          9.7
+        ],
+        [
+          "1985",
+          9.3
+        ],
+        [
+          "1986",
+          9.4
+        ],
+        [
+          "1987",
+          9.5
+        ],
+        [
+          "1988",
+          10.7
+        ],
+        [
+          "1989",
+          10.6
+        ],
+        [
+          "1990",
+          10.8
+        ],
+        [
+          "1991",
+          10
+        ],
+        [
+          "1992",
+          10.7
+        ],
+        [
+          "1993",
+          10.3
+        ],
+        [
+          "1994",
+          11.7
+        ],
+        [
+          "1995",
+          10.6
+        ],
+        [
+          "1996",
+          9.4
+        ],
+        [
+          "1997",
+          10.6
+        ],
+        [
+          "1998",
+          10.6
+        ],
+        [
+          "1999",
+          10.6
+        ],
+        [
+          "2000",
+          11.4
+        ],
+        [
+          "2001",
+          10.7
+        ],
+        [
+          "2002",
+          11.2
+        ],
+        [
+          "2003",
+          11.3
+        ],
+        [
+          "2004",
+          10.5583333333333
+        ],
+        [
+          "2005",
+          10.4916666666667
+        ],
+        [
+          "2006",
+          10.9
+        ],
+        [
+          "2007",
+          11.3166666666667
+        ],
+        [
+          "2008",
+          10.8
+        ],
+        [
+          "2009",
+          11
+        ],
+        [
+          "2010",
+          9.9
+        ],
+        [
+          "2011",
+          11.7
+        ],
+        [
+          "2012",
+          10.8
+        ],
+        [
+          "2013",
+          10.4
+        ],
+        [
+          "2014",
+          11.9
+        ],
+        [
+          "2015",
+          11.8
+        ],
+        [
+          "2016",
+          11
+        ],
+        [
+          "2017",
+          11.5
+        ],
+        [
+          "2018",
+          12.26
+        ],
+        [
+          "2019",
+          11.7
+        ],
+        [
+          "2020",
+          12.2
+        ],
+        [
+          "2021",
+          10.7
+        ],
+        [
+          "2022",
+          12.6
+        ],
+        [
+          "2023",
+          12.7
+        ],
+        [
+          "2024",
+          12.3
+        ],
+        [
+          "2025",
+          11.9
+        ]
+      ],
+      "pointStart": 0,
+      "name": "Jahresmitteltemperatur (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
       "index": 0,
       "color": "#facd5a",
       "data": [
@@ -183,6 +380,10 @@
         [
           "2024",
           7.2
+        ],
+        [
+          "2025",
+          5
         ]
       ],
       "pointStart": 0,
@@ -372,6 +573,10 @@
         [
           "2024",
           4.5
+        ],
+        [
+          "2025",
+          5
         ]
       ],
       "pointStart": 0,
@@ -561,6 +766,10 @@
         [
           "2024",
           1.7
+        ],
+        [
+          "2025",
+          3
         ]
       ],
       "pointStart": 0,
@@ -801,6 +1010,11 @@
           "name": "2024",
           "low": 9,
           "high": 18.5
+        },
+        {
+          "name": "2025",
+          "low": 10,
+          "high": 17
         }
       ],
       "pointStart": 0,
@@ -904,15 +1118,27 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
-      },
+      }
+    },
+    "line": {
+      "index": 1,
+      "yAxis": 1,
+      "threshold": 0
+    },
+    "column": {
       "stacking": "normal",
+      "pointPadding": 0,
+      "borderWidth": 0,
       "groupPadding": 0.1,
-      "minPointLength": 0.5
+      "minPointLength": 0.5,
+      "index": 0,
+      "yAxis": 0,
+      "threshold": 0
     }
   },
   "title": {
@@ -925,7 +1151,7 @@
     "text": "Hitzebedingte Todesfälle"
   },
   "subtitle": {
-    "text": "in Abhängigkeit der Lufttemperatur, Basel-Stadt",
+    "text": "in Abhängigkeit von der Lufttemperatur, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -933,24 +1159,46 @@
       "color": "#000000"
     }
   },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
+  "yAxis": [
+    {
+      "reversedStacks": false,
+      "title": {
+        "text": null
       },
-      "text": null
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "plotLines": [
+        {
+          "color": "#B9CFD7",
+          "value": 0,
+          "width": 2
+        }
+      ]
     },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "reversedStacks": false
-  },
+    {
+      "opposite": true,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "plotLines": [
+        {
+          "color": "#B9CFD7",
+          "value": 0,
+          "width": 2
+        }
+      ]
+    }
+  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
@@ -982,30 +1230,38 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Umwelt (BAFU).\u003Cbr\u002F\u003EZuletzt geändert: 2.7.2026"
+    "text": "Quelle: Bundesamt für Umwelt (BAFU).\u003Cbr\u002F\u003EZuletzt geändert: 17.9.2026"
   },
   "tooltip": {
     "shared": true,
     "useHTML": true,
     "followPointer": true,
     "formatter": function () {
-        var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0, ki='';
+        var h = '<span style="font-size: 10px">' + this.points[0].key + '</span>', sum = 0, ki = '', s='', t='';
         $.each(this.points, function (i, point) {
-          if (this.series.userOptions.type != 'errorbar') { //nur für series mit stacking: true
-            s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ': </td>'
-              + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(point.y,1) + '</b></td>'
+          if (this.series.userOptions.type == 'line') {
+            t = '<br><span style="color:' + point.color + '">\u25CF</span>&nbsp;&nbsp;' + point.series.name + ': '
+              + '<b>' + Highcharts.numberFormat(point.y, 1) + ' °C</b>';
+          } else if (this.series.userOptions.type == null) {
+            s += '<tr><td><span style="color:' + point.color + '">\u25CF</span>&nbsp;&nbsp;' + point.series.name + ': </td>'
+              + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(point.y, 1) + '</b></td>'
               + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
             sum += point.y;
-          }else{
-            ki = '<tr><td><span style="color:transparent">\u25CF</span> 95%-Konfidenzintervall:&nbsp;</td>'
-            + '<td style="text-align:left" colspan=2>&nbsp;<b>' + Highcharts.numberFormat(point.point.low, 1) + '</b> - <b>' + Highcharts.numberFormat(point.point.high,1) + '</b></td>'
-            + '</tr>';
+          } else if (this.series.userOptions.type == 'errorbar') {
+            ki = '<tr><td style="padding-top: 3px;"><span style="color:transparent">\u25CF</span>&nbsp;&nbsp;95%-Konfidenzintervall:&nbsp;</td>'
+              + '<td style="text-align:left padding-top: 3px;" colspan=2>&nbsp;<b>' + Highcharts.numberFormat(point.point.low, 1) + '</b> - <b>' + Highcharts.numberFormat(point.point.high, 1) + '</b></td>'
+              + '</tr>';
           }
+
         });
-        s += '<tr><td style="padding-top: 7px;"><span style="color:transparent">\u25CF</span> Total: </td>'
-        + '<td style="text-align:right; padding-top: 7px;">&nbsp;<b>' + Highcharts.numberFormat(sum, 1) + '</b></td>'
-        + '<td></td></tr>'+ki+'</table>';
-        return s;
+        return h
+          + '<table><tr><td style="padding-top: 7px;"><b>Todesfälle:</b></td></tr>' 
+          + s
+          + '<tr><td style="padding-top: 3px;"><span style="color:transparent">\u25CF</span>&nbsp;&nbsp;Total: </td>'
+          + '<td style="text-align:right; padding-top: 3px;">&nbsp;<b>' + Highcharts.numberFormat(sum, 1) + '</b></td><td></td></tr>' 
+          + ki
+          + '</table>'
+          + t;
       }
   },
   "exporting": {
