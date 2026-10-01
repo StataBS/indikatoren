@@ -108,87 +108,87 @@
       "data": [
         [
           "2005",
-          27.8959131545338
+          27.9
         ],
         [
           "2006",
-          27.7844636619238
+          27.8
         ],
         [
           "2007",
-          26.8765957446809
+          26.9
         ],
         [
           "2008",
-          26.2107240076811
+          26.2
         ],
         [
           "2009",
-          27.2069805832875
+          27.2
         ],
         [
           "2010",
-          26.9838940455663
+          27
         ],
         [
           "2011",
-          27.2178425825776
+          27.2
         ],
         [
           "2012",
-          27.6042985852299
+          27.6
         ],
         [
           "2013",
-          27.7776925084033
+          27.8
         ],
         [
           "2014",
-          25.602760712777
+          25.6
         ],
         [
           "2015",
-          25.6754426887893
+          25.7
         ],
         [
           "2016",
-          25.8463416849137
+          25.8
         ],
         [
           "2017",
-          26.07544173518
+          26.1
         ],
         [
           "2018",
-          25.4604106743368
+          25.5
         ],
         [
           "2019",
-          26.49009266
+          26.5
         ],
         [
           "2020",
-          26.39438335
+          26.4
         ],
         [
           "2021",
-          26.22283888
+          26.2
         ],
         [
           "2022",
-          25.28037155
+          25.3
         ],
         [
           "2023",
-          24.8322895864436
+          24.8
         ],
         [
           "2024",
-          24.4777486
+          24.5
         ],
         [
           "2025",
-          23.68
+          23.7
         ]
       ],
       "pointStart": 0,
@@ -378,7 +378,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung.\u003Cbr\u002F\u003EZuletzt geändert: 13.8.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligung.\u003Cbr\u002F\u003EZuletzt geändert: 1.10.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

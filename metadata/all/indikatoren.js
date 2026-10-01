@@ -9472,8 +9472,8 @@ var indikatoren = [
 		"parentId": "6163",
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
+		"subtitle": "in kg pro Kopf respektive in Prozent, Basel-Stadt",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2025 von 194 auf 147 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -9499,7 +9499,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-19T08:43:11",
+		"aktualisierungsdatum": "2026-10-01T10:28:48",
 		"id": 22459
 	},
 	{
@@ -20800,8 +20800,8 @@ var indikatoren = [
 		"parentId": "6163",
 		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
+		"subtitle": "in kg pro Kopf respektive in Prozent, Basel-Stadt",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2025 von 194 auf 147 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -20827,7 +20827,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:45:10",
+		"aktualisierungsdatum": "2026-10-01T10:28:47",
 		"id": 5796
 	},
 	{
@@ -47076,7 +47076,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im August 2026 0,6%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im September2026 0,8%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2026 und Januar 2025.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -47104,7 +47104,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-03T08:38:59",
+		"aktualisierungsdatum": "2026-10-01T10:28:41",
 		"id": 7512
 	},
 	{
@@ -47116,7 +47116,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2025 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im August 2026 gegenüber Juli um 0,2% gestiegen und liegt nun bei 101,3 Punkten.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im September 2026 gegenüber August um 0,1% gesunken und liegt nun bei 101,2 Punkten.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -47143,7 +47143,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-03T08:39:01",
+		"aktualisierungsdatum": "2026-10-01T10:28:42",
 		"id": 7513
 	},
 	{
@@ -73574,7 +73574,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-18T02:48:09",
+		"aktualisierungsdatum": "2026-10-01T10:28:43",
 		"id": 8995
 	},
 	{
@@ -73947,7 +73947,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-18T02:48:10",
+		"aktualisierungsdatum": "2026-10-01T10:28:44",
 		"id": 9022
 	},
 	{
@@ -73985,7 +73985,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-18T02:48:11",
+		"aktualisierungsdatum": "2026-10-01T10:28:45",
 		"id": 9023
 	},
 	{
@@ -77613,7 +77613,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-13T04:44:45",
+		"aktualisierungsdatum": "2026-10-01T10:28:46",
 		"id": 9294
 	},
 	{
