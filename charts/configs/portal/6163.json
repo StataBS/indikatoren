@@ -108,6 +108,10 @@
         [
           "2024",
           150.6
+        ],
+        [
+          "2025",
+          147.3
         ]
       ],
       "pointStart": 0,
@@ -221,6 +225,10 @@
         ],
         [
           "2024",
+          94.1
+        ],
+        [
+          "2025",
           94.1
         ]
       ],
@@ -339,6 +347,10 @@
         [
           "2024",
           38.4
+        ],
+        [
+          "2025",
+          39
         ]
       ],
       "pointStart": 0,
@@ -463,7 +475,7 @@
     "text": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote"
   },
   "subtitle": {
-    "text": "in kg pro Kopf resp. Prozent, Basel-Stadt",
+    "text": "in kg pro Kopf respektive in Prozent, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -529,7 +541,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.1.2026"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 23.9.2026"
   },
   "exporting": {
     "filename": "6163"

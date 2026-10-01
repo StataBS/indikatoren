@@ -24501,11 +24501,13 @@ var indikatoren = [
 			5796,
 			6314,
 			8917,
-			10052
+			10052,
+			22459,
+			22466
 		],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"subtitle": "in kg pro Kopf resp. Prozent, Basel-Stadt",
-		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2024 von 194 auf 151 kg pro Kopf. Die Recyclingquote liegt aktuell bei 38,4%.",
+		"subtitle": "in kg pro Kopf respektive in Prozent, Basel-Stadt",
+		"lesehilfe": "Die über Kehrichtverwertungsanlagen entsorgten Siedlungsabfälle reduzierten sich zwischen 2000 und 2025 von 194 auf 147 kg pro Kopf. Die Recyclingquote liegt aktuell bei 39%.",
 		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Bei der Wertstoffsammlung sind berücksichtigt: Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
@@ -24531,7 +24533,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-01-05T01:45:06",
+		"aktualisierungsdatum": "2026-09-23T09:35:10",
 		"id": 6163
 	},
 	{
@@ -73572,7 +73574,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-16T08:38:02",
+		"aktualisierungsdatum": "2026-09-18T02:48:09",
 		"id": 8995
 	},
 	{
@@ -73945,7 +73947,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-07T08:07:02",
+		"aktualisierungsdatum": "2026-09-18T02:48:10",
 		"id": 9022
 	},
 	{
@@ -73983,7 +73985,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-07T08:07:03",
+		"aktualisierungsdatum": "2026-09-18T02:48:11",
 		"id": 9023
 	},
 	{
