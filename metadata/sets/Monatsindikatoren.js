@@ -271,7 +271,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im August 2026 rund 4 600 Personen. Die Zahl der Langzeitarbeitslosen liegt bei gut 900 Personen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im September 2026 rund 4 600 Personen. Die Zahl der Langzeitarbeitslosen liegt bei gut 900 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet. Aufgrund einer Änderung im Erfassungssystem zeigen die Zahlen für Dezember 2025 ausnahmsweise nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-06T08:56:30",
+		"aktualisierungsdatum": "2026-10-06T10:18:55",
 		"id": 8980
 	},
 	{
