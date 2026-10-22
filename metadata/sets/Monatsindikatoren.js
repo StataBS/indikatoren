@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in zwölf Wohnvierteln sowie in Riehen und Bettingen. In sechs Wohnvierteln sank sie. Im Clara blieb sie gleich.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Im September 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in allen Wohnvierteln, ebenso in der Gemeinde in Bettingen. In Riehen blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-09-16T08:38:01",
+		"aktualisierungsdatum": "2026-10-22T09:26:03",
 		"id": 7763
 	},
 	{
