@@ -203,8 +203,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Anfang 2026 standen insgesamt 170 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Anfang 2026",
+		"lesehilfe": "Ende 2026 standen insgesamt 151 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Ende 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -230,7 +230,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-03T07:01:16",
+		"aktualisierungsdatum": "2026-10-23T03:41:44",
 		"id": 11170
 	},
 	{
@@ -321,7 +321,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 76,3%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2024 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 31 228.",
+		"lesehilfe": "Im Jahr 2025 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 82,7%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2025 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 30 889.",
 		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet und berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -346,7 +346,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-22T03:09:25",
+		"aktualisierungsdatum": "2026-10-23T03:41:45",
 		"id": 11173
 	},
 	{
@@ -899,7 +899,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 finden sich die meisten Pflegetage mit 11 002 Tagen in Stufe 4. Danach folgt mit 4 969 Pflegetagen die Stufe 6.",
+		"lesehilfe": "Im Jahr 2025 finden sich die meisten Pflegetage mit 13 247 Tagen in Stufe 4. Danach folgt mit 3 518 Pflegetagen die Stufe 1.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -927,7 +927,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:33",
+		"aktualisierungsdatum": "2026-10-23T03:41:46",
 		"id": 12730
 	},
 	{
@@ -939,7 +939,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (39,2%) der Gäste in Tages- und Nachtpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2024 um 11,4%. Die durchschnittliche Pflegestufe lag 2024 bei 3,9.",
+		"lesehilfe": "Der grösste Anteil (47,8%) der Gäste in Tages- und Nachtpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2025 um 8,0%. Die durchschnittliche Pflegestufe lag 2025 bei 3,8.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -967,7 +967,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:35",
+		"aktualisierungsdatum": "2026-10-23T03:41:47",
 		"id": 12732
 	},
 	{
