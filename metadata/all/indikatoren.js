@@ -1252,8 +1252,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Plätze in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Anfang 2026 standen insgesamt 170 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
-		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Anfang 2026",
+		"lesehilfe": "Ende 2026 standen insgesamt 151 Plätze in Tages- und Nachpflegeeinrichtungen – davon 62 spezialisierte – zur Verfügung.",
+		"erlaeuterungen": "Spezialisierte Tagespflegeinrichtungen dienen der Betreuung von an Demenz erkrankten oder psychisch beeinträchtigten Personen.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.<br><br>Die Daten werden jeweils am Anfang und am Ende des aktuellen Jahres aktualisiert.<br><br>Stand Ende 2026",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
 		],
@@ -1280,7 +1280,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-02-03T07:01:16",
+		"aktualisierungsdatum": "2026-10-23T03:41:44",
 		"id": 11170
 	},
 	{
@@ -1373,7 +1373,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage in Tages- und Nachtpflegeeinrichtungen und deren Auslastung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 76,3%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2024 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 31 228.",
+		"lesehilfe": "Im Jahr 2025 betrug die Auslastung in den Tages- und Nachtpflegeeinrichtungen (TNP) 82,7%. Gegenüber dem Vorjahr ist ein Anstieg der totalen Auslastung zu verzeichnen. Im Jahr 2025 betrug die Anzahl der Aufenthaltstage, inkl. ausserkantonale Tagesgäste, 30 889.",
 		"erlaeuterungen": "Die Auslastung ist mit den ausserkantonalen Tagesgästen berechnet und berechnet sich wie folgt: Die Anzahl der abgerechneten Aufenthaltstage dividiert durch die maximal mögliche Anzahl Aufenthaltstage.<br>Die sehr hohe Auslastung der Tages- und Nachtpflegeeinrichtungen im Jahr 2012 kann mit dem damaligen grossen Kapazitätsengpass der Pflegeheimplätze erklärt werden. Auf einen Pflegeplatz wartende betagte Menschen nutzten als Überbrückung die TNP stärker, z. B. an fünf statt nur an zwei Tagen pro Woche, bis sie schliesslich in ein Pflegeheim eintreten konnten.<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -1399,7 +1399,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-22T03:09:25",
+		"aktualisierungsdatum": "2026-10-23T03:41:45",
 		"id": 11173
 	},
 	{
@@ -6356,7 +6356,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anzahl Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Im Jahr 2024 finden sich die meisten Pflegetage mit 11 002 Tagen in Stufe 4. Danach folgt mit 4 969 Pflegetagen die Stufe 6.",
+		"lesehilfe": "Im Jahr 2025 finden sich die meisten Pflegetage mit 13 247 Tagen in Stufe 4. Danach folgt mit 3 518 Pflegetagen die Stufe 1.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -6385,7 +6385,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:33",
+		"aktualisierungsdatum": "2026-10-23T03:41:46",
 		"id": 12730
 	},
 	{
@@ -6397,7 +6397,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Anteil Aufenthaltstage nach Pflegestufe in Tages- und Nachtpflegeeinrichtungen und Pflegestufen-Durchschnitt",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der grösste Anteil (39,2%) der Gäste in Tages- und Nachtpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2024 um 11,4%. Die durchschnittliche Pflegestufe lag 2024 bei 3,9.",
+		"lesehilfe": "Der grösste Anteil (47,8%) der Gäste in Tages- und Nachtpflegeeinrichtungen ist in der Pflegestufe 4 zu finden. Seit 2021 stieg die durchschnittliche Pflegestufe bis zum Jahr 2025 um 8,0%. Die durchschnittliche Pflegestufe lag 2025 bei 3,8.",
 		"erlaeuterungen": "Die Pflegestufe gibt an, wie viel Pflege eine Person pro Tag benötigt. In der Schweiz gibt es zwölf Pflegebedarfsstufen. Pflegestufe 1 umfasst einen Pflegebedarf von bis zu 20 Minuten am Tag, in Pflegestufe 12 fallen täglich mehr als 220 Minuten Pflege an. Pflegestufen gemäss Art. 7a der Krankenpflege-Leistungsverordnung (KLV).<br>Seit 2020 gibt es aufgrund zu geringer Nachfrage kein Nachtpflegeangebot mehr.",
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt"
@@ -6426,7 +6426,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-09-24T08:41:35",
+		"aktualisierungsdatum": "2026-10-23T03:41:47",
 		"id": 12732
 	},
 	{
@@ -7225,7 +7225,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Fördervolumen Gebäudeprogramm",
 		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung, in Franken, Basel-Stadt",
-		"lesehilfe": "Die jährlich im Rahmen des Gebäudeprogramms von Kanton und Bund ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich im Kanton Basel-Stadt seit 2017 von gut 1,8 Mio. Franken auf knapp 3,3 Mio. Franken erhöht. Bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern auf stabilem Niveau bewegt.",
+		"lesehilfe": "Die jährlich im Rahmen des Gebäudeprogramms von Kanton und Bund ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich im Kanton Basel-Stadt seit 2017 von gut 1,8 Mio. Franken auf 3,5 Mio. Franken erhöht. Bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern seit 2020 auf einem relativ stabilen Niveau bewegt.",
 		"erlaeuterungen": "Gemäss Gebäudeprogramm von Kanton und Bund ausbezahlte Förderbeiträge nach Gebäudekategorie. Die Auszahlung der Fördergelder erfolgt nach Abschluss der Sanierung, zwischen Förderzusage und Auszahlung können mehrere Jahre vergehen. Weitere Informationen zum Gebäudeprogramm finden sich hier: <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a>",
 		"quellenangabe": [
 			"Gebäudeprogramm"
@@ -7251,7 +7251,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-26T08:54:44",
+		"aktualisierungsdatum": "2026-10-23T03:41:40",
 		"id": 22295
 	},
 	{
@@ -7404,7 +7404,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-21T08:58:26",
+		"aktualisierungsdatum": "2026-10-23T03:41:43",
 		"id": 22299
 	},
 	{
@@ -8232,7 +8232,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Förderzusagen Gebäudeprogramm",
 		"subtitle": "Verpflichtungen pro Jahr für Wärmedämmung, indexiert (Basis 2017 = 100), Basel-Stadt",
-		"lesehilfe": "Zwischen 2017 und 2024 haben die zugesagten Förderbeiträge für Wärmedämmungen schweizweit um 8% zugenommen. Im Kanton Basel-Stadt haben sich die Beiträge bis 2021 fast verzweieinhalbfacht. 2022 gingen sie stark zurück, nahmen danach aber wieder zu.",
+		"lesehilfe": "Zwischen 2017 und 2025 haben die zugesagten Förderbeiträge für Wärmedämmungen schweizweit um 17% zugenommen. Im Kanton Basel-Stadt haben sich die Beiträge bis 2021 fast verzweieinhalbfacht. 2022 gingen sie stark zurück, in den Folgejahren waren die zugesagten Förderbeiträge wieder auf einem höheren Niveau.",
 		"erlaeuterungen": "Gemäss <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a> zugesagte Förderbeiträge, indexiert auf das Jahr 2017.",
 		"quellenangabe": [
 			"Gebäudeprogramm"
@@ -8258,7 +8258,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-26T08:54:45",
+		"aktualisierungsdatum": "2026-10-23T03:41:42",
 		"id": 22326
 	},
 	{
@@ -9383,7 +9383,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-21T08:59:39",
+		"aktualisierungsdatum": "2026-10-23T03:41:50",
 		"id": 22456
 	},
 	{
@@ -47956,7 +47956,7 @@ var indikatoren = [
 		],
 		"title": "Leerwohnungsquote nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Die Leerstandsquoten in den Kantonen Basel-Stadt und Basel-Landschaft liegen voraussichtlich auch in diesem Jahr unter dem gesamtschweizerischen Durchschnitt.",
+		"lesehilfe": "Die Leerstandsquoten in den Kantonen Basel-Stadt und Basel-Landschaft liegen auch in diesem Jahr unter dem gesamtschweizerischen Durchschnitt.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -47982,7 +47982,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-21T08:59:22",
+		"aktualisierungsdatum": "2026-10-23T03:41:48",
 		"id": 7585
 	},
 	{
@@ -48026,7 +48026,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-21T08:59:23",
+		"aktualisierungsdatum": "2026-10-23T03:41:49",
 		"id": 7586
 	},
 	{
@@ -73574,7 +73574,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-22T09:26:05",
+		"aktualisierungsdatum": "2026-10-23T03:41:34",
 		"id": 8995
 	},
 	{
@@ -73947,7 +73947,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-16T08:33:24",
+		"aktualisierungsdatum": "2026-10-23T03:41:35",
 		"id": 9022
 	},
 	{
@@ -73985,7 +73985,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-01T10:28:45",
+		"aktualisierungsdatum": "2026-10-23T03:41:38",
 		"id": 9023
 	},
 	{

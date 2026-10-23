@@ -139,7 +139,7 @@
         ],
         [
           "BS",
-          1.06
+          1.07
         ],
         [
           "BL",
@@ -155,7 +155,7 @@
         ],
         [
           "BE",
-          1.38
+          1.33
         ],
         [
           "LU",
@@ -324,7 +324,7 @@
         ],
         [
           "AR",
-          1.3
+          1.33
         ],
         [
           "AI",
@@ -364,7 +364,7 @@
         ],
         [
           "GE",
-          0.48
+          0.46
         ],
         [
           "JU",
@@ -504,7 +504,7 @@
       "data": [
         [
           "CH",
-          null
+          0.93
         ],
         [
           " ",
@@ -528,75 +528,75 @@
         ],
         [
           "BE",
-          null
+          1.04
         ],
         [
           "LU",
-          null
+          0.7
         ],
         [
           "UR",
-          null
+          0.42
         ],
         [
           "SZ",
-          null
+          0.5
         ],
         [
           "OW",
-          null
+          0.38
         ],
         [
           "NW",
-          null
+          0.62
         ],
         [
           "GL",
-          null
+          0.51
         ],
         [
           "ZG",
-          null
+          0.2
         ],
         [
           "FR",
-          null
+          1.26
         ],
         [
           "SO",
-          null
+          1.91
         ],
         [
           "SH",
-          null
+          0.84
         ],
         [
           "AR",
-          null
+          1.12
         ],
         [
           "AI",
-          null
+          0.96
         ],
         [
           "SG",
-          null
+          1.16
         ],
         [
           "GR",
-          null
+          0.51
         ],
         [
           "AG",
-          null
+          1.05
         ],
         [
           "TG",
-          null
+          1.1
         ],
         [
           "TI",
-          null
+          1.78
         ],
         [
           "VD",
@@ -604,11 +604,11 @@
         ],
         [
           "VS",
-          null
+          1.04
         ],
         [
           "NE",
-          null
+          1.64
         ],
         [
           "GE",
@@ -616,7 +616,7 @@
         ],
         [
           "JU",
-          null
+          3.35
         ]
       ],
       "pointStart": 0,
@@ -798,7 +798,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 21.8.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 23.10.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

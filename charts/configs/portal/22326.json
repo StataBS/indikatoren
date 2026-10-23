@@ -34,6 +34,10 @@
         [
           "2024",
           170
+        ],
+        [
+          "2025",
+          159
         ]
       ],
       "pointStart": 0,
@@ -74,6 +78,10 @@
         [
           "2024",
           108
+        ],
+        [
+          "2025",
+          117
         ]
       ],
       "pointStart": 0,
@@ -261,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gebäudeprogramm.\u003Cbr\u002F\u003EZuletzt geändert: 26.3.2026"
+    "text": "Quelle: Gebäudeprogramm.\u003Cbr\u002F\u003EZuletzt geändert: 23.10.2026"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} \u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

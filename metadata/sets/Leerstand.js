@@ -480,7 +480,7 @@ var indikatorensetData = [
 		],
 		"title": "Leerwohnungsquote nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Die Leerstandsquoten in den Kantonen Basel-Stadt und Basel-Landschaft liegen voraussichtlich auch in diesem Jahr unter dem gesamtschweizerischen Durchschnitt.",
+		"lesehilfe": "Die Leerstandsquoten in den Kantonen Basel-Stadt und Basel-Landschaft liegen auch in diesem Jahr unter dem gesamtschweizerischen Durchschnitt.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -505,7 +505,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-21T08:59:22",
+		"aktualisierungsdatum": "2026-10-23T03:41:48",
 		"id": 7585
 	},
 	{
@@ -548,7 +548,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-21T08:59:23",
+		"aktualisierungsdatum": "2026-10-23T03:41:49",
 		"id": 7586
 	},
 	{
