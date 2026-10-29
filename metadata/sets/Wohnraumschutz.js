@@ -271,7 +271,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Fördervolumen Gebäudeprogramm",
 		"subtitle": "Auszahlungen pro Jahr für Wärmedämmung, in Franken, Basel-Stadt",
-		"lesehilfe": "Die jährlich im Rahmen des Gebäudeprogramms von Kanton und Bund ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich im Kanton Basel-Stadt seit 2017 von gut 1,8 Mio. Franken auf knapp 3,3 Mio. Franken erhöht. Bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern auf stabilem Niveau bewegt.",
+		"lesehilfe": "Die jährlich im Rahmen des Gebäudeprogramms von Kanton und Bund ausbezahlten Förderbeiträge für die Wärmedämmung von Bestandsgebäuden (Einfamilien- und Mehrfamilienhäuser) haben sich im Kanton Basel-Stadt seit 2017 von gut 1,8 Mio. Franken auf 3,5 Mio. Franken erhöht. Bei Mehrfamilienhäusern ist ein starker Anstieg zu verzeichnen, während sich die Entwicklung bei Einfamilienhäusern seit 2020 auf einem relativ stabilen Niveau bewegt.",
 		"erlaeuterungen": "Gemäss Gebäudeprogramm von Kanton und Bund ausbezahlte Förderbeiträge nach Gebäudekategorie. Die Auszahlung der Fördergelder erfolgt nach Abschluss der Sanierung, zwischen Förderzusage und Auszahlung können mehrere Jahre vergehen. Weitere Informationen zum Gebäudeprogramm finden sich hier: <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a>",
 		"quellenangabe": [
 			"Gebäudeprogramm"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-26T08:54:44",
+		"aktualisierungsdatum": "2026-10-23T03:41:40",
 		"id": 22295
 	},
 	{
@@ -445,7 +445,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-08-21T08:58:26",
+		"aktualisierungsdatum": "2026-10-23T03:41:43",
 		"id": 22299
 	},
 	{
@@ -532,7 +532,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Förderzusagen Gebäudeprogramm",
 		"subtitle": "Verpflichtungen pro Jahr für Wärmedämmung, indexiert (Basis 2017 = 100), Basel-Stadt",
-		"lesehilfe": "Zwischen 2017 und 2024 haben die zugesagten Förderbeiträge für Wärmedämmungen schweizweit um 8% zugenommen. Im Kanton Basel-Stadt haben sich die Beiträge bis 2021 fast verzweieinhalbfacht. 2022 gingen sie stark zurück, nahmen danach aber wieder zu.",
+		"lesehilfe": "Zwischen 2017 und 2025 haben die zugesagten Förderbeiträge für Wärmedämmungen schweizweit um 17% zugenommen. Im Kanton Basel-Stadt haben sich die Beiträge bis 2021 fast verzweieinhalbfacht. 2022 gingen sie stark zurück, in den Folgejahren waren die zugesagten Förderbeiträge wieder auf einem höheren Niveau.",
 		"erlaeuterungen": "Gemäss <a href='https://www.dasgebaeudeprogramm.ch/de' target='_blank'>Gebäudeprogramm</a> zugesagte Förderbeiträge, indexiert auf das Jahr 2017.",
 		"quellenangabe": [
 			"Gebäudeprogramm"
@@ -557,7 +557,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-03-26T08:54:45",
+		"aktualisierungsdatum": "2026-10-23T03:41:42",
 		"id": 22326
 	}
 ];
