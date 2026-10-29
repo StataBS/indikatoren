@@ -3552,7 +3552,7 @@
           "lon": 7.616583161,
           "name": "Sternenhof: Tagesbetreuung Egliseeholz",
           "spez": "Allgemeine Tagespflegeeinrichtung",
-          "z": 52,
+          "z": 33,
           "address": "Fasanenstrasse 221, 4058 Basel"
         },
         {
@@ -3889,7 +3889,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 5.2.2026"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2026"
   },
   "colorAxis": {
     "min": 0,

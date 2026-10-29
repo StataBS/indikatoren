@@ -36,6 +36,10 @@
         [
           "2024",
           1.82
+        ],
+        [
+          "2025",
+          1.54
         ]
       ],
       "pointStart": 0,
@@ -78,6 +82,10 @@
         [
           "2024",
           9.05
+        ],
+        [
+          "2025",
+          8.76
         ]
       ],
       "pointStart": 0,
@@ -120,6 +128,10 @@
         [
           "2024",
           5.72
+        ],
+        [
+          "2025",
+          6.1
         ]
       ],
       "pointStart": 0,
@@ -162,6 +174,10 @@
         [
           "2024",
           10.85
+        ],
+        [
+          "2025",
+          11.41
         ]
       ],
       "pointStart": 0,
@@ -204,6 +220,10 @@
         [
           "2024",
           6.72
+        ],
+        [
+          "2025",
+          6.73
         ]
       ],
       "pointStart": 0,
@@ -246,6 +266,10 @@
         [
           "2024",
           19.8
+        ],
+        [
+          "2025",
+          18.05
         ]
       ],
       "pointStart": 0,
@@ -288,6 +312,10 @@
         [
           "2024",
           5.53
+        ],
+        [
+          "2025",
+          6.04
         ]
       ],
       "pointStart": 0,
@@ -330,6 +358,10 @@
         [
           "2024",
           18.24
+        ],
+        [
+          "2025",
+          17.65
         ]
       ],
       "pointStart": 0,
@@ -372,6 +404,10 @@
         [
           "2024",
           5.2
+        ],
+        [
+          "2025",
+          5.11
         ]
       ],
       "pointStart": 0,
@@ -414,6 +450,10 @@
         [
           "2024",
           11.84
+        ],
+        [
+          "2025",
+          12.87
         ]
       ],
       "pointStart": 0,
@@ -456,6 +496,10 @@
         [
           "2024",
           2.32
+        ],
+        [
+          "2025",
+          2.52
         ]
       ],
       "pointStart": 0,
@@ -498,6 +542,10 @@
         [
           "2024",
           2.9
+        ],
+        [
+          "2025",
+          3.22
         ]
       ],
       "pointStart": 0,
@@ -556,6 +604,10 @@
         [
           "2024",
           6.431
+        ],
+        [
+          "2025",
+          6.49
         ]
       ],
       "pointStart": 0,
@@ -755,7 +807,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 13.10.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

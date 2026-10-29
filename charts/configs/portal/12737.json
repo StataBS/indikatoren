@@ -30,6 +30,10 @@
         [
           2024,
           562355
+        ],
+        [
+          2025,
+          624100
         ]
       ],
       "pointStart": 2018,
@@ -65,6 +69,10 @@
         [
           2024,
           66835
+        ],
+        [
+          2025,
+          70595
         ]
       ],
       "pointStart": 2018,
@@ -100,6 +108,10 @@
         [
           2024,
           4192
+        ],
+        [
+          2025,
+          3880
         ]
       ],
       "pointStart": 2018,
@@ -136,6 +148,10 @@
         [
           2024,
           633382
+        ],
+        [
+          2025,
+          698575
         ]
       ],
       "pointStart": 2018,
@@ -304,7 +320,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 24.9.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

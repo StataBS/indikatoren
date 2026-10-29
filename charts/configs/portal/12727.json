@@ -36,6 +36,10 @@
         [
           2024,
           18703
+        ],
+        [
+          2025,
+          15840
         ]
       ],
       "pointStart": 2017,
@@ -77,6 +81,10 @@
         [
           2024,
           93001
+        ],
+        [
+          2025,
+          89924
         ]
       ],
       "pointStart": 2017,
@@ -118,6 +126,10 @@
         [
           2024,
           58809
+        ],
+        [
+          2025,
+          62651
         ]
       ],
       "pointStart": 2017,
@@ -159,6 +171,10 @@
         [
           2024,
           111527
+        ],
+        [
+          2025,
+          117223
         ]
       ],
       "pointStart": 2017,
@@ -200,6 +216,10 @@
         [
           2024,
           69113
+        ],
+        [
+          2025,
+          69132
         ]
       ],
       "pointStart": 2017,
@@ -241,6 +261,10 @@
         [
           2024,
           203551
+        ],
+        [
+          2025,
+          185393
         ]
       ],
       "pointStart": 2017,
@@ -282,6 +306,10 @@
         [
           2024,
           56832
+        ],
+        [
+          2025,
+          61992
         ]
       ],
       "pointStart": 2017,
@@ -323,6 +351,10 @@
         [
           2024,
           187422
+        ],
+        [
+          2025,
+          181273
         ]
       ],
       "pointStart": 2017,
@@ -364,6 +396,10 @@
         [
           2024,
           53450
+        ],
+        [
+          2025,
+          52528
         ]
       ],
       "pointStart": 2017,
@@ -405,6 +441,10 @@
         [
           2024,
           121681
+        ],
+        [
+          2025,
+          132208
         ]
       ],
       "pointStart": 2017,
@@ -446,6 +486,10 @@
         [
           2024,
           23896
+        ],
+        [
+          2025,
+          25863
         ]
       ],
       "pointStart": 2017,
@@ -487,6 +531,10 @@
         [
           2024,
           29827
+        ],
+        [
+          2025,
+          33052
         ]
       ],
       "pointStart": 2017,
@@ -530,6 +578,10 @@
         [
           2024,
           1027812
+        ],
+        [
+          2025,
+          1027079
         ]
       ],
       "pointStart": 2017,
@@ -717,7 +769,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 2.9.2026"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

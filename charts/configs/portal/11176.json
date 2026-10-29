@@ -58,6 +58,10 @@
         [
           2024,
           157.2
+        ],
+        [
+          2025,
+          159.1
         ]
       ],
       "pointStart": 2011,
@@ -121,6 +125,10 @@
         [
           2024,
           22.6
+        ],
+        [
+          2025,
+          22.7
         ]
       ],
       "pointStart": 2011,
@@ -184,6 +192,10 @@
         [
           2024,
           63.5
+        ],
+        [
+          2025,
+          64
         ]
       ],
       "pointStart": 2011,
@@ -247,6 +259,10 @@
         [
           2024,
           57.3
+        ],
+        [
+          2025,
+          60.3
         ]
       ],
       "pointStart": 2011,
@@ -310,6 +326,10 @@
         [
           2024,
           65.9
+        ],
+        [
+          2025,
+          66.5
         ]
       ],
       "pointStart": 2011,
@@ -482,7 +502,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 26.9.2025"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der sozialmedizinischen Institutionen (SOMED).\u003Cbr\u002F\u003EZuletzt geändert: 29.10.2026"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
