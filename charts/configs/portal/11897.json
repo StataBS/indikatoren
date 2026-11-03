@@ -3578,7 +3578,7 @@
         {
           "lat": 47.571260378399245,
           "lon": 7.565914732488717,
-          "name": "Universitäre Psychiatrische Kliniken Basel (UPK)",
+          "name": "Universitäre Psychiatrische Kliniken (UPK)",
           "z": 2755
         },
         {
@@ -3608,7 +3608,7 @@
         {
           "lat": 47.566573660933834,
           "lon": 7.615025112792847,
-          "name": "Zurzach Care AG",
+          "name": "Zurzach Care",
           "z": 466
         },
         {
@@ -3620,7 +3620,7 @@
         {
           "lat": 47.55117617569023,
           "lon": 7.593281111227076,
-          "name": "SMN-Schmerzklinik Basel",
+          "name": "SMN - Schmerzklinik Basel",
           "z": 185
         }
       ],
@@ -3826,7 +3826,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2.7.2026"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 3.11.2026"
   },
   "colorAxis": {
     "min": 0,

@@ -782,7 +782,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-07-02T08:34:41",
+		"aktualisierungsdatum": "2026-11-03T08:38:59",
 		"id": 11897
 	},
 	{
@@ -28760,7 +28760,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im September2026 0,8%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index der Konsumentenpreise beträgt im Oktober 2026 1,1%. Für das gesamte Jahr 2025 resultiert eine durchschnittliche Jahresteuerung von 0,2%.",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2026 und Januar 2025.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28788,7 +28788,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-01T10:28:41",
+		"aktualisierungsdatum": "2026-11-03T08:38:49",
 		"id": 7512
 	},
 	{
@@ -28800,7 +28800,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2025 = 100",
-		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im September 2026 gegenüber August um 0,1% gesunken und liegt nun bei 101,2 Punkten.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist im Oktober 2026 gegenüber September um 0,2% gestiegen und liegt nun bei 101,4 Punkten.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -28827,7 +28827,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-01T10:28:42",
+		"aktualisierungsdatum": "2026-11-03T08:38:50",
 		"id": 7513
 	},
 	{
@@ -32734,7 +32734,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-22T09:26:03",
+		"aktualisierungsdatum": "2026-11-03T08:38:53",
 		"id": 7763
 	},
 	{
@@ -38057,7 +38057,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-23T03:41:34",
+		"aktualisierungsdatum": "2026-11-03T08:38:55",
 		"id": 8995
 	},
 	{
@@ -38228,7 +38228,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-23T03:41:35",
+		"aktualisierungsdatum": "2026-11-03T08:38:56",
 		"id": 9022
 	},
 	{
@@ -38266,7 +38266,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-23T03:41:38",
+		"aktualisierungsdatum": "2026-11-03T08:38:57",
 		"id": 9023
 	},
 	{
