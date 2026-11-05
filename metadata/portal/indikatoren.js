@@ -28684,7 +28684,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote liegt im September 2026 bei 4,4% und ist damit leicht höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) und die Quote der Personen ab 50 Jahren sind ebenfalls leicht höher als im Vorjahresmonat.",
+		"lesehilfe": "Die Arbeitslosenquote liegt im Oktober 2026 bei 4,4% und ist damit leicht höher als im gleichen Vorjahresmonat. Die Jugendarbeitslosenquote (15 bis 24 Jahre) ist leicht tiefer als im Vorjahresmonat, während die Quote der Personen ab 50 Jahren unverändert ist.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen. Für die Berechnung der Arbeitslosenquote werden die Erwerbspersonen der Jahre 2021-2023 verwendet. Aufgrund einer Änderung im Erfassungssystem zeigen die Arbeitslosenzahlen für Dezember 2025 ausnahmsweise nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -28710,7 +28710,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-06T08:56:27",
+		"aktualisierungsdatum": "2026-11-05T09:20:49",
 		"id": 7510
 	},
 	{
@@ -28722,7 +28722,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende September 2026 sind in Basel-Stadt deutlich mehr meldepflichtige offene Stellen gemeldet als im Vorjahresmonat, während die nicht meldepflichtigen offenen Stellen gegenüber dem Vorjahr leicht abgenommen haben.",
+		"lesehilfe": "Ende Oktober 2026 sind in Basel-Stadt deutlich mehr meldepflichtige offene Stellen gemeldet als im Vorjahresmonat, während die nicht meldepflichtigen offenen Stellen gegenüber dem Vorjahr abgenommen haben.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Massgebend ist die Arbeitslosenquote nach Berufsgruppe im Vorjahr. Aufgrund einer Änderung im Erfassungssystem zeigen die Zahlen für Dezember 2025 ausnahmsweise nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -28748,7 +28748,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-06T08:56:29",
+		"aktualisierungsdatum": "2026-11-05T09:20:51",
 		"id": 7511
 	},
 	{
@@ -37874,7 +37874,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im September 2026 rund 4 600 Personen. Die Zahl der Langzeitarbeitslosen liegt bei gut 900 Personen.",
+		"lesehilfe": "Die Zahl der Personen, die beim RAV in Basel-Stadt als arbeitslos registriert sind, beträgt im Oktober 2026 rund 4 600 Personen. Die Zahl der Langzeitarbeitslosen liegt bei rund 900 Personen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet. Aufgrund einer Änderung im Erfassungssystem zeigen die Zahlen für Dezember 2025 ausnahmsweise nicht den Stand per Monatsende, sondern per 22.12.2025.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -37900,7 +37900,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-06T10:18:55",
+		"aktualisierungsdatum": "2026-11-05T09:20:52",
 		"id": 8980
 	},
 	{
@@ -37938,7 +37938,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-06T08:56:31",
+		"aktualisierungsdatum": "2026-11-05T09:20:53",
 		"id": 8981
 	},
 	{
@@ -38016,7 +38016,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-06T08:56:32",
+		"aktualisierungsdatum": "2026-11-05T09:20:54",
 		"id": 8992
 	},
 	{
