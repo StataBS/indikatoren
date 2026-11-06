@@ -511,7 +511,10 @@
     	                .attr({
     			        	zIndex: 6,
     			        	//class: 'pieLegend'
-    			        }).add();	                
+    			        	// not 'pieLegend' (would get the pie legend click handler);
+    			        	// 'pieLegendTitle' lets the central load hook reposition it
+    			        	class: 'pieLegendTitle'
+    			        }).add();
                 },
     	                
                 addLegendCircle: function(chart, x, y, radius, fill, cssClass){

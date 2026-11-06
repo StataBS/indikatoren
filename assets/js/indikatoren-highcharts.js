@@ -451,6 +451,15 @@ function injectMetadataToChartConfig(
     };
   }
 
+  // Map zoom buttons do not work on touch devices: hide them on narrow screens.
+  if (view != "print" && isMap) {
+    options["responsive"] = options["responsive"] || { rules: [] };
+    options["responsive"]["rules"].push({
+      condition: { maxWidth: 500 },
+      chartOptions: { mapNavigation: { enableButtons: false } },
+    });
+  }
+
   // If subtitle has text and marginTop is hardcoded, remove it so Highcharts
   // calculates the correct spacing automatically (prevents subtitle overlap).
   // StockCharts are most affected because rangeSelector/navigator add extra elements.
@@ -503,43 +512,76 @@ function injectMetadataToChartConfig(
       svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
         el.setAttribute("fill", "transparent");
       });
-      svg.querySelectorAll(sel).forEach(function (el) {
-        var tag = el.tagName.toLowerCase();
-        if (tag === "rect") {
-          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
-          el.setAttribute("y", parseFloat(el.getAttribute("y") || 0) + shiftY);
-        } else if (tag === "circle") {
-          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
-          el.setAttribute("cy", parseFloat(el.getAttribute("cy") || 0) + shiftY);
-        } else if (tag === "g") {
-          var t = el.getAttribute("transform") || "";
-          el.setAttribute(
-            "transform",
-            t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
-              return (
-                "translate(" +
-                (parseFloat(x) + shift) +
-                "," +
-                ((parseFloat(y) || 0) + shiftY) +
-                ")"
-              );
-            }),
-          );
-        }
+      var drawnLegendElements = Array.from(svg.querySelectorAll(sel));
+      var moveDrawnLegend = function (dx, dy) {
+        drawnLegendElements.forEach(function (el) {
+          var tag = el.tagName.toLowerCase();
+          if (tag === "rect") {
+            el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + dx);
+            el.setAttribute("y", parseFloat(el.getAttribute("y") || 0) + dy);
+          } else if (tag === "circle") {
+            el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + dx);
+            el.setAttribute("cy", parseFloat(el.getAttribute("cy") || 0) + dy);
+          } else if (tag === "g") {
+            var t = el.getAttribute("transform") || "";
+            el.setAttribute(
+              "transform",
+              t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+                return (
+                  "translate(" +
+                  (parseFloat(x) + dx) +
+                  "," +
+                  ((parseFloat(y) || 0) + dy) +
+                  ")"
+                );
+              }),
+            );
+          }
+        });
+      };
+      moveDrawnLegend(shift, shiftY);
+      if (!drawnLegendElements.length || !chart.legend.group) return;
+
+      var legendUpdate = {};
+      // The drawn legend is shifted as if right-aligned. A Highcharts legend
+      // anchored left (x designed for the 485px template width) must follow it,
+      // otherwise both legends drift apart (e.g. 8281, 8285).
+      if (chart.legend.options.align === "left" && shift !== 0) {
+        legendUpdate.x = chart.legend.options.x + shift;
+      }
+      if (shiftY === 0) {
+        if (legendUpdate.x !== undefined) chart.update({ legend: legendUpdate });
+        return;
+      }
+
+      // Mobile: keep the legend block above the credits (source lines), which
+      // may wrap into more lines on narrow screens.
+      var containerTop = chart.container.getBoundingClientRect().top;
+      var blockElements = [chart.legend.group.element].concat(drawnLegendElements);
+      var blockRects = blockElements.map(function (el) {
+        return el.getBoundingClientRect();
       });
-      if (shiftY === 0) return;
+      var blockBottom =
+        Math.max.apply(null, blockRects.map(function (r) { return r.bottom; })) -
+        containerTop;
+      var creditsTop =
+        chart.credits && chart.credits.element
+          ? chart.credits.element.getBoundingClientRect().top - containerTop
+          : chart.chartHeight;
+      var moveUp = Math.max(0, blockBottom - creditsTop + 5);
+      if (moveUp > 0) {
+        moveDrawnLegend(0, -moveUp);
+        legendUpdate.y = chart.legend.options.y - moveUp;
+      }
       // Reserve space below the map for the legend block, so the map no longer
       // extends underneath it.
-      var legendBlockTop = Math.min.apply(
-        null,
-        [chart.legend.group.element]
-          .concat(Array.from(svg.querySelectorAll(sel)))
-          .map(function (el) {
-            return el.getBoundingClientRect().top;
-          }),
-      ) - chart.container.getBoundingClientRect().top;
+      var blockTop =
+        Math.min.apply(null, blockRects.map(function (r) { return r.top; })) -
+        containerTop -
+        moveUp;
       chart.update({
-        chart: { marginBottom: chart.chartHeight - legendBlockTop + 10 },
+        legend: legendUpdate,
+        chart: { marginBottom: chart.chartHeight - blockTop + 10 },
       });
     };
   }
