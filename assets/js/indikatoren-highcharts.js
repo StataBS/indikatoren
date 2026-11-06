@@ -386,6 +386,71 @@ function injectMetadataToChartConfig(
     if (!options["legend"]["itemWidth"]) delete options["legend"]["itemWidth"];
   }
 
+  // On narrow screens the floating map legend covers the map: move it below
+  // the map and make the chart taller to make room for it.
+  // Templates without manually drawn pie legends: let Highcharts lay out the
+  // legend below the map.
+  var mapTemplatesWithMobileLegend = ["map001", "map002", "map_gemeinden"];
+  if (
+    view != "print" &&
+    mapTemplatesWithMobileLegend.indexOf(data.template) !== -1 &&
+    !options["responsive"]
+  ) {
+    options["responsive"] = {
+      rules: [
+        {
+          condition: { maxWidth: 500 },
+          chartOptions: {
+            chart: { height: "140%" },
+            legend: {
+              floating: false,
+              layout: "horizontal",
+              align: "center",
+              verticalAlign: "bottom",
+              x: 0,
+              // keep the legend above the credits (source lines), which are
+              // positioned from the chart bottom with credits.position.y
+              y: options["credits"]["position"]["y"] - 10,
+              // template item widths stack items vertically on narrow screens
+              width: null,
+              itemWidth: null,
+              // tells the single-column render hook below to keep this layout
+              custom: { isMobileLegendBelowMap: true },
+            },
+          },
+        },
+      ],
+    };
+  }
+
+  // Templates with manually drawn pie legends (absolute coordinates): only make
+  // the chart taller. The pie legend load hook below then moves the whole legend
+  // block (Highcharts legend + drawn elements, both anchored bottom right) down
+  // and reserves space for it below the map.
+  // mappieGemeindenBSBL is excluded: its legend sits at the top of the chart.
+  var mappieTemplatesWithMobileLegend = ["mappie001", "mappie002"];
+  if (
+    view != "print" &&
+    mappieTemplatesWithMobileLegend.indexOf(data.template) !== -1 &&
+    !options["responsive"]
+  ) {
+    options["responsive"] = {
+      rules: [
+        {
+          condition: { maxWidth: 500 },
+          chartOptions: {
+            chart: {
+              height: "140%",
+              custom: {
+                mobilePieLegendDesktopHeight: parseInt(options["chart"]["height"], 10),
+              },
+            },
+          },
+        },
+      ],
+    };
+  }
+
   // If subtitle has text and marginTop is hardcoded, remove it so Highcharts
   // calculates the correct spacing automatically (prevents subtitle overlap).
   // StockCharts are most affected because rangeSelector/navigator add extra elements.
@@ -415,7 +480,15 @@ function injectMetadataToChartConfig(
       if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
-      if (shift === 0) return;
+      // Mobile: chart is taller than the template height (see responsive rule
+      // for mappie templates above); move the drawn legend down by the same amount
+      // so it stays aligned with the bottom-anchored Highcharts legend.
+      var mobileCustom = chart.options.chart.custom;
+      var shiftY =
+        mobileCustom && mobileCustom.mobilePieLegendDesktopHeight
+          ? chart.chartHeight - mobileCustom.mobilePieLegendDesktopHeight
+          : 0;
+      if (shift === 0 && shiftY === 0) return;
       var svg = chart.container.querySelector("svg");
       if (!svg) return;
       var sel = [
@@ -434,17 +507,39 @@ function injectMetadataToChartConfig(
         var tag = el.tagName.toLowerCase();
         if (tag === "rect") {
           el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
+          el.setAttribute("y", parseFloat(el.getAttribute("y") || 0) + shiftY);
         } else if (tag === "circle") {
           el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
+          el.setAttribute("cy", parseFloat(el.getAttribute("cy") || 0) + shiftY);
         } else if (tag === "g") {
           var t = el.getAttribute("transform") || "";
           el.setAttribute(
             "transform",
-            t.replace(/translate\(([^,)]+)/, function (_, x) {
-              return "translate(" + (parseFloat(x) + shift);
+            t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+              return (
+                "translate(" +
+                (parseFloat(x) + shift) +
+                "," +
+                ((parseFloat(y) || 0) + shiftY) +
+                ")"
+              );
             }),
           );
         }
+      });
+      if (shiftY === 0) return;
+      // Reserve space below the map for the legend block, so the map no longer
+      // extends underneath it.
+      var legendBlockTop = Math.min.apply(
+        null,
+        [chart.legend.group.element]
+          .concat(Array.from(svg.querySelectorAll(sel)))
+          .map(function (el) {
+            return el.getBoundingClientRect().top;
+          }),
+      ) - chart.container.getBoundingClientRect().top;
+      chart.update({
+        chart: { marginBottom: chart.chartHeight - legendBlockTop + 10 },
       });
     };
   }
@@ -472,6 +567,8 @@ function injectMetadataToChartConfig(
           : null;
       if (originalRender) originalRender.call(this);
       var chart = this;
+      var legendCustom = chart.legend && chart.legend.options.custom;
+      if (legendCustom && legendCustom.isMobileLegendBelowMap) return;
       var items = Array.from(
         chart.container.querySelectorAll(".highcharts-legend-item"),
       );
