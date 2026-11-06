@@ -2294,7 +2294,6 @@ id | visible | visibleInPortal | indikatorenset
 9937 | true | true | Energiestatistik
 9938 | true | true | Energiestatistik
 9939 | true | true | Energiestatistik
-9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
 9998 | true | false | Test
