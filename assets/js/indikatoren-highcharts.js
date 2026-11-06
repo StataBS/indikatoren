@@ -84,6 +84,34 @@ if (
   });
 }
 
+// Multi-line credits (sources + "Zuletzt geändert") can run into the x-axis
+// labels when a chart template hardcodes chart.marginBottom (e.g. 6052): the
+// extra spacingBottom added for each credits line has no effect then.
+// After loading, enlarge the bottom margin by the measured overlap, if any.
+Highcharts.addEvent(Highcharts.Chart, "load", function () {
+  var chart = this;
+  if (!chart.credits || !chart.credits.element) return;
+  var creditsRect = chart.credits.element.getBoundingClientRect();
+  if (!creditsRect.height) return;
+  var overlap = 0;
+  chart.xAxis.forEach(function (axis) {
+    Object.keys(axis.ticks).forEach(function (key) {
+      var label = axis.ticks[key].label;
+      if (!label || !label.element) return;
+      var r = label.element.getBoundingClientRect();
+      var overlapsHorizontally =
+        r.width && r.right > creditsRect.left && r.left < creditsRect.right;
+      if (overlapsHorizontally && r.bottom > creditsRect.top) {
+        overlap = Math.max(overlap, r.bottom - creditsRect.top + 4);
+      }
+    });
+  });
+  if (overlap > 0) {
+    var currentMarginBottom = chart.chartHeight - chart.plotTop - chart.plotHeight;
+    chart.update({ chart: { marginBottom: currentMarginBottom + overlap } });
+  }
+});
+
 // HC12 Compatibility: axis.names kann undefined sein (z.B. in Navigator-Achsen)
 // Sicherstellt, dass axis.names immer ein Array ist, damit Formatter nicht crashen.
 Highcharts.addEvent(Highcharts.Axis, "afterInit", function () {
