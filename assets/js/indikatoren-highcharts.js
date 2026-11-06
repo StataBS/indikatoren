@@ -21,6 +21,11 @@ global templatesById
 // ✅ Set global font for all Highcharts
 Highcharts.setOptions({
   chart: {
+    // Since Highcharts 11.1 mouse wheel zoom is on by default when zoomType is set;
+    // it hijacks page/lightbox scrolling. Drag-to-zoom stays enabled.
+    zooming: {
+      mouseWheel: { enabled: false },
+    },
     style: {
       fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
     },
@@ -31,8 +36,13 @@ Highcharts.setOptions({
     },
   },
   tooltip: {
+    // Titles/subtitles are rendered with useHTML (see Chart.init wrapper below),
+    // so they would cover an SVG tooltip. Render the tooltip outside the chart SVG.
+    outside: true,
     style: {
       fontFamily: "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
+      // The outside tooltip is appended to <body>; keep it above the lightbox (z-50).
+      zIndex: 60,
     },
   },
 });
