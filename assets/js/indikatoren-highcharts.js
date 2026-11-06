@@ -546,8 +546,39 @@ function injectMetadataToChartConfig(
       // The drawn legend is shifted as if right-aligned. A Highcharts legend
       // anchored left (x designed for the 485px template width) must follow it,
       // otherwise both legends drift apart (e.g. 8281, 8285).
+      var legendDx = 0;
       if (chart.legend.options.align === "left" && shift !== 0) {
+        legendDx = shift;
         legendUpdate.x = chart.legend.options.x + shift;
+      }
+
+      // Drawn legend titles use fixed y positions; with the current fonts their
+      // second line can run into the first Highcharts legend item (e.g. 8281,
+      // 8285). Move all drawn titles up together until they clear the legend.
+      var legendRect = chart.legend.group.element.getBoundingClientRect();
+      var legendLeft = legendRect.left + legendDx;
+      var legendRight = legendRect.right + legendDx;
+      var titleOverlap = 0;
+      var titleElements = drawnLegendElements.filter(function (el) {
+        return el.classList.contains("pieLegendTitle");
+      });
+      titleElements.forEach(function (el) {
+        var r = el.getBoundingClientRect();
+        var overlapsHorizontally = r.right > legendLeft && r.left < legendRight;
+        if (overlapsHorizontally && r.top < legendRect.top) {
+          titleOverlap = Math.max(titleOverlap, r.bottom - legendRect.top + 4);
+        }
+      });
+      if (titleOverlap > 0) {
+        titleElements.forEach(function (el) {
+          var t = el.getAttribute("transform") || "";
+          el.setAttribute(
+            "transform",
+            t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+              return "translate(" + x + "," + ((parseFloat(y) || 0) - titleOverlap) + ")";
+            }),
+          );
+        });
       }
       if (shiftY === 0) {
         if (legendUpdate.x !== undefined) chart.update({ legend: legendUpdate });
