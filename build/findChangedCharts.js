@@ -21,8 +21,10 @@ catch (err){
 
 var delta = jsondiffpatch.diff(hashesBeforeBuild, hashesAfterBuild);
 //only get the chart id from the diff file. Any changes in any of the hashes means the chart needs to be rebuilt
-//todo: handle deleted charts
-var chartsToBuild = Object.keys(delta || {});
+//deleted charts (only present in hashesAfterBuild) are skipped, there is no metadata to build them from
+var chartsToBuild = Object.keys(delta || {}).filter(function (id) {
+    return hashesBeforeBuild.hasOwnProperty(id);
+});
 console.log('Charts to build: ' + chartsToBuild.length);
 
 console.log('Saving tmp/chartsToBuild.json...');
