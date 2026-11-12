@@ -159,7 +159,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "153 671 Logiernächte wurden im September 2026 in den Basler Hotelbetrieben gebucht, 5 846 mehr als im August. Im Vergleich zum September 2025 entspricht dies einem Anstieg um 2% bzw. 3 330 Übernachtungen. Die inländischen Gäste buchten 52 632 Logiernächte (-7,3%), die Gäste aus dem Ausland 101 039 Übernachtungen (+8,0%).",
+		"lesehilfe": "150 203 Logiernächte wurden im Oktober 2026 in den Basler Hotelbetrieben gebucht, 3 468 weniger als im September. Im Vergleich zum Oktober 2025 entspricht dies einem Rückgang um 0,2% bzw. 263 Übernachtungen. Die inländischen Gäste buchten 58 856 Logiernächte (-1,0%), die Gäste aus dem Ausland 91 347 Übernachtungen (+0,4%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-16T08:33:19",
+		"aktualisierungsdatum": "2026-11-12T08:44:32",
 		"id": 7516
 	},
 	{
@@ -195,7 +195,7 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, September",
+		"subtitle": "Basel-Stadt, Oktober",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien bei über 70%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-10-16T08:33:20",
+		"aktualisierungsdatum": "2026-11-12T08:44:35",
 		"id": 7517
 	},
 	{

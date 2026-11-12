@@ -4,88 +4,88 @@
       "color": "#689199",
       "data": [
         [
-          "Kleinhüningen",
-          191
+          "Klybeck",
+          201
         ],
         [
-          "Klybeck",
-          192
+          "Kleinhüningen",
+          216
         ],
         [
           "Rosental",
-          362
+          394
         ],
         [
           "Iselin",
-          445
+          461
         ],
         [
           "Breite",
-          581
-        ],
-        [
-          "Clara",
-          631
+          606
         ],
         [
           "St. Johann",
-          636
-        ],
-        [
-          "Matthäus",
-          658
+          630
         ],
         [
           "Gundeldingen",
-          671
+          700
+        ],
+        [
+          "Matthäus",
+          709
         ],
         [
           "Hirzbrunnen",
-          690
+          742
+        ],
+        [
+          "Clara",
+          777
         ],
         [
           "Altstadt Kleinbasel",
-          1224
+          1320
         ],
         [
           "Wettstein",
-          2051
-        ],
-        [
-          "Am Ring",
-          2211
+          1671
         ],
         [
           "Bachletten",
-          2324
+          2300
         ],
         [
-          "Gotthelf",
-          4713
-        ],
-        [
-          "Riehen",
-          4724
+          "Am Ring",
+          2333
         ],
         [
           "St. Alban",
-          5146
+          3965
+        ],
+        [
+          "Gotthelf",
+          4181
+        ],
+        [
+          "Riehen",
+          4473
         ],
         [
           "Altstadt Grossbasel",
-          5368
+          5802
         ],
         [
           "Bruderholz",
-          10773
+          6157
         ],
         [
           "Bettingen",
-          16210
+          14374
         ],
         [
           "Vorstädte",
-          21990
+          18902
         ]
       ],
       "pointStart": 0,
@@ -96,11 +96,11 @@
       "visible": false,
       "data": [
         [
-          "Kleinhüningen",
+          "Klybeck",
           1
         ],
         [
-          "Klybeck",
+          "Kleinhüningen",
           2
         ],
         [
@@ -116,11 +116,11 @@
           5
         ],
         [
-          "Clara",
+          "St. Johann",
           6
         ],
         [
-          "St. Johann",
+          "Gundeldingen",
           7
         ],
         [
@@ -128,11 +128,11 @@
           8
         ],
         [
-          "Gundeldingen",
+          "Hirzbrunnen",
           9
         ],
         [
-          "Hirzbrunnen",
+          "Clara",
           10
         ],
         [
@@ -144,23 +144,23 @@
           12
         ],
         [
-          "Am Ring",
+          "Bachletten",
           13
         ],
         [
-          "Bachletten",
+          "Am Ring",
           14
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           15
         ],
         [
-          "Riehen",
+          "Gotthelf",
           16
         ],
         [
-          "St. Alban",
+          "Riehen",
           17
         ],
         [
@@ -214,7 +214,15 @@
       if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
-      if (shift === 0) return;
+      // Mobile: chart is taller than the template height (see responsive rule
+      // for mappie templates above); move the drawn legend down by the same amount
+      // so it stays aligned with the bottom-anchored Highcharts legend.
+      var mobileCustom = chart.options.chart.custom;
+      var shiftY =
+        mobileCustom && mobileCustom.mobilePieLegendDesktopHeight
+          ? chart.chartHeight - mobileCustom.mobilePieLegendDesktopHeight
+          : 0;
+      if (shift === 0 && shiftY === 0) return;
       var svg = chart.container.querySelector("svg");
       if (!svg) return;
       var sel = [
@@ -229,21 +237,107 @@
       svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
         el.setAttribute("fill", "transparent");
       });
-      svg.querySelectorAll(sel).forEach(function (el) {
-        var tag = el.tagName.toLowerCase();
-        if (tag === "rect") {
-          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
-        } else if (tag === "circle") {
-          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
-        } else if (tag === "g") {
+      var drawnLegendElements = Array.from(svg.querySelectorAll(sel));
+      var moveDrawnLegend = function (dx, dy) {
+        drawnLegendElements.forEach(function (el) {
+          var tag = el.tagName.toLowerCase();
+          if (tag === "rect") {
+            el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + dx);
+            el.setAttribute("y", parseFloat(el.getAttribute("y") || 0) + dy);
+          } else if (tag === "circle") {
+            el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + dx);
+            el.setAttribute("cy", parseFloat(el.getAttribute("cy") || 0) + dy);
+          } else if (tag === "g") {
+            var t = el.getAttribute("transform") || "";
+            el.setAttribute(
+              "transform",
+              t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+                return (
+                  "translate(" +
+                  (parseFloat(x) + dx) +
+                  "," +
+                  ((parseFloat(y) || 0) + dy) +
+                  ")"
+                );
+              }),
+            );
+          }
+        });
+      };
+      moveDrawnLegend(shift, shiftY);
+      if (!drawnLegendElements.length || !chart.legend.group) return;
+
+      var legendUpdate = {};
+      // The drawn legend is shifted as if right-aligned. A Highcharts legend
+      // anchored left (x designed for the 485px template width) must follow it,
+      // otherwise both legends drift apart (e.g. 8281, 8285).
+      var legendDx = 0;
+      if (chart.legend.options.align === "left" && shift !== 0) {
+        legendDx = shift;
+        legendUpdate.x = chart.legend.options.x + shift;
+      }
+
+      // Drawn legend titles use fixed y positions; with the current fonts their
+      // second line can run into the first Highcharts legend item (e.g. 8281,
+      // 8285). Move all drawn titles up together until they clear the legend.
+      var legendRect = chart.legend.group.element.getBoundingClientRect();
+      var legendLeft = legendRect.left + legendDx;
+      var legendRight = legendRect.right + legendDx;
+      var titleOverlap = 0;
+      var titleElements = drawnLegendElements.filter(function (el) {
+        return el.classList.contains("pieLegendTitle");
+      });
+      titleElements.forEach(function (el) {
+        var r = el.getBoundingClientRect();
+        var overlapsHorizontally = r.right > legendLeft && r.left < legendRight;
+        if (overlapsHorizontally && r.top < legendRect.top) {
+          titleOverlap = Math.max(titleOverlap, r.bottom - legendRect.top + 4);
+        }
+      });
+      if (titleOverlap > 0) {
+        titleElements.forEach(function (el) {
           var t = el.getAttribute("transform") || "";
           el.setAttribute(
             "transform",
-            t.replace(/translate\(([^,)]+)/, function (_, x) {
-              return "translate(" + (parseFloat(x) + shift);
+            t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+              return "translate(" + x + "," + ((parseFloat(y) || 0) - titleOverlap) + ")";
             }),
           );
-        }
+        });
+      }
+      if (shiftY === 0) {
+        if (legendUpdate.x !== undefined) chart.update({ legend: legendUpdate });
+        return;
+      }
+
+      // Mobile: keep the legend block above the credits (source lines), which
+      // may wrap into more lines on narrow screens.
+      var containerTop = chart.container.getBoundingClientRect().top;
+      var blockElements = [chart.legend.group.element].concat(drawnLegendElements);
+      var blockRects = blockElements.map(function (el) {
+        return el.getBoundingClientRect();
+      });
+      var blockBottom =
+        Math.max.apply(null, blockRects.map(function (r) { return r.bottom; })) -
+        containerTop;
+      var creditsTop =
+        chart.credits && chart.credits.element
+          ? chart.credits.element.getBoundingClientRect().top - containerTop
+          : chart.chartHeight;
+      var moveUp = Math.max(0, blockBottom - creditsTop + 5);
+      if (moveUp > 0) {
+        moveDrawnLegend(0, -moveUp);
+        legendUpdate.y = chart.legend.options.y - moveUp;
+      }
+      // Reserve space below the map for the legend block, so the map no longer
+      // extends underneath it.
+      var blockTop =
+        Math.min.apply(null, blockRects.map(function (r) { return r.top; })) -
+        containerTop -
+        moveUp;
+      chart.update({
+        legend: legendUpdate,
+        chart: { marginBottom: chart.chartHeight - blockTop + 10 },
       });
     },
       "loadBase": function() {
@@ -291,7 +385,7 @@
       "fontFamily": "Inter, Helvetica Neue, Helvetica, Arial, sans-serif",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2022",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2023",
     "align": "left"
   },
   "plotOptions": {
@@ -345,7 +439,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 10.10.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.11.2026"
   },
   "legend": {
     "enabled": false,
