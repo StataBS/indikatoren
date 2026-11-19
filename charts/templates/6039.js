@@ -16,7 +16,13 @@
         x: -60,
       },
       "type": "category",
-      "tickInterval": 1
+      "tickInterval": 1,
+      "labels": {
+        "formatter": function () {
+          // überschreibt formatter in template -> nur namen der datenreihen ausgeben, keine N=
+         return this.value;
+        }
+      }
     },
     "yAxis": {
       max: 100,

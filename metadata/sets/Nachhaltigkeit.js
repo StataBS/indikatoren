@@ -679,7 +679,7 @@ var indikatorensetData = [
 		],
 		"title": "Sozialhilfequote",
 		"subtitle": "Stadt Basel im Vergleich mit anderen Städten",
-		"lesehilfe": "In der Stadt Basel bezogen 2024 5,0% aller Einwohnerinnen und Einwohner Sozialhilfe. Das sind 0,1 Prozentpunkte weniger als 2023. Der Mittelwert der Sozialhilfequoten der Vergleichsstädte liegt 2024 bei 5,7%.",
+		"lesehilfe": "In der Stadt Basel bezogen 2025 5,0% aller Einwohnerinnen und Einwohner Sozialhilfe. Das entspricht dem gleichen Wert wie im Vorjahr. Der Mittelwert der Sozialhilfequoten der Vergleichsstädte liegt 2025 bei 5,1%.",
 		"erlaeuterungen": "Die Sozialhilfequote zeigt den prozentualen Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand am Ende des Jahres. Als Sozialhilfebeziehende werden alle Personen gezählt, die im Verlaufe eines Jahres mindestens eine Leistung der Sozialhilfe erhalten haben. Es werden alle Beziehenden mit Dossiertyp Sozialhilfefall sowie Anerkannte Flüchtlinge (FL), Vorläufig Aufgenommene (VA) und Vorläufig aufgenommene Flüchtlinge (VA FL) mit einer Aufenthaltsdauer von mehr als 5 bzw. 7 Jahren (FL 5+, VA 7+, VA FL 7+) berücksichtigt.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Sozialhilfestatistik"
@@ -704,7 +704,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-11-13T08:46:39",
+		"aktualisierungsdatum": "2026-11-19T09:31:39",
 		"id": 5184
 	},
 	{
@@ -1515,7 +1515,7 @@ var indikatorensetData = [
 			8929
 		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2024/25, Basel-Stadt",
+		"subtitle": "im Schuljahr 2025/26, Basel-Stadt",
 		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, männliche hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"quellenangabe": [
@@ -1541,7 +1541,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2025-12-03T08:34:39",
+		"aktualisierungsdatum": "2026-11-19T09:31:38",
 		"id": 6039
 	},
 	{

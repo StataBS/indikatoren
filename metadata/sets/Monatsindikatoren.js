@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, September",
-		"lesehilfe": "Im September 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in allen Wohnvierteln, ebenso in der Gemeinde in Bettingen. In Riehen blieb sie gleich.",
+		"subtitle": "Basel-Stadt, Oktober",
+		"lesehilfe": "Im Oktober 2026 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln sowie in Riehen. In sieben Wohnvierteln sowie in Bettingen sank sie. Im Wohnviertel Gotthelf veränderte sich die Einwohnerzahl nicht.",
 		"erlaeuterungen": "Die Karte zeigt auf Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2026-11-03T08:38:53",
+		"aktualisierungsdatum": "2026-11-19T09:31:36",
 		"id": 7763
 	},
 	{
