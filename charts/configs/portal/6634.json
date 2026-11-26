@@ -6,120 +6,120 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Alban",
           "y": 6,
-          "Wert": 0.022,
-          "Jahr": 2024
+          "Wert": 0.025,
+          "Jahr": 2025
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Alban",
           "y": 10,
-          "Wert": 0.3877194376,
-          "Jahr": 2024
+          "Wert": 0.3937328633,
+          "Jahr": 2025
         },
         {
-          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonenhaushalten",
           "Wohnviertel": "St. Alban",
           "y": 7,
-          "Wert": 0.226314494299073,
-          "Jahr": 2024
+          "Wert": 0.222545454545455,
+          "Jahr": 2025
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Alban",
-          "y": 12,
-          "Wert": 0.4421,
-          "Jahr": 2024
+          "y": 13,
+          "Wert": 0.4219,
+          "Jahr": 2025
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 0.3868603231,
-          "Jahr": 2024
+          "Wert": 0.380690948,
+          "Jahr": 2025
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Alban",
           "y": 6,
-          "Wert": 0.2942251172,
-          "Jahr": 2024
+          "Wert": 0.290011750881316,
+          "Jahr": 2025
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 0.3219763812,
-          "Jahr": 2024
+          "Wert": 0.3286020354,
+          "Jahr": 2025
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Alban",
           "y": 14,
-          "Wert": 1940.98178807947,
-          "Jahr": 2024
+          "Wert": 1940.939419087136,
+          "Jahr": 2025
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Alban",
-          "y": 15,
-          "Wert": 0.333609271523,
-          "Jahr": 2024
+          "y": 14,
+          "Wert": 0.332780082987,
+          "Jahr": 2025
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Alban",
           "y": 13,
-          "Wert": 0.315,
-          "Jahr": 2024
+          "Wert": 0.316,
+          "Jahr": 2025
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 90.759051,
-          "Jahr": 2024
+          "Wert": 90.733049,
+          "Jahr": 2025
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
           "y": 16,
-          "Wert": 46.79472,
-          "Jahr": 2024
+          "Wert": 46.254162,
+          "Jahr": 2025
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Alban",
-          "y": 17,
-          "Wert": 5146,
-          "Jahr": 2022
+          "y": 15,
+          "Wert": 3965,
+          "Jahr": 2023
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 17648,
-          "Jahr": 2022
+          "Wert": 15790,
+          "Jahr": 2023
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Alban",
-          "y": 12,
-          "Wert": 0.7304275,
-          "Jahr": "2019-2023"
+          "y": 11,
+          "Wert": 0.7396277,
+          "Jahr": "2020-2024"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
           "y": 18,
-          "Wert": 2.2428013,
-          "Jahr": 2022
+          "Wert": 2.33467525073477,
+          "Jahr": 2023
         },
         {
           "name": "Arbeitslosenquote",
-          "Wohnviertel": "St. Alban",
-          "y": 11,
-          "Wert": 0.034,
-          "Jahr": 2024
+          "Wohnviertel": "St.Alban",
+          "y": 10,
+          "Wert": 0.04,
+          "Jahr": 2025
         }
       ],
       "pointStart": 0,
@@ -161,7 +161,15 @@
       if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
-      if (shift === 0) return;
+      // Mobile: chart is taller than the template height (see responsive rule
+      // for mappie templates above); move the drawn legend down by the same amount
+      // so it stays aligned with the bottom-anchored Highcharts legend.
+      var mobileCustom = chart.options.chart.custom;
+      var shiftY =
+        mobileCustom && mobileCustom.mobilePieLegendDesktopHeight
+          ? chart.chartHeight - mobileCustom.mobilePieLegendDesktopHeight
+          : 0;
+      if (shift === 0 && shiftY === 0) return;
       var svg = chart.container.querySelector("svg");
       if (!svg) return;
       var sel = [
@@ -176,21 +184,107 @@
       svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
         el.setAttribute("fill", "transparent");
       });
-      svg.querySelectorAll(sel).forEach(function (el) {
-        var tag = el.tagName.toLowerCase();
-        if (tag === "rect") {
-          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
-        } else if (tag === "circle") {
-          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
-        } else if (tag === "g") {
+      var drawnLegendElements = Array.from(svg.querySelectorAll(sel));
+      var moveDrawnLegend = function (dx, dy) {
+        drawnLegendElements.forEach(function (el) {
+          var tag = el.tagName.toLowerCase();
+          if (tag === "rect") {
+            el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + dx);
+            el.setAttribute("y", parseFloat(el.getAttribute("y") || 0) + dy);
+          } else if (tag === "circle") {
+            el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + dx);
+            el.setAttribute("cy", parseFloat(el.getAttribute("cy") || 0) + dy);
+          } else if (tag === "g") {
+            var t = el.getAttribute("transform") || "";
+            el.setAttribute(
+              "transform",
+              t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+                return (
+                  "translate(" +
+                  (parseFloat(x) + dx) +
+                  "," +
+                  ((parseFloat(y) || 0) + dy) +
+                  ")"
+                );
+              }),
+            );
+          }
+        });
+      };
+      moveDrawnLegend(shift, shiftY);
+      if (!drawnLegendElements.length || !chart.legend.group) return;
+
+      var legendUpdate = {};
+      // The drawn legend is shifted as if right-aligned. A Highcharts legend
+      // anchored left (x designed for the 485px template width) must follow it,
+      // otherwise both legends drift apart (e.g. 8281, 8285).
+      var legendDx = 0;
+      if (chart.legend.options.align === "left" && shift !== 0) {
+        legendDx = shift;
+        legendUpdate.x = chart.legend.options.x + shift;
+      }
+
+      // Drawn legend titles use fixed y positions; with the current fonts their
+      // second line can run into the first Highcharts legend item (e.g. 8281,
+      // 8285). Move all drawn titles up together until they clear the legend.
+      var legendRect = chart.legend.group.element.getBoundingClientRect();
+      var legendLeft = legendRect.left + legendDx;
+      var legendRight = legendRect.right + legendDx;
+      var titleOverlap = 0;
+      var titleElements = drawnLegendElements.filter(function (el) {
+        return el.classList.contains("pieLegendTitle");
+      });
+      titleElements.forEach(function (el) {
+        var r = el.getBoundingClientRect();
+        var overlapsHorizontally = r.right > legendLeft && r.left < legendRight;
+        if (overlapsHorizontally && r.top < legendRect.top) {
+          titleOverlap = Math.max(titleOverlap, r.bottom - legendRect.top + 4);
+        }
+      });
+      if (titleOverlap > 0) {
+        titleElements.forEach(function (el) {
           var t = el.getAttribute("transform") || "";
           el.setAttribute(
             "transform",
-            t.replace(/translate\(([^,)]+)/, function (_, x) {
-              return "translate(" + (parseFloat(x) + shift);
+            t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+              return "translate(" + x + "," + ((parseFloat(y) || 0) - titleOverlap) + ")";
             }),
           );
-        }
+        });
+      }
+      if (shiftY === 0) {
+        if (legendUpdate.x !== undefined) chart.update({ legend: legendUpdate });
+        return;
+      }
+
+      // Mobile: keep the legend block above the credits (source lines), which
+      // may wrap into more lines on narrow screens.
+      var containerTop = chart.container.getBoundingClientRect().top;
+      var blockElements = [chart.legend.group.element].concat(drawnLegendElements);
+      var blockRects = blockElements.map(function (el) {
+        return el.getBoundingClientRect();
+      });
+      var blockBottom =
+        Math.max.apply(null, blockRects.map(function (r) { return r.bottom; })) -
+        containerTop;
+      var creditsTop =
+        chart.credits && chart.credits.element
+          ? chart.credits.element.getBoundingClientRect().top - containerTop
+          : chart.chartHeight;
+      var moveUp = Math.max(0, blockBottom - creditsTop + 5);
+      if (moveUp > 0) {
+        moveDrawnLegend(0, -moveUp);
+        legendUpdate.y = chart.legend.options.y - moveUp;
+      }
+      // Reserve space below the map for the legend block, so the map no longer
+      // extends underneath it.
+      var blockTop =
+        Math.min.apply(null, blockRects.map(function (r) { return r.top; })) -
+        containerTop -
+        moveUp;
+      chart.update({
+        legend: legendUpdate,
+        chart: { marginBottom: chart.chartHeight - blockTop + 10 },
       });
     },
       "loadBase": function () {
@@ -333,7 +427,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.11.2026"
   },
   "legend": {
     "enabled": false,
