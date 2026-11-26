@@ -6,120 +6,120 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Iselin",
           "y": 18,
-          "Wert": 0.066,
-          "Jahr": 2024
+          "Wert": 0.065,
+          "Jahr": 2025
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Iselin",
-          "y": 11,
-          "Wert": 0.4058412769,
-          "Jahr": 2024
+          "y": 12,
+          "Wert": 0.4118067389,
+          "Jahr": 2025
         },
         {
-          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
+          "name": "Anteil&nbsp;Personen&nbsp;in Einpersonenhaushalten",
           "Wohnviertel": "Iselin",
           "y": 13,
-          "Wert": 0.271183591123067,
-          "Jahr": 2024
+          "Wert": 0.26988005330964,
+          "Jahr": 2025
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Iselin",
-          "y": 10,
-          "Wert": 0.3121,
-          "Jahr": 2024
+          "y": 7,
+          "Wert": 0.2646,
+          "Jahr": 2025
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Iselin",
           "y": 6,
-          "Wert": 0.2436791264,
-          "Jahr": 2024
+          "Wert": 0.2451300059,
+          "Jahr": 2025
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Iselin",
           "y": 11,
-          "Wert": 0.3095211705,
-          "Jahr": 2024
+          "Wert": 0.306491507722751,
+          "Jahr": 2025
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Iselin",
           "y": 12,
-          "Wert": 0.2719865603,
-          "Jahr": 2024
+          "Wert": 0.2758966642,
+          "Jahr": 2025
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Iselin",
           "y": 13,
-          "Wert": 1939.092592592592,
-          "Jahr": 2024
+          "Wert": 1939.198494182067,
+          "Jahr": 2025
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Iselin",
           "y": 11,
-          "Wert": 0.165294924554,
-          "Jahr": 2024
+          "Wert": 0.165639972621,
+          "Jahr": 2025
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Iselin",
           "y": 16,
-          "Wert": 0.372,
-          "Jahr": 2024
+          "Wert": 0.369,
+          "Jahr": 2025
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Iselin",
           "y": 6,
-          "Wert": 68.989169,
-          "Jahr": 2024
+          "Wert": 68.937946,
+          "Jahr": 2025
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Iselin",
-          "y": 6,
-          "Wert": 37.22344,
-          "Jahr": 2024
+          "y": 5,
+          "Wert": 36.829653,
+          "Jahr": 2025
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Iselin",
           "y": 4,
-          "Wert": 445,
-          "Jahr": 2022
+          "Wert": 461,
+          "Jahr": 2023
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Iselin",
           "y": 3,
-          "Wert": 6660,
-          "Jahr": 2022
+          "Wert": 6368,
+          "Jahr": 2023
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Iselin",
-          "y": 3,
-          "Wert": 0.6930883,
-          "Jahr": "2019-2023"
+          "y": 5,
+          "Wert": 0.6966912,
+          "Jahr": "2020-2024"
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Iselin",
-          "y": 4,
-          "Wert": 0.1702679,
-          "Jahr": 2022
+          "y": 5,
+          "Wert": 0.176782102083795,
+          "Jahr": 2023
         },
         {
           "name": "Arbeitslosenquote",
           "Wohnviertel": "Iselin",
-          "y": 17,
-          "Wert": 0.046,
-          "Jahr": 2024
+          "y": 13,
+          "Wert": 0.05,
+          "Jahr": 2025
         }
       ],
       "pointStart": 0,
@@ -161,7 +161,15 @@
       if (originalLoad) originalLoad.call(this);
       var chart = this;
       var shift = chart.chartWidth - 485;
-      if (shift === 0) return;
+      // Mobile: chart is taller than the template height (see responsive rule
+      // for mappie templates above); move the drawn legend down by the same amount
+      // so it stays aligned with the bottom-anchored Highcharts legend.
+      var mobileCustom = chart.options.chart.custom;
+      var shiftY =
+        mobileCustom && mobileCustom.mobilePieLegendDesktopHeight
+          ? chart.chartHeight - mobileCustom.mobilePieLegendDesktopHeight
+          : 0;
+      if (shift === 0 && shiftY === 0) return;
       var svg = chart.container.querySelector("svg");
       if (!svg) return;
       var sel = [
@@ -176,21 +184,107 @@
       svg.querySelectorAll('[class="undefined"]').forEach(function (el) {
         el.setAttribute("fill", "transparent");
       });
-      svg.querySelectorAll(sel).forEach(function (el) {
-        var tag = el.tagName.toLowerCase();
-        if (tag === "rect") {
-          el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + shift);
-        } else if (tag === "circle") {
-          el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + shift);
-        } else if (tag === "g") {
+      var drawnLegendElements = Array.from(svg.querySelectorAll(sel));
+      var moveDrawnLegend = function (dx, dy) {
+        drawnLegendElements.forEach(function (el) {
+          var tag = el.tagName.toLowerCase();
+          if (tag === "rect") {
+            el.setAttribute("x", parseFloat(el.getAttribute("x") || 0) + dx);
+            el.setAttribute("y", parseFloat(el.getAttribute("y") || 0) + dy);
+          } else if (tag === "circle") {
+            el.setAttribute("cx", parseFloat(el.getAttribute("cx") || 0) + dx);
+            el.setAttribute("cy", parseFloat(el.getAttribute("cy") || 0) + dy);
+          } else if (tag === "g") {
+            var t = el.getAttribute("transform") || "";
+            el.setAttribute(
+              "transform",
+              t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+                return (
+                  "translate(" +
+                  (parseFloat(x) + dx) +
+                  "," +
+                  ((parseFloat(y) || 0) + dy) +
+                  ")"
+                );
+              }),
+            );
+          }
+        });
+      };
+      moveDrawnLegend(shift, shiftY);
+      if (!drawnLegendElements.length || !chart.legend.group) return;
+
+      var legendUpdate = {};
+      // The drawn legend is shifted as if right-aligned. A Highcharts legend
+      // anchored left (x designed for the 485px template width) must follow it,
+      // otherwise both legends drift apart (e.g. 8281, 8285).
+      var legendDx = 0;
+      if (chart.legend.options.align === "left" && shift !== 0) {
+        legendDx = shift;
+        legendUpdate.x = chart.legend.options.x + shift;
+      }
+
+      // Drawn legend titles use fixed y positions; with the current fonts their
+      // second line can run into the first Highcharts legend item (e.g. 8281,
+      // 8285). Move all drawn titles up together until they clear the legend.
+      var legendRect = chart.legend.group.element.getBoundingClientRect();
+      var legendLeft = legendRect.left + legendDx;
+      var legendRight = legendRect.right + legendDx;
+      var titleOverlap = 0;
+      var titleElements = drawnLegendElements.filter(function (el) {
+        return el.classList.contains("pieLegendTitle");
+      });
+      titleElements.forEach(function (el) {
+        var r = el.getBoundingClientRect();
+        var overlapsHorizontally = r.right > legendLeft && r.left < legendRight;
+        if (overlapsHorizontally && r.top < legendRect.top) {
+          titleOverlap = Math.max(titleOverlap, r.bottom - legendRect.top + 4);
+        }
+      });
+      if (titleOverlap > 0) {
+        titleElements.forEach(function (el) {
           var t = el.getAttribute("transform") || "";
           el.setAttribute(
             "transform",
-            t.replace(/translate\(([^,)]+)/, function (_, x) {
-              return "translate(" + (parseFloat(x) + shift);
+            t.replace(/translate\(([^,)]+),?\s*([^)]*)\)/, function (_, x, y) {
+              return "translate(" + x + "," + ((parseFloat(y) || 0) - titleOverlap) + ")";
             }),
           );
-        }
+        });
+      }
+      if (shiftY === 0) {
+        if (legendUpdate.x !== undefined) chart.update({ legend: legendUpdate });
+        return;
+      }
+
+      // Mobile: keep the legend block above the credits (source lines), which
+      // may wrap into more lines on narrow screens.
+      var containerTop = chart.container.getBoundingClientRect().top;
+      var blockElements = [chart.legend.group.element].concat(drawnLegendElements);
+      var blockRects = blockElements.map(function (el) {
+        return el.getBoundingClientRect();
+      });
+      var blockBottom =
+        Math.max.apply(null, blockRects.map(function (r) { return r.bottom; })) -
+        containerTop;
+      var creditsTop =
+        chart.credits && chart.credits.element
+          ? chart.credits.element.getBoundingClientRect().top - containerTop
+          : chart.chartHeight;
+      var moveUp = Math.max(0, blockBottom - creditsTop + 5);
+      if (moveUp > 0) {
+        moveDrawnLegend(0, -moveUp);
+        legendUpdate.y = chart.legend.options.y - moveUp;
+      }
+      // Reserve space below the map for the legend block, so the map no longer
+      // extends underneath it.
+      var blockTop =
+        Math.min.apply(null, blockRects.map(function (r) { return r.top; })) -
+        containerTop -
+        moveUp;
+      chart.update({
+        legend: legendUpdate,
+        chart: { marginBottom: chart.chartHeight - blockTop + 10 },
       });
     },
       "loadBase": function () {
@@ -333,7 +427,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 13.11.2025"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 26.11.2026"
   },
   "legend": {
     "enabled": false,
